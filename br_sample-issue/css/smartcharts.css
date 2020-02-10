@@ -4326,6 +4326,8 @@ html, body {
     left: 90px; }
 .smartcharts .cq-chart-control-left .cq-notifications {
     right: 100px; }
+.smartcharts--navigation-widget .home {
+    display: none !important; }
 .smartcharts--has-markers .stx-subholder {
     z-index: 108 !important; }
 .ciq-menu {
