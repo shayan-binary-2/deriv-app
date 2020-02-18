@@ -229,7 +229,8 @@
       font-style: normal;
       line-height: 1.5;
       letter-spacing: normal;
-      opacity: 0; }
+      opacity: 0;
+      box-sizing: content-box; }
 .smartcharts-light .ciq-chart-type__item .tooltip {
         background: #d6dadb;
         color: #333333; }
@@ -244,7 +245,8 @@
         border-bottom: 6px solid transparent;
         content: ' ';
         top: calc(50% - 6px);
-        left: -6px; }
+        left: -6px;
+        background: transparent; }
 .smartcharts-light .ciq-chart-type__item .tooltip:before {
           border-right: 6px solid #d6dadb; }
 .smartcharts-dark .ciq-chart-type__item .tooltip:before {
@@ -388,7 +390,8 @@
         font-style: normal;
         line-height: 1.5;
         letter-spacing: normal;
-        opacity: 0; }
+        opacity: 0;
+        box-sizing: content-box; }
 .smartcharts-light .cq-interval__content .cq-interval__item .tooltip {
           background: #d6dadb;
           color: #333333; }
@@ -403,7 +406,8 @@
           border-bottom: 6px solid transparent;
           content: ' ';
           top: calc(50% - 6px);
-          left: -6px; }
+          left: -6px;
+          background: transparent; }
 .smartcharts-light .cq-interval__content .cq-interval__item .tooltip:before {
             border-right: 6px solid #d6dadb; }
 .smartcharts-dark .cq-interval__content .cq-interval__item .tooltip:before {
