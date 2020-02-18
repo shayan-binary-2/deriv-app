@@ -469,15 +469,21 @@
 \*****************************/
 /* Preserve legacy variables */
 /* Primary */
-.ciq-chart-mode .cq-dialog-overlay {
+.ciq-chart-mode .cq-dialog-overlay,
+.ciq-chart-mode .cq-dialog-portal {
   position: fixed;
   transform: inherit;
   top: 0px;
   left: 0px;
   width: 100%;
   height: 100%; }
-.ciq-chart-mode .cq-dialog-overlay .cq-dialog {
+.ciq-chart-mode .cq-dialog-overlay .cq-dialog,
+  .ciq-chart-mode .cq-dialog-portal .cq-dialog {
     width: 424px; }
+.ciq-chart-mode .cq-dialog-portal {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 .ciq-chart-mode__menu {
   position: relative; }
 .ciq-chart-mode__menu .ic-icon {
@@ -1932,7 +1938,8 @@
 \*****************************/
 /* Preserve legacy variables */
 /* Primary */
-.cq-dialog-overlay {
+.cq-dialog-overlay,
+.cq-dialog-portal {
   display: flex;
   align-items: center;
   justify-content: center;
