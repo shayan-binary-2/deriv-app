@@ -5163,10 +5163,6 @@ html, body {
   background: #e6e9e9; }
 .smartcharts-dark .cq-crosshair-toggle:hover {
   background: #242828; }
-.smartcharts-light .cq-crosshair-toggle .cq-toggle.active svg {
-  fill: #2a3052 !important; }
-.smartcharts-dark .cq-crosshair-toggle .cq-toggle.active svg {
-  fill: #ffffff !important; }
 .cq-crosshair {
   display: none; }
 .stx-crosshair-on .cq-crosshair {
