@@ -3418,6 +3418,8 @@
   bottom: 0;
   left: 13px;
   z-index: 9; }
+.ciq-navigation-widget__item--scale {
+    margin-bottom: 8px; }
 .ciq-navigation-widget__item--zoom .ic-icon:first-child {
     margin-bottom: 2px; }
 .ciq-navigation-widget__item--hidden {
