@@ -9632,7 +9632,7 @@ table {
         .trade-container__replay .replay-chart__container .smartcharts .ciq-chart .ciq-asset-information {
           top: 75px; }
         .trade-container__replay .replay-chart__container .smartcharts .ciq-chart .stx_jump_today.home > svg {
-          top: 6px;
+          top: 10px;
           left: 8px;
           padding: 0;
           position: absolute; }
@@ -9693,7 +9693,7 @@ table {
       .chart-container .cq-context div.ciq-chart div.cq-chart-controls {
         box-shadow: none; }
       .chart-container .cq-context div.ciq-chart div.stx_jump_today.home > svg {
-        top: 6px;
+        top: 10px;
         left: 8px;
         padding: 0;
         position: absolute; }

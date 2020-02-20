@@ -3433,13 +3433,13 @@
     line-height: 41px;
     transition: none; }
 .smartcharts-light .ciq-navigation-widget__item .ic-icon {
-      background-color: #f4f4f6; }
+      background-color: #f2f3f4; }
 .smartcharts-dark .ciq-navigation-widget__item .ic-icon {
       background-color: #151717; }
 .smartcharts-light .ciq-navigation-widget__item .ic-icon svg {
-      fill: rgba(0, 0, 0, 0.8); }
+      fill: #333333; }
 .smartcharts-dark .ciq-navigation-widget__item .ic-icon svg {
-      fill: #ffffff; }
+      fill: #c2c2c2; }
 
 /* ------------------------ *\
 		Variables
@@ -3703,26 +3703,25 @@ html, body {
   bottom: 12px;
   right: 10px;
   line-height: 0px;
-  height: 25px;
-  width: 30px;
+  height: 32px;
+  width: 32px;
   padding: 0px;
   margin-bottom: 17px;
-  border-radius: 3px;
+  border-radius: 4px;
   cursor: pointer;
   z-index: 30; }
 .smartcharts-light .stx_jump_today {
-    background: #f4f4f6; }
+    background: #f2f3f4; }
 .smartcharts-dark .stx_jump_today {
     background: #151717; }
 .stx_jump_today svg {
   display: inline-block;
   padding: 6px 8px;
-  transition: transform 0.2s;
-  opacity: 0.6; }
+  transition: transform 0.2s; }
 .smartcharts-light .stx_jump_today svg {
-    stroke: rgba(0, 0, 0, 0.8); }
+    stroke: #333333; }
 .smartcharts-dark .stx_jump_today svg {
-    stroke: #ffffff; }
+    stroke: #c2c2c2; }
 .stx_jump_today:hover svg {
   opacity: 1; }
 /* --------------------------------------------------------- PANEL CONTROL TEMPLATES --------------------------------------------------------- */
