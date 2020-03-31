@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/br_smartchart-integeration/precache-manifest.3a161a45c7d40eedf0b2a8f5962eff97.js"
+  "/br_smartchart-integeration/precache-manifest.2f8706c10a1e256f3525eb08f9f5b1f7.js"
 );
 
 workbox.core.skipWaiting();
