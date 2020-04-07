@@ -801,7 +801,8 @@
       width: 200px;
       padding: 16px;
       border-radius: 5px 0 0;
-      position: relative; }
+      position: relative;
+      box-sizing: border-box; }
 .cq-dialog__head--subtitle {
       display: flex;
       justify-content: start;
@@ -2009,6 +2010,8 @@
 .sc-dtools .cq-dialog-overlay .cq-dialog {
     width: 560px;
     height: 392px; }
+.sc-dtools .tabs--vertical .react-tabs__tab-list {
+  padding-top: 0px !important; }
 .sc-dtools--empty {
   display: flex;
   align-items: center;
@@ -2041,6 +2044,8 @@
 .sc-dtools__panel__head {
     text-align: right;
     padding: 0 8px 16px; }
+.sc-dtools__panel__head .sc-btn {
+      cursor: pointer; }
 .sc-dtools__panel__content {
     box-sizing: border-box; }
 .sc-dtools__panel__content--active .sc-dtools__list__item {
@@ -2054,9 +2059,9 @@
   display: flex;
   border-radius: 4px;
   box-sizing: border-box;
-  cursor: pointer;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  cursor: pointer; }
 .smartcharts-light .sc-dtools__list__item {
     color: #333333; }
 .smartcharts-dark .sc-dtools__list__item {
@@ -2101,10 +2106,12 @@
       line-height: 1.43;
       letter-spacing: normal;
       text-align: right; }
+.sc-dtools__list__item .actions .ic-icon {
+      cursor: pointer; }
 .smartcharts-light .sc-dtools__list__item .actions .ic-icon svg {
-      fill: #333333; }
+        fill: #333333; }
 .smartcharts-dark .sc-dtools__list__item .actions .ic-icon svg {
-      fill: #c2c2c2; }
+        fill: #c2c2c2; }
 .sc-dtools__category {
   margin-top: 16px; }
 .sc-dtools__category__head {
