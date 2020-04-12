@@ -5852,9 +5852,11 @@
   .chart-marker-line--dash {
     border-left-style: dashed; }
 
+/** @define sc-toolbar-widget; weak */
 .sc-toolbar-widget .ciq-menu {
   margin: 0px !important; }
 
+/** @define cq-chart-controls; weak */
 .cq-chart-controls .ciq-menu .cq-menu-btn {
   align-items: center; }
 
@@ -5866,6 +5868,10 @@
     width: 24px !important;
     height: 24px !important; }
 
+.cq-chart-controls .sc-chart-mode__menu__timeperiod {
+  top: -6px;
+  left: -3px; }
+
 .cq-chart-controls .sc-chart-mode__menu .ic-icon {
   width: 20px !important;
   height: 20px !important;
@@ -5874,10 +5880,7 @@
     width: 20px !important;
     height: 20px !important; }
 
-.cq-chart-controls .sc-chart-mode__menu__timeperiod {
-  top: -6px;
-  left: -3px; }
-
+/** @define smartcharts-mobile */
 .smartcharts-mobile {
   width: 100%;
   height: 100%;
