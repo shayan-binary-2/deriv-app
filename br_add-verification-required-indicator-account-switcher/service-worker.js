@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/br_add-verification-required-indicator-account-switcher/precache-manifest.56b26f53909c8a37048963c99af6d798.js"
+  "/br_add-verification-required-indicator-account-switcher/precache-manifest.ca1bd6d8286a33da48bcaa05fbf26fa2.js"
 );
 
 workbox.core.skipWaiting();
