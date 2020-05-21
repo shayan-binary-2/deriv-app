@@ -3783,6 +3783,8 @@ html, body {
     display: none !important; }
 .ciq-chart--screenshot .stx-panel-control {
     left: 5px; }
+.ciq-chart--screenshot .cq-symbol-select-btn .cq-symbol-info {
+    margin: 0 !important; }
 /* The Chart */
 .cq-chart-control-left .stx-panel-control {
   left: 10px; }
