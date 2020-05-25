@@ -958,12 +958,9 @@
 /** @define app-contents; weak */
 .app-contents--show-positions-drawer:not(.app-contents--is-mobile) .trade-container .chart-container {
   width: 100%; }
-  .app-contents--show-positions-drawer:not(.app-contents--is-mobile) .trade-container .chart-container .ciq-navigation-widget {
-    transform: translate3d(248px, 0, 0); }
-  .app-contents--show-positions-drawer:not(.app-contents--is-mobile) .trade-container .chart-container .cq-top-ui-widgets {
-    transform: translate3d(248px, 0, 0); }
-  .app-contents--show-positions-drawer:not(.app-contents--is-mobile) .trade-container .chart-container .sc-toolbar-widget {
-    transform: translate3d(248px, 0, 0); }
+  .app-contents--show-positions-drawer:not(.app-contents--is-mobile) .trade-container .chart-container .ciq-navigation-widget,
+  .app-contents--show-positions-drawer:not(.app-contents--is-mobile) .trade-container .chart-container .cq-top-ui-widgets,
+  .app-contents--show-positions-drawer:not(.app-contents--is-mobile) .trade-container .chart-container .sc-toolbar-widget,
   .app-contents--show-positions-drawer:not(.app-contents--is-mobile) .trade-container .chart-container .stx-panel-control {
     transform: translate3d(248px, 0, 0); }
   .app-contents--show-positions-drawer:not(.app-contents--is-mobile) .trade-container .chart-container .cq-chart-controls {
@@ -1069,9 +1066,9 @@
             .trade-container__replay .replay-chart__container .smartcharts .ciq-chart .cq-top-ui-widgets .info-box-container .chart-close-btn,
             .trade-container__replay .replay-chart__container .smartcharts .ciq-chart .info-box .info-box-container .chart-close-btn {
               display: none; }
-        .trade-container__replay .replay-chart__container .smartcharts .ciq-chart .sc-toolbar-widget {
-          transition: transform 0.25s ease; }
-        .trade-container__replay .replay-chart__container .smartcharts .ciq-chart .stx-panel-control {
+        .trade-container__replay .replay-chart__container .smartcharts .ciq-chart .sc-toolbar-widget,
+        .trade-container__replay .replay-chart__container .smartcharts .ciq-chart .stx-panel-control,
+        .trade-container__replay .replay-chart__container .smartcharts .ciq-chart .ciq-navigation-widget {
           transition: transform 0.25s ease; }
         .trade-container__replay .replay-chart__container .smartcharts .ciq-chart .ciq-asset-information {
           top: 75px; }
@@ -1080,8 +1077,6 @@
           left: 8px;
           padding: 0;
           position: absolute; }
-        .trade-container__replay .replay-chart__container .smartcharts .ciq-chart .ciq-navigation-widget {
-          transition: transform 0.25s ease; }
         .trade-container__replay .replay-chart__container .smartcharts .ciq-chart .cq-bottom-ui-widgets {
           bottom: 30px !important; }
           .trade-container__replay .replay-chart__container .smartcharts .ciq-chart .cq-bottom-ui-widgets .digits {
@@ -1185,19 +1180,16 @@
       width: calc(100% - 9em); }
   .chart-container div.debug-text {
     display: none; }
-  .chart-container .cq-chart-control-left .cq-chart-controls {
+  .chart-container .cq-chart-control-left .cq-chart-controls,
+  .chart-container .cq-chart-control-left .sc-toolbar-widget,
+  .chart-container .cq-chart-control-left .stx-panel-control,
+  .chart-container .cq-chart-control-left .ciq-navigation-widget {
     transform: translate3d(0, 0, 0);
     transition: transform 0.25s ease; }
   .chart-container .cq-chart-control-left .cq-top-ui-widgets {
     left: 9em; }
     .chart-container .cq-chart-control-left .cq-top-ui-widgets .info-box {
       transform: translate3d(0, 0, 0); }
-  .chart-container .cq-chart-control-left .sc-toolbar-widget {
-    transform: translate3d(0, 0, 0); }
-  .chart-container .cq-chart-control-left .stx-panel-control {
-    transform: translate3d(0, 0, 0); }
-  .chart-container .cq-chart-control-left .ciq-navigation-widget {
-    transform: translate3d(0, 0, 0); }
   .chart-container .ciq-chart .cq-top-ui-widgets,
   .chart-container .ciq-chart .info-box {
     transition: transform 0.25s ease; }
@@ -1233,8 +1225,7 @@
               display: none; } }
   .chart-container .ciq-chart .cq-chart-controls {
     transition: max-width 0.25s ease, transform 0.25s ease; }
-  .chart-container .ciq-chart .ciq-navigation-widget {
-    transition: transform 0.25s ease; }
+  .chart-container .ciq-chart .ciq-navigation-widget,
   .chart-container .ciq-chart .stx-panel-control {
     transition: transform 0.25s ease; }
   .chart-container .ciq-chart .sc-toolbar-widget {
@@ -1261,6 +1252,11 @@
             left: 0.8rem; }
           .chart-container .ciq-chart .sc-toolbar-widget .sc-chart-mode__menu > .ic-icon {
             top: 0.6rem; } }
+  .chart-container .ciq-chart--screenshot .sc-toolbar-widget,
+  .chart-container .ciq-chart--screenshot .stx-panel-control,
+  .chart-container .ciq-chart--screenshot .ciq-navigation-widget,
+  .chart-container .ciq-chart--screenshot .cq-top-ui-widgets {
+    transform: translate3d(0, 0, 0) !important; }
   .chart-container .chartContainer {
     background: transparent;
     min-height: 100%; }

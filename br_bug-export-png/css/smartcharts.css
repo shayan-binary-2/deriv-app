@@ -620,7 +620,8 @@
   box-sizing: border-box;
   justify-content: space-between;
   align-items: center;
-  cursor: pointer; }
+  cursor: pointer;
+  position: relative; }
 .smartcharts-light .sc-studies__list__item:hover {
     background: #e6e9e9; }
 .smartcharts-dark .sc-studies__list__item:hover {
@@ -657,7 +658,11 @@
         font-style: normal;
         line-height: 1.5;
         letter-spacing: normal;
-        margin-top: 2px; }
+        margin-top: 2px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        max-width: 170px; }
 .smartcharts-light .sc-studies__list__item .info .text small {
           color: #999999; }
 .smartcharts-dark .sc-studies__list__item .info .text small {
@@ -1031,17 +1036,20 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around; }
+.form__group--select, .form__group--colorpicker {
+    position: relative;
+    height: 40px; }
 .form__group--select .form__label, .form__group--colorpicker .form__label {
-    margin-bottom: -8px;
-    margin-left: 10px; }
+      margin-bottom: -8px;
+      margin-left: 10px; }
 .form__group--select .form__label span, .form__group--colorpicker .form__label span {
-      padding-left: 2px;
-      padding-right: 2px;
-      z-index: 1; }
+        padding-left: 2px;
+        padding-right: 2px;
+        z-index: 1; }
 .smartcharts-light .form__group--select .form__label span, .smartcharts-light .form__group--colorpicker .form__label span {
-        background: #ffffff; }
+          background: #ffffff; }
 .smartcharts-dark .form__group--select .form__label span, .smartcharts-dark .form__group--colorpicker .form__label span {
-        background: #151717; }
+          background: #151717; }
 .form__group--switch {
     flex-direction: row;
     justify-content: flex-start; }
@@ -1220,6 +1228,10 @@
       -ms-user-select: none;
           user-select: none;
   /* Line style types */ }
+.smartcharts-light .sc-dropdown {
+    background: #ffffff; }
+.smartcharts-dark .sc-dropdown {
+    background: #151717; }
 .sc-dropdown .subtitle {
     position: absolute;
     margin-left: 10px;
@@ -1250,7 +1262,7 @@
     letter-spacing: normal;
     text-transform: capitalize; }
 .smartcharts-light .sc-dropdown .value {
-      color: #7f8397 !important;
+      color: #333333 !important;
       border: 1px solid #d6dadb; }
 .smartcharts-dark .sc-dropdown .value {
       color: #c2c2c2 !important;
@@ -1261,7 +1273,7 @@
         pointer-events: none;
         transition: transform 0.6s; }
 .smartcharts-light .sc-dropdown .value .ic-icon svg {
-          fill: #7f8397; }
+          fill: #333333; }
 .smartcharts-dark .sc-dropdown .value .ic-icon svg {
           fill: #c2c2c2; }
 .sc-dropdown .value:after {
@@ -1283,27 +1295,27 @@
       transform: scaleY(-1); }
 .sc-dropdown .dropdown {
     position: absolute;
-    top: 0;
     right: 0;
     opacity: 0;
     pointer-events: none;
-    z-index: +2;
-    width: 100%;
+    z-index: 2;
     max-height: 200px;
     overflow: scroll;
     box-shadow: 0 2px 8px 0 rgba(42, 48, 82, 0.14);
     box-sizing: border-box;
     border-radius: 4px;
-    font-size: 14px; }
+    font-size: 14px;
+    width: 272px;
+    transform: translateY(-8px);
+    transition: opacity 0.2s, transform 0.2s; }
 .smartcharts-light .sc-dropdown .dropdown {
       background: #ffffff; }
 .smartcharts-dark .sc-dropdown .dropdown {
       background: #151717; }
 .sc-dropdown .dropdown.active {
-      top: 50px;
+      transform: translateY(8px);
       opacity: 1;
-      pointer-events: all;
-      transition: opacity 0.3s, top 0.2s; }
+      pointer-events: all; }
 .smartcharts-light .sc-dropdown .dropdown.active {
         box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.08), 0 0 16px 0 rgba(0, 0, 0, 0.08); }
 .smartcharts-dark .sc-dropdown .dropdown.active {
@@ -1313,17 +1325,21 @@
       padding: 10px 16px 9px;
       text-transform: capitalize; }
 .smartcharts-light .sc-dropdown .dropdown .row {
-        color: #7f8397; }
+        color: #333333; }
 .smartcharts-dark .sc-dropdown .dropdown .row {
         color: #c2c2c2; }
-.sc-dropdown .dropdown .row:hover {
+.sc-dropdown .dropdown .row--selected {
         font-weight: bold; }
-.smartcharts-light .sc-dropdown .dropdown .row:hover {
+.smartcharts-light .sc-dropdown .dropdown .row--selected {
           background: #d6dadb;
           color: #333333; }
-.smartcharts-dark .sc-dropdown .dropdown .row:hover {
+.smartcharts-dark .sc-dropdown .dropdown .row--selected {
           background: #323738;
           color: #ffffff; }
+.smartcharts-light .sc-dropdown .dropdown .row:hover {
+        background: #e6e9e9; }
+.smartcharts-dark .sc-dropdown .dropdown .row:hover {
+        background: #242828; }
 .sc-dropdown .option {
     display: inline-block;
     width: 100%;
@@ -1356,18 +1372,29 @@
 .sc-dropdown .dashed-5 {
     border-top-style: dashed;
     border-top-width: 3px; }
+.sc-dropdown.active {
+    position: fixed;
+    z-index: 2; }
 .smartcharts-light .sc-dropdown.active .subtitle span {
-    color: #85acb0; }
+      color: #85acb0; }
 .smartcharts-dark .sc-dropdown.active .subtitle span {
-    color: #85acb0; }
+      color: #85acb0; }
 .sc-color-picker {
   position: relative;
   height: 40px;
-  width: 100%; }
+  width: 272px; }
+.smartcharts-light .sc-color-picker {
+    background: #ffffff; }
+.smartcharts-dark .sc-color-picker {
+    background: #151717; }
 .sc-color-picker .subtitle {
     position: absolute;
     margin-left: 10px;
-    top: -6px; }
+    top: -6px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
 .sc-color-picker .subtitle span {
       padding-left: 4px;
       padding-right: 4px;
@@ -1391,7 +1418,7 @@
     justify-content: space-between; }
 .smartcharts-light .sc-color-picker .value {
       background-color: #ffffff;
-      color: #7f8397 !important;
+      color: #333333 !important;
       border: 1px solid #d6dadb; }
 .smartcharts-dark .sc-color-picker .value {
       background-color: #151717;
@@ -1408,7 +1435,7 @@
         pointer-events: none;
         transition: transform 0.6s; }
 .smartcharts-light .sc-color-picker .value .ic-icon svg {
-          fill: #7f8397; }
+          fill: #333333; }
 .smartcharts-dark .sc-color-picker .value .ic-icon svg {
           fill: #c2c2c2; }
 .smartcharts-light .sc-color-picker .value:hover {
@@ -1417,15 +1444,16 @@
       border-color: #6e6e6e; }
 .sc-color-picker .dropdown {
     position: absolute;
-    top: 50px;
-    right: -5px;
+    right: 0px;
     opacity: 0;
     pointer-events: none;
-    z-index: +2;
+    z-index: 2;
     width: 266px;
     padding: 8px;
-    transition: opacity 0.1s;
-    border-radius: 4px; }
+    border-radius: 4px;
+    transform: translateY(-8px);
+    box-sizing: border-box;
+    transition: opacity 0.2s, transform 0.2s; }
 .smartcharts-light .sc-color-picker .dropdown {
       box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.08), 0 0 16px 0 rgba(0, 0, 0, 0.08);
       background: #ffffff; }
@@ -1433,9 +1461,9 @@
       box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.64), 0 0 16px 0 rgba(0, 0, 0, 0.64);
       background: #151717; }
 .sc-color-picker .dropdown.open {
-      z-index: 2;
       opacity: 1;
-      pointer-events: all; }
+      pointer-events: initial;
+      transform: translateY(8px); }
 .sc-color-picker .dropdown .row {
       height: 18px;
       width: 100%;
@@ -1447,16 +1475,23 @@
         width: 15px;
         height: 15px;
         cursor: pointer; }
+.sc-color-picker.active {
+    position: fixed;
+    z-index: 2; }
 .smartcharts-light .sc-color-picker.active .subtitle span {
-    color: #85acb0; }
+      color: #85acb0; }
 .smartcharts-dark .sc-color-picker.active .subtitle span {
-    color: #85acb0; }
+      color: #85acb0; }
 .smartcharts-light .sc-color-picker.active .value {
-    border-color: #85acb0; }
+      border-color: #85acb0; }
 .smartcharts-dark .sc-color-picker.active .value {
-    border-color: #85acb0; }
+      border-color: #85acb0; }
 .sc-color-picker.active .value svg {
-    transform: scaleY(-1); }
+      transform: scaleY(-1); }
+.sc-color-picker .sc-color-picker,
+  .sc-color-picker .sc-numeric-input {
+    min-width: 124px;
+    max-width: 124px; }
 .sc-switch {
   width: 32px;
   height: 18px;
@@ -1485,7 +1520,7 @@
 .smartcharts-light .sc-switch.off {
     background: #eaeced; }
 .smartcharts-dark .sc-switch.off {
-    background: #555975; }
+    background: #1d1f20; }
 .sc-checkbox {
   display: flex;
   align-items: center;
@@ -1543,6 +1578,11 @@
       border-color: #85acb0 !important; }
 .sc-numbercolorpicker .field {
     width: 50%; }
+.sc-numbercolorpicker .sc-numeric-input {
+    width: 124px;
+    min-width: 124px; }
+.sc-numbercolorpicker .sc-color-picker {
+    width: 124px; }
 .sc-numeric-input {
   position: relative;
   height: 40px;
@@ -1551,7 +1591,11 @@
 .sc-numeric-input .subtitle {
     position: absolute;
     margin-left: 10px;
-    top: -6px; }
+    top: -6px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
 .sc-numeric-input .subtitle span {
       padding-left: 4px;
       padding-right: 4px;
@@ -1574,7 +1618,7 @@
     box-shadow: none !important;
     outline: none; }
 .smartcharts-light .sc-numeric-input input[type='number'] {
-      color: #7f8397 !important;
+      color: #333333 !important;
       border: 1px solid #d6dadb; }
 .smartcharts-dark .sc-numeric-input input[type='number'] {
       color: #c2c2c2 !important;
@@ -1589,8 +1633,10 @@
 .smartcharts-dark .sc-numeric-input input[type='number']:hover {
       border-color: #6e6e6e !important; }
 .smartcharts-light .sc-numeric-input input[type='number']:focus {
+      color: #333333 !important;
       border-color: #85acb0 !important; }
 .smartcharts-dark .sc-numeric-input input[type='number']:focus {
+      color: #ffffff !important;
       border-color: #85acb0 !important; }
 .smartcharts-light .sc-numeric-input input[type='number']:focus + .subtitle > span {
       color: #85acb0 !important; }
@@ -1613,7 +1659,7 @@
       line-height: 19px;
       cursor: pointer; }
 .smartcharts-light .sc-numeric-input .sc-numeric-input-buttons .ic-icon svg {
-        fill: #7f8397; }
+        fill: #333333; }
 .smartcharts-dark .sc-numeric-input .sc-numeric-input-buttons .ic-icon svg {
         fill: #c2c2c2; }
 .sc-numeric-input .sc-numeric-input-buttons .ic-icon:first-child {
@@ -2555,6 +2601,10 @@
   height: auto !important; }
 .cq-chart-settings .ciq-num-input > input[type=number] {
     width: 5.5em; }
+.cq-chart-settings > .sc-scrollbar > div {
+    overflow-x: hidden !important; }
+.cq-chart-settings > .sc-scrollbar > div:nth-child(2) {
+    display: none !important; }
 .cq-chart-settings .titlebar {
     height: 40px;
     display: flex;
@@ -4992,6 +5042,8 @@ html, body {
       background-color: #333333 !important; }
 .smartcharts-dark .sc-scrollbar > div:nth-child(3) > div {
       background-color: #c2c2c2 !important; }
+.sc-scrollbar--freeze > div {
+  overflow: hidden !important; }
 .sc-notification-badge {
   width: 16px;
   height: 16px;
