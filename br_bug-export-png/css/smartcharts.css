@@ -4777,11 +4777,11 @@ html, body {
 .smartcharts-dark .smartcharts input {
       color: #ffffff;
       background-color: #0e0e0e; }
-.smartcharts-light .smartcharts input::-moz-placeholder, .smartcharts-light .smartcharts input::-moz-placeholder {
+.smartcharts-light .smartcharts input::-moz-placeholder {
       color: #7f8397; }
 .smartcharts-light .smartcharts input::placeholder, .smartcharts-light .smartcharts input::-moz-placeholder {
       color: #7f8397; }
-.smartcharts-dark .smartcharts input::-moz-placeholder, .smartcharts-dark .smartcharts input::-moz-placeholder {
+.smartcharts-dark .smartcharts input::-moz-placeholder {
       color: #ffffff; }
 .smartcharts-dark .smartcharts input::placeholder, .smartcharts-dark .smartcharts input::-moz-placeholder {
       color: #ffffff; }
@@ -5177,11 +5177,11 @@ html, body {
     border: 1px solid #d6dadb; }
 .smartcharts-dark .sc-input {
     border: 1px solid #323738; }
-.sc-input::-moz-placeholder, .sc-input::-moz-placeholder {
+.sc-input::-moz-placeholder {
     font-size: 14px; }
 .sc-input::placeholder, .sc-input::-moz-placeholder {
     font-size: 14px; }
-.smartcharts-light .sc-input::-moz-placeholder, .smartcharts-light .sc-input::-moz-placeholder {
+.smartcharts-light .sc-input::-moz-placeholder {
       color: #999999; }
 .smartcharts-light .sc-input::placeholder, .smartcharts-light .sc-input::-moz-placeholder {
       color: #999999; }
