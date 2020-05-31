@@ -1358,55 +1358,6 @@
             margin-top: 0.4rem;
             padding-left: 0.2rem; } }
 
-/** @define multistep; weak */
-.multistep {
-  width: inherit;
-  height: inherit; }
-  .multistep__header {
-    display: flex;
-    align-items: center;
-    margin: 2.4rem 1.6rem; }
-  .multistep__btn {
-    display: flex;
-    font-size: 1.4rem;
-    font-weight: bold;
-    cursor: pointer;
-    color: var(--text-general); }
-    .multistep__btn-icon {
-      margin-right: 8px; }
-      .multistep__btn-icon .color1-fill {
-        fill: var(--text-general); }
-  .multistep__component {
-    width: 100%;
-    height: 100%; }
-
-/** @define send-email-template */
-.send-email-template {
-  padding: 0 16px; }
-  .send-email-template__title {
-    color: var(--text-prominent);
-    font-size: 1.6rem;
-    font-weight: bold;
-    margin-bottom: 0.8rem;
-    line-height: 1.5; }
-  .send-email-template__subtitle {
-    font-size: 1.4rem;
-    margin-bottom: 1.6rem;
-    color: var(--text-general);
-    line-height: 20px; }
-  .send-email-template__icon {
-    margin-top: 5.6rem;
-    margin-bottom: 1.6rem; }
-  .send-email-template__sent, .send-email-template__cta {
-    text-align: center; }
-  .send-email-template__cta-btn {
-    margin: 3.2rem auto 0; }
-  .send-email-template__btn {
-    margin: 0 auto; }
-  @media (min-width: 320px) and (max-width: 767px) {
-    .send-email-template {
-      margin-bottom: 1.6rem; } }
-
 .contract-drawer {
   width: 240px;
   height: calc(100vh - 48px - 36px - 2px - (8px * 4));
@@ -4422,7 +4373,7 @@
             font-weight: 400;
             text-transform: none;
             text-align: left;
-            line-height: unset;
+            line-height: 1.4;
             color: var(--text-colored-background); } }
       .trade-container__price-info-currency, .trade-container__order-input-info-currency {
         margin-left: 4px;
