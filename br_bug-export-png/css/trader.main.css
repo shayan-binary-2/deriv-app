@@ -1159,7 +1159,7 @@
     left: 0;
     z-index: 0; }
     .chart-container .cq-context div.ciq-chart {
-      height: calc(100% - 5em);
+      height: 100%;
       box-shadow: none; }
       .chart-container .cq-context div.ciq-chart div.cq-last-digits {
         bottom: 15px;
