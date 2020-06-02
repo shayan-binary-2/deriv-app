@@ -2397,6 +2397,62 @@
 \*****************************/
 /* Preserve legacy variables */
 /* Primary */
+@media (max-width: 767px) and (min-width: 320px) {
+  .smartcharts-portal {
+    opacity: 0;
+    pointer-events: none;
+    display: none; }
+    .smartcharts-portal--open {
+      display: block;
+      pointer-events: auto;
+      opacity: 1; }
+    .smartcharts-portal .smartcharts .smartcharts-mobile .cq-modal-dropdown.stxMenuActive {
+      z-index: 999; }
+    .smartcharts-portal .smartcharts .smartcharts-mobile .cq-menu-dropdown {
+      width: 100%;
+      height: auto;
+      left: 0px;
+      bottom: auto;
+      transform: translateX(0) translateY(-3em); }
+      .smartcharts-portal .smartcharts .smartcharts-mobile .cq-menu-dropdown.open {
+        margin: 0px; }
+      .smartcharts-portal .smartcharts .smartcharts-mobile .cq-menu-dropdown.cq-menu-dropdown-enter-done, .smartcharts-portal .smartcharts .smartcharts-mobile .cq-menu-dropdown.cq-menu-dropdown-enter-active {
+        opacity: 1;
+        transform: translateX(0) translateY(0em); }
+      .smartcharts-portal .smartcharts .smartcharts-mobile .cq-menu-dropdown.cq-menu-dropdown-enter-done {
+        z-index: 6; }
+      .smartcharts-portal .smartcharts .smartcharts-mobile .cq-menu-dropdown .cq-dialog__body {
+        height: 100% !important;
+        box-shadow: none;
+        display: flex;
+        flex-direction: column; }
+      .smartcharts-portal .smartcharts .smartcharts-mobile .cq-menu-dropdown .cq-categorical-display {
+        flex: 1;
+        box-shadow: none; }
+      .smartcharts-portal .smartcharts .smartcharts-mobile .cq-menu-dropdown .category-title.sticky-top {
+        top: unset; }
+      .smartcharts-portal .smartcharts .smartcharts-mobile .cq-menu-dropdown .cq-scroll-panel .category:last-child {
+        padding-bottom: 8em; } }
+
+/* ------------------------ *\
+		Variables
+\* ------------------------ */
+/* --------- COLOR :: Border --------- */
+/* ------------------------ *\
+        Mixin
+\* ------------------------ */
+/* --------- Animation : dialog --------- */
+/* --------- CSS Properties --------- */
+/* stylelint-disable color-no-hex */
+/* stylelint-disable value-keyword-case */
+/* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .ciq-list {
   position: relative;
   box-sizing: border-box; }
