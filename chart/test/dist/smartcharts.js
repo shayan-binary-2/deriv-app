@@ -3465,7 +3465,7 @@ function mergeTickHistory(master, patch) {
 module.exports = {
       id: "ic-calendar-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-calendar-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-calendar-usage",
       toString: function () {
         return this.url;
       }
@@ -3483,7 +3483,7 @@ module.exports = {
 module.exports = {
       id: "ic-time-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-time-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-time-usage",
       toString: function () {
         return this.url;
       }
@@ -18091,7 +18091,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 module.exports = {
       id: "ic-oilusd-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-oilusd-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-oilusd-usage",
       toString: function () {
         return this.url;
       }
@@ -18109,7 +18109,7 @@ module.exports = {
 module.exports = {
       id: "ic-otcbadge-usage",
       viewBox: "0 0 13 9",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-otcbadge-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-otcbadge-usage",
       toString: function () {
         return this.url;
       }
@@ -18127,7 +18127,7 @@ module.exports = {
 module.exports = {
       id: "ic-smartfx-placeholder-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-smartfx-placeholder-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-smartfx-placeholder-usage",
       toString: function () {
         return this.url;
       }
@@ -18145,7 +18145,7 @@ module.exports = {
 module.exports = {
       id: "ic-metal-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-metal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-metal-usage",
       toString: function () {
         return this.url;
       }
@@ -18163,7 +18163,7 @@ module.exports = {
 module.exports = {
       id: "ic-10-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-10-index-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-10-index-usage",
       toString: function () {
         return this.url;
       }
@@ -18181,7 +18181,7 @@ module.exports = {
 module.exports = {
       id: "ic-100-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-100-index-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-100-index-usage",
       toString: function () {
         return this.url;
       }
@@ -18199,7 +18199,7 @@ module.exports = {
 module.exports = {
       id: "ic-10-1s-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-10-1s-index-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-10-1s-index-usage",
       toString: function () {
         return this.url;
       }
@@ -18217,7 +18217,7 @@ module.exports = {
 module.exports = {
       id: "ic-100-1s-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-100-1s-index-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-100-1s-index-usage",
       toString: function () {
         return this.url;
       }
@@ -18235,7 +18235,7 @@ module.exports = {
 module.exports = {
       id: "ic-25-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-25-index-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-25-index-usage",
       toString: function () {
         return this.url;
       }
@@ -18253,7 +18253,7 @@ module.exports = {
 module.exports = {
       id: "ic-50-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-50-index-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-50-index-usage",
       toString: function () {
         return this.url;
       }
@@ -18271,7 +18271,7 @@ module.exports = {
 module.exports = {
       id: "ic-75-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-75-index-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-75-index-usage",
       toString: function () {
         return this.url;
       }
@@ -18289,7 +18289,7 @@ module.exports = {
 module.exports = {
       id: "ic-marketbear-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-marketbear-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-marketbear-usage",
       toString: function () {
         return this.url;
       }
@@ -18307,7 +18307,7 @@ module.exports = {
 module.exports = {
       id: "ic-marketbull-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-marketbull-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-marketbull-usage",
       toString: function () {
         return this.url;
       }
@@ -18325,7 +18325,7 @@ module.exports = {
 module.exports = {
       id: "error-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#error-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#error-usage",
       toString: function () {
         return this.url;
       }
@@ -18343,7 +18343,7 @@ module.exports = {
 module.exports = {
       id: "info-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#info-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#info-usage",
       toString: function () {
         return this.url;
       }
@@ -18361,7 +18361,7 @@ module.exports = {
 module.exports = {
       id: "success-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#success-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#success-usage",
       toString: function () {
         return this.url;
       }
@@ -18379,7 +18379,7 @@ module.exports = {
 module.exports = {
       id: "warning-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#warning-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#warning-usage",
       toString: function () {
         return this.url;
       }
@@ -18397,7 +18397,7 @@ module.exports = {
 module.exports = {
       id: "ic-arrow-green-usage",
       viewBox: "0 0 22 31",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-arrow-green-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-arrow-green-usage",
       toString: function () {
         return this.url;
       }
@@ -18415,7 +18415,7 @@ module.exports = {
 module.exports = {
       id: "ic-arrow-orange-usage",
       viewBox: "0 0 22 31",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-arrow-orange-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-arrow-orange-usage",
       toString: function () {
         return this.url;
       }
@@ -18433,7 +18433,7 @@ module.exports = {
 module.exports = {
       id: "ic-back-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-back-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-back-usage",
       toString: function () {
         return this.url;
       }
@@ -18451,7 +18451,7 @@ module.exports = {
 module.exports = {
       id: "ic-baseline-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-baseline-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-baseline-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -18469,7 +18469,7 @@ module.exports = {
 module.exports = {
       id: "ic-candle-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-candle-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-candle-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -18487,7 +18487,7 @@ module.exports = {
 module.exports = {
       id: "ic-dot-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-dot-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-dot-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -18505,7 +18505,7 @@ module.exports = {
 module.exports = {
       id: "ic-hollowcandle-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-hollowcandle-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-hollowcandle-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -18523,7 +18523,7 @@ module.exports = {
 module.exports = {
       id: "ic-heikin-ashi-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-heikin-ashi-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-heikin-ashi-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -18541,7 +18541,7 @@ module.exports = {
 module.exports = {
       id: "ic-kagi-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-kagi-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-kagi-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -18559,7 +18559,7 @@ module.exports = {
 module.exports = {
       id: "ic-linebreak-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-linebreak-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-linebreak-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -18577,7 +18577,7 @@ module.exports = {
 module.exports = {
       id: "ic-pointfigure-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-pointfigure-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-pointfigure-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -18595,7 +18595,7 @@ module.exports = {
 module.exports = {
       id: "ic-rangebars-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-rangebars-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-rangebars-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -18613,7 +18613,7 @@ module.exports = {
 module.exports = {
       id: "ic-renko-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-renko-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-renko-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -18631,7 +18631,7 @@ module.exports = {
 module.exports = {
       id: "ic-linedot-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-linedot-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-linedot-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -18649,7 +18649,7 @@ module.exports = {
 module.exports = {
       id: "ic-line-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-line-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-line-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -18667,7 +18667,7 @@ module.exports = {
 module.exports = {
       id: "ic-ohlc-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-ohlc-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-ohlc-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -18685,7 +18685,7 @@ module.exports = {
 module.exports = {
       id: "ic-spline-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-spline-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-spline-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -18703,7 +18703,7 @@ module.exports = {
 module.exports = {
       id: "table-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#table-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#table-usage",
       toString: function () {
         return this.url;
       }
@@ -18721,7 +18721,7 @@ module.exports = {
 module.exports = {
       id: "ic-comparison-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-comparison-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-comparison-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -18739,7 +18739,7 @@ module.exports = {
 module.exports = {
       id: "ic-crosshair-off-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-crosshair-off-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-crosshair-off-usage",
       toString: function () {
         return this.url;
       }
@@ -18757,7 +18757,7 @@ module.exports = {
 module.exports = {
       id: "ic-crosshair-on-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-crosshair-on-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-crosshair-on-usage",
       toString: function () {
         return this.url;
       }
@@ -18775,7 +18775,7 @@ module.exports = {
 module.exports = {
       id: "ic-crosshair-tooltip-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-crosshair-tooltip-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-crosshair-tooltip-usage",
       toString: function () {
         return this.url;
       }
@@ -18793,7 +18793,7 @@ module.exports = {
 module.exports = {
       id: "ic-drawingtools-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-drawingtools-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-drawingtools-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -18811,7 +18811,7 @@ module.exports = {
 module.exports = {
       id: "ic-position-bottom-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-position-bottom-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-position-bottom-usage",
       toString: function () {
         return this.url;
       }
@@ -18829,7 +18829,7 @@ module.exports = {
 module.exports = {
       id: "ic-position-left-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-position-left-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-position-left-usage",
       toString: function () {
         return this.url;
       }
@@ -18847,7 +18847,7 @@ module.exports = {
 module.exports = {
       id: "ic-zoomin-light-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-zoomin-light-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-zoomin-light-usage",
       toString: function () {
         return this.url;
       }
@@ -18865,7 +18865,7 @@ module.exports = {
 module.exports = {
       id: "ic-zoomout-light-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-zoomout-light-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-zoomout-light-usage",
       toString: function () {
         return this.url;
       }
@@ -18883,7 +18883,7 @@ module.exports = {
 module.exports = {
       id: "ic-area-grayscale-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-area-grayscale-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-area-grayscale-usage",
       toString: function () {
         return this.url;
       }
@@ -18901,7 +18901,7 @@ module.exports = {
 module.exports = {
       id: "ic-area-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-area-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-area-usage",
       toString: function () {
         return this.url;
       }
@@ -18919,7 +18919,7 @@ module.exports = {
 module.exports = {
       id: "ic-candle-grayscale-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-candle-grayscale-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-candle-grayscale-usage",
       toString: function () {
         return this.url;
       }
@@ -18937,7 +18937,7 @@ module.exports = {
 module.exports = {
       id: "ic-candle-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-candle-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-candle-usage",
       toString: function () {
         return this.url;
       }
@@ -18955,7 +18955,7 @@ module.exports = {
 module.exports = {
       id: "ic-hollow-grayscale-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-hollow-grayscale-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-hollow-grayscale-usage",
       toString: function () {
         return this.url;
       }
@@ -18973,7 +18973,7 @@ module.exports = {
 module.exports = {
       id: "ic-hollow-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-hollow-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-hollow-usage",
       toString: function () {
         return this.url;
       }
@@ -18991,7 +18991,7 @@ module.exports = {
 module.exports = {
       id: "ic-ohlc-grayscale-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-ohlc-grayscale-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-ohlc-grayscale-usage",
       toString: function () {
         return this.url;
       }
@@ -19009,7 +19009,7 @@ module.exports = {
 module.exports = {
       id: "ic-ohlc-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-ohlc-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-ohlc-usage",
       toString: function () {
         return this.url;
       }
@@ -19027,7 +19027,7 @@ module.exports = {
 module.exports = {
       id: "ic-down-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-down-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-down-usage",
       toString: function () {
         return this.url;
       }
@@ -19045,7 +19045,7 @@ module.exports = {
 module.exports = {
       id: "ic-maximize-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-maximize-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-maximize-usage",
       toString: function () {
         return this.url;
       }
@@ -19063,7 +19063,7 @@ module.exports = {
 module.exports = {
       id: "resize-icon-usage",
       viewBox: "0 0 6 14",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#resize-icon-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#resize-icon-usage",
       toString: function () {
         return this.url;
       }
@@ -19081,7 +19081,7 @@ module.exports = {
 module.exports = {
       id: "ic-clear-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-clear-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-clear-usage",
       toString: function () {
         return this.url;
       }
@@ -19099,7 +19099,7 @@ module.exports = {
 module.exports = {
       id: "ic-close-bold-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-close-bold-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-close-bold-usage",
       toString: function () {
         return this.url;
       }
@@ -19117,7 +19117,7 @@ module.exports = {
 module.exports = {
       id: "ic-close-circle-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-close-circle-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-close-circle-usage",
       toString: function () {
         return this.url;
       }
@@ -19135,7 +19135,7 @@ module.exports = {
 module.exports = {
       id: "full-screen-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#full-screen-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#full-screen-usage",
       toString: function () {
         return this.url;
       }
@@ -19153,7 +19153,7 @@ module.exports = {
 module.exports = {
       id: "ic-active-usage",
       viewBox: "0 0 17 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-active-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-active-usage",
       toString: function () {
         return this.url;
       }
@@ -19171,7 +19171,7 @@ module.exports = {
 module.exports = {
       id: "ic-add-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-add-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-add-usage",
       toString: function () {
         return this.url;
       }
@@ -19189,7 +19189,7 @@ module.exports = {
 module.exports = {
       id: "ic-charts-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-charts-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-charts-usage",
       toString: function () {
         return this.url;
       }
@@ -19207,7 +19207,7 @@ module.exports = {
 module.exports = {
       id: "ic-checkbox-active-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-checkbox-active-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-checkbox-active-usage",
       toString: function () {
         return this.url;
       }
@@ -19225,7 +19225,7 @@ module.exports = {
 module.exports = {
       id: "ic-checkbox-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-checkbox-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-checkbox-usage",
       toString: function () {
         return this.url;
       }
@@ -19243,7 +19243,7 @@ module.exports = {
 module.exports = {
       id: "ic-close-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-close-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-close-usage",
       toString: function () {
         return this.url;
       }
@@ -19261,7 +19261,7 @@ module.exports = {
 module.exports = {
       id: "ic-download-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-download-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-download-usage",
       toString: function () {
         return this.url;
       }
@@ -19279,7 +19279,7 @@ module.exports = {
 module.exports = {
       id: "ic-drawing-tool-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-drawing-tool-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-drawing-tool-usage",
       toString: function () {
         return this.url;
       }
@@ -19297,7 +19297,7 @@ module.exports = {
 module.exports = {
       id: "ic-help-center-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-help-center-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-help-center-usage",
       toString: function () {
         return this.url;
       }
@@ -19315,7 +19315,7 @@ module.exports = {
 module.exports = {
       id: "ic-indicators-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-indicators-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-indicators-usage",
       toString: function () {
         return this.url;
       }
@@ -19333,7 +19333,7 @@ module.exports = {
 module.exports = {
       id: "ic-info-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-info-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-info-usage",
       toString: function () {
         return this.url;
       }
@@ -19351,7 +19351,7 @@ module.exports = {
 module.exports = {
       id: "ic-input-number-minus-usage",
       viewBox: "0 0 8 8",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-input-number-minus-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-input-number-minus-usage",
       toString: function () {
         return this.url;
       }
@@ -19369,7 +19369,7 @@ module.exports = {
 module.exports = {
       id: "ic-input-number-plus-usage",
       viewBox: "0 0 8 8",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-input-number-plus-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-input-number-plus-usage",
       toString: function () {
         return this.url;
       }
@@ -19387,7 +19387,7 @@ module.exports = {
 module.exports = {
       id: "ic-language-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-language-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-language-usage",
       toString: function () {
         return this.url;
       }
@@ -19405,7 +19405,7 @@ module.exports = {
 module.exports = {
       id: "ic-minimize-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-minimize-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-minimize-usage",
       toString: function () {
         return this.url;
       }
@@ -19423,7 +19423,7 @@ module.exports = {
 module.exports = {
       id: "ic-templates-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-templates-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-templates-usage",
       toString: function () {
         return this.url;
       }
@@ -19441,7 +19441,7 @@ module.exports = {
 module.exports = {
       id: "ic-theme-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-theme-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-theme-usage",
       toString: function () {
         return this.url;
       }
@@ -19459,7 +19459,7 @@ module.exports = {
 module.exports = {
       id: "ic-delete-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-delete-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-delete-usage",
       toString: function () {
         return this.url;
       }
@@ -19477,7 +19477,7 @@ module.exports = {
 module.exports = {
       id: "ic-csv-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-csv-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-csv-usage",
       toString: function () {
         return this.url;
       }
@@ -19495,7 +19495,7 @@ module.exports = {
 module.exports = {
       id: "ic-png-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-png-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-png-usage",
       toString: function () {
         return this.url;
       }
@@ -19513,7 +19513,7 @@ module.exports = {
 module.exports = {
       id: "ic-channel-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-channel-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-channel-usage",
       toString: function () {
         return this.url;
       }
@@ -19531,7 +19531,7 @@ module.exports = {
 module.exports = {
       id: "ic-continuous-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-continuous-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-continuous-usage",
       toString: function () {
         return this.url;
       }
@@ -19549,7 +19549,7 @@ module.exports = {
 module.exports = {
       id: "ic-fibonacci-fan-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-fibonacci-fan-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-fibonacci-fan-usage",
       toString: function () {
         return this.url;
       }
@@ -19567,7 +19567,7 @@ module.exports = {
 module.exports = {
       id: "ic-horizontal-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-horizontal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-horizontal-usage",
       toString: function () {
         return this.url;
       }
@@ -19585,7 +19585,7 @@ module.exports = {
 module.exports = {
       id: "ic-line-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-line-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-line-usage",
       toString: function () {
         return this.url;
       }
@@ -19603,7 +19603,7 @@ module.exports = {
 module.exports = {
       id: "ic-ray-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-ray-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-ray-usage",
       toString: function () {
         return this.url;
       }
@@ -19621,7 +19621,7 @@ module.exports = {
 module.exports = {
       id: "ic-rectangle-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-rectangle-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-rectangle-usage",
       toString: function () {
         return this.url;
       }
@@ -19639,7 +19639,7 @@ module.exports = {
 module.exports = {
       id: "ic-trend-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-trend-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-trend-usage",
       toString: function () {
         return this.url;
       }
@@ -19657,7 +19657,7 @@ module.exports = {
 module.exports = {
       id: "ic-vertical-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-vertical-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-vertical-usage",
       toString: function () {
         return this.url;
       }
@@ -19675,7 +19675,7 @@ module.exports = {
 module.exports = {
       id: "ic-dropdown-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-dropdown-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-dropdown-usage",
       toString: function () {
         return this.url;
       }
@@ -19693,7 +19693,7 @@ module.exports = {
 module.exports = {
       id: "ic-edit-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-edit-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-edit-usage",
       toString: function () {
         return this.url;
       }
@@ -19711,7 +19711,7 @@ module.exports = {
 module.exports = {
       id: "ic-favorite-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-favorite-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-favorite-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -19729,7 +19729,7 @@ module.exports = {
 module.exports = {
       id: "aud-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#aud-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#aud-usage",
       toString: function () {
         return this.url;
       }
@@ -19747,7 +19747,7 @@ module.exports = {
 module.exports = {
       id: "cad-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#cad-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#cad-usage",
       toString: function () {
         return this.url;
       }
@@ -19765,7 +19765,7 @@ module.exports = {
 module.exports = {
       id: "chf-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#chf-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#chf-usage",
       toString: function () {
         return this.url;
       }
@@ -19783,7 +19783,7 @@ module.exports = {
 module.exports = {
       id: "chinese-traditional-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#chinese-traditional-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#chinese-traditional-usage",
       toString: function () {
         return this.url;
       }
@@ -19801,7 +19801,7 @@ module.exports = {
 module.exports = {
       id: "chinese-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#chinese-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#chinese-usage",
       toString: function () {
         return this.url;
       }
@@ -19819,7 +19819,7 @@ module.exports = {
 module.exports = {
       id: "dutch-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#dutch-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#dutch-usage",
       toString: function () {
         return this.url;
       }
@@ -19837,7 +19837,7 @@ module.exports = {
 module.exports = {
       id: "eur-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#eur-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#eur-usage",
       toString: function () {
         return this.url;
       }
@@ -19855,7 +19855,7 @@ module.exports = {
 module.exports = {
       id: "french-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#french-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#french-usage",
       toString: function () {
         return this.url;
       }
@@ -19873,7 +19873,7 @@ module.exports = {
 module.exports = {
       id: "gbp-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#gbp-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#gbp-usage",
       toString: function () {
         return this.url;
       }
@@ -19891,7 +19891,7 @@ module.exports = {
 module.exports = {
       id: "german-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#german-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#german-usage",
       toString: function () {
         return this.url;
       }
@@ -19909,7 +19909,7 @@ module.exports = {
 module.exports = {
       id: "hong kong-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#hong kong-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#hong kong-usage",
       toString: function () {
         return this.url;
       }
@@ -19927,7 +19927,7 @@ module.exports = {
 module.exports = {
       id: "indonesia-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#indonesia-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#indonesia-usage",
       toString: function () {
         return this.url;
       }
@@ -19945,7 +19945,7 @@ module.exports = {
 module.exports = {
       id: "italy-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#italy-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#italy-usage",
       toString: function () {
         return this.url;
       }
@@ -19963,7 +19963,7 @@ module.exports = {
 module.exports = {
       id: "jpy-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#jpy-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#jpy-usage",
       toString: function () {
         return this.url;
       }
@@ -19981,7 +19981,7 @@ module.exports = {
 module.exports = {
       id: "mxn-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#mxn-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#mxn-usage",
       toString: function () {
         return this.url;
       }
@@ -19999,7 +19999,7 @@ module.exports = {
 module.exports = {
       id: "nok-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#nok-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#nok-usage",
       toString: function () {
         return this.url;
       }
@@ -20017,7 +20017,7 @@ module.exports = {
 module.exports = {
       id: "nzd-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#nzd-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#nzd-usage",
       toString: function () {
         return this.url;
       }
@@ -20035,7 +20035,7 @@ module.exports = {
 module.exports = {
       id: "pln-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#pln-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#pln-usage",
       toString: function () {
         return this.url;
       }
@@ -20053,7 +20053,7 @@ module.exports = {
 module.exports = {
       id: "portugal-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#portugal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#portugal-usage",
       toString: function () {
         return this.url;
       }
@@ -20071,7 +20071,7 @@ module.exports = {
 module.exports = {
       id: "russia-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#russia-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#russia-usage",
       toString: function () {
         return this.url;
       }
@@ -20089,7 +20089,7 @@ module.exports = {
 module.exports = {
       id: "sek-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#sek-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#sek-usage",
       toString: function () {
         return this.url;
       }
@@ -20107,7 +20107,7 @@ module.exports = {
 module.exports = {
       id: "spanish-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#spanish-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#spanish-usage",
       toString: function () {
         return this.url;
       }
@@ -20125,7 +20125,7 @@ module.exports = {
 module.exports = {
       id: "thailand-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#thailand-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#thailand-usage",
       toString: function () {
         return this.url;
       }
@@ -20143,7 +20143,7 @@ module.exports = {
 module.exports = {
       id: "usd-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#usd-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#usd-usage",
       toString: function () {
         return this.url;
       }
@@ -20161,7 +20161,7 @@ module.exports = {
 module.exports = {
       id: "vietnam-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#vietnam-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#vietnam-usage",
       toString: function () {
         return this.url;
       }
@@ -20179,7 +20179,7 @@ module.exports = {
 module.exports = {
       id: "wallstreet-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#wallstreet-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#wallstreet-usage",
       toString: function () {
         return this.url;
       }
@@ -20197,7 +20197,7 @@ module.exports = {
 module.exports = {
       id: "ic-adx-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-adx-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-adx-usage",
       toString: function () {
         return this.url;
       }
@@ -20215,7 +20215,7 @@ module.exports = {
 module.exports = {
       id: "ic-alligator-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-alligator-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-alligator-usage",
       toString: function () {
         return this.url;
       }
@@ -20233,7 +20233,7 @@ module.exports = {
 module.exports = {
       id: "ic-aroon-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-aroon-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-aroon-usage",
       toString: function () {
         return this.url;
       }
@@ -20251,7 +20251,7 @@ module.exports = {
 module.exports = {
       id: "ic-averages-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-averages-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-averages-usage",
       toString: function () {
         return this.url;
       }
@@ -20269,7 +20269,7 @@ module.exports = {
 module.exports = {
       id: "ic-awesome-oscillator-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-awesome-oscillator-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-awesome-oscillator-usage",
       toString: function () {
         return this.url;
       }
@@ -20287,7 +20287,7 @@ module.exports = {
 module.exports = {
       id: "ic-bollinger-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-bollinger-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-bollinger-usage",
       toString: function () {
         return this.url;
       }
@@ -20305,7 +20305,7 @@ module.exports = {
 module.exports = {
       id: "ic-cat-averages-usage",
       viewBox: "0 0 17 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-cat-averages-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-cat-averages-usage",
       toString: function () {
         return this.url;
       }
@@ -20323,7 +20323,7 @@ module.exports = {
 module.exports = {
       id: "ic-commodity-channel-index-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-commodity-channel-index-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-commodity-channel-index-usage",
       toString: function () {
         return this.url;
       }
@@ -20341,7 +20341,7 @@ module.exports = {
 module.exports = {
       id: "ic-donchian-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-donchian-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-donchian-usage",
       toString: function () {
         return this.url;
       }
@@ -20359,7 +20359,7 @@ module.exports = {
 module.exports = {
       id: "ic-dtrended-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-dtrended-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-dtrended-usage",
       toString: function () {
         return this.url;
       }
@@ -20377,7 +20377,7 @@ module.exports = {
 module.exports = {
       id: "ic-envelope-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-envelope-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-envelope-usage",
       toString: function () {
         return this.url;
       }
@@ -20395,7 +20395,7 @@ module.exports = {
 module.exports = {
       id: "ic-fractal-chaos-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-fractal-chaos-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-fractal-chaos-usage",
       toString: function () {
         return this.url;
       }
@@ -20413,7 +20413,7 @@ module.exports = {
 module.exports = {
       id: "ic-gator-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-gator-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-gator-usage",
       toString: function () {
         return this.url;
       }
@@ -20431,7 +20431,7 @@ module.exports = {
 module.exports = {
       id: "ic-ichimoku-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-ichimoku-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-ichimoku-usage",
       toString: function () {
         return this.url;
       }
@@ -20449,7 +20449,7 @@ module.exports = {
 module.exports = {
       id: "ic-macd-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-macd-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-macd-usage",
       toString: function () {
         return this.url;
       }
@@ -20467,7 +20467,7 @@ module.exports = {
 module.exports = {
       id: "ic-momentum-usage",
       viewBox: "0 0 17 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-momentum-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-momentum-usage",
       toString: function () {
         return this.url;
       }
@@ -20485,7 +20485,7 @@ module.exports = {
 module.exports = {
       id: "ic-other-usage",
       viewBox: "0 0 17 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-other-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-other-usage",
       toString: function () {
         return this.url;
       }
@@ -20503,7 +20503,7 @@ module.exports = {
 module.exports = {
       id: "ic-parabolic-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-parabolic-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-parabolic-usage",
       toString: function () {
         return this.url;
       }
@@ -20521,7 +20521,7 @@ module.exports = {
 module.exports = {
       id: "ic-rainbow-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-rainbow-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-rainbow-usage",
       toString: function () {
         return this.url;
       }
@@ -20539,7 +20539,7 @@ module.exports = {
 module.exports = {
       id: "ic-rate-of-change-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-rate-of-change-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-rate-of-change-usage",
       toString: function () {
         return this.url;
       }
@@ -20557,7 +20557,7 @@ module.exports = {
 module.exports = {
       id: "ic-rsi-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-rsi-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-rsi-usage",
       toString: function () {
         return this.url;
       }
@@ -20575,7 +20575,7 @@ module.exports = {
 module.exports = {
       id: "ic-stochastic-momentum-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-stochastic-momentum-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-stochastic-momentum-usage",
       toString: function () {
         return this.url;
       }
@@ -20593,7 +20593,7 @@ module.exports = {
 module.exports = {
       id: "ic-stochastic-oscillator-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-stochastic-oscillator-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-stochastic-oscillator-usage",
       toString: function () {
         return this.url;
       }
@@ -20611,7 +20611,7 @@ module.exports = {
 module.exports = {
       id: "ic-trend-dark-usage",
       viewBox: "0 0 17 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-trend-dark-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-trend-dark-usage",
       toString: function () {
         return this.url;
       }
@@ -20629,7 +20629,7 @@ module.exports = {
 module.exports = {
       id: "ic-trend-light-usage",
       viewBox: "0 0 17 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-trend-light-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-trend-light-usage",
       toString: function () {
         return this.url;
       }
@@ -20647,7 +20647,7 @@ module.exports = {
 module.exports = {
       id: "ic-volatility-usage",
       viewBox: "0 0 17 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-volatility-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-volatility-usage",
       toString: function () {
         return this.url;
       }
@@ -20665,7 +20665,7 @@ module.exports = {
 module.exports = {
       id: "ic-william-percent-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-william-percent-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-william-percent-usage",
       toString: function () {
         return this.url;
       }
@@ -20683,7 +20683,7 @@ module.exports = {
 module.exports = {
       id: "ic-zig-zag-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-zig-zag-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-zig-zag-usage",
       toString: function () {
         return this.url;
       }
@@ -20701,7 +20701,7 @@ module.exports = {
 module.exports = {
       id: "ic-measure-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-measure-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-measure-usage",
       toString: function () {
         return this.url;
       }
@@ -20719,7 +20719,7 @@ module.exports = {
 module.exports = {
       id: "ic-home-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-home-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-home-usage",
       toString: function () {
         return this.url;
       }
@@ -20737,7 +20737,7 @@ module.exports = {
 module.exports = {
       id: "ic-scale-full-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-scale-full-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-scale-full-usage",
       toString: function () {
         return this.url;
       }
@@ -20755,7 +20755,7 @@ module.exports = {
 module.exports = {
       id: "ic-zoomin-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-zoomin-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-zoomin-usage",
       toString: function () {
         return this.url;
       }
@@ -20773,7 +20773,7 @@ module.exports = {
 module.exports = {
       id: "ic-zoomout-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-zoomout-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-zoomout-usage",
       toString: function () {
         return this.url;
       }
@@ -20791,7 +20791,7 @@ module.exports = {
 module.exports = {
       id: "ic-pencil-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-pencil-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-pencil-usage",
       toString: function () {
         return this.url;
       }
@@ -20809,7 +20809,7 @@ module.exports = {
 module.exports = {
       id: "ic-placeholder-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-placeholder-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-placeholder-usage",
       toString: function () {
         return this.url;
       }
@@ -20827,7 +20827,7 @@ module.exports = {
 module.exports = {
       id: "ic-search-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-search-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-search-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -20845,7 +20845,7 @@ module.exports = {
 module.exports = {
       id: "ic-countdown-dark-active-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-countdown-dark-active-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-countdown-dark-active-usage",
       toString: function () {
         return this.url;
       }
@@ -20863,7 +20863,7 @@ module.exports = {
 module.exports = {
       id: "ic-countdown-dark-normal-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-countdown-dark-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-countdown-dark-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -20881,7 +20881,7 @@ module.exports = {
 module.exports = {
       id: "ic-countdown-light-active-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-countdown-light-active-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-countdown-light-active-usage",
       toString: function () {
         return this.url;
       }
@@ -20899,7 +20899,7 @@ module.exports = {
 module.exports = {
       id: "ic-countdown-light-normal-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-countdown-light-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-countdown-light-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -20917,7 +20917,7 @@ module.exports = {
 module.exports = {
       id: "ic-highest-lowest-dark-active-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-highest-lowest-dark-active-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-highest-lowest-dark-active-usage",
       toString: function () {
         return this.url;
       }
@@ -20935,7 +20935,7 @@ module.exports = {
 module.exports = {
       id: "ic-highest-lowest-dark-normal-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-highest-lowest-dark-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-highest-lowest-dark-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -20953,7 +20953,7 @@ module.exports = {
 module.exports = {
       id: "ic-highest-lowest-light-active-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-highest-lowest-light-active-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-highest-lowest-light-active-usage",
       toString: function () {
         return this.url;
       }
@@ -20971,7 +20971,7 @@ module.exports = {
 module.exports = {
       id: "ic-highest-lowest-light-normal-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-highest-lowest-light-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-highest-lowest-light-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -20989,7 +20989,7 @@ module.exports = {
 module.exports = {
       id: "ic-historical-dark-active-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-historical-dark-active-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-historical-dark-active-usage",
       toString: function () {
         return this.url;
       }
@@ -21007,7 +21007,7 @@ module.exports = {
 module.exports = {
       id: "ic-historical-dark-normal-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-historical-dark-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-historical-dark-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21025,7 +21025,7 @@ module.exports = {
 module.exports = {
       id: "ic-historical-light-active-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-historical-light-active-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-historical-light-active-usage",
       toString: function () {
         return this.url;
       }
@@ -21043,7 +21043,7 @@ module.exports = {
 module.exports = {
       id: "ic-historical-light-normal-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-historical-light-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-historical-light-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21061,7 +21061,7 @@ module.exports = {
 module.exports = {
       id: "ic-theme-dark-usage",
       viewBox: "0 0 236 180",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-theme-dark-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-theme-dark-usage",
       toString: function () {
         return this.url;
       }
@@ -21079,7 +21079,7 @@ module.exports = {
 module.exports = {
       id: "ic-theme-light-usage",
       viewBox: "0 0 236 180",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-theme-light-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-theme-light-usage",
       toString: function () {
         return this.url;
       }
@@ -21097,7 +21097,7 @@ module.exports = {
 module.exports = {
       id: "ic-empty-state-usage",
       viewBox: "0 0 128 118",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-empty-state-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-empty-state-usage",
       toString: function () {
         return this.url;
       }
@@ -21115,7 +21115,7 @@ module.exports = {
 module.exports = {
       id: "ic-overwrite-state-usage",
       viewBox: "0 0 128 128",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-overwrite-state-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-overwrite-state-usage",
       toString: function () {
         return this.url;
       }
@@ -21133,7 +21133,7 @@ module.exports = {
 module.exports = {
       id: "ic-commodities-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-commodities-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-commodities-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21151,7 +21151,7 @@ module.exports = {
 module.exports = {
       id: "ic-forex-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-forex-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-forex-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21169,7 +21169,7 @@ module.exports = {
 module.exports = {
       id: "ic-indices-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-indices-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-indices-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21187,7 +21187,7 @@ module.exports = {
 module.exports = {
       id: "ic-otc-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-otc-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-otc-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21205,7 +21205,7 @@ module.exports = {
 module.exports = {
       id: "ic-synth-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-synth-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-synth-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21223,7 +21223,7 @@ module.exports = {
 module.exports = {
       id: "ic-volatility-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-volatility-normal-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-volatility-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21241,7 +21241,7 @@ module.exports = {
 module.exports = {
       id: "ic-tick-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-tick-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-tick-usage",
       toString: function () {
         return this.url;
       }
@@ -21259,7 +21259,7 @@ module.exports = {
 module.exports = {
       id: "ic-time-usage",
       viewBox: "0 0 12 12",
-      url: __webpack_require__.p + "sprite-2d6f5e.smartcharts.svg#ic-time-usage",
+      url: __webpack_require__.p + "sprite-cd4423.smartcharts.svg#ic-time-usage",
       toString: function () {
         return this.url;
       }
