@@ -2565,8 +2565,6 @@
     touch-action: manipulation; }
   .input[readonly] {
     cursor: pointer; }
-  .input::-webkit-input-placeholder {
-    border-color: var(--border-normal); }
   .input::-moz-placeholder {
     border-color: var(--border-normal); }
   .input:-ms-input-placeholder {

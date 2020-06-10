@@ -1447,12 +1447,6 @@
   min-width: 0;
   box-sizing: border-box; }
 
-.dc-input__field::-webkit-input-placeholder {
-  line-height: 1.5;
-  opacity: 0;
-  -webkit-transition: opacity 0.25s;
-  transition: opacity 0.25s; }
-
 .dc-input__field::-moz-placeholder {
   line-height: 1.5;
   opacity: 0;
@@ -1475,9 +1469,6 @@
   line-height: 1.5;
   opacity: 0;
   transition: opacity 0.25s; }
-
-.dc-input__field--placeholder-visible::-webkit-input-placeholder {
-  opacity: 0.2; }
 
 .dc-input__field--placeholder-visible::-moz-placeholder {
   opacity: 0.2; }
@@ -1517,9 +1508,6 @@
 
 .dc-input__field:focus ~ label {
   color: var(--brand-secondary); }
-
-.dc-input__field:focus::-webkit-input-placeholder {
-  opacity: 0.4; }
 
 .dc-input__field:focus::-moz-placeholder {
   opacity: 0.4; }
@@ -4419,12 +4407,6 @@
   min-width: 0;
   box-sizing: border-box; }
 
-.dc-input__field::-webkit-input-placeholder {
-  line-height: 1.5;
-  opacity: 0;
-  -webkit-transition: opacity 0.25s;
-  transition: opacity 0.25s; }
-
 .dc-input__field::-moz-placeholder {
   line-height: 1.5;
   opacity: 0;
@@ -4447,9 +4429,6 @@
   line-height: 1.5;
   opacity: 0;
   transition: opacity 0.25s; }
-
-.dc-input__field--placeholder-visible::-webkit-input-placeholder {
-  opacity: 0.2; }
 
 .dc-input__field--placeholder-visible::-moz-placeholder {
   opacity: 0.2; }
@@ -4489,9 +4468,6 @@
 
 .dc-input__field:focus ~ label {
   color: var(--brand-secondary); }
-
-.dc-input__field:focus::-webkit-input-placeholder {
-  opacity: 0.4; }
 
 .dc-input__field:focus::-moz-placeholder {
   opacity: 0.4; }
@@ -5577,12 +5553,6 @@
   min-width: 0;
   box-sizing: border-box; }
 
-.dc-input__field::-webkit-input-placeholder {
-  line-height: 1.5;
-  opacity: 0;
-  -webkit-transition: opacity 0.25s;
-  transition: opacity 0.25s; }
-
 .dc-input__field::-moz-placeholder {
   line-height: 1.5;
   opacity: 0;
@@ -5605,9 +5575,6 @@
   line-height: 1.5;
   opacity: 0;
   transition: opacity 0.25s; }
-
-.dc-input__field--placeholder-visible::-webkit-input-placeholder {
-  opacity: 0.2; }
 
 .dc-input__field--placeholder-visible::-moz-placeholder {
   opacity: 0.2; }
@@ -5647,9 +5614,6 @@
 
 .dc-input__field:focus ~ label {
   color: var(--brand-secondary); }
-
-.dc-input__field:focus::-webkit-input-placeholder {
-  opacity: 0.4; }
 
 .dc-input__field:focus::-moz-placeholder {
   opacity: 0.4; }
