@@ -454,6 +454,60 @@
 \*****************************/
 /* Preserve legacy variables */
 /* Primary */
+.sc-scrollbar {
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  margin-right: 4px;
+  /* Firefox only */
+  scrollbar-width: thin;
+  /* Let's get this party started */
+  /* Track */
+  /* Handle */ }
+.smartcharts-light .sc-scrollbar {
+    scrollbar-color: rthemed("ScrollbarBg") rgba(214, 218, 219, 0.32); }
+.smartcharts-dark .sc-scrollbar {
+    scrollbar-color: rthemed("ScrollbarBg") rgba(50, 55, 56, 0.32); }
+.sc-scrollbar::-webkit-scrollbar {
+    width: 4px; }
+.sc-scrollbar::-webkit-scrollbar-track {
+    -webkit-box-shadow: transparent;
+    border-radius: 2px; }
+.sc-scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    -webkit-box-shadow: transparent; }
+.smartcharts-light .sc-scrollbar::-webkit-scrollbar-thumb {
+      background: #d6dadb; }
+.smartcharts-dark .sc-scrollbar::-webkit-scrollbar-thumb {
+      background: #323738; }
+.sc-scrollbar--auto-hide::-webkit-scrollbar-thumb {
+    display: none; }
+.sc-scrollbar--hover::-webkit-scrollbar-thumb {
+    display: inherit !important; }
+.sc-scrollbar--freeze {
+    overflow: hidden !important; }
+.smartcharts-mobile .sc-scrollbar--auto-hide::-webkit-scrollbar-thumb {
+  display: inherit !important; }
+
+/* ------------------------ *\
+		Variables
+\* ------------------------ */
+/* --------- COLOR :: Border --------- */
+/* ------------------------ *\
+        Mixin
+\* ------------------------ */
+/* --------- Animation : dialog --------- */
+/* --------- CSS Properties --------- */
+/* stylelint-disable color-no-hex */
+/* stylelint-disable value-keyword-case */
+/* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .sc-studies .react-tabs__tab-list .react-tabs__tab {
   box-shadow: none !important;
   outline: none !important; }
@@ -1070,23 +1124,6 @@
 .form__group--switch .form__control {
       padding-left: 16px;
       width: auto; }
-.form--indicator-setting {
-    min-width: 320px;
-    max-width: 320px;
-    min-height: 272px;
-    max-height: 272px; }
-.smartcharts-light .form--indicator-setting {
-      background: #ffffff; }
-.smartcharts-dark .form--indicator-setting {
-      background: #151717; }
-.smartcharts-light .form--indicator-setting > div:nth-child(3) > div {
-      background-color: #333333 !important; }
-.smartcharts-dark .form--indicator-setting > div:nth-child(3) > div {
-      background-color: #c2c2c2 !important; }
-.form--indicator-setting:hover > div:nth-child(3) {
-      opacity: 1 !important; }
-.form--indicator-setting .form__input-group:last-child {
-      margin-bottom: 50px; }
 .form__input-group {
     padding: 16px 24px; }
 .smartcharts-light .form__input-group {
@@ -1106,8 +1143,25 @@
         color: #ffffff; }
 .form__input-group:first-child {
       border-top: none; }
+.form__input-group--show-zones {
+    margin-bottom: 30px; }
 .form__input-group--show-zones .form__label {
-    font-size: 14px; }
+      font-size: 14px; }
+.form--indicator-setting {
+    min-width: 320px;
+    max-width: 320px;
+    min-height: 280px;
+    max-height: 280px;
+    overflow: hidden; }
+.smartcharts-light .form--indicator-setting {
+      background: #ffffff; }
+.smartcharts-dark .form--indicator-setting {
+      background: #151717; }
+.form--indicator-setting .form__input-group {
+      width: 320px !important;
+      box-sizing: border-box; }
+.form--fractal-chaos-bands .form__group--switch {
+    margin-bottom: 80px; }
 /* stylelint-disable plugin/no-unsupported-browser-features */
 .sc-slider {
   width: 100%;
@@ -1312,17 +1366,17 @@
       transform: scaleY(-1); }
 .sc-dropdown .dropdown {
     position: absolute;
-    right: 0;
+    right: -4px;
     opacity: 0;
     pointer-events: none;
     z-index: 2;
-    max-height: 200px;
+    max-height: 2px;
     overflow: scroll;
     box-shadow: 0 2px 8px 0 rgba(42, 48, 82, 0.14);
     box-sizing: border-box;
     border-radius: 4px;
     font-size: 14px;
-    width: 272px;
+    width: 266px;
     transform: translateY(-8px);
     transition: opacity 0.2s, transform 0.2s; }
 .smartcharts-light .sc-dropdown .dropdown {
@@ -1330,9 +1384,11 @@
 .smartcharts-dark .sc-dropdown .dropdown {
       background: #151717; }
 .sc-dropdown .dropdown.active {
-      transform: translateY(8px);
       opacity: 1;
-      pointer-events: all; }
+      overflow: hidden;
+      max-height: 200px;
+      pointer-events: all;
+      transform: translateY(8px); }
 .smartcharts-light .sc-dropdown .dropdown.active {
         box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.08), 0 0 16px 0 rgba(0, 0, 0, 0.08); }
 .smartcharts-dark .sc-dropdown .dropdown.active {
@@ -1399,7 +1455,7 @@
 .sc-color-picker {
   position: relative;
   height: 40px;
-  width: 272px; }
+  width: 100%; }
 .smartcharts-light .sc-color-picker {
     background: #ffffff; }
 .smartcharts-dark .sc-color-picker {
@@ -4683,38 +4739,6 @@ html, body {
     box-shadow: 0 0 0 10px rgba(255, 153, 51, 0); }
   100% {
     box-shadow: 0 0 0 0 rgba(255, 153, 51, 0); } }
-.sc-scrollbar {
-  overflow-y: auto;
-  overflow-x: hidden;
-  position: relative;
-  margin-right: 4px;
-  /* Firefox only */
-  scrollbar-width: thin;
-  /* Let's get this party started */
-  /* Track */
-  /* Handle */ }
-.smartcharts-light .sc-scrollbar {
-    scrollbar-color: rthemed("ScrollbarBg") rgba(214, 218, 219, 0.32); }
-.smartcharts-dark .sc-scrollbar {
-    scrollbar-color: rthemed("ScrollbarBg") rgba(50, 55, 56, 0.32); }
-.sc-scrollbar::-webkit-scrollbar {
-    width: 4px; }
-.sc-scrollbar::-webkit-scrollbar-track {
-    -webkit-box-shadow: transparent;
-    border-radius: 2px; }
-.sc-scrollbar::-webkit-scrollbar-thumb {
-    border-radius: 2px;
-    -webkit-box-shadow: transparent; }
-.smartcharts-light .sc-scrollbar::-webkit-scrollbar-thumb {
-      background: #d6dadb; }
-.smartcharts-dark .sc-scrollbar::-webkit-scrollbar-thumb {
-      background: #323738; }
-.sc-scrollbar--auto-hide::-webkit-scrollbar-thumb {
-    display: none; }
-.sc-scrollbar--hover::-webkit-scrollbar-thumb {
-    display: inherit !important; }
-.sc-scrollbar--freeze > div {
-    overflow: hidden !important; }
 .smartcharts-mobile .mSticky {
   background: none; }
 .smartcharts-mobile .mSticky .mStickyInterior {
@@ -4726,8 +4750,6 @@ html, body {
     z-index: 99; }
 .smartcharts-mobile .mSticky .mStickyRightClick {
     margin-left: -2px !important; }
-.smartcharts-mobile .sc-scrollbar--auto-hide::-webkit-scrollbar-thumb {
-  display: inherit !important; }
 /* --------------------------------------------------------- FIELDS, SELECTS, INPUTS --------------------------------------------------------- */
 /* Inputs */
 .stx-textarea {
