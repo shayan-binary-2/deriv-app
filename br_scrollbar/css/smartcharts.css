@@ -1162,6 +1162,8 @@
       box-sizing: border-box; }
 .form--fractal-chaos-bands .form__group--switch {
     margin-bottom: 80px; }
+.form--drawing-tool .sc-scrollbar {
+    height: 280px; }
 /* stylelint-disable plugin/no-unsupported-browser-features */
 .sc-slider {
   width: 100%;
@@ -1376,7 +1378,7 @@
     box-sizing: border-box;
     border-radius: 4px;
     font-size: 14px;
-    width: 266px;
+    width: 272px;
     transform: translateY(-8px);
     transition: opacity 0.2s, transform 0.2s; }
 .smartcharts-light .sc-dropdown .dropdown {
