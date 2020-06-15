@@ -1160,6 +1160,8 @@
 .form--indicator-setting .form__input-group {
       width: 320px !important;
       box-sizing: border-box; }
+.form--indicator-setting .form__input-group--result {
+      height: 280px; }
 .form--fractal-chaos-bands .form__group--switch {
     margin-bottom: 80px; }
 .form--drawing-tool .sc-scrollbar {
