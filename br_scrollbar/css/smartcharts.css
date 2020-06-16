@@ -3300,7 +3300,7 @@
 .cq-categorical-display--nested .results-panel .category .subcategory {
         font-weight: bold; }
 .cq-categorical-display--nested .results-panel .category .cq-item {
-        padding-left: 0px;
+        padding-left: 8px;
         padding-right: 7px; }
 .cq-categorical-display--nested .results-panel .category:last-child {
         padding-bottom: 8px !important; }
