@@ -1160,10 +1160,10 @@
 .form--indicator-setting .form__input-group {
       width: 320px !important;
       box-sizing: border-box; }
-.form--indicator-setting .form__input-group--result {
+.form--indicator-setting .form__input-group--result:last-child {
       height: 280px; }
 .form--fractal-chaos-bands .form__group--switch {
-    margin-bottom: 80px; }
+    margin-bottom: 98px; }
 .form--drawing-tool .sc-scrollbar {
     height: 280px; }
 /* stylelint-disable plugin/no-unsupported-browser-features */
