@@ -6698,7 +6698,7 @@
     .terms-of-use {
       overflow-x: hidden;
       margin: 0;
-      padding: 0 2.4rem 2.4rem;
+      padding: 0 2.4rem 4rem;
       overflow-y: auto; }
       .terms-of-use .dc-checkbox__box {
         width: 2.4rem;
