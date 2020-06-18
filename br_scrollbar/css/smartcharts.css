@@ -515,12 +515,12 @@
     display: none; }
 .sc-studies .hidden {
   display: none; }
-.sc-studies .cq-lookup-input {
+.sc-studies .sc-lookup-input {
   width: 100%;
   padding: 0px;
   box-sizing: border-box;
   position: relative; }
-.sc-studies .cq-lookup-input > input {
+.sc-studies .sc-lookup-input > input {
     padding-left: 32px;
     line-height: 2em;
     font-size: 1.4em;
@@ -531,72 +531,72 @@
     width: 100%;
     box-sizing: border-box;
     transition: border-color 0.2s ease-in-out; }
-.smartcharts-light .sc-studies .cq-lookup-input > input::-webkit-input-placeholder {
+.smartcharts-light .sc-studies .sc-lookup-input > input::-webkit-input-placeholder {
       color: #d6d6d6; }
-.smartcharts-dark .sc-studies .cq-lookup-input > input::-webkit-input-placeholder {
+.smartcharts-dark .sc-studies .sc-lookup-input > input::-webkit-input-placeholder {
       color: #3e3e3e; }
-.smartcharts-light .sc-studies .cq-lookup-input > input:-moz-placeholder {
+.smartcharts-light .sc-studies .sc-lookup-input > input:-moz-placeholder {
       color: #d6d6d6; }
-.smartcharts-dark .sc-studies .cq-lookup-input > input:-moz-placeholder {
+.smartcharts-dark .sc-studies .sc-lookup-input > input:-moz-placeholder {
       color: #3e3e3e; }
-.smartcharts-light .sc-studies .cq-lookup-input > input::-moz-placeholder {
+.smartcharts-light .sc-studies .sc-lookup-input > input::-moz-placeholder {
       color: #d6d6d6; }
-.smartcharts-dark .sc-studies .cq-lookup-input > input::-moz-placeholder {
+.smartcharts-dark .sc-studies .sc-lookup-input > input::-moz-placeholder {
       color: #3e3e3e; }
-.smartcharts-light .sc-studies .cq-lookup-input > input:-ms-input-placeholder {
+.smartcharts-light .sc-studies .sc-lookup-input > input:-ms-input-placeholder {
       color: #d6d6d6; }
-.smartcharts-dark .sc-studies .cq-lookup-input > input:-ms-input-placeholder {
+.smartcharts-dark .sc-studies .sc-lookup-input > input:-ms-input-placeholder {
       color: #3e3e3e; }
-.smartcharts-light .sc-studies .cq-lookup-input > input {
+.smartcharts-light .sc-studies .sc-lookup-input > input {
       color: #333333;
       border: 1px solid #ffffff;
       background: #ffffff; }
-.smartcharts-dark .sc-studies .cq-lookup-input > input {
+.smartcharts-dark .sc-studies .sc-lookup-input > input {
       color: #ffffff;
       border: 1px solid #0e0e0e;
       background: #0e0e0e; }
-.smartcharts-light .sc-studies .cq-lookup-input > input:hover {
+.smartcharts-light .sc-studies .sc-lookup-input > input:hover {
       border-color: #999999; }
-.smartcharts-dark .sc-studies .cq-lookup-input > input:hover {
+.smartcharts-dark .sc-studies .sc-lookup-input > input:hover {
       border-color: #999999; }
-.smartcharts-light .sc-studies .cq-lookup-input > input:focus {
+.smartcharts-light .sc-studies .sc-lookup-input > input:focus {
       border-color: #85acb0; }
-.smartcharts-dark .sc-studies .cq-lookup-input > input:focus {
+.smartcharts-dark .sc-studies .sc-lookup-input > input:focus {
       border-color: #85acb0; }
-.sc-studies .cq-lookup-input .ic-icon {
+.sc-studies .sc-lookup-input .ic-icon {
     position: absolute;
     top: 6px;
     left: 8px;
     width: 16px;
     height: 16px; }
-.sc-studies .cq-lookup-input .ic-icon svg {
+.sc-studies .sc-lookup-input .ic-icon svg {
       width: 16px;
       height: 16px;
       top: -1px; }
-.smartcharts-light .sc-studies .cq-lookup-input .ic-icon svg {
+.smartcharts-light .sc-studies .sc-lookup-input .ic-icon svg {
         fill: #333333; }
-.smartcharts-dark .sc-studies .cq-lookup-input .ic-icon svg {
+.smartcharts-dark .sc-studies .sc-lookup-input .ic-icon svg {
         fill: #c2c2c2; }
-.sc-studies .cq-lookup-input .ic-icon.icon-reset {
+.sc-studies .sc-lookup-input .ic-icon.icon-reset {
       left: auto;
       right: 8px;
       opacity: 0;
       top: 5px;
       pointer-events: none;
       cursor: pointer; }
-.sc-studies .cq-lookup-input .ic-icon.icon-reset svg {
+.sc-studies .sc-lookup-input .ic-icon.icon-reset svg {
         stroke: none; }
-.smartcharts-light .sc-studies .cq-lookup-input .ic-icon.icon-reset svg {
+.smartcharts-light .sc-studies .sc-lookup-input .ic-icon.icon-reset svg {
           fill: #999999; }
-.smartcharts-dark .sc-studies .cq-lookup-input .ic-icon.icon-reset svg {
+.smartcharts-dark .sc-studies .sc-lookup-input .ic-icon.icon-reset svg {
           fill: #333333; }
-.smartcharts-light .sc-studies .cq-lookup-input.active > input {
+.smartcharts-light .sc-studies .sc-lookup-input.active > input {
     color: #333333 !important;
     border-color: #85acb0 !important; }
-.smartcharts-dark .sc-studies .cq-lookup-input.active > input {
+.smartcharts-dark .sc-studies .sc-lookup-input.active > input {
     color: #ffffff !important;
     border-color: #85acb0 !important; }
-.sc-studies .cq-lookup-input.active .ic-icon.icon-reset {
+.sc-studies .sc-lookup-input.active .ic-icon.icon-reset {
     opacity: 1;
     pointer-events: initial; }
 .sc-studies .cq-dialog__body {
