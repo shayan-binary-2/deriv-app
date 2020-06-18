@@ -72,7 +72,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "js/trader." + ({"404":"404","contract":"contract","error-component":"error-component","reports":"reports","screen-large~screen-small":"screen-large~screen-small","screen-large":"screen-large","screen-small":"screen-small","settings-chart":"settings-chart","trade-modals":"trade-modals","vendors~mt5":"vendors~mt5","mt5":"mt5","two-month-picker":"two-month-picker"}[chunkId]||chunkId) + "." + {"404":"ffc03e1b5a71fac75232","contract":"ba7088021653667b15a8","error-component":"6e258deb7637876bddd3","reports":"b4da4a893f4db4726c78","screen-large~screen-small":"1b157a4edb8f924700bd","screen-large":"e57b2a8d502ac2423a35","screen-small":"7f74dbe5aca18bcdeb4b","settings-chart":"37c676eaf0d408427d72","trade-modals":"3806befef56dffa1855d","vendors~mt5":"5929cd4372b599c1547b","mt5":"1ee157d8e5100bba4826","two-month-picker":"6c9dfeef54c5e5c28007"}[chunkId] + ".js"
+/******/ 		return __webpack_require__.p + "js/trader." + ({"404":"404","contract":"contract","error-component":"error-component","reports":"reports","screen-large~screen-small":"screen-large~screen-small","screen-large":"screen-large","screen-small":"screen-small","settings-chart":"settings-chart","trade-modals":"trade-modals","vendors~mt5":"vendors~mt5","mt5":"mt5","two-month-picker":"two-month-picker"}[chunkId]||chunkId) + "." + {"404":"ffc03e1b5a71fac75232","contract":"ba7088021653667b15a8","error-component":"6e258deb7637876bddd3","reports":"581fb020ebcff94d3d34","screen-large~screen-small":"1b157a4edb8f924700bd","screen-large":"e57b2a8d502ac2423a35","screen-small":"15f097751c2a7f871c03","settings-chart":"37c676eaf0d408427d72","trade-modals":"3806befef56dffa1855d","vendors~mt5":"5929cd4372b599c1547b","mt5":"09c332304707700dca12","two-month-picker":"6c9dfeef54c5e5c28007"}[chunkId] + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -110,7 +110,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "css/trader." + ({"404":"404","contract":"contract","error-component":"error-component","reports":"reports","screen-large~screen-small":"screen-large~screen-small","screen-large":"screen-large","screen-small":"screen-small","settings-chart":"settings-chart","trade-modals":"trade-modals","vendors~mt5":"vendors~mt5","mt5":"mt5","two-month-picker":"two-month-picker"}[chunkId]||chunkId) + "." + {"404":"31d6cfe0d16ae931b73c","contract":"31d6cfe0d16ae931b73c","error-component":"31d6cfe0d16ae931b73c","reports":"efbe4b8c3d7896eb455f","screen-large~screen-small":"31d6cfe0d16ae931b73c","screen-large":"31d6cfe0d16ae931b73c","screen-small":"68e4f39a852091e3e13c","settings-chart":"31d6cfe0d16ae931b73c","trade-modals":"31d6cfe0d16ae931b73c","vendors~mt5":"31d6cfe0d16ae931b73c","mt5":"fff47a181a4a561f9cbc","two-month-picker":"31d6cfe0d16ae931b73c"}[chunkId] + ".css";
+/******/ 				var href = "css/trader." + ({"404":"404","contract":"contract","error-component":"error-component","reports":"reports","screen-large~screen-small":"screen-large~screen-small","screen-large":"screen-large","screen-small":"screen-small","settings-chart":"settings-chart","trade-modals":"trade-modals","vendors~mt5":"vendors~mt5","mt5":"mt5","two-month-picker":"two-month-picker"}[chunkId]||chunkId) + "." + {"404":"31d6cfe0d16ae931b73c","contract":"31d6cfe0d16ae931b73c","error-component":"31d6cfe0d16ae931b73c","reports":"bdcaf64fa8b930e21fe3","screen-large~screen-small":"31d6cfe0d16ae931b73c","screen-large":"31d6cfe0d16ae931b73c","screen-small":"5d3c0e2d44556d0fc5a7","settings-chart":"31d6cfe0d16ae931b73c","trade-modals":"31d6cfe0d16ae931b73c","vendors~mt5":"31d6cfe0d16ae931b73c","mt5":"42977fba427a082bc894","two-month-picker":"31d6cfe0d16ae931b73c"}[chunkId] + ".css";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {
@@ -252,7 +252,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/br_bug-digit-report/";
+/******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// on error function for async loading
 /******/ 	__webpack_require__.oe = function(err) { console.error(err); throw err; };
