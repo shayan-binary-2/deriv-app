@@ -696,6 +696,11 @@
         margin-right: 16px; }
 .sc-studies__list__item .ic-info {
     opacity: 0; }
+.sc-studies__list__item .sc-tooltip__inner {
+    width: 280px;
+    height: auto;
+    white-space: break-spaces;
+    text-align: center; }
 .sc-studies__list__item--disabled {
     opacity: 0.3;
     pointer-events: none; }
@@ -926,7 +931,8 @@
       font-style: normal;
       line-height: 1.43;
       letter-spacing: normal;
-      cursor: pointer; }
+      cursor: pointer;
+      position: relative; }
 .smartcharts-light .sc-views__views__list__item {
         color: #333333; }
 .smartcharts-dark .sc-views__views__list__item {
@@ -940,6 +946,11 @@
         fill: #333333; }
 .smartcharts-dark .sc-views__views__list__item .ic-icon {
         fill: #c2c2c2; }
+.sc-views__views__list__item .sc-tooltip__inner {
+        max-width: 304px;
+        height: auto;
+        white-space: break-spaces;
+        text-align: center; }
 .smartcharts-light .sc-views__views__list__item:hover {
         background: #e6e9e9; }
 .smartcharts-dark .sc-views__views__list__item:hover {
@@ -1276,6 +1287,12 @@
           fill: #333333; }
 .smartcharts-dark .sc-dropdown .value .ic-icon svg {
           fill: #c2c2c2; }
+.sc-dropdown .value .text {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      max-width: 220px;
+      min-width: 210px;
+      overflow: hidden; }
 .sc-dropdown .value:after {
       content: ' ';
       position: absolute;
@@ -1328,18 +1345,18 @@
         color: #333333; }
 .smartcharts-dark .sc-dropdown .dropdown .row {
         color: #c2c2c2; }
-.sc-dropdown .dropdown .row--selected {
-        font-weight: bold; }
-.smartcharts-light .sc-dropdown .dropdown .row--selected {
-          background: #d6dadb;
-          color: #333333; }
-.smartcharts-dark .sc-dropdown .dropdown .row--selected {
-          background: #323738;
-          color: #ffffff; }
 .smartcharts-light .sc-dropdown .dropdown .row:hover {
         background: #e6e9e9; }
 .smartcharts-dark .sc-dropdown .dropdown .row:hover {
         background: #242828; }
+.sc-dropdown .dropdown .row--selected {
+        font-weight: bold; }
+.smartcharts-light .sc-dropdown .dropdown .row--selected {
+          background: #d6dadb !important;
+          color: #333333 !important; }
+.smartcharts-dark .sc-dropdown .dropdown .row--selected {
+          background: #323738 !important;
+          color: #ffffff !important; }
 .sc-dropdown .option {
     display: inline-block;
     width: 100%;
@@ -3819,18 +3836,23 @@ html, body {
     background: #ffffff; }
 .smartcharts-dark .ciq-chart {
     background: #0e0e0e; }
-.ciq-chart.ciq-screenshot .cq-menu-dropdown,
-  .ciq-chart.ciq-screenshot .sc-toolbar-widget,
-  .ciq-chart.ciq-screenshot .ciq-navigation-widget,
-  .ciq-chart.ciq-screenshot .stx_jump_today.home {
+.ciq-chart--screenshot .cq-symbol-select-btn .ic-icon,
+  .ciq-chart--screenshot .cq-menu-dropdown,
+  .ciq-chart--screenshot .sc-toolbar-widget,
+  .ciq-chart--screenshot .ciq-navigation-widget,
+  .ciq-chart--screenshot .stx_jump_today.home,
+  .ciq-chart--screenshot .stx-panel-control .stx-btn-panel {
     /*
             There is a strange bug where dropdowns get displayed (partially)
             when html is being rendered to canvas. So we set this to manually
             hide it when PNG is exported.
             */
     display: none !important; }
-.ciq-chart.ciq-screenshot .sc-studies-list .stx-btn-panel,
-  .ciq-chart.ciq-screenshot .sc-studies-list .stx-btn-panel {
+.ciq-chart--screenshot .stx-panel-control {
+    left: 5px; }
+.ciq-chart--screenshot .cq-symbol-select-btn .cq-symbol-info {
+    margin: 0 !important; }
+.ciq-chart--screenshot .sc-studies-list .stx-btn-panel {
     display: none !important; }
 /* The Chart */
 .cq-chart-control-left .stx-panel-control {
@@ -4774,11 +4796,11 @@ html, body {
 .smartcharts-dark .smartcharts input {
       color: #ffffff;
       background-color: #0e0e0e; }
-.smartcharts-light .smartcharts input::-moz-placeholder, .smartcharts-light .smartcharts input::-moz-placeholder {
+.smartcharts-light .smartcharts input::-moz-placeholder {
       color: #7f8397; }
 .smartcharts-light .smartcharts input::placeholder, .smartcharts-light .smartcharts input::-moz-placeholder {
       color: #7f8397; }
-.smartcharts-dark .smartcharts input::-moz-placeholder, .smartcharts-dark .smartcharts input::-moz-placeholder {
+.smartcharts-dark .smartcharts input::-moz-placeholder {
       color: #ffffff; }
 .smartcharts-dark .smartcharts input::placeholder, .smartcharts-dark .smartcharts input::-moz-placeholder {
       color: #ffffff; }
@@ -4977,7 +4999,7 @@ html, body {
   color: #878787; }
 .sc-tooltip__inner {
   position: absolute;
-  top: -44px;
+  top: 0px;
   left: 50%;
   border-radius: 4px;
   height: 34px;
@@ -4991,7 +5013,7 @@ html, body {
   letter-spacing: normal;
   opacity: 0;
   box-sizing: border-box;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(calc(-100% - 8px));
   pointer-events: none; }
 .smartcharts-light .sc-tooltip__inner {
     background: #d6dadb;
@@ -5004,11 +5026,12 @@ html, body {
     width: 0;
     height: 0;
     content: ' ';
-    top: 34px;
+    bottom: 0px;
     left: calc(50% - 6px);
     background: transparent;
     border-right: 6px solid transparent;
-    border-left: 6px solid transparent; }
+    border-left: 6px solid transparent;
+    transform: translateY(100%); }
 .smartcharts-light .sc-tooltip__inner:before {
       border-top: 6px solid #d6dadb; }
 .smartcharts-dark .sc-tooltip__inner:before {
@@ -5018,11 +5041,12 @@ html, body {
   top: calc(50% - 17px);
   transform: none; }
 .sc-tooltip--right .sc-tooltip__inner:before {
-    top: calc(50% - 6px);
     left: -6px;
+    bottom: calc(50% - 6px);
     border-top: 6px solid transparent !important;
     border-bottom: 6px solid transparent !important;
-    border-left: none; }
+    border-left: none;
+    transform: translateY(0); }
 .smartcharts-light .sc-tooltip--right .sc-tooltip__inner:before {
       border-right: 6px solid #d6dadb; }
 .smartcharts-dark .sc-tooltip--right .sc-tooltip__inner:before {
@@ -5174,11 +5198,11 @@ html, body {
     border: 1px solid #d6dadb; }
 .smartcharts-dark .sc-input {
     border: 1px solid #323738; }
-.sc-input::-moz-placeholder, .sc-input::-moz-placeholder {
+.sc-input::-moz-placeholder {
     font-size: 14px; }
 .sc-input::placeholder, .sc-input::-moz-placeholder {
     font-size: 14px; }
-.smartcharts-light .sc-input::-moz-placeholder, .smartcharts-light .sc-input::-moz-placeholder {
+.smartcharts-light .sc-input::-moz-placeholder {
       color: #999999; }
 .smartcharts-light .sc-input::placeholder, .smartcharts-light .sc-input::-moz-placeholder {
       color: #999999; }
@@ -5720,7 +5744,7 @@ html, body {
     color: #c2c2c2;
     background: #0e0e0e;
     border-top: 1px solid #151717; }
-.sc-chart-footer .ciq-menu {
+.sc-chart-footer .ciq-menu .cq-menu-btn {
     padding: 8px;
     cursor: pointer; }
 .sc-chart-footer .ciq-menu .cq-menu-btn .ic-icon {
@@ -5736,11 +5760,11 @@ html, body {
 .sc-chart-footer .ciq-menu .cq-menu-btn .ic-icon-with-sub {
       line-height: 8px; }
 .sc-chart-footer .ciq-menu .sc-tooltip__inner {
-      display: none; }
+    display: none; }
 .smartcharts-light .sc-chart-footer .ciq-menu:hover {
-      background: #e6e9e9; }
+    background: #e6e9e9; }
 .smartcharts-dark .sc-chart-footer .ciq-menu:hover {
-      background: #242828; }
+    background: #242828; }
 .sc-chart-footer__item {
     padding: 8px;
     font-size: 12px;
@@ -5768,7 +5792,7 @@ html, body {
           border-right: 1px solid #151717;
           border-left: 1px solid #151717; }
 .sc-chart-footer__item .sc-tooltip__inner {
-      top: -35px; }
+      top: 9px; }
 .sc-chart-footer__item .sc-tooltip__inner:before {
       display: none; }
 
