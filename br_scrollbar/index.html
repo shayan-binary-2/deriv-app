@@ -10,25 +10,6 @@
                     applicationId: '34461589-53a5-4f9f-aa85-5d0e994ee1a4',
                 });
         </script>
-        <script>
-            try {
-                performance.mark('started');
-                const observer = new PerformanceObserver(function(list) {
-                    const perfEntries = list.getEntries();
-                    for (let i = 0; i < perfEntries.length; i++) {
-                        const time = Math.round(perfEntries[i].startTime + perfEntries[i].duration);
-                        dataLayer.push({
-                            event: perfEntries[i].name,
-                            duration: time,
-                        });
-                    }
-                });
-                // register observer for paint timing notifications
-                observer.observe({ entryTypes: ['paint'] });
-            } catch (error) {
-                // ignore error to pervent showing on console
-            }
-        </script>
         <!-- Set skeleton theme color properties -->
         <style>
             :root {
@@ -243,7 +224,7 @@
         <meta name="google-site-verification" content="g5u3TyEdmYJ_HKZ6EmpW1nlKwD4XPVeLMhN9leeMfuw" />
         <meta property="og:title" content="Deriv" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/images/common/og_image.gif" />
+        <meta property="og:image" content="" /> <!-- TODO: Use og_image.gif once the new design is ready -->
         <meta name="google" content="notranslate" />
         <meta name="referrer" content="origin" />
 
@@ -254,7 +235,7 @@
         <title>Deriv App | Deriv</title>
         <meta charset="UTF-8" />
         <meta name="google-site-verification" content="g5u3TyEdmYJ_HKZ6EmpW1nlKwD4XPVeLMhN9leeMfuw" />
-    <link href="/br_scrollbar/css/smartcharts.css" rel="stylesheet"><link href="/br_scrollbar/css/bot-web-ui.main.css" rel="stylesheet"><link href="/br_scrollbar/manifest.json" rel="manifest"><link href="/br_scrollbar/public/images/favicons/apple-touch-icon-114.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/apple-touch-icon-120.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/apple-touch-icon-144.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/apple-touch-icon-152.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/apple-touch-icon-180.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/apple-touch-icon-57.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/apple-touch-icon-60.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/apple-touch-icon-72.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/apple-touch-icon-76.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/favicon-16.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/favicon-160.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/favicon-192.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/favicon-32.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/favicon-96.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/favicon.ico" rel="icon"><link href="/br_scrollbar/public/fonts/binary_symbols.woff" rel="preload" as="font" crossorigin="crossorigin"><link href="/br_scrollbar/css/core.main.css" rel="stylesheet"><link as="style" href="/br_scrollbar/css/core.account-signup-modal.02ae598a5c7e9a5308b4.css" rel="preload"><link as="style" href="/br_scrollbar/css/core.account.1704090e69a7c29fa124.css" rel="preload"><link as="style" href="/br_scrollbar/css/core.bot.8b2e4afb9f5c261af94a.css" rel="preload"><link as="style" href="/br_scrollbar/css/core.cashier.6afe2254ee766732dc4c.css" rel="preload"><link as="style" href="/br_scrollbar/css/core.default~account-info~~df90089f.e7197b7b10811a4f0359.css" rel="preload"><link as="style" href="/br_scrollbar/css/core.default~account~accou~f16ea6e8.c9cd57e5d06f58534dc5.css" rel="preload"><link as="style" href="/br_scrollbar/css/core.default~account~cashier.ea71a83f7ae1dd5e5c9f.css" rel="preload"><link as="style" href="/br_scrollbar/css/core.set-residence-modal.772cd2f27830e6789c74.css" rel="preload"><link as="style" href="/br_scrollbar/css/core.trader.9375a7d5c5fd6efb0630.css" rel="preload"></head>
+    <link href="/br_scrollbar/css/smartcharts.css" rel="stylesheet"><link href="/br_scrollbar/css/bot-web-ui.main.css" rel="stylesheet"><link href="/br_scrollbar/manifest.json" rel="manifest"><link href="/br_scrollbar/public/images/favicons/apple-touch-icon-114.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/apple-touch-icon-120.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/apple-touch-icon-144.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/apple-touch-icon-152.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/apple-touch-icon-180.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/apple-touch-icon-57.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/apple-touch-icon-60.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/apple-touch-icon-72.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/apple-touch-icon-76.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/favicon-16.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/favicon-160.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/favicon-192.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/favicon-32.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/favicon-96.png" rel="icon"><link href="/br_scrollbar/public/images/favicons/favicon.ico" rel="icon"><link href="/br_scrollbar/public/fonts/binary_symbols.woff" rel="preload" as="font" crossorigin="crossorigin"><link href="/br_scrollbar/css/core.main.css" rel="stylesheet"><link as="style" href="/br_scrollbar/css/core.account-signup-modal.02ae598a5c7e9a5308b4.css" rel="preload"><link as="style" href="/br_scrollbar/css/core.account.1704090e69a7c29fa124.css" rel="preload"><link as="style" href="/br_scrollbar/css/core.bot.a17f21ed72e35b41bcca.css" rel="preload"><link as="style" href="/br_scrollbar/css/core.cashier.578f76ff2faba5a4f38b.css" rel="preload"><link as="style" href="/br_scrollbar/css/core.default~account-info~~df90089f.6c4a68db37f5c528d5a5.css" rel="preload"><link as="style" href="/br_scrollbar/css/core.default~account~accou~f16ea6e8.c9cd57e5d06f58534dc5.css" rel="preload"><link as="style" href="/br_scrollbar/css/core.default~account~cashier.ea71a83f7ae1dd5e5c9f.css" rel="preload"><link as="style" href="/br_scrollbar/css/core.set-residence-modal.772cd2f27830e6789c74.css" rel="preload"><link as="style" href="/br_scrollbar/css/core.trader.8316ac1f804f80b9b04d.css" rel="preload"></head>
     <body class="body theme">
         <!-- Start GTM NoScript -->
         <noscript
@@ -315,8 +296,5 @@
             </div>
         </div>
         <!-- End Temporary Mobile Landscape UI Blocker -->
-        <script>
-            performance.mark('first-contentful-paint');
-        </script>
-    <script type="text/javascript" src="/br_scrollbar/js/core.vendors~main.1cc58369e2f494a0a918.js"></script><script type="text/javascript" src="/br_scrollbar/js/core.main.057e0930a2f857afddd6.js"></script></body>
+    <script type="text/javascript" src="/br_scrollbar/js/core.vendors~main.24f0ecb3fbebe5dfc38d.js"></script><script type="text/javascript" src="/br_scrollbar/js/core.main.05a8ee74d7bd4581f8b5.js"></script></body>
 </html>
