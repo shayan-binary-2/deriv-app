@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/br_bug-disable-crosshair-in-mobile/precache-manifest.2a64dd026fb4f9fe2600b977e62e67c6.js"
+  "/br_bug-disable-crosshair-in-mobile/precache-manifest.b326ad779051cd6fa8e7633bd4185547.js"
 );
 
 workbox.core.skipWaiting();
