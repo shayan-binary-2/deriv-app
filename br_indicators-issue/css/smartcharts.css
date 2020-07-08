@@ -459,7 +459,7 @@
   overflow-x: hidden;
   position: relative;
   margin-right: 4px;
-  z-index: 999;
+  z-index: 1;
   scrollbar-width: thin; }
 .smartcharts-light .sc-scrollbar {
     scrollbar-color: #d6dadb transparent; }
@@ -785,7 +785,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  z-index: 9999; }
+  z-index: 2; }
 .smartcharts-light .sc-studies__info {
     color: #333333;
     background: #ffffff; }
