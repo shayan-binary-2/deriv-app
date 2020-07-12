@@ -4045,6 +4045,10 @@ html, body {
     position: relative;
     left: 8px;
     top: 8px; }
+.smartcharts-light .stx_jump_today svg {
+      fill: #333333; }
+.smartcharts-dark .stx_jump_today svg {
+      fill: #c2c2c2; }
 /* --------------------------------------------------------- PANEL CONTROL TEMPLATES --------------------------------------------------------- */
 .stx-baseline-handle {
   /* used for dragging the baseline up and down */
