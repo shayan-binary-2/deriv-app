@@ -459,7 +459,7 @@
   overflow-x: hidden;
   position: relative;
   margin-right: 4px;
-  z-index: 999;
+  z-index: 1;
   scrollbar-width: thin; }
 .smartcharts-light .sc-scrollbar {
     scrollbar-color: #d6dadb transparent; }
@@ -776,15 +776,15 @@
   width: 100%; }
 .sc-studies__info {
   width: 360px;
-  position: absolute;
   right: 0px;
+  z-index: 2;
   height: 100%;
-  padding: 16px 24px;
-  box-sizing: border-box;
-  z-index: 1;
   display: flex;
-  flex-direction: column;
+  position: absolute;
+  padding: 16px 24px;
   align-items: center;
+  box-sizing: border-box;
+  flex-direction: column;
   justify-content: space-between; }
 .smartcharts-light .sc-studies__info {
     color: #333333;
