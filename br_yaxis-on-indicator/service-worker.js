@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/br_yaxis-on-indicator/precache-manifest.762de2bae86a25b0ba8fb4289dddb8f9.js"
+  "/br_yaxis-on-indicator/precache-manifest.9f6c3748d46bb7e1759c73f3db48305b.js"
 );
 
 workbox.core.skipWaiting();
