@@ -5278,7 +5278,7 @@ html, body {
   100% {
     opacity: 0; } }
 .barrier-area {
-  padding: 10px 0; }
+  padding: 13px 0; }
 /* Drag Lines and Prices */
 .chart-line {
   position: absolute;
@@ -5323,7 +5323,8 @@ html, body {
 .draggable.chart-line:hover.vertical {
   cursor: ew-resize; }
 /*hover*/
-.hide-pricelines > .chart-line.horizontal {
+.hide-pricelines > .chart-line.horizontal,
+.hide-pricelines > .barrier-area {
   display: none; }
 .drag-price {
   display: block;
