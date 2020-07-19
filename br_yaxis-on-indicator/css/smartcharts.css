@@ -3903,7 +3903,7 @@ html, body {
 .ciq-chart--screenshot .cq-symbol-select-btn .ic-icon,
   .ciq-chart--screenshot .cq-menu-dropdown,
   .ciq-chart--screenshot .sc-toolbar-widget,
-  .ciq-chart--screenshot .ciq-navigation-widget,
+  .ciq-chart--screenshot .sc-navigation-widget,
   .ciq-chart--screenshot .stx_jump_today.home,
   .ciq-chart--screenshot .stx-panel-control .stx-btn-panel {
     /*
@@ -4896,6 +4896,8 @@ html, body {
     left: 90px; }
 .smartcharts .cq-chart-control-left .cq-notifications {
     right: 100px; }
+.smartcharts--navigation-widget .home {
+    display: none !important; }
 .smartcharts--has-markers .stx-subholder {
     z-index: 108 !important; }
 .smartcharts--loading .cq-menu-btn,
