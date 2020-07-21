@@ -2491,7 +2491,7 @@
       pointer-events: auto;
       opacity: 1; }
     .smartcharts-portal .smartcharts .smartcharts-mobile .cq-modal-dropdown.stxMenuActive {
-      z-index: 999; }
+      z-index: 9999; }
     .smartcharts-portal .smartcharts .smartcharts-mobile .cq-menu-dropdown {
       width: 100%;
       height: auto;
@@ -4047,6 +4047,10 @@ html, body {
     position: relative;
     left: 8px;
     top: 8px; }
+.smartcharts-light .stx_jump_today svg {
+      fill: #333333; }
+.smartcharts-dark .stx_jump_today svg {
+      fill: #c2c2c2; }
 /* --------------------------------------------------------- PANEL CONTROL TEMPLATES --------------------------------------------------------- */
 .stx-baseline-handle {
   /* used for dragging the baseline up and down */
@@ -5279,6 +5283,8 @@ html, body {
     opacity: 1; }
   100% {
     opacity: 0; } }
+.barrier-area {
+  padding: 13px 0; }
 /* Drag Lines and Prices */
 .chart-line {
   position: absolute;
@@ -5323,7 +5329,8 @@ html, body {
 .draggable.chart-line:hover.vertical {
   cursor: ew-resize; }
 /*hover*/
-.hide-pricelines > .chart-line.horizontal {
+.hide-pricelines > .chart-line.horizontal,
+.hide-pricelines > .barrier-area {
   display: none; }
 .drag-price {
   display: block;
