@@ -477,18 +477,20 @@
       background: #d6dadb; }
 .smartcharts-dark .sc-scrollbar::-webkit-scrollbar-thumb {
       background: #323738; }
+.sc-scrollbar--freeze {
+    overflow: hidden !important; }
 .sc-scrollbar--auto-hide {
     scrollbar-color: transparent transparent !important; }
 .sc-scrollbar--auto-hide::-webkit-scrollbar-thumb {
       display: none; }
-.sc-scrollbar--freeze {
-    overflow: hidden !important; }
-.smartcharts-light .sc-scrollbar:hover {
-    scrollbar-color: #d6dadb transparent !important; }
-.smartcharts-dark .sc-scrollbar:hover {
-    scrollbar-color: #323738 transparent !important; }
-.sc-scrollbar:hover::-webkit-scrollbar-thumb {
-    display: inherit !important; }
+.sc-scrollbar--auto-hide:hover {
+      background: #ff9900; }
+.smartcharts-light .sc-scrollbar--auto-hide:hover {
+        scrollbar-color: #d6dadb transparent !important; }
+.smartcharts-dark .sc-scrollbar--auto-hide:hover {
+        scrollbar-color: #323738 transparent !important; }
+.sc-scrollbar--auto-hide:hover::-webkit-scrollbar-thumb {
+        display: inherit !important; }
 .smartcharts-mobile .sc-scrollbar--auto-hide::-webkit-scrollbar-thumb {
   display: inherit !important; }
 
