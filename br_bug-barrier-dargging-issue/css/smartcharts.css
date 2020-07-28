@@ -5312,8 +5312,8 @@ html, body {
 .chart-line.horizontal .title-wrapper {
       position: absolute;
       height: 24px;
-      background-image: linear-gradient(transparent 30%, var(--general-main-1) 50%, transparent 75%);
-      /* stylelint-disable-line plugin/no-unsupported-browser-features */
+      background-image: linear-gradient(rgba(255, 255, 255, 0.001) 30%, var(--general-main-1) 50%, rgba(255, 255, 255, 0.001) 75%);
+      /* stylelint-disable-line number-max-precision, plugin/no-unsupported-browser-features */
       top: -11px;
       display: flex;
       align-items: center;
