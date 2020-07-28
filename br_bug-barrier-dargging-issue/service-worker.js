@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/br_bug-barrier-dargging-issue/precache-manifest.322cb39d6d120b293fe8c08d6007dec2.js"
+  "/br_bug-barrier-dargging-issue/precache-manifest.985a3b456888f38909566273b72fa85d.js"
 );
 
 workbox.core.skipWaiting();
