@@ -3164,8 +3164,6 @@
     height: 100%; }
 .smartcharts-mobile .sc-mcd__content__head {
       border-bottom: none; }
-.smartcharts-mobile .sc-mcd__content__body > div {
-      padding-bottom: 20px; }
 .smartcharts-mobile .sc-mcd__category--favorite .sc-mcd__category__content {
     margin: 0 8px 4px; }
 .smartcharts-mobile .sc-mcd__category__content--has-subcategory {
