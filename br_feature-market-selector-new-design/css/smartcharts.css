@@ -2881,6 +2881,8 @@
       height: calc(100% - 56px);
       transform: translateZ(0);
       position: relative; }
+.sc-mcd__content__body_scroll {
+        overflow: auto; }
 .sc-mcd__filter {
     margin: 0px;
     width: 240px;
@@ -3162,10 +3164,8 @@
     height: 100%; }
 .smartcharts-mobile .sc-mcd__content__head {
       border-bottom: none; }
-.smartcharts-mobile .sc-mcd__content__body {
-      overflow: auto; }
 .smartcharts-mobile .sc-mcd__content__body > div {
-        padding-bottom: 20px; }
+      padding-bottom: 20px; }
 .smartcharts-mobile .sc-mcd__category--favorite .sc-mcd__category__content {
     margin: 0 8px 4px; }
 .smartcharts-mobile .sc-mcd__category__content--has-subcategory {
