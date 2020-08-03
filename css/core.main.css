@@ -1614,7 +1614,10 @@
     border-radius: 0px;
     width: 50%;
     background-color: var(--state-normal);
+    /* postcss-bem-linter: ignore */
     /* postcss-bem-linter: ignore */ }
+    .dc-button-menu__button .dc-btn__text {
+      display: contents; }
     .dc-button-menu__button:hover:not(.dc-button-menu__button--active) {
       background-color: var(--state-hover) !important; }
     .dc-button-menu__button span {
@@ -1637,6 +1640,8 @@
         text-align: left;
         line-height: 1.5;
         color: var(--text-prominent); }
+  .dc-button-menu__counter {
+    margin-left: 0.4rem; }
   .dc-button-menu__wrapper {
     position: relative;
     border-radius: 4px;
@@ -4418,7 +4423,8 @@
     height: 100%;
     margin-left: 16px; }
     .dc-drawer__container--mobile {
-      margin-left: unset; }
+      margin-left: unset;
+      height: calc(100% - 3.6rem); }
   .dc-drawer__header {
     border-bottom: 1px solid var(--general-section-1);
     line-height: 40px;
@@ -4462,7 +4468,8 @@
       height: 3.6rem;
       justify-content: center;
       background-color: var(--general-main-1);
-      border-top: solid 2px var(--general-section-1); }
+      border-top: solid 2px var(--general-section-1);
+      cursor: none; }
   .dc-drawer__clear-button {
     position: absolute;
     right: 1.6rem;
@@ -4476,8 +4483,8 @@
   .dc-drawer--mobile {
     left: unset;
     width: 100vw !important;
-    height: calc(100% - 9.6rem) !important;
-    top: calc(100% - 9.7rem) !important;
+    height: calc(100% - 10.1rem) !important;
+    top: calc(100% - 10.2rem) !important;
     z-index: unset; }
 
 /*------------------------------------*
@@ -5790,10 +5797,12 @@
   align-self: flex-end;
   padding: 2rem;
   width: 100%; }
-  .dc-form-submit-button .dc-btn:not(:last-child) {
+  .dc-form-submit-button .dc-btn {
     margin: 0 0.8rem; }
-  .dc-form-submit-button .dc-btn:last-child {
-    margin: 0; }
+    .dc-form-submit-button .dc-btn:first-child {
+      margin-left: 0; }
+    .dc-form-submit-button .dc-btn:last-child {
+      margin: 0; }
   .dc-form-submit-button--absolute {
     bottom: 0;
     position: absolute;
@@ -6995,7 +7004,7 @@
         .dc-modal-header__title {
           font-size: 1.4rem;
           padding: 1.6rem;
-          line-height: 1; } }
+          line-height: 1.2; } }
     .dc-modal-header__section {
       flex-grow: 1;
       padding: 1.6rem;
@@ -7025,13 +7034,15 @@
     @media (min-width: 320px) and (max-width: 767px) {
       .dc-modal-body {
         font-size: 1.2rem;
-        padding: 0.8rem 1.6rem; } }
+        padding: 0.8rem 2.4rem; } }
   .dc-modal-footer {
     display: flex;
     justify-content: flex-end;
     padding: 1.6rem; }
-    .dc-modal-footer .dc-btn:nth-child(2) {
+    .dc-modal-footer :not(.dc-form-submit-button) .dc-btn:nth-child(2) {
       margin-left: 0.8rem; }
+    .dc-modal-footer--separator {
+      border-top: 2px solid var(--general-section-1); }
 
 /*------------------------------------*
  *  # Constants
@@ -14853,6 +14864,109 @@ strong {
   margin-right: 1.6rem;
   margin-left: -19rem; }
 
+/** @define account-deactivated */
+.account-deactivated {
+  padding: 24px 95px;
+  color: var(--text-prominent);
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  line-height: 1.5;
+  max-width: 44rem;
+  font-size: var(--text-size-s); }
+
+/* @define reality-check */
+.reality-check__text {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: var(--text-general); }
+  .reality-check__text:not(:last-child) {
+    margin-bottom: 1.2rem; }
+  .reality-check__text--center {
+    text-align: center; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .reality-check__text--center {
+        text-align: left; } }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .reality-check__text--description {
+      font-size: 1.2rem; } }
+
+.reality-check__separator {
+  width: 100%;
+  height: 1px;
+  background-color: var(--general-section-1);
+  margin: 2.4rem 0; }
+  .reality-check__separator--large {
+    margin: 4rem 0; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .reality-check__separator {
+      margin: 1.6rem 0; } }
+
+.reality-check__fieldset {
+  max-width: 33.5rem;
+  margin: auto;
+  padding-top: 1.2rem; }
+
+.reality-check__column-wrapper {
+  display: flex;
+  flex-direction: row;
+  overflow-y: auto; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .reality-check__column-wrapper {
+      flex-direction: column; } }
+
+.reality-check__column:not(:last-child) {
+  margin-right: 2.4rem; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .reality-check__column:not(:last-child) {
+      margin-right: 0;
+      margin-bottom: 0.8rem; } }
+
+.reality-check__row {
+  width: 25.1rem;
+  height: 4rem;
+  background-color: var(--general-section-1);
+  margin-bottom: 0.1rem;
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.6rem;
+  font-size: 1.4rem; }
+  .reality-check__row:first-child {
+    border-radius: 8px 8px 0 0; }
+  .reality-check__row:last-child {
+    margin-bottom: 0.8rem;
+    border-radius: 0 0 8px 8px; }
+  .reality-check__row :first-child {
+    width: 11.8rem; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .reality-check__row :first-child {
+        width: 16.8rem; } }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .reality-check__row :nth-child(2) {
+      margin-left: auto; } }
+
+.reality-check__button--full-width {
+  width: 100%; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .reality-check__button--full-width {
+      width: 25.1rem;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto; } }
+
+.reality-check__submit {
+  background-color: unset;
+  padding: 0 0.8rem; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .reality-check__submit {
+      padding: 0 0.8rem; } }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .dc-modal-header__title--reality-check {
+    margin: auto;
+    text-align: center;
+    line-height: 1.43; } }
+
 /* @define reset-password */
 .reset-password {
   margin: 1.6rem 1.6rem 0; }
@@ -14885,12 +14999,13 @@ strong {
     .reset-password__btn--disabled {
       opacity: 0.32;
       cursor: not-allowed !important; }
-  .reset-password__fiedlset {
-    position: relative; }
-  .reset-password__residence-field {
-    width: 30rem; }
+  .reset-password__fieldset {
+    position: relative;
+    width: 100%; }
+    @media (min-width: 1024px) {
+      .reset-password__fieldset {
+        max-width: 30rem; } }
   .reset-password__password-field {
-    width: 30rem;
     /* postcss-bem-linter: ignore */ }
     .reset-password__password-field > label {
       background-color: var(--general-main-2); }

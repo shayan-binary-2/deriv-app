@@ -3232,6 +3232,33 @@
     margin-top: 2.4rem;
     margin-bottom: auto; }
 
+/** @define no-results-found; weak */
+.no-results-found {
+  display: flex;
+  flex-direction: column;
+  padding: 2.4rem 0.8rem;
+  justify-content: center;
+  align-content: center;
+  text-align: center; }
+  .no-results-found__title {
+    font-size: var(--text-size-xs);
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 0.8rem;
+    color: var(--text-general); }
+  .no-results-found__subtitle {
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    margin: 0;
+    color: var(--text-less-prominent); }
+
 /** @define .market-is-closed-overlay */
 .market-is-closed-overlay {
   position: absolute;

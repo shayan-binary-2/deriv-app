@@ -481,14 +481,14 @@
     scrollbar-color: transparent transparent !important; }
 .sc-scrollbar--auto-hide::-webkit-scrollbar-thumb {
       display: none; }
-.smartcharts-light .sc-scrollbar--hover {
-    scrollbar-color: #d6dadb transparent !important; }
-.smartcharts-dark .sc-scrollbar--hover {
-    scrollbar-color: #323738 transparent !important; }
-.sc-scrollbar--hover::-webkit-scrollbar-thumb {
-    display: inherit !important; }
 .sc-scrollbar--freeze {
     overflow: hidden !important; }
+.smartcharts-light .sc-scrollbar:hover {
+    scrollbar-color: #d6dadb transparent !important; }
+.smartcharts-dark .sc-scrollbar:hover {
+    scrollbar-color: #323738 transparent !important; }
+.sc-scrollbar:hover::-webkit-scrollbar-thumb {
+    display: inherit !important; }
 .smartcharts-mobile .sc-scrollbar--auto-hide::-webkit-scrollbar-thumb {
   display: inherit !important; }
 
@@ -4900,8 +4900,6 @@ html, body {
     left: 90px; }
 .smartcharts .cq-chart-control-left .cq-notifications {
     right: 100px; }
-.smartcharts--navigation-widget .home {
-    display: none !important; }
 .smartcharts--has-markers .stx-subholder {
     z-index: 108 !important; }
 .smartcharts--loading .cq-menu-btn,
