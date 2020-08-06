@@ -2957,7 +2957,6 @@
 .smartcharts-dark .sc-mcd__category .empty-category {
         background-color: #0e0e0e; }
 .sc-mcd__category:last-child {
-      padding-bottom: 13em;
       margin-bottom: 10px !important;
       border-bottom: none; }
 .sc-mcd__category--has-subtitle {
