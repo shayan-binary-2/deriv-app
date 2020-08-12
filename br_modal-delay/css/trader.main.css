@@ -1884,7 +1884,7 @@
     .positions-drawer-card__grid-items {
       grid-template-columns: 1fr 1fr;
       grid-gap: 0.8rem 0.4rem;
-      padding: 0.8rem 0rem; }
+      padding: 0.8rem 0; }
   .positions-drawer-card__purchase-label, .positions-drawer-card__payout-label, .positions-drawer-card__item-label {
     text-transform: none;
     font-size: 1rem;
@@ -4348,6 +4348,7 @@
       margin-left: auto; }
     .trade-container__fieldset .dc-datepicker .dc-input {
       border: 1px solid var(--fill-normal);
+      background-color: var(--general-main-1);
       margin-bottom: 0; }
       .trade-container__fieldset .dc-datepicker .dc-input__field {
         height: 3.2rem; }
@@ -4388,7 +4389,7 @@
     float: left;
     font-size: 10px;
     height: 32px;
-    left: 32px;
+    left: 48px;
     align-items: center;
     justify-content: center;
     width: 20px;
