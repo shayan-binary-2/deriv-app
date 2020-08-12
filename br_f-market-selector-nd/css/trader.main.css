@@ -1884,7 +1884,7 @@
     .positions-drawer-card__grid-items {
       grid-template-columns: 1fr 1fr;
       grid-gap: 0.8rem 0.4rem;
-      padding: 0.8rem 0rem; }
+      padding: 0.8rem 0; }
   .positions-drawer-card__purchase-label, .positions-drawer-card__payout-label, .positions-drawer-card__item-label {
     text-transform: none;
     font-size: 1rem;

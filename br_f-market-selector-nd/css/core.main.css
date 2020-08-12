@@ -922,7 +922,6 @@
  */
 .dc-autocomplete {
   width: 100%;
-  margin-bottom: 3.2rem;
   position: relative; }
   .dc-autocomplete__trailing-icon {
     position: absolute;
@@ -939,13 +938,9 @@
     .dc-autocomplete__trailing-icon .color1-fill {
       fill: var(--text-less-prominent); }
   .dc-autocomplete .dc-input {
-    margin-bottom: 0;
-    padding-right: 1.625rem; }
+    margin-bottom: 0; }
     .dc-autocomplete .dc-input--error .dc-autocomplete__trailing-icon .color1-fill {
       fill: var(--text-loss-danger); }
-  .dc-autocomplete .dc-input__field {
-    white-space: nowrap;
-    text-overflow: ellipsis; }
   .dc-autocomplete .dc-dropdown-list {
     box-shadow: 0 8px 16px 0 var(--shadow-menu);
     background: var(--general-main-2); }
@@ -2018,7 +2013,7 @@
       cursor: pointer; }
   .dc-calendar__btn {
     text-align: center;
-    padding: 0rem 0.2rem;
+    padding: 0 0.2rem;
     font-weight: bold;
     cursor: pointer;
     border: none;
@@ -4192,6 +4187,7 @@
     line-height: 1.43;
     color: var(--text-general);
     max-width: calc(440px - 4.8rem);
+    width: 100%;
     /* postcss-bem-linter: ignore */ }
     .dc-dialog__content .dc-input__label {
       background-color: var(--general-main-2); }
@@ -4739,7 +4735,7 @@
       justify-content: flex-start;
       left: 8px; }
       .dc-dropdown__display-placeholder--is-left-text.dc-dropdown__display-placeholder--is-title {
-        transform: translate(0rem, -1.7rem) scale(0.75);
+        transform: translate(0, -1.7rem) scale(0.75);
         padding: 0 4px; }
         .dc-dropdown__display-placeholder--is-left-text.dc-dropdown__display-placeholder--is-title .dc-dropdown__display-placeholder-text {
           color: var(--text-general) !important; }
@@ -5628,21 +5624,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 3.2em; }
+    margin-bottom: 3.2rem; }
     .dc-form-progress__header > h2 {
       font-size: var(--text-size-s);
       color: var(--text-prominent);
       font-weight: bold;
       text-transform: none;
-      margin: 3rem 0 0; }
+      margin: 2rem 0 0; }
   .dc-form-progress__step {
     align-items: center;
     display: flex;
     flex-direction: column;
     height: 6rem;
     justify-content: space-around;
-    max-width: 160px;
-    min-width: 120px;
+    width: 160px;
     z-index: 2; }
     .dc-form-progress__step .title {
       font-size: var(--text-size-xxs);
@@ -5689,7 +5684,7 @@
       position: absolute;
       /* positioning must be absolute here, and relative positioning must be applied to the parent */
       right: 0;
-      top: 1.7em;
+      top: 1.7rem;
       border-top: 2px solid var(--text-less-prominent); }
     .dc-form-progress__steps--after {
       border-top: 2px solid var(--brand-red-coral);
@@ -5700,7 +5695,7 @@
       /* this centers the line to the full width specified */
       position: absolute;
       /* positioning must be absolute here, and relative positioning must be applied to the parent */
-      top: 1.7em;
+      top: 1.7rem;
       transition: width 0.3s ease; }
 
 /*------------------------------------*
@@ -5841,7 +5836,11 @@
     .dc-form-submit-button {
       background-color: var(--general-section-2);
       top: unset;
-      bottom: 0; }
+      bottom: -0.4rem;
+      left: 0;
+      position: absolute;
+      padding: 1.6rem;
+      border-top: 2px solid var(--general-disabled); }
       .dc-form-submit-button .dc-btn {
         height: 40px;
         width: 100%; } }
@@ -7124,8 +7123,8 @@
         border-bottom: none; }
     @media (min-width: 1024px) {
       .dc-modal__container {
-        min-width: 400px;
-        max-height: calc(100vh - 48px - 36px); } }
+        min-width: 400px !important;
+        max-height: calc(100vh - 48px - 36px) !important; } }
     @media (min-width: 320px) and (max-width: 767px) {
       .dc-modal__container {
         max-width: calc(100vw - 3.2rem) !important; } }
@@ -11757,7 +11756,7 @@
       position: absolute; }
       .platform-dropdown .platform-dropdown__list {
         position: absolute;
-        top: 0rem;
+        top: 0;
         left: 0;
         width: 295px;
         padding-right: 1.6rem;
@@ -12197,11 +12196,13 @@
     width: 100%; }
   .currency-list__items {
     display: flex;
-    justify-content: space-around; }
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
     @media (min-width: 320px) and (max-width: 767px) {
       .currency-list__items {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        justify-items: center;
         width: 100%; } }
   .currency-list__item {
     align-items: center;
@@ -12256,10 +12257,11 @@
       color: var(--text-general); }
     @media (min-width: 320px) and (max-width: 767px) {
       .currency-list__item {
-        width: unset;
-        height: unset;
         margin: 1.6rem 2rem 0.8rem;
         padding: 0.8rem 0; } }
+  @media only screen and (min-width: 320px) and (max-width: 767px) and (max-width: 340px) {
+    .currency-list__item {
+      width: 120px; } }
   .currency-list__radio-button {
     display: none; }
   .currency-list__popover {
@@ -12269,7 +12271,7 @@
     margin-top: -16px; }
     @media (min-width: 320px) and (max-width: 767px) {
       .currency-list__popover {
-        left: 15vw;
+        right: 0;
         top: -5.8rem; } }
 
 .currency-hr {
@@ -12409,8 +12411,10 @@
           width: calc(100% - 3.2rem);
           overflow: unset;
           margin: 1.6rem auto; } }
+    .details-form__elements .dc-autocomplete {
+      margin-bottom: 3.2rem; }
     .details-form__elements .dc-radio__input {
-      margin-bottom: 2.3rem; }
+      margin-bottom: 2.4rem; }
     .details-form__elements .dc-input__label {
       top: 0.9rem; }
     .details-form__elements .dc-input label {
@@ -12473,15 +12477,19 @@
     font-size: var(--text-size-xxs);
     line-height: 1.8rem;
     margin: 1.6rem auto;
+    width: 40%;
     color: var(--text-general); }
     @media (min-width: 1024px) {
       .details-form__description {
-        width: 40%;
         display: flex;
         flex-direction: column; } }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .details-form__description {
+        width: 70%; } }
     @media (min-width: 320px) and (max-width: 767px) {
       .details-form__description {
         text-align: left;
+        width: unset;
         margin: 0 2.4rem;
         line-height: 20px;
         color: var(--text-less-prominent); } }
@@ -12755,7 +12763,10 @@
         min-width: unset;
         margin: 0 1.6rem; }
       .add-or-manage .change-currency {
-        margin-bottom: 1.6rem; } }
+        margin-bottom: 1.6rem; }
+      .add-or-manage .dc-form-submit-button {
+        position: relative;
+        border: none; } }
 
 .status-dialog {
   display: flex;
@@ -12777,7 +12788,7 @@
     .status-dialog__icon-area .bottom-right-overlay {
       position: absolute;
       bottom: 0;
-      right: 0rem;
+      right: 0;
       width: 3rem;
       height: 3rem; }
     .status-dialog__icon-area svg.inline-icon {
@@ -12849,15 +12860,16 @@
           margin: 0 0.8rem; } }
     @media (min-width: 320px) and (max-width: 767px) {
       .status-dialog__btn-area {
-        height: 88px;
+        height: 74px;
         align-items: center;
-        width: calc(100% - 1.6rem);
-        border-top: 1px solid var(--border-disabled); } }
+        border-top: 2px solid var(--border-disabled);
+        margin: 0; } }
   @media (min-width: 320px) and (max-width: 767px) {
     .status-dialog {
       justify-content: flex-start;
       width: 100%;
-      height: 100%; } }
+      height: 100%;
+      padding: 2rem 0 0; } }
 
 /*------------------------------------*
  *  # Constants
@@ -13074,25 +13086,26 @@
   transition: all 0.3s ease-in-out; }
   @media (min-width: 768px) and (max-width: 1023px) {
     .dc-modal__container_real-account-signup-modal {
-      max-height: calc(100vh - 102px); } }
+      max-height: calc(100vh - 102px) !important; } }
   .dc-modal__container_real-account-signup-modal--success {
     border-radius: 4px;
     overflow: hidden;
     max-width: 478px;
-    min-width: 0;
-    min-width: initial;
-    max-height: none;
-    max-height: initial; }
+    min-width: 0 !important;
+    min-width: initial !important;
+    max-height: none !important;
+    max-height: initial !important; }
   .dc-modal__container_real-account-signup-modal .dc-modal-header__title {
     text-transform: none;
     border-top-left-radius: 1em; }
   .dc-modal__container_real-account-signup-modal--error .account-wizard--error {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;
     height: 100%;
-    width: 100%; }
+    width: 100%;
+    padding-top: 10rem; }
   .dc-modal__container_real-account-signup-modal--error > svg {
     width: 128px;
     height: 128px;
@@ -13136,11 +13149,18 @@
     color: var(--brand-red-coral);
     font-weight: bold;
     text-decoration: none; }
+  .dc-modal__container_real-account-signup-modal--error span.chat-inline {
+    color: var(--brand-red-coral);
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer; }
   .dc-modal__container_real-account-signup-modal--loading {
     width: 300px;
     max-height: 300px; }
     .dc-modal__container_real-account-signup-modal--loading .dc-modal-header__title {
       height: 0; }
+  .dc-modal__container_real-account-signup-modal .dc-themed-scrollbars {
+    height: 100%; }
 
 .dc-modal-header--real-account-signup-modal {
   border-bottom: 1px solid var(--general-section-1); }
@@ -13151,20 +13171,22 @@
   height: 100%;
   position: relative;
   width: 100%; }
-  @media (min-width: 1024px) {
-    .account-wizard {
-      overflow: auto; } }
   @media (min-width: 320px) and (max-width: 767px) {
     .account-wizard {
-      grid-template-rows: 7rem minmax(10rem, 1fr); } }
+      grid-template-rows: 7rem minmax(10rem, 1fr);
+      overflow: hidden; } }
   .account-wizard.add-or-manage {
     grid-template-rows: 1fr 1fr; }
+    .account-wizard.add-or-manage .dc-form-submit-button {
+      padding: 2rem; }
     @media (min-width: 1024px) {
       .account-wizard.add-or-manage form {
         grid-template-rows: auto; } }
     @media (min-width: 320px) and (max-width: 767px) {
       .account-wizard.add-or-manage {
-        grid-template-rows: 1fr 1fr; } }
+        grid-template-rows: 1fr 1fr;
+        overflow-y: auto;
+        overflow-x: hidden; } }
   .account-wizard > h2 {
     text-transform: none;
     margin-top: 2.4rem;
@@ -13223,6 +13245,14 @@
           overflow-y: auto; }
           .account-wizard form .currency-selector__container--no-top-margin {
             margin-top: 0; } }
+    @media not all and (min-resolution: 0.001dpcm) {
+      @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+        @media (min-width: 1024px) {
+          .account-wizard form {
+            max-height: calc(100% - 48px); } }
+        @media (min-width: 768px) and (max-width: 1023px) {
+          .account-wizard form {
+            max-height: calc(100% - 48px); } } } }
     @media (min-width: 1024px) {
       .account-wizard form {
         height: 100%;
@@ -13360,10 +13390,15 @@
   color: var(--text-prominent);
   text-align: center; }
 
+.add-crypto-currency__title,
+.change-currency__title {
+  margin-top: 3rem; }
+
 .add-crypto-currency__sub-title,
 .change-currency__sub-title {
   font-size: var(--text-size-xxs);
-  font-weight: normal; }
+  font-weight: normal;
+  margin-bottom: 1rem; }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .add-crypto-currency form,
@@ -13376,9 +13411,9 @@
 .account-form__header {
   font-size: var(--text-size-xs);
   font-weight: bold;
-  margin-bottom: 1.6em;
+  margin-bottom: 1.6rem;
   position: relative;
-  height: 1.6em;
+  height: 1.6rem;
   white-space: nowrap; }
   .account-form__header-section {
     display: flex;
@@ -14989,6 +15024,9 @@ strong {
   .modal-root:not(:empty) {
     display: flex;
     opacity: 1; }
+  @media (min-width: 1024px) {
+    .modal-root > * {
+      position: absolute; } }
 
 .account-settings-toggle svg {
   height: 20px;
@@ -15336,5 +15374,9 @@ strong {
   .reset-password__password-field {
     /* postcss-bem-linter: ignore */ }
     .reset-password__password-field > label {
+      top: 0.9rem;
       background-color: var(--general-main-2); }
+
+.redirect-notice {
+  z-index: 50000; }
 
