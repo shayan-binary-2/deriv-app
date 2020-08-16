@@ -3993,6 +3993,8 @@ html, body {
       color: #ffffff; }
 .mSticky .mStickyRightClick {
     position: relative; }
+.stx_draw_ok {
+  display: none !important; }
 .vectorTrashCan, .overlayEdit {
   position: absolute;
   z-index: 40; }
