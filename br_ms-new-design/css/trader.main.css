@@ -4348,7 +4348,6 @@
       margin-left: auto; }
     .trade-container__fieldset .dc-datepicker .dc-input {
       border: 1px solid var(--fill-normal);
-      background-color: var(--general-main-1);
       margin-bottom: 0; }
       .trade-container__fieldset .dc-datepicker .dc-input__field {
         height: 3.2rem; }
@@ -4389,7 +4388,7 @@
     float: left;
     font-size: 10px;
     height: 32px;
-    left: 48px;
+    left: 32px;
     align-items: center;
     justify-content: center;
     width: 20px;
