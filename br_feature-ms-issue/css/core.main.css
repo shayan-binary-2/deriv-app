@@ -951,6 +951,10 @@
     margin-bottom: 0; }
     .dc-autocomplete .dc-input--error .dc-autocomplete__trailing-icon .color1-fill {
       fill: var(--text-loss-danger); }
+  .dc-autocomplete .dc-input__field {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: calc(100% - 2rem); }
   .dc-autocomplete .dc-dropdown-list {
     box-shadow: 0 8px 16px 0 var(--shadow-menu);
     background: var(--general-main-2); }
@@ -13274,10 +13278,11 @@
   .dc-modal__container_real-account-signup-modal--error .account-wizard--error {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;
     height: 100%;
-    width: 100%; }
+    width: 100%;
+    padding-top: 10rem; }
   .dc-modal__container_real-account-signup-modal--error > svg {
     width: 128px;
     height: 128px;
@@ -13321,6 +13326,11 @@
     color: var(--brand-red-coral);
     font-weight: bold;
     text-decoration: none; }
+  .dc-modal__container_real-account-signup-modal--error span.chat-inline {
+    color: var(--brand-red-coral);
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer; }
   .dc-modal__container_real-account-signup-modal--loading {
     width: 300px;
     max-height: 300px; }
@@ -13328,6 +13338,17 @@
       height: 0; }
   .dc-modal__container_real-account-signup-modal .dc-themed-scrollbars {
     height: 100%; }
+
+.dc-mobile-dialog__account-signup-mobile-dialog .account-wizard--error p {
+  text-align: center; }
+
+.dc-mobile-dialog__account-signup-mobile-dialog .account-wizard--error span.chat-inline {
+  color: var(--brand-red-coral);
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  text-align: center; }
 
 .dc-modal-header--real-account-signup-modal {
   border-bottom: 1px solid var(--general-section-1); }
@@ -13515,7 +13536,8 @@
         font-size: 2.4rem;
         text-align: center;
         font-weight: bold;
-        line-height: 1.5; }
+        line-height: 1.5;
+        color: var(--text-prominent); }
       .account-wizard--error p {
         font-size: 1.4rem;
         margin: 1.6rem;
