@@ -1,26 +1,26 @@
 {
-  "name": "SmartCharts | Binary.com",
-  "short_name": "SmartCharts",
-  "icons": [{
-    "src": "./dist/sass/favicons/apple-touch-icon-57x57.png",
-      "sizes": "57x57",
-      "type": "image/png"
-    },{
-      "src": "./dist/sass/favicons/favicon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    }, {
-      "src": "./dist/sass/favicons/apple-touch-icon-114x114.png",
-      "sizes": "114x114",
-      "type": "image/png"
-    }, {
-      "src": "./dist/sass/favicons/apple-touch-icon-114x114.png",
-      "sizes": "512x512",
-      "type": "image/png"
+  "name": "Deriv",
+  "short_name": "Deriv",
+  "description":"Deriv gives everyone an easy way to participate in the financial markets.",
+  "start_url": "/sample-v4/?utm_source=pwa",
+  "display": "standalone",
+  "orientation": "portrait",
+
+  "icons": [
+    {
+      "src": "/sample-v4/public/images/common/logos/platform_logos/ic_platform_deriv_192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/sample-v4/public/images/common/logos/platform_logos/ic_platform_deriv_512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
-  "start_url": "./index.html",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#2a3052"
+  "background_color": "#2a3052",
+  "theme_color": "#2a3052",
+  "prefer_related_applications": false,
+  "gcm_user_visible_only": true,
+  "gcm_sender_id": "516413512615"
 }
