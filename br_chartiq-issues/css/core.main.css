@@ -4170,8 +4170,6 @@
     .dc-dialog__wrapper--enter-done {
       transform: translate3d(0, 0, 0);
       opacity: 1; }
-    .dc-dialog__wrapper--fixed {
-      position: fixed; }
   .dc-dialog__dialog {
     max-width: 560px;
     max-height: 320px;
@@ -4198,12 +4196,6 @@
     margin-bottom: 2.4rem;
     line-height: 1.5;
     color: var(--text-prominent); }
-    .dc-dialog__header-wrapper {
-      width: 100%;
-      display: flex;
-      justify-content: space-between; }
-    .dc-dialog__header--close {
-      cursor: pointer; }
   .dc-dialog__content {
     align-self: flex-start;
     font-size: 1.4rem;
