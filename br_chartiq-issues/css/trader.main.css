@@ -1242,7 +1242,7 @@
           .trade-container__replay .replay-chart__container .smartcharts-mobile .stx-holder.stx-panel-chart {
             z-index: 14; }
             .trade-container__replay .replay-chart__container .smartcharts-mobile .stx-holder.stx-panel-chart .cq-inchart-holder {
-              z-index: 109;
+              z-index: 107;
               position: relative; }
       @media (min-width: 320px) and (max-width: 767px) {
         .trade-container__replay .replay-chart__container {

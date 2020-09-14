@@ -537,6 +537,11 @@
       opacity: 0;
       -ms-transition: opacity 0.25s;
       transition: opacity 0.25s; }
+    .dc-input__field::-ms-input-placeholder {
+      line-height: 1.5;
+      opacity: 0;
+      -ms-transition: opacity 0.25s;
+      transition: opacity 0.25s; }
     .dc-input__field::placeholder {
       line-height: 1.5;
       opacity: 0;
@@ -544,6 +549,8 @@
     .dc-input__field--placeholder-visible::-moz-placeholder {
       opacity: 0.2; }
     .dc-input__field--placeholder-visible:-ms-input-placeholder {
+      opacity: 0.2; }
+    .dc-input__field--placeholder-visible::-ms-input-placeholder {
       opacity: 0.2; }
     .dc-input__field--placeholder-visible::placeholder {
       opacity: 0.2; }
@@ -571,6 +578,8 @@
       .dc-input__field:focus::-moz-placeholder {
         opacity: 0.4; }
       .dc-input__field:focus:-ms-input-placeholder {
+        opacity: 0.4; }
+      .dc-input__field:focus::-ms-input-placeholder {
         opacity: 0.4; }
       .dc-input__field:focus::placeholder {
         opacity: 0.4; }
