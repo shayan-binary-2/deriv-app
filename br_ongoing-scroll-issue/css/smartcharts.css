@@ -481,6 +481,8 @@
       background: #d6dadb; }
 .smartcharts-dark .sc-scrollbar::-webkit-scrollbar-thumb {
       background: #323738; }
+.sc-scrollbar::-webkit-scrollbar-button, .sc-scrollbar::-webkit-scrollbar-corner {
+    display: none; }
 .sc-scrollbar--auto-hide {
     scrollbar-color: transparent transparent !important; }
 .sc-scrollbar--auto-hide::-webkit-scrollbar-thumb {
