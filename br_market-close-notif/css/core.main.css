@@ -602,6 +602,8 @@
       -webkit-text-fill-color: var(--text-prominent) !important; }
       .dc-input__field:-webkit-autofill:hover, .dc-input__field:-webkit-autofill:focus, .dc-input__field:-webkit-autofill:active {
         -webkit-box-shadow: 0 0 0 30px var(--fill-normal) inset !important; }
+    .dc-input__field::-ms-reveal {
+      display: none; }
   .dc-input__textarea:not(.dc-input--no-placeholder):not(:focus):empty ~ label {
     transform: none;
     color: var(--text-less-prominent);
@@ -953,8 +955,7 @@
       fill: var(--text-loss-danger); }
   .dc-autocomplete .dc-input__field {
     white-space: nowrap;
-    text-overflow: ellipsis;
-    max-width: calc(100% - 2rem); }
+    text-overflow: ellipsis; }
   .dc-autocomplete .dc-dropdown-list {
     box-shadow: 0 8px 16px 0 var(--shadow-menu);
     background: var(--general-main-2); }
@@ -1867,6 +1868,9 @@
   .dc-popover__bubble--error {
     background-color: var(--status-danger); }
 
+.react-tiny-popover-container--disabled-pointer-event {
+  pointer-events: none; }
+
 /*------------------------------------*
  *  # Constants
  *------------------------------------*/
@@ -2518,11 +2522,15 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: solid 1px var(--border-normal);
-    padding: 12px 4px; }
+    padding: 12px; }
     .dc-checklist__item-text {
       max-width: 80%;
+      font-size: 1.4rem;
       color: var(--text-general);
-      font-size: var(--text-size-xs); }
+      font-weight: 400;
+      text-transform: none;
+      text-align: left;
+      line-height: 1.5; }
     .dc-checklist__item-status {
       display: flex;
       justify-content: center;
@@ -3281,6 +3289,2263 @@
 /**
  * Define Breakpoints here.
  */
+/** @define dc-progress-slider */
+.dc-progress-slider {
+  position: relative;
+  width: 100%;
+  padding: unset;
+  box-sizing: border-box;
+  margin: 8px 0;
+  border-bottom: 1px solid var(--general-section-1); }
+  .dc-progress-slider__remaining-time {
+    font-size: 1em;
+    color: var(--text-general); }
+  .dc-progress-slider--completed {
+    border-bottom: 1px solid var(--general-section-1);
+    margin: 0.4rem 0 0.8rem; }
+  .dc-progress-slider__track {
+    background: var(--text-disabled);
+    position: relative;
+    margin: 2px 0 8px;
+    height: 6px;
+    width: 100%;
+    border-radius: 8px; }
+  .dc-progress-slider__ticks {
+    position: relative; }
+    .dc-progress-slider__ticks-wrapper {
+      position: relative;
+      margin: 2px 0 8px;
+      height: 6px;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly; }
+    .dc-progress-slider__ticks-step {
+      height: 6px;
+      width: 100%;
+      margin: 0 2px;
+      position: relative;
+      background: var(--state-hover); }
+      .dc-progress-slider__ticks-step:before {
+        position: absolute;
+        content: '';
+        transition: transform 0.25s ease-in;
+        transform: scale3d(0, 1, 1);
+        transform-origin: left;
+        left: 0;
+        top: 0;
+        height: 6px;
+        width: 100%;
+        background-color: var(--brand-secondary); }
+      .dc-progress-slider__ticks-step--marked:before {
+        transform: scale3d(1, 1, 1); }
+      .dc-progress-slider__ticks-step:first-child {
+        margin-left: 0; }
+      .dc-progress-slider__ticks-step:last-child {
+        margin-right: 0; }
+      .dc-progress-slider__ticks-step:first-child, .dc-progress-slider__ticks-step:first-child:before {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px; }
+      .dc-progress-slider__ticks-step:last-child, .dc-progress-slider__ticks-step:last-child:before {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px; }
+    .dc-progress-slider__ticks-caption {
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.2em;
+      line-height: 18px; }
+  .dc-progress-slider__line {
+    background: var(--state-hover);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 8px;
+    pointer-events: none;
+    transition: width 0.3s; }
+    .dc-progress-slider__line--ticks {
+      height: 2px; }
+    .dc-progress-slider__line--green {
+      background: var(--status-success) !important; }
+    .dc-progress-slider__line--yellow {
+      background: var(--status-warning) !important; }
+    .dc-progress-slider__line--red {
+      background: var(--status-danger) !important; }
+  .dc-progress-slider__infinite-loader {
+    position: relative;
+    height: 4px;
+    display: block;
+    width: 100%;
+    background-color: var(--state-hover);
+    border-radius: 2px;
+    background-clip: padding-box;
+    margin: 0.5rem 0 1rem;
+    overflow: hidden; }
+    .dc-progress-slider__infinite-loader--indeterminate {
+      background-color: var(--state-active); }
+      .dc-progress-slider__infinite-loader--indeterminate:before, .dc-progress-slider__infinite-loader--indeterminate:after {
+        content: '';
+        position: absolute;
+        background-color: inherit;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        will-change: left, right; }
+      .dc-progress-slider__infinite-loader--indeterminate:before {
+        -webkit-animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+                animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite; }
+      .dc-progress-slider__infinite-loader--indeterminate:after {
+        -webkit-animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+                animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+        -webkit-animation-delay: 1.15s;
+                animation-delay: 1.15s; }
+
+@-webkit-keyframes indeterminate {
+  0% {
+    left: -35%;
+    right: 100%; }
+  60% {
+    left: 100%;
+    right: -90%; }
+  100% {
+    left: 100%;
+    right: -90%; } }
+
+@keyframes indeterminate {
+  0% {
+    left: -35%;
+    right: 100%; }
+  60% {
+    left: 100%;
+    right: -90%; }
+  100% {
+    left: 100%;
+    right: -90%; } }
+
+@-webkit-keyframes indeterminate-short {
+  0% {
+    left: -200%;
+    right: 100%; }
+  60% {
+    left: 107%;
+    right: -8%; }
+  100% {
+    left: 107%;
+    right: -8%; } }
+
+@keyframes indeterminate-short {
+  0% {
+    left: -200%;
+    right: 100%; }
+  60% {
+    left: 107%;
+    right: -8%; }
+  100% {
+    left: 107%;
+    right: -8%; } }
+
+/*------------------------------------*
+ *  # Constants
+ *------------------------------------*/
+/* stylelint-disable color-no-hex */
+/* COLOR PALETTE */
+/* colors */
+/* alpha colors */
+/* gradient colors */
+/* Preserve legacy variables */
+/* Primary */
+/* stylelint-enable color-no-hex */
+/*------------------------------------*
+ *  # SASS Mixins and Functions
+ *------------------------------------*/
+/*
+ * SASS interpolation
+ */
+/*
+ * PX to EM
+ * @param $px - px value to be converted
+ * @param $base - base font size (in `em`)
+ * Note: 'em' values are calculate based on the element font-size
+ *       to properly converts 'px' to 'em', please pass in the element font-size with it
+ * Usage example:
+    padding: em(16px, 1.6em); // font-size in 'em'
+ */
+/*
+ * Set property by passing a property name, and values.
+ * @param $property name - padding, margin etc.
+ * @param $values        - values in `px` (space separated for multiple values)
+ * @param $font-size     - base font-size in `em`
+ * Usage example:
+   @include toEm(padding, 8px 16px 8px, 1.6em);
+ */
+/*
+ * Generate typefaces key-value pair of variable name and config
+ * Example:
+   --paragraph-center-bold-black: (14px, center, bold, black)
+ */
+/*
+ * Sets font-size, font-weight, color, text-transform, text-align and line-height
+ * Usage example:
+   @include setTypeface(16px, bold, black, uppercase);
+ */
+/*
+ * Set typefaces by passing a typeface variable name
+ * @param $var   - typeface variable
+ * @param $tt    - text-transform property
+ * @param $align - text-align property
+ * Usage example:
+   @include typeface(--paragraph-bold-black, uppercase, center);
+ */
+/*
+ * Range Slider Thumb styling is set here
+ */
+/*
+ * SVG icons colors
+ */
+/*
+ * Bar Spinner Animation
+ * @param $count    - number of bars
+ * @param $duration - duration of animation
+ * @param $phase    - each bar phase change delay
+ * Usage example:
+   @include createBarspinnerAnimation(5, 1.2s, 0,1);
+ */
+/*
+ * Tooltip colors
+ * @param $color - color property
+ * Usage example:
+   @include tooltipColor($COLOR_RED);
+ */
+/*
+ * Convert Tooltip colors
+ * @param $color - css color property
+ * Usage example:
+   @include convertTooltipColor(var(--status-default));
+ */
+/*
+    Constants
+*/
+/*
+    Variables
+*/
+/*
+    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
+    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
+    Variables name example: --title-center-semibold-red
+ */
+/*
+    to use styles without modifier class on .inline-icon
+    use @extend
+
+    e.g. style icon on parent hover:
+        a:hover .inline-icon {
+            @extend %inline-icon.active;
+        }
+*/
+/**
+ * Define Breakpoints here.
+ */
+
+/*------------------------------------*
+ *  # Constants
+ *------------------------------------*/
+/* stylelint-disable color-no-hex */
+/* COLOR PALETTE */
+/* colors */
+/* alpha colors */
+/* gradient colors */
+/* Preserve legacy variables */
+/* Primary */
+/* stylelint-enable color-no-hex */
+/*------------------------------------*
+ *  # SASS Mixins and Functions
+ *------------------------------------*/
+/*
+ * SASS interpolation
+ */
+/*
+ * PX to EM
+ * @param $px - px value to be converted
+ * @param $base - base font size (in `em`)
+ * Note: 'em' values are calculate based on the element font-size
+ *       to properly converts 'px' to 'em', please pass in the element font-size with it
+ * Usage example:
+    padding: em(16px, 1.6em); // font-size in 'em'
+ */
+/*
+ * Set property by passing a property name, and values.
+ * @param $property name - padding, margin etc.
+ * @param $values        - values in `px` (space separated for multiple values)
+ * @param $font-size     - base font-size in `em`
+ * Usage example:
+   @include toEm(padding, 8px 16px 8px, 1.6em);
+ */
+/*
+ * Generate typefaces key-value pair of variable name and config
+ * Example:
+   --paragraph-center-bold-black: (14px, center, bold, black)
+ */
+/*
+ * Sets font-size, font-weight, color, text-transform, text-align and line-height
+ * Usage example:
+   @include setTypeface(16px, bold, black, uppercase);
+ */
+/*
+ * Set typefaces by passing a typeface variable name
+ * @param $var   - typeface variable
+ * @param $tt    - text-transform property
+ * @param $align - text-align property
+ * Usage example:
+   @include typeface(--paragraph-bold-black, uppercase, center);
+ */
+/*
+ * Range Slider Thumb styling is set here
+ */
+/*
+ * SVG icons colors
+ */
+/*
+ * Bar Spinner Animation
+ * @param $count    - number of bars
+ * @param $duration - duration of animation
+ * @param $phase    - each bar phase change delay
+ * Usage example:
+   @include createBarspinnerAnimation(5, 1.2s, 0,1);
+ */
+/*
+ * Tooltip colors
+ * @param $color - color property
+ * Usage example:
+   @include tooltipColor($COLOR_RED);
+ */
+/*
+ * Convert Tooltip colors
+ * @param $color - css color property
+ * Usage example:
+   @include convertTooltipColor(var(--status-default));
+ */
+/*
+    Constants
+*/
+/*
+    Variables
+*/
+/*
+    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
+    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
+    Variables name example: --title-center-semibold-red
+ */
+/*
+    to use styles without modifier class on .inline-icon
+    use @extend
+
+    e.g. style icon on parent hover:
+        a:hover .inline-icon {
+            @extend %inline-icon.active;
+        }
+*/
+/**
+ * Define Breakpoints here.
+ */
+
+/*------------------------------------*
+ *  # Constants
+ *------------------------------------*/
+/* stylelint-disable color-no-hex */
+/* COLOR PALETTE */
+/* colors */
+/* alpha colors */
+/* gradient colors */
+/* Preserve legacy variables */
+/* Primary */
+/* stylelint-enable color-no-hex */
+/*------------------------------------*
+ *  # SASS Mixins and Functions
+ *------------------------------------*/
+/*
+ * SASS interpolation
+ */
+/*
+ * PX to EM
+ * @param $px - px value to be converted
+ * @param $base - base font size (in `em`)
+ * Note: 'em' values are calculate based on the element font-size
+ *       to properly converts 'px' to 'em', please pass in the element font-size with it
+ * Usage example:
+    padding: em(16px, 1.6em); // font-size in 'em'
+ */
+/*
+ * Set property by passing a property name, and values.
+ * @param $property name - padding, margin etc.
+ * @param $values        - values in `px` (space separated for multiple values)
+ * @param $font-size     - base font-size in `em`
+ * Usage example:
+   @include toEm(padding, 8px 16px 8px, 1.6em);
+ */
+/*
+ * Generate typefaces key-value pair of variable name and config
+ * Example:
+   --paragraph-center-bold-black: (14px, center, bold, black)
+ */
+/*
+ * Sets font-size, font-weight, color, text-transform, text-align and line-height
+ * Usage example:
+   @include setTypeface(16px, bold, black, uppercase);
+ */
+/*
+ * Set typefaces by passing a typeface variable name
+ * @param $var   - typeface variable
+ * @param $tt    - text-transform property
+ * @param $align - text-align property
+ * Usage example:
+   @include typeface(--paragraph-bold-black, uppercase, center);
+ */
+/*
+ * Range Slider Thumb styling is set here
+ */
+/*
+ * SVG icons colors
+ */
+/*
+ * Bar Spinner Animation
+ * @param $count    - number of bars
+ * @param $duration - duration of animation
+ * @param $phase    - each bar phase change delay
+ * Usage example:
+   @include createBarspinnerAnimation(5, 1.2s, 0,1);
+ */
+/*
+ * Tooltip colors
+ * @param $color - color property
+ * Usage example:
+   @include tooltipColor($COLOR_RED);
+ */
+/*
+ * Convert Tooltip colors
+ * @param $color - css color property
+ * Usage example:
+   @include convertTooltipColor(var(--status-default));
+ */
+/*
+    Constants
+*/
+/*
+    Variables
+*/
+/*
+    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
+    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
+    Variables name example: --title-center-semibold-red
+ */
+/*
+    to use styles without modifier class on .inline-icon
+    use @extend
+
+    e.g. style icon on parent hover:
+        a:hover .inline-icon {
+            @extend %inline-icon.active;
+        }
+*/
+/**
+ * Define Breakpoints here.
+ */
+
+/*------------------------------------*
+ *  # Constants
+ *------------------------------------*/
+/* stylelint-disable color-no-hex */
+/* COLOR PALETTE */
+/* colors */
+/* alpha colors */
+/* gradient colors */
+/* Preserve legacy variables */
+/* Primary */
+/* stylelint-enable color-no-hex */
+/*------------------------------------*
+ *  # SASS Mixins and Functions
+ *------------------------------------*/
+/*
+ * SASS interpolation
+ */
+/*
+ * PX to EM
+ * @param $px - px value to be converted
+ * @param $base - base font size (in `em`)
+ * Note: 'em' values are calculate based on the element font-size
+ *       to properly converts 'px' to 'em', please pass in the element font-size with it
+ * Usage example:
+    padding: em(16px, 1.6em); // font-size in 'em'
+ */
+/*
+ * Set property by passing a property name, and values.
+ * @param $property name - padding, margin etc.
+ * @param $values        - values in `px` (space separated for multiple values)
+ * @param $font-size     - base font-size in `em`
+ * Usage example:
+   @include toEm(padding, 8px 16px 8px, 1.6em);
+ */
+/*
+ * Generate typefaces key-value pair of variable name and config
+ * Example:
+   --paragraph-center-bold-black: (14px, center, bold, black)
+ */
+/*
+ * Sets font-size, font-weight, color, text-transform, text-align and line-height
+ * Usage example:
+   @include setTypeface(16px, bold, black, uppercase);
+ */
+/*
+ * Set typefaces by passing a typeface variable name
+ * @param $var   - typeface variable
+ * @param $tt    - text-transform property
+ * @param $align - text-align property
+ * Usage example:
+   @include typeface(--paragraph-bold-black, uppercase, center);
+ */
+/*
+ * Range Slider Thumb styling is set here
+ */
+/*
+ * SVG icons colors
+ */
+/*
+ * Bar Spinner Animation
+ * @param $count    - number of bars
+ * @param $duration - duration of animation
+ * @param $phase    - each bar phase change delay
+ * Usage example:
+   @include createBarspinnerAnimation(5, 1.2s, 0,1);
+ */
+/*
+ * Tooltip colors
+ * @param $color - color property
+ * Usage example:
+   @include tooltipColor($COLOR_RED);
+ */
+/*
+ * Convert Tooltip colors
+ * @param $color - css color property
+ * Usage example:
+   @include convertTooltipColor(var(--status-default));
+ */
+/*
+    Constants
+*/
+/*
+    Variables
+*/
+/*
+    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
+    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
+    Variables name example: --title-center-semibold-red
+ */
+/*
+    to use styles without modifier class on .inline-icon
+    use @extend
+
+    e.g. style icon on parent hover:
+        a:hover .inline-icon {
+            @extend %inline-icon.active;
+        }
+*/
+/**
+ * Define Breakpoints here.
+ */
+.dc-tick-progress {
+  display: grid;
+  grid-gap: 0.8rem; }
+  .dc-tick-progress__tick {
+    border-radius: 50%;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: var(--fill-disabled); }
+    .dc-tick-progress__tick--on {
+      background-color: var(--brand-secondary); }
+
+/*------------------------------------*
+ *  # Constants
+ *------------------------------------*/
+/* stylelint-disable color-no-hex */
+/* COLOR PALETTE */
+/* colors */
+/* alpha colors */
+/* gradient colors */
+/* Preserve legacy variables */
+/* Primary */
+/* stylelint-enable color-no-hex */
+/*------------------------------------*
+ *  # SASS Mixins and Functions
+ *------------------------------------*/
+/*
+ * SASS interpolation
+ */
+/*
+ * PX to EM
+ * @param $px - px value to be converted
+ * @param $base - base font size (in `em`)
+ * Note: 'em' values are calculate based on the element font-size
+ *       to properly converts 'px' to 'em', please pass in the element font-size with it
+ * Usage example:
+    padding: em(16px, 1.6em); // font-size in 'em'
+ */
+/*
+ * Set property by passing a property name, and values.
+ * @param $property name - padding, margin etc.
+ * @param $values        - values in `px` (space separated for multiple values)
+ * @param $font-size     - base font-size in `em`
+ * Usage example:
+   @include toEm(padding, 8px 16px 8px, 1.6em);
+ */
+/*
+ * Generate typefaces key-value pair of variable name and config
+ * Example:
+   --paragraph-center-bold-black: (14px, center, bold, black)
+ */
+/*
+ * Sets font-size, font-weight, color, text-transform, text-align and line-height
+ * Usage example:
+   @include setTypeface(16px, bold, black, uppercase);
+ */
+/*
+ * Set typefaces by passing a typeface variable name
+ * @param $var   - typeface variable
+ * @param $tt    - text-transform property
+ * @param $align - text-align property
+ * Usage example:
+   @include typeface(--paragraph-bold-black, uppercase, center);
+ */
+/*
+ * Range Slider Thumb styling is set here
+ */
+/*
+ * SVG icons colors
+ */
+/*
+ * Bar Spinner Animation
+ * @param $count    - number of bars
+ * @param $duration - duration of animation
+ * @param $phase    - each bar phase change delay
+ * Usage example:
+   @include createBarspinnerAnimation(5, 1.2s, 0,1);
+ */
+/*
+ * Tooltip colors
+ * @param $color - color property
+ * Usage example:
+   @include tooltipColor($COLOR_RED);
+ */
+/*
+ * Convert Tooltip colors
+ * @param $color - css color property
+ * Usage example:
+   @include convertTooltipColor(var(--status-default));
+ */
+/*
+    Constants
+*/
+/*
+    Variables
+*/
+/*
+    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
+    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
+    Variables name example: --title-center-semibold-red
+ */
+/*
+    to use styles without modifier class on .inline-icon
+    use @extend
+
+    e.g. style icon on parent hover:
+        a:hover .inline-icon {
+            @extend %inline-icon.active;
+        }
+*/
+/**
+ * Define Breakpoints here.
+ */
+.dc-progress-slider-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .dc-progress-slider-mobile__remaining-time {
+    font-size: 1.2em;
+    color: var(--text-general); }
+  .dc-progress-slider-mobile__timer {
+    margin: 0.2rem auto; }
+  .dc-progress-slider-mobile__infinite-loader {
+    position: relative;
+    height: 4px;
+    display: block;
+    width: 100%;
+    background-color: var(--state-hover);
+    border-radius: 2px;
+    background-clip: padding-box;
+    margin: 0.5rem 0 1rem;
+    overflow: hidden; }
+    .dc-progress-slider-mobile__infinite-loader--indeterminate {
+      background-color: var(--state-active); }
+      .dc-progress-slider-mobile__infinite-loader--indeterminate:before, .dc-progress-slider-mobile__infinite-loader--indeterminate:after {
+        content: '';
+        position: absolute;
+        background-color: inherit;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        will-change: left, right; }
+      .dc-progress-slider-mobile__infinite-loader--indeterminate:before {
+        -webkit-animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+                animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite; }
+      .dc-progress-slider-mobile__infinite-loader--indeterminate:after {
+        -webkit-animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+                animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+        -webkit-animation-delay: 1.15s;
+                animation-delay: 1.15s; }
+
+@-webkit-keyframes indeterminate {
+  0% {
+    left: -35%;
+    right: 100%; }
+  60% {
+    left: 100%;
+    right: -90%; }
+  100% {
+    left: 100%;
+    right: -90%; } }
+
+@keyframes indeterminate {
+  0% {
+    left: -35%;
+    right: 100%; }
+  60% {
+    left: 100%;
+    right: -90%; }
+  100% {
+    left: 100%;
+    right: -90%; } }
+
+@-webkit-keyframes indeterminate-short {
+  0% {
+    left: -200%;
+    right: 100%; }
+  60% {
+    left: 107%;
+    right: -8%; }
+  100% {
+    left: 107%;
+    right: -8%; } }
+
+@keyframes indeterminate-short {
+  0% {
+    left: -200%;
+    right: 100%; }
+  60% {
+    left: 107%;
+    right: -8%; }
+  100% {
+    left: 107%;
+    right: -8%; } }
+
+/*------------------------------------*
+ *  # Constants
+ *------------------------------------*/
+/* stylelint-disable color-no-hex */
+/* COLOR PALETTE */
+/* colors */
+/* alpha colors */
+/* gradient colors */
+/* Preserve legacy variables */
+/* Primary */
+/* stylelint-enable color-no-hex */
+/*------------------------------------*
+ *  # SASS Mixins and Functions
+ *------------------------------------*/
+/*
+ * SASS interpolation
+ */
+/*
+ * PX to EM
+ * @param $px - px value to be converted
+ * @param $base - base font size (in `em`)
+ * Note: 'em' values are calculate based on the element font-size
+ *       to properly converts 'px' to 'em', please pass in the element font-size with it
+ * Usage example:
+    padding: em(16px, 1.6em); // font-size in 'em'
+ */
+/*
+ * Set property by passing a property name, and values.
+ * @param $property name - padding, margin etc.
+ * @param $values        - values in `px` (space separated for multiple values)
+ * @param $font-size     - base font-size in `em`
+ * Usage example:
+   @include toEm(padding, 8px 16px 8px, 1.6em);
+ */
+/*
+ * Generate typefaces key-value pair of variable name and config
+ * Example:
+   --paragraph-center-bold-black: (14px, center, bold, black)
+ */
+/*
+ * Sets font-size, font-weight, color, text-transform, text-align and line-height
+ * Usage example:
+   @include setTypeface(16px, bold, black, uppercase);
+ */
+/*
+ * Set typefaces by passing a typeface variable name
+ * @param $var   - typeface variable
+ * @param $tt    - text-transform property
+ * @param $align - text-align property
+ * Usage example:
+   @include typeface(--paragraph-bold-black, uppercase, center);
+ */
+/*
+ * Range Slider Thumb styling is set here
+ */
+/*
+ * SVG icons colors
+ */
+/*
+ * Bar Spinner Animation
+ * @param $count    - number of bars
+ * @param $duration - duration of animation
+ * @param $phase    - each bar phase change delay
+ * Usage example:
+   @include createBarspinnerAnimation(5, 1.2s, 0,1);
+ */
+/*
+ * Tooltip colors
+ * @param $color - color property
+ * Usage example:
+   @include tooltipColor($COLOR_RED);
+ */
+/*
+ * Convert Tooltip colors
+ * @param $color - css color property
+ * Usage example:
+   @include convertTooltipColor(var(--status-default));
+ */
+/*
+    Constants
+*/
+/*
+    Variables
+*/
+/*
+    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
+    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
+    Variables name example: --title-center-semibold-red
+ */
+/*
+    to use styles without modifier class on .inline-icon
+    use @extend
+
+    e.g. style icon on parent hover:
+        a:hover .inline-icon {
+            @extend %inline-icon.active;
+        }
+*/
+/**
+ * Define Breakpoints here.
+ */
+/** @define dc-contract-card-dialog; weak */
+.dc-contract-card-dialog {
+  position: fixed;
+  display: grid;
+  background: var(--general-main-2);
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 2px var(--shadow-menu);
+  transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1), opacity 0.25s linear;
+  padding: 0.8rem;
+  width: 240px;
+  z-index: 99; }
+  .dc-contract-card-dialog--enter-done {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); }
+  .dc-contract-card-dialog--enter, .dc-contract-card-dialog--exit {
+    opacity: 0;
+    transform: translate3d(-20px, 0, 0); }
+  .dc-contract-card-dialog__input .dc-input-wrapper__input {
+    border: 1px solid var(--border-normal); }
+  .dc-contract-card-dialog__button {
+    margin-top: 0.8rem; }
+    .dc-contract-card-dialog__button .dc-btn {
+      width: 100%; }
+  .dc-contract-card-dialog__form {
+    display: grid;
+    flex: 1; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .dc-contract-card-dialog__form {
+        grid-template-rows: auto auto 1fr;
+        grid-gap: 1.6rem;
+        margin: 1.6rem; } }
+    @media (min-width: 1024px) {
+      .dc-contract-card-dialog__form {
+        grid-gap: 0.8rem; } }
+    .dc-contract-card-dialog__form .dc-checkbox__box {
+      margin-left: 0; }
+  .dc-contract-card-dialog__total-profit {
+    height: 5.2rem;
+    padding: 1.6rem;
+    background: var(--general-section-2);
+    color: var(--text-general);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.4rem; }
+
+/** @define dc-contract-card-dialog-toggle; */
+.dc-contract-card-dialog-toggle {
+  position: absolute;
+  width: 108px;
+  height: 80px;
+  right: 4px;
+  top: 96px;
+  border: 1px solid var(--general-section-1);
+  border-radius: 4px; }
+  .dc-contract-card-dialog-toggle__wrapper {
+    width: 100%;
+    height: 80px; }
+  .dc-contract-card-dialog-toggle__icon {
+    float: right;
+    margin: 3px; }
+  .dc-contract-card-dialog-toggle:hover {
+    cursor: pointer;
+    border-color: var(--button-secondary-default); }
+
+/*------------------------------------*
+ *  # Constants
+ *------------------------------------*/
+/* stylelint-disable color-no-hex */
+/* COLOR PALETTE */
+/* colors */
+/* alpha colors */
+/* gradient colors */
+/* Preserve legacy variables */
+/* Primary */
+/* stylelint-enable color-no-hex */
+/*------------------------------------*
+ *  # SASS Mixins and Functions
+ *------------------------------------*/
+/*
+ * SASS interpolation
+ */
+/*
+ * PX to EM
+ * @param $px - px value to be converted
+ * @param $base - base font size (in `em`)
+ * Note: 'em' values are calculate based on the element font-size
+ *       to properly converts 'px' to 'em', please pass in the element font-size with it
+ * Usage example:
+    padding: em(16px, 1.6em); // font-size in 'em'
+ */
+/*
+ * Set property by passing a property name, and values.
+ * @param $property name - padding, margin etc.
+ * @param $values        - values in `px` (space separated for multiple values)
+ * @param $font-size     - base font-size in `em`
+ * Usage example:
+   @include toEm(padding, 8px 16px 8px, 1.6em);
+ */
+/*
+ * Generate typefaces key-value pair of variable name and config
+ * Example:
+   --paragraph-center-bold-black: (14px, center, bold, black)
+ */
+/*
+ * Sets font-size, font-weight, color, text-transform, text-align and line-height
+ * Usage example:
+   @include setTypeface(16px, bold, black, uppercase);
+ */
+/*
+ * Set typefaces by passing a typeface variable name
+ * @param $var   - typeface variable
+ * @param $tt    - text-transform property
+ * @param $align - text-align property
+ * Usage example:
+   @include typeface(--paragraph-bold-black, uppercase, center);
+ */
+/*
+ * Range Slider Thumb styling is set here
+ */
+/*
+ * SVG icons colors
+ */
+/*
+ * Bar Spinner Animation
+ * @param $count    - number of bars
+ * @param $duration - duration of animation
+ * @param $phase    - each bar phase change delay
+ * Usage example:
+   @include createBarspinnerAnimation(5, 1.2s, 0,1);
+ */
+/*
+ * Tooltip colors
+ * @param $color - color property
+ * Usage example:
+   @include tooltipColor($COLOR_RED);
+ */
+/*
+ * Convert Tooltip colors
+ * @param $color - css color property
+ * Usage example:
+   @include convertTooltipColor(var(--status-default));
+ */
+/*
+    Constants
+*/
+/*
+    Variables
+*/
+/*
+    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
+    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
+    Variables name example: --title-center-semibold-red
+ */
+/*
+    to use styles without modifier class on .inline-icon
+    use @extend
+
+    e.g. style icon on parent hover:
+        a:hover .inline-icon {
+            @extend %inline-icon.active;
+        }
+*/
+.dc-input-wrapper__icon {
+  /* postcss-bem-linter: ignore */
+  /* postcss-bem-linter: ignore */
+  /* postcss-bem-linter: ignore */
+  /* postcss-bem-linter: ignore */ }
+  .dc-input-wrapper__icon .color1-fill {
+    fill: var(--text-general); }
+  .dc-input-wrapper__icon .color1-stroke {
+    stroke: var(--text-general); }
+  .dc-input-wrapper__icon .color2-fill {
+    fill: none; }
+  .dc-input-wrapper__icon .color2-stroke {
+    stroke: none; }
+  .active.dc-input-wrapper__icon {
+    /* postcss-bem-linter: ignore */
+    /* postcss-bem-linter: ignore */
+    /* postcss-bem-linter: ignore */
+    /* postcss-bem-linter: ignore */ }
+    .active.dc-input-wrapper__icon .color1-fill {
+      fill: var(--text-prominent); }
+    .active.dc-input-wrapper__icon .color1-stroke {
+      stroke: var(--text-prominent); }
+    .active.dc-input-wrapper__icon .color2-fill {
+      fill: none; }
+    .active.dc-input-wrapper__icon .color2-stroke {
+      stroke: none; }
+  .disabled.dc-input-wrapper__icon {
+    /* postcss-bem-linter: ignore */
+    /* postcss-bem-linter: ignore */
+    /* postcss-bem-linter: ignore */
+    /* postcss-bem-linter: ignore */ }
+    .disabled.dc-input-wrapper__icon .color1-fill {
+      fill: var(--text-disabled); }
+    .disabled.dc-input-wrapper__icon .color1-stroke {
+      stroke: var(--text-disabled); }
+    .disabled.dc-input-wrapper__icon .color2-fill {
+      fill: none; }
+    .disabled.dc-input-wrapper__icon .color2-stroke {
+      stroke: none; }
+  .white.dc-input-wrapper__icon {
+    /* postcss-bem-linter: ignore */
+    /* postcss-bem-linter: ignore */ }
+    .white.dc-input-wrapper__icon .color1-fill {
+      fill: var(--text-prominent); }
+    .white.dc-input-wrapper__icon .color1-stroke {
+      stroke: var(--text-prominent); }
+  .border_hover_color.dc-input-wrapper__icon {
+    /* postcss-bem-linter: ignore */
+    /* postcss-bem-linter: ignore */ }
+    .border_hover_color.dc-input-wrapper__icon .color1-fill {
+      fill: var(--text-prominent); }
+    .border_hover_color.dc-input-wrapper__icon .color1-stroke {
+      stroke: var(--text-prominent); }
+  .secondary.dc-input-wrapper__icon {
+    /* postcss-bem-linter: ignore */
+    /* postcss-bem-linter: ignore */ }
+    .secondary.dc-input-wrapper__icon .color1-fill {
+      fill: var(--text-less-prominent); }
+    .secondary.dc-input-wrapper__icon .color1-stroke {
+      stroke: var(--text-less-prominent); }
+
+/**
+ * Define Breakpoints here.
+ */
+/** @define dc-input-field; weak */
+.dc-input-field {
+  margin: 0.8em 0 0;
+  position: relative; }
+  .dc-input-field__label {
+    font-size: 1.4rem;
+    color: var(--text-general);
+    font-weight: 400;
+    text-transform: none;
+    text-align: left;
+    line-height: 1.5;
+    color: var(--text-general);
+    margin-bottom: 0.2em;
+    display: inline-block;
+    text-align: center;
+    width: 100%; }
+  .dc-input-field .inline-icon {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 1;
+    cursor: pointer; }
+  .dc-input-field__helper {
+    font-size: 1.2rem;
+    color: var(--text-less-prominent);
+    font-weight: 300;
+    text-transform: none;
+    text-align: left;
+    line-height: 1.25; }
+
+/** @define dc-input-wrapper */
+.dc-input-wrapper {
+  position: relative; }
+  .dc-input-wrapper__input::-ms-clear {
+    display: none; }
+  .dc-input-wrapper__button {
+    position: absolute;
+    z-index: 1;
+    top: 2px;
+    height: 28px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    margin: initial;
+    min-width: 3.2em;
+    border-radius: 3px;
+    background-color: transparent;
+    background-color: initial;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .dc-input-wrapper__button--increment {
+      right: 2px; }
+    .dc-input-wrapper__button--decrement {
+      left: 2px; }
+    .dc-input-wrapper__button:hover {
+      background: var(--state-hover);
+      cursor: pointer; }
+    .dc-input-wrapper__button:disabled:hover {
+      cursor: not-allowed;
+      background: transparent; }
+  .dc-input-wrapper--disabled {
+    pointer-events: none;
+    color: var(--text-disabled); }
+  .dc-input-wrapper--inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+/** @define input */
+.input {
+  font-size: 1.4rem;
+  color: var(--text-general);
+  font-weight: 400;
+  text-transform: none;
+  text-align: center;
+  line-height: 1.5;
+  list-style: none;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 32px;
+  padding-left: 0.8em;
+  border-radius: 4px;
+  transition: transform 0.3s;
+  background-color: var(--fill-normal);
+  border: 1px solid var(--fill-normal);
+  color: var(--text-prominent); }
+  .input[type='checkbox'] {
+    font-size: 1.2em;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    border-radius: 0;
+    padding: 0;
+    background-color: var(--general-section-1);
+    border: 1px solid var(--text-less-prominent); }
+    .input[type='checkbox']:active {
+      border-radius: 0;
+      box-shadow: none;
+      border-color: var(--brand-red-coral); }
+    .input[type='checkbox']:hover, .dc-input-wrapper__button:hover ~ .dc-input-wrapper__input[type='checkbox'] {
+      border-color: var(--border-hover); }
+    .input[type='checkbox']:focus {
+      border-radius: 0;
+      box-shadow: none;
+      border-color: var(--border-active); }
+    .input[type='checkbox']:checked {
+      background: var(--brand-red-coral);
+      border-color: var(--brand-red-coral); }
+      .input[type='checkbox']:checked:after {
+        display: inline-block; }
+      .input[type='checkbox']:checked:hover, .dc-input-wrapper__button:hover ~ .dc-input-wrapper__input[type='checkbox']:checked {
+        border-color: var(--brand-red-coral); }
+    .input[type='checkbox']::-ms-check {
+      background: transparent;
+      border-color: transparent;
+      color: #ffffff; }
+    .input[type='checkbox']:after {
+      font-size: 1.2rem;
+      color: var(--text-colored-background);
+      font-weight: 400;
+      text-transform: none;
+      text-align: left;
+      line-height: 1.25;
+      content: 'L';
+      transform: scaleX(-1) rotate(-40deg);
+      position: absolute;
+      top: -10%;
+      left: 25%;
+      display: none; }
+  .input:not([type='range']) {
+    touch-action: manipulation; }
+  .input[readonly] {
+    cursor: pointer; }
+  .input::-moz-placeholder {
+    border-color: var(--border-normal); }
+  .input:-ms-input-placeholder {
+    border-color: var(--border-normal); }
+  .input::-ms-input-placeholder {
+    border-color: var(--border-normal); }
+  .input::placeholder {
+    border-color: var(--border-normal); }
+  .input:hover, .dc-input-wrapper__button:hover ~ .dc-input-wrapper__input {
+    border-color: var(--border-hover); }
+  .input:active, .input:focus {
+    outline: 0;
+    border-radius: 4px;
+    border-color: var(--border-active);
+    color: var(--text-prominent); }
+  .input--has-inline-prefix {
+    padding-left: 50px !important;
+    border-radius: 4px !important; }
+  .input--error {
+    color: #e31c4b;
+    border: 1px solid #e31c4b !important; }
+  .input:disabled {
+    color: var(--text-disabled); }
+
+/*------------------------------------*
+ *  # Constants
+ *------------------------------------*/
+/* stylelint-disable color-no-hex */
+/* COLOR PALETTE */
+/* colors */
+/* alpha colors */
+/* gradient colors */
+/* Preserve legacy variables */
+/* Primary */
+/* stylelint-enable color-no-hex */
+/*------------------------------------*
+ *  # SASS Mixins and Functions
+ *------------------------------------*/
+/*
+ * SASS interpolation
+ */
+/*
+ * PX to EM
+ * @param $px - px value to be converted
+ * @param $base - base font size (in `em`)
+ * Note: 'em' values are calculate based on the element font-size
+ *       to properly converts 'px' to 'em', please pass in the element font-size with it
+ * Usage example:
+    padding: em(16px, 1.6em); // font-size in 'em'
+ */
+/*
+ * Set property by passing a property name, and values.
+ * @param $property name - padding, margin etc.
+ * @param $values        - values in `px` (space separated for multiple values)
+ * @param $font-size     - base font-size in `em`
+ * Usage example:
+   @include toEm(padding, 8px 16px 8px, 1.6em);
+ */
+/*
+ * Generate typefaces key-value pair of variable name and config
+ * Example:
+   --paragraph-center-bold-black: (14px, center, bold, black)
+ */
+/*
+ * Sets font-size, font-weight, color, text-transform, text-align and line-height
+ * Usage example:
+   @include setTypeface(16px, bold, black, uppercase);
+ */
+/*
+ * Set typefaces by passing a typeface variable name
+ * @param $var   - typeface variable
+ * @param $tt    - text-transform property
+ * @param $align - text-align property
+ * Usage example:
+   @include typeface(--paragraph-bold-black, uppercase, center);
+ */
+/*
+ * Range Slider Thumb styling is set here
+ */
+/*
+ * SVG icons colors
+ */
+/*
+ * Bar Spinner Animation
+ * @param $count    - number of bars
+ * @param $duration - duration of animation
+ * @param $phase    - each bar phase change delay
+ * Usage example:
+   @include createBarspinnerAnimation(5, 1.2s, 0,1);
+ */
+/*
+ * Tooltip colors
+ * @param $color - color property
+ * Usage example:
+   @include tooltipColor($COLOR_RED);
+ */
+/*
+ * Convert Tooltip colors
+ * @param $color - css color property
+ * Usage example:
+   @include convertTooltipColor(var(--status-default));
+ */
+/*
+    Constants
+*/
+/*
+    Variables
+*/
+/*
+    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
+    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
+    Variables name example: --title-center-semibold-red
+ */
+/*
+    to use styles without modifier class on .inline-icon
+    use @extend
+
+    e.g. style icon on parent hover:
+        a:hover .inline-icon {
+            @extend %inline-icon.active;
+        }
+*/
+/**
+ * Define Breakpoints here.
+ */
+/** @define dc-input-wrapper */
+.dc-input-wrapper {
+  position: relative; }
+  .dc-input-wrapper--inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+/*------------------------------------*
+ *  # Constants
+ *------------------------------------*/
+/* stylelint-disable color-no-hex */
+/* COLOR PALETTE */
+/* colors */
+/* alpha colors */
+/* gradient colors */
+/* Preserve legacy variables */
+/* Primary */
+/* stylelint-enable color-no-hex */
+/*------------------------------------*
+ *  # SASS Mixins and Functions
+ *------------------------------------*/
+/*
+ * SASS interpolation
+ */
+/*
+ * PX to EM
+ * @param $px - px value to be converted
+ * @param $base - base font size (in `em`)
+ * Note: 'em' values are calculate based on the element font-size
+ *       to properly converts 'px' to 'em', please pass in the element font-size with it
+ * Usage example:
+    padding: em(16px, 1.6em); // font-size in 'em'
+ */
+/*
+ * Set property by passing a property name, and values.
+ * @param $property name - padding, margin etc.
+ * @param $values        - values in `px` (space separated for multiple values)
+ * @param $font-size     - base font-size in `em`
+ * Usage example:
+   @include toEm(padding, 8px 16px 8px, 1.6em);
+ */
+/*
+ * Generate typefaces key-value pair of variable name and config
+ * Example:
+   --paragraph-center-bold-black: (14px, center, bold, black)
+ */
+/*
+ * Sets font-size, font-weight, color, text-transform, text-align and line-height
+ * Usage example:
+   @include setTypeface(16px, bold, black, uppercase);
+ */
+/*
+ * Set typefaces by passing a typeface variable name
+ * @param $var   - typeface variable
+ * @param $tt    - text-transform property
+ * @param $align - text-align property
+ * Usage example:
+   @include typeface(--paragraph-bold-black, uppercase, center);
+ */
+/*
+ * Range Slider Thumb styling is set here
+ */
+/*
+ * SVG icons colors
+ */
+/*
+ * Bar Spinner Animation
+ * @param $count    - number of bars
+ * @param $duration - duration of animation
+ * @param $phase    - each bar phase change delay
+ * Usage example:
+   @include createBarspinnerAnimation(5, 1.2s, 0,1);
+ */
+/*
+ * Tooltip colors
+ * @param $color - color property
+ * Usage example:
+   @include tooltipColor($COLOR_RED);
+ */
+/*
+ * Convert Tooltip colors
+ * @param $color - css color property
+ * Usage example:
+   @include convertTooltipColor(var(--status-default));
+ */
+/*
+    Constants
+*/
+/*
+    Variables
+*/
+/*
+    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
+    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
+    Variables name example: --title-center-semibold-red
+ */
+/*
+    to use styles without modifier class on .inline-icon
+    use @extend
+
+    e.g. style icon on parent hover:
+        a:hover .inline-icon {
+            @extend %inline-icon.active;
+        }
+*/
+/**
+ * Define Breakpoints here.
+ */
+
+/*------------------------------------*
+ *  # Constants
+ *------------------------------------*/
+/* stylelint-disable color-no-hex */
+/* COLOR PALETTE */
+/* colors */
+/* alpha colors */
+/* gradient colors */
+/* Preserve legacy variables */
+/* Primary */
+/* stylelint-enable color-no-hex */
+/*------------------------------------*
+ *  # SASS Mixins and Functions
+ *------------------------------------*/
+/*
+ * SASS interpolation
+ */
+/*
+ * PX to EM
+ * @param $px - px value to be converted
+ * @param $base - base font size (in `em`)
+ * Note: 'em' values are calculate based on the element font-size
+ *       to properly converts 'px' to 'em', please pass in the element font-size with it
+ * Usage example:
+    padding: em(16px, 1.6em); // font-size in 'em'
+ */
+/*
+ * Set property by passing a property name, and values.
+ * @param $property name - padding, margin etc.
+ * @param $values        - values in `px` (space separated for multiple values)
+ * @param $font-size     - base font-size in `em`
+ * Usage example:
+   @include toEm(padding, 8px 16px 8px, 1.6em);
+ */
+/*
+ * Generate typefaces key-value pair of variable name and config
+ * Example:
+   --paragraph-center-bold-black: (14px, center, bold, black)
+ */
+/*
+ * Sets font-size, font-weight, color, text-transform, text-align and line-height
+ * Usage example:
+   @include setTypeface(16px, bold, black, uppercase);
+ */
+/*
+ * Set typefaces by passing a typeface variable name
+ * @param $var   - typeface variable
+ * @param $tt    - text-transform property
+ * @param $align - text-align property
+ * Usage example:
+   @include typeface(--paragraph-bold-black, uppercase, center);
+ */
+/*
+ * Range Slider Thumb styling is set here
+ */
+/*
+ * SVG icons colors
+ */
+/*
+ * Bar Spinner Animation
+ * @param $count    - number of bars
+ * @param $duration - duration of animation
+ * @param $phase    - each bar phase change delay
+ * Usage example:
+   @include createBarspinnerAnimation(5, 1.2s, 0,1);
+ */
+/*
+ * Tooltip colors
+ * @param $color - color property
+ * Usage example:
+   @include tooltipColor($COLOR_RED);
+ */
+/*
+ * Convert Tooltip colors
+ * @param $color - css color property
+ * Usage example:
+   @include convertTooltipColor(var(--status-default));
+ */
+/*
+    Constants
+*/
+/*
+    Variables
+*/
+/*
+    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
+    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
+    Variables name example: --title-center-semibold-red
+ */
+/*
+    to use styles without modifier class on .inline-icon
+    use @extend
+
+    e.g. style icon on parent hover:
+        a:hover .inline-icon {
+            @extend %inline-icon.active;
+        }
+*/
+/**
+ * Define Breakpoints here.
+ */
+/** @define dc-mobile-dialog; weak */
+.dc-mobile-dialog {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  overflow: auto;
+  transition: opacity 0.2s;
+  opacity: 0;
+  pointer-events: none;
+  background: var(--general-section-2); }
+  .dc-mobile-dialog--enter, .dc-mobile-dialog--exit {
+    opacity: 0;
+    pointer-events: none; }
+    .dc-mobile-dialog--enter .dc-mobile-dialog__content, .dc-mobile-dialog--exit .dc-mobile-dialog__content {
+      transform: scale(0); }
+    .dc-mobile-dialog--enter .dc-mobile-dialog__header, .dc-mobile-dialog--exit .dc-mobile-dialog__header {
+      transform: translateY(-100%); }
+  .dc-mobile-dialog--enter-done {
+    opacity: 1;
+    pointer-events: auto; }
+    .dc-mobile-dialog--enter-done .dc-mobile-dialog__content {
+      transform: scale(1); }
+    .dc-mobile-dialog--enter-done .dc-mobile-dialog__header {
+      transform: translateY(0); }
+  .dc-mobile-dialog__container--has-scroll {
+    overflow-x: hidden;
+    overflow-y: auto; }
+  .dc-mobile-dialog__content {
+    margin-top: 0.4rem;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 3.6rem;
+    z-index: 1;
+    background: var(--general-section-2);
+    transition: all 0.2s ease-out; }
+    .dc-mobile-dialog__content--is-full-height {
+      height: calc(100% - 0.4rem); }
+    .dc-mobile-dialog__content > div {
+      height: 100%; }
+  .dc-mobile-dialog__header {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 1rem;
+    height: 40px;
+    z-index: 4;
+    background: var(--general-section-2);
+    transition: all 0.2s ease-out;
+    transition-delay: 0.2s;
+    border-bottom: 1px solid var(--border-disabled); }
+  .dc-mobile-dialog__footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    z-index: 4; }
+  .dc-mobile-dialog__title {
+    padding: 1.2rem 1.2rem 1.2rem 0.4rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--text-prominent);
+    margin: 0; }
+  .dc-mobile-dialog__close-btn-icon {
+    margin: 1.2rem 0.4rem;
+    width: 1.6rem;
+    height: 1.6rem;
+    /* postcss-bem-linter: ignore */
+    --fill-color1: var(--text-prominent) !important; }
+
+/*------------------------------------*
+ *  # Constants
+ *------------------------------------*/
+/* stylelint-disable color-no-hex */
+/* COLOR PALETTE */
+/* colors */
+/* alpha colors */
+/* gradient colors */
+/* Preserve legacy variables */
+/* Primary */
+/* stylelint-enable color-no-hex */
+/*------------------------------------*
+ *  # SASS Mixins and Functions
+ *------------------------------------*/
+/*
+ * SASS interpolation
+ */
+/*
+ * PX to EM
+ * @param $px - px value to be converted
+ * @param $base - base font size (in `em`)
+ * Note: 'em' values are calculate based on the element font-size
+ *       to properly converts 'px' to 'em', please pass in the element font-size with it
+ * Usage example:
+    padding: em(16px, 1.6em); // font-size in 'em'
+ */
+/*
+ * Set property by passing a property name, and values.
+ * @param $property name - padding, margin etc.
+ * @param $values        - values in `px` (space separated for multiple values)
+ * @param $font-size     - base font-size in `em`
+ * Usage example:
+   @include toEm(padding, 8px 16px 8px, 1.6em);
+ */
+/*
+ * Generate typefaces key-value pair of variable name and config
+ * Example:
+   --paragraph-center-bold-black: (14px, center, bold, black)
+ */
+/*
+ * Sets font-size, font-weight, color, text-transform, text-align and line-height
+ * Usage example:
+   @include setTypeface(16px, bold, black, uppercase);
+ */
+/*
+ * Set typefaces by passing a typeface variable name
+ * @param $var   - typeface variable
+ * @param $tt    - text-transform property
+ * @param $align - text-align property
+ * Usage example:
+   @include typeface(--paragraph-bold-black, uppercase, center);
+ */
+/*
+ * Range Slider Thumb styling is set here
+ */
+/*
+ * SVG icons colors
+ */
+/*
+ * Bar Spinner Animation
+ * @param $count    - number of bars
+ * @param $duration - duration of animation
+ * @param $phase    - each bar phase change delay
+ * Usage example:
+   @include createBarspinnerAnimation(5, 1.2s, 0,1);
+ */
+/*
+ * Tooltip colors
+ * @param $color - color property
+ * Usage example:
+   @include tooltipColor($COLOR_RED);
+ */
+/*
+ * Convert Tooltip colors
+ * @param $color - css color property
+ * Usage example:
+   @include convertTooltipColor(var(--status-default));
+ */
+/*
+    Constants
+*/
+/*
+    Variables
+*/
+/*
+    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
+    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
+    Variables name example: --title-center-semibold-red
+ */
+/*
+    to use styles without modifier class on .inline-icon
+    use @extend
+
+    e.g. style icon on parent hover:
+        a:hover .inline-icon {
+            @extend %inline-icon.active;
+        }
+*/
+/**
+ * Define Breakpoints here.
+ */
+/** @define dc-result */
+.dc-result__caption {
+  text-transform: capitalize;
+  font-size: 1.6em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.25s ease; }
+  .dc-result__caption--won {
+    color: var(--text-profit-success); }
+  .dc-result__caption--lost {
+    color: var(--text-loss-danger); }
+  .dc-result__caption-wrapper {
+    cursor: pointer;
+    width: 100%;
+    height: calc(100% - 24px);
+    text-decoration: none;
+    position: absolute;
+    top: 24px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .dc-result__caption {
+      pointer-events: none; } }
+
+.dc-result__close-btn {
+  position: absolute;
+  top: 2px;
+  right: 8px;
+  cursor: pointer;
+  visibility: visible; }
+  .dc-result__close-btn:after {
+    content: '\0000D7';
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--text-general); }
+
+.dc-result__icon {
+  margin-left: 10px; }
+
+.dc-result__positions-overlay {
+  margin: 0 10px;
+  max-width: 220px; }
+
+/*------------------------------------*
+ *  # Constants
+ *------------------------------------*/
+/* stylelint-disable color-no-hex */
+/* COLOR PALETTE */
+/* colors */
+/* alpha colors */
+/* gradient colors */
+/* Preserve legacy variables */
+/* Primary */
+/* stylelint-enable color-no-hex */
+/*------------------------------------*
+ *  # SASS Mixins and Functions
+ *------------------------------------*/
+/*
+ * SASS interpolation
+ */
+/*
+ * PX to EM
+ * @param $px - px value to be converted
+ * @param $base - base font size (in `em`)
+ * Note: 'em' values are calculate based on the element font-size
+ *       to properly converts 'px' to 'em', please pass in the element font-size with it
+ * Usage example:
+    padding: em(16px, 1.6em); // font-size in 'em'
+ */
+/*
+ * Set property by passing a property name, and values.
+ * @param $property name - padding, margin etc.
+ * @param $values        - values in `px` (space separated for multiple values)
+ * @param $font-size     - base font-size in `em`
+ * Usage example:
+   @include toEm(padding, 8px 16px 8px, 1.6em);
+ */
+/*
+ * Generate typefaces key-value pair of variable name and config
+ * Example:
+   --paragraph-center-bold-black: (14px, center, bold, black)
+ */
+/*
+ * Sets font-size, font-weight, color, text-transform, text-align and line-height
+ * Usage example:
+   @include setTypeface(16px, bold, black, uppercase);
+ */
+/*
+ * Set typefaces by passing a typeface variable name
+ * @param $var   - typeface variable
+ * @param $tt    - text-transform property
+ * @param $align - text-align property
+ * Usage example:
+   @include typeface(--paragraph-bold-black, uppercase, center);
+ */
+/*
+ * Range Slider Thumb styling is set here
+ */
+/*
+ * SVG icons colors
+ */
+/*
+ * Bar Spinner Animation
+ * @param $count    - number of bars
+ * @param $duration - duration of animation
+ * @param $phase    - each bar phase change delay
+ * Usage example:
+   @include createBarspinnerAnimation(5, 1.2s, 0,1);
+ */
+/*
+ * Tooltip colors
+ * @param $color - color property
+ * Usage example:
+   @include tooltipColor($COLOR_RED);
+ */
+/*
+ * Convert Tooltip colors
+ * @param $color - css color property
+ * Usage example:
+   @include convertTooltipColor(var(--status-default));
+ */
+/*
+    Constants
+*/
+/*
+    Variables
+*/
+/*
+    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
+    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
+    Variables name example: --title-center-semibold-red
+ */
+/*
+    to use styles without modifier class on .inline-icon
+    use @extend
+
+    e.g. style icon on parent hover:
+        a:hover .inline-icon {
+            @extend %inline-icon.active;
+        }
+*/
+/**
+ * Define Breakpoints here.
+ */
+.dc-contract-card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  position: relative;
+  border-radius: 4px;
+  padding: 0.8rem;
+  background-color: var(--general-main-1);
+  color: var(--text-prominent); }
+  .dc-contract-card:before {
+    content: '';
+    position: absolute;
+    height: 52px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 4px; }
+  .dc-contract-card--green:before {
+    background-image: linear-gradient(to top, rgba(16, 19, 32, 0), rgba(0, 148, 117, 0.16)); }
+  .dc-contract-card--red:before {
+    background-image: linear-gradient(to top, rgba(16, 19, 32, 0), rgba(227, 28, 75, 0.16)); }
+  .dc-contract-card--loss {
+    color: var(--text-loss-danger); }
+  .dc-contract-card--profit {
+    color: var(--text-profit-success); }
+  .dc-contract-card__grid {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-gap: 4px;
+    min-height: 4rem; }
+    .dc-contract-card__grid-underlying-trade {
+      grid-template-columns: 1fr 1fr;
+      width: 100%; }
+      .dc-contract-card__grid-underlying-trade--trader {
+        grid-template-columns: 1.5fr 1fr; }
+      .dc-contract-card__grid-underlying-trade--mobile {
+        grid-template-columns: 1fr 1fr 25%; }
+    .dc-contract-card__grid-profit-payout {
+      grid-template-columns: 1fr 1fr;
+      padding: 8px 0;
+      border-radius: 4px;
+      margin-left: -4px;
+      margin-right: -4px;
+      background: var(--general-hover); }
+    .dc-contract-card__grid-label {
+      font-size: 1rem;
+      align-self: flex-start;
+      text-transform: none;
+      line-height: 1.5;
+      color: var(--text-general);
+      white-space: nowrap; }
+    .dc-contract-card__grid-value {
+      font-size: 1.2rem;
+      font-weight: bold;
+      align-self: flex-start;
+      line-height: 1.5; }
+    .dc-contract-card__grid-items {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 0.8rem 0.4rem;
+      padding: 0.8rem 0; }
+  .dc-contract-card__result {
+    position: absolute;
+    top: 0;
+    left: -1px;
+    width: 100%;
+    height: calc(100% - 1rem);
+    border-radius: 4px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--overlay-inside-dialog); }
+    .dc-contract-card__result--won, .dc-contract-card__result--won:after {
+      background-image: var(--gradient-success); }
+    .dc-contract-card__result--lost, .dc-contract-card__result--lost:after {
+      background-image: var(--gradient-danger); }
+    .dc-contract-card__result--lg {
+      max-height: 100%; }
+    .dc-contract-card__result:hover {
+      background: 0 !important; }
+      .dc-contract-card__result:hover .dc-result__caption {
+        opacity: 0; }
+    .dc-contract-card__result:after {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 4px;
+      z-index: 2; }
+    .dc-contract-card__result--enter, .dc-contract-card__result--exit {
+      opacity: 0; }
+    .dc-contract-card__result--enter-done {
+      opacity: 1; }
+  .dc-contract-card__wrapper {
+    margin: 0 1em;
+    max-width: 218px;
+    border-radius: 4px;
+    transition: transform 0.25s ease, opacity 0.25s linear;
+    position: relative;
+    background: var(--general-main-1); }
+    .dc-contract-card__wrapper--active:before {
+      content: '';
+      top: -1px;
+      left: -1px;
+      width: calc(100% + 2px);
+      height: calc(100% + 2px);
+      position: absolute;
+      box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.24);
+      border-radius: 4px;
+      pointer-events: none; }
+    .dc-contract-card__wrapper:first-child {
+      margin-top: 2px; }
+    .dc-contract-card__wrapper:not(:last-child) {
+      margin-bottom: 16px; }
+    .dc-contract-card__wrapper:last-child {
+      margin-bottom: 10px; }
+    .dc-contract-card__wrapper--enter-done {
+      opacity: 1;
+      transform: translateY(0); }
+    .dc-contract-card__wrapper--enter, .dc-contract-card__wrapper--exit {
+      opacity: 0;
+      transform: translateY(-16px); }
+  .dc-contract-card .purchase-price-container,
+  .dc-contract-card .potential-payout-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; }
+  .dc-contract-card .purchase-price__label,
+  .dc-contract-card .potential-payout__label {
+    font-size: 1rem;
+    align-self: flex-start;
+    text-transform: none;
+    margin-bottom: 4px;
+    color: var(--text-general);
+    white-space: nowrap; }
+  .dc-contract-card .purchase-price__value,
+  .dc-contract-card .potential-payout__value {
+    font-size: 1em;
+    font-weight: bold;
+    align-self: flex-start; }
+  .dc-contract-card .potential-payout-container {
+    padding-left: 4px; }
+  .dc-contract-card .potential-payout-price__value {
+    font-size: 1em;
+    font-weight: bold;
+    align-self: flex-start; }
+  .dc-contract-card__separator {
+    width: 100%;
+    border-top: 1px solid var(--general-section-1);
+    margin: 4px 0 0; }
+  .dc-contract-card__underlying-name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    max-width: 18rem;
+    min-width: 10rem; }
+  .dc-contract-card__type {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    /* postcss-bem-linter: ignore */ }
+    .dc-contract-card__type .category-type .color1-fill {
+      fill: var(--brand-red-coral) !important; }
+    .dc-contract-card__type .category-type .color2-fill {
+      fill: var(--brand-secondary) !important; }
+  .dc-contract-card__symbol {
+    margin-left: 0.4rem;
+    font-size: 1em;
+    line-height: 1.5; }
+  .dc-contract-card__header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 0.5em 0.2em; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .dc-contract-card__header {
+        margin: 0 8px; } }
+  .dc-contract-card__body {
+    border-radius: 4px;
+    width: 100%;
+    padding: 0.8rem 0.4rem;
+    color: var(--text-prominent);
+    display: flex; }
+    .dc-contract-card__body-wrapper {
+      width: 100%; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .dc-contract-card__body {
+        padding: 0 8px; }
+        .dc-contract-card__body-wrapper {
+          display: flex; } }
+  .dc-contract-card-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.8rem 0.4rem;
+    flex: 1; }
+    .dc-contract-card-items-wrapper--mobile {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 0.8rem 0.4rem;
+      flex: 1;
+      padding: 0.4rem 0rem; }
+  .dc-contract-card__profit-loss {
+    font-size: 1.2em;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold; }
+    .dc-contract-card__profit-loss-label {
+      font-size: 1em;
+      margin-bottom: 4px;
+      font-weight: normal;
+      white-space: nowrap;
+      max-width: 90px; }
+    .dc-contract-card__profit-loss--is-crypto {
+      margin-left: -6px; }
+    .dc-contract-card__profit-loss--negative {
+      color: var(--text-loss-danger); }
+      .dc-contract-card__profit-loss--negative:before {
+        content: '-';
+        color: inherit; }
+    .dc-contract-card__profit-loss--positive {
+      color: var(--text-profit-success); }
+      .dc-contract-card__profit-loss--positive:before {
+        content: '+';
+        color: inherit; }
+  .dc-contract-card-item__header {
+    line-height: 1.4; }
+  .dc-contract-card-item__body {
+    font-size: 1.2rem;
+    color: var(--text-general);
+    font-weight: 700;
+    text-transform: none;
+    text-align: left;
+    line-height: 1.25;
+    display: flex;
+    align-self: flex-start;
+    line-height: 1.5; }
+    .dc-contract-card-item__body--is-crypto {
+      margin-left: -6px; }
+  .dc-contract-card-item__body--loss {
+    color: var(--text-loss-danger) !important; }
+    .dc-contract-card-item__body--loss:before {
+      content: '-'; }
+  .dc-contract-card-item__body--profit {
+    color: var(--text-profit-success) !important; }
+    .dc-contract-card-item__body--profit:before {
+      content: '+'; }
+  .dc-contract-card-item__total-profit-loss {
+    padding: 0.8rem 0.8rem 0;
+    border-top: 1px solid var(--general-section-1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.8rem; }
+    .dc-contract-card-item__total-profit-loss .dc-contract-card-item__header,
+    .dc-contract-card-item__total-profit-loss .dc-contract-card-item__body {
+      font-size: 1.4rem;
+      line-height: 2rem;
+      align-self: center; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .dc-contract-card-item__total-profit-loss {
+        flex-direction: row;
+        justify-content: center; }
+        .dc-contract-card-item__total-profit-loss-value {
+          margin-left: 0.2rem; } }
+    .dc-contract-card-item__total-profit-loss-label, .dc-contract-card-item__total-profit-loss-value {
+      font-size: 1.4rem;
+      line-height: 2rem; }
+  .dc-contract-card__sell-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.25s ease, opacity 0.25s linear;
+    padding-top: 0.8rem;
+    margin-top: 0.8rem;
+    border-top: 1px solid var(--general-section-1); }
+    .dc-contract-card__sell-button--positions {
+      padding: 0.8rem 0;
+      margin: 0 0.8rem; }
+    .dc-contract-card__sell-button--enter-done {
+      opacity: 1;
+      transform: translateY(0); }
+    .dc-contract-card__sell-button--enter, .dc-contract-card__sell-button--exit {
+      opacity: 0;
+      transform: translateY(-8px); }
+    .dc-contract-card__sell-button--has-cancel-btn {
+      justify-content: space-between;
+      display: grid;
+      grid-template-columns: 1fr 1fr; }
+      .dc-contract-card__sell-button--has-cancel-btn .dc-btn--cancel {
+        margin-left: 0.8rem; }
+    .dc-contract-card__sell-button .dc-remaining-time {
+      border-radius: 0.4rem;
+      font-size: 1.2rem;
+      margin-left: 0.8rem;
+      padding-top: 0.2rem; }
+  .dc-contract-card__indicative--movement {
+    margin-left: 2px;
+    width: 16px;
+    height: 16px; }
+    .dc-contract-card__indicative--movement-complete, .dc-contract-card__indicative--movement-complete:after {
+      display: none; }
+    .dc-contract-card__indicative--movement:after {
+      content: '';
+      width: 16px; }
+  .dc-contract-card__status {
+    min-width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .dc-contract-card__status .result-icon {
+      margin-left: 0.4rem; }
+  .dc-contract-card__sell-button-mobile {
+    justify-self: center;
+    align-self: center; }
+    .dc-contract-card__sell-button-mobile .dc-btn--sell {
+      height: 3.2rem !important; }
+  .dc-contract-card .contract-audit__wrapper {
+    padding: 2px 0;
+    width: 100%; }
+  .dc-contract-card .contract-audit__wrapper--is-open {
+    margin-top: 0.5em; }
+  .dc-contract-card .contract-audit__toggle {
+    margin: 0 0 -0.5em;
+    width: 100%; }
+  .dc-contract-card .contract-audit__label {
+    font-size: 0.8em;
+    text-align: left; }
+  .dc-contract-card .contract-audit__value {
+    font-size: 1em;
+    text-align: left; }
+  .dc-contract-card .dc-contract-type__type-wrapper {
+    width: unset;
+    height: unset; }
+
+/** @define dc-contract-type */
+.dc-contract-type {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin-left: -4px; }
+  .dc-contract-type__type-wrapper {
+    margin: 0;
+    padding: 0.5em 0.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* postcss-bem-linter: ignore */ }
+    .dc-contract-type__type-wrapper .category-type {
+      width: 20px;
+      height: 20px; }
+  .dc-contract-type__type-label {
+    width: 3.8em;
+    line-height: 1.5;
+    text-align: left; }
+    .dc-contract-type__type-label-multiplier {
+      font-size: 1rem;
+      line-height: 1rem;
+      color: var(--text-less-prominent); }
+
+/** @define dc-btn; */
+.dc-btn--sell {
+  width: 100%; }
+
+/** @define dc-remaining-time; weak */
+.dc-remaining-time {
+  display: inline; }
 
 /*------------------------------------*
  *  # Constants
@@ -3412,7 +5677,8 @@
     .dc-datepicker__input--has-leading-icon .dc-input__field {
       text-align: center; }
   .dc-datepicker .dc-icon {
-    top: 25%; }
+    top: 25%;
+    cursor: pointer; }
   .dc-datepicker__picker {
     position: absolute;
     top: 0;
@@ -4159,14 +6425,20 @@
     align-items: center;
     justify-content: center;
     z-index: 999;
-    transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25), opacity 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25);
+    transition: opacity 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25);
     background-color: var(--overlay-outside-dialog); }
     .dc-dialog__wrapper--enter, .dc-dialog__wrapper--exit {
-      transform: translate3d(0, 50px, 0);
       opacity: 0; }
+      .dc-dialog__wrapper--enter .dc-dialog__dialog, .dc-dialog__wrapper--exit .dc-dialog__dialog {
+        transform: translate3d(0, 50px, 0);
+        opacity: 0; }
     .dc-dialog__wrapper--enter-done {
-      transform: translate3d(0, 0, 0);
       opacity: 1; }
+      .dc-dialog__wrapper--enter-done .dc-dialog__dialog {
+        transform: translate3d(0, 0, 0);
+        opacity: 1; }
+    .dc-dialog__wrapper--has-portal {
+      background-color: transparent; }
   .dc-dialog__dialog {
     max-width: 560px;
     max-height: 320px;
@@ -4181,7 +6453,8 @@
     flex-direction: column;
     align-items: center;
     box-shadow: 0 2px 8px 0 var(--shadow-menu);
-    background-color: var(--general-main-2); }
+    background-color: var(--general-main-2);
+    transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25), opacity 0.25s cubic-bezier(0.25, 0.1, 0.1, 0.25); }
   .dc-dialog__header {
     align-self: flex-start;
     font-size: 1.6rem;
@@ -4193,6 +6466,12 @@
     margin-bottom: 2.4rem;
     line-height: 1.5;
     color: var(--text-prominent); }
+    .dc-dialog__header-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: space-between; }
+    .dc-dialog__header--close {
+      cursor: pointer; }
   .dc-dialog__content {
     align-self: flex-start;
     font-size: 1.4rem;
@@ -4232,108 +6511,6 @@
     .dc-dialog__dialog--has-margin {
       min-width: unset;
       width: calc(100vw - 4.8rem); } }
-
-/*------------------------------------*
- *  # Constants
- *------------------------------------*/
-/* stylelint-disable color-no-hex */
-/* COLOR PALETTE */
-/* colors */
-/* alpha colors */
-/* gradient colors */
-/* Preserve legacy variables */
-/* Primary */
-/* stylelint-enable color-no-hex */
-/*------------------------------------*
- *  # SASS Mixins and Functions
- *------------------------------------*/
-/*
- * SASS interpolation
- */
-/*
- * PX to EM
- * @param $px - px value to be converted
- * @param $base - base font size (in `em`)
- * Note: 'em' values are calculate based on the element font-size
- *       to properly converts 'px' to 'em', please pass in the element font-size with it
- * Usage example:
-    padding: em(16px, 1.6em); // font-size in 'em'
- */
-/*
- * Set property by passing a property name, and values.
- * @param $property name - padding, margin etc.
- * @param $values        - values in `px` (space separated for multiple values)
- * @param $font-size     - base font-size in `em`
- * Usage example:
-   @include toEm(padding, 8px 16px 8px, 1.6em);
- */
-/*
- * Generate typefaces key-value pair of variable name and config
- * Example:
-   --paragraph-center-bold-black: (14px, center, bold, black)
- */
-/*
- * Sets font-size, font-weight, color, text-transform, text-align and line-height
- * Usage example:
-   @include setTypeface(16px, bold, black, uppercase);
- */
-/*
- * Set typefaces by passing a typeface variable name
- * @param $var   - typeface variable
- * @param $tt    - text-transform property
- * @param $align - text-align property
- * Usage example:
-   @include typeface(--paragraph-bold-black, uppercase, center);
- */
-/*
- * Range Slider Thumb styling is set here
- */
-/*
- * SVG icons colors
- */
-/*
- * Bar Spinner Animation
- * @param $count    - number of bars
- * @param $duration - duration of animation
- * @param $phase    - each bar phase change delay
- * Usage example:
-   @include createBarspinnerAnimation(5, 1.2s, 0,1);
- */
-/*
- * Tooltip colors
- * @param $color - color property
- * Usage example:
-   @include tooltipColor($COLOR_RED);
- */
-/*
- * Convert Tooltip colors
- * @param $color - css color property
- * Usage example:
-   @include convertTooltipColor(var(--status-default));
- */
-/*
-    Constants
-*/
-/*
-    Variables
-*/
-/*
-    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
-    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
-    Variables name example: --title-center-semibold-red
- */
-/*
-    to use styles without modifier class on .inline-icon
-    use @extend
-
-    e.g. style icon on parent hover:
-        a:hover .inline-icon {
-            @extend %inline-icon.active;
-        }
-*/
-/**
- * Define Breakpoints here.
- */
 
 /*------------------------------------*
  *  # Constants
@@ -4498,8 +6675,7 @@
       height: 3.6rem;
       justify-content: center;
       background-color: var(--general-main-1);
-      border-top: solid 2px var(--general-section-1);
-      cursor: none; }
+      border-top: solid 2px var(--general-section-1); }
   .dc-drawer__clear-button {
     position: absolute;
     right: 1.6rem;
@@ -4749,7 +6925,7 @@
     transform: translateZ(0);
     transform-origin: top left; }
     .dc-dropdown__display-placeholder-text {
-      font-size: 1.4em;
+      font-size: 1.4rem;
       padding: 0 4px;
       color: var(--color-grey);
       background: var(--fill-normal); }
@@ -4903,7 +7079,7 @@
           height: 100%; } }
 
 .dc-dropdown--has-placeholder .dc-dropdown__display {
-  height: 4em; }
+  height: 4rem; }
   .dc-dropdown--has-placeholder .dc-dropdown__display .dc-dropdown__display-placeholder-text {
     color: var(--text-less-prominent); }
   .dc-dropdown--has-placeholder .dc-dropdown__display--clicked .dc-dropdown__display-placeholder-text {
@@ -5129,14 +7305,14 @@
     @supports (-webkit-appearance: none) {
       .dc-list {
         /* postcss-bem-linter: ignore */ }
-        .dc-list > div:nth-child(1) > div:nth-child(1) {
-          overflow-y: scroll !important;
+        .dc-list > div:nth-child(1) .dc-list > div:nth-child(1) {
+          overflow-y: auto;
           overflow-x: hidden !important;
           /* postcss-bem-linter: ignore */
           /* postcss-bem-linter: ignore */ }
-          .dc-list > div:nth-child(1) > div:nth-child(1)::-webkit-scrollbar {
+          .dc-list > div:nth-child(1) .dc-list > div:nth-child(1)::-webkit-scrollbar {
             -webkit-appearance: none; }
-          .dc-list > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+          .dc-list > div:nth-child(1) .dc-list > div:nth-child(1) > div:nth-child(1) {
             padding-bottom: 11.5em !important; } } }
 
 /*------------------------------------*
@@ -5833,8 +8009,9 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  align-self: flex-end;
-  width: 100%; }
+  align-self: flex-end; }
+  .dc-form-submit-button:only-child {
+    width: 100%; }
   .dc-form-submit-button .dc-btn {
     margin: 0 0.8rem; }
     .dc-form-submit-button .dc-btn:first-child {
@@ -5872,10 +8049,132 @@
       position: absolute;
       padding: 1.6rem;
       border-top: 2px solid var(--general-disabled);
-      max-height: 70px; }
+      max-height: 70px;
+      width: 100%; }
       .dc-form-submit-button--absolute .dc-btn {
         height: 40px;
         width: 100%; } }
+
+/*------------------------------------*
+ *  # Constants
+ *------------------------------------*/
+/* stylelint-disable color-no-hex */
+/* COLOR PALETTE */
+/* colors */
+/* alpha colors */
+/* gradient colors */
+/* Preserve legacy variables */
+/* Primary */
+/* stylelint-enable color-no-hex */
+/*------------------------------------*
+ *  # SASS Mixins and Functions
+ *------------------------------------*/
+/*
+ * SASS interpolation
+ */
+/*
+ * PX to EM
+ * @param $px - px value to be converted
+ * @param $base - base font size (in `em`)
+ * Note: 'em' values are calculate based on the element font-size
+ *       to properly converts 'px' to 'em', please pass in the element font-size with it
+ * Usage example:
+    padding: em(16px, 1.6em); // font-size in 'em'
+ */
+/*
+ * Set property by passing a property name, and values.
+ * @param $property name - padding, margin etc.
+ * @param $values        - values in `px` (space separated for multiple values)
+ * @param $font-size     - base font-size in `em`
+ * Usage example:
+   @include toEm(padding, 8px 16px 8px, 1.6em);
+ */
+/*
+ * Generate typefaces key-value pair of variable name and config
+ * Example:
+   --paragraph-center-bold-black: (14px, center, bold, black)
+ */
+/*
+ * Sets font-size, font-weight, color, text-transform, text-align and line-height
+ * Usage example:
+   @include setTypeface(16px, bold, black, uppercase);
+ */
+/*
+ * Set typefaces by passing a typeface variable name
+ * @param $var   - typeface variable
+ * @param $tt    - text-transform property
+ * @param $align - text-align property
+ * Usage example:
+   @include typeface(--paragraph-bold-black, uppercase, center);
+ */
+/*
+ * Range Slider Thumb styling is set here
+ */
+/*
+ * SVG icons colors
+ */
+/*
+ * Bar Spinner Animation
+ * @param $count    - number of bars
+ * @param $duration - duration of animation
+ * @param $phase    - each bar phase change delay
+ * Usage example:
+   @include createBarspinnerAnimation(5, 1.2s, 0,1);
+ */
+/*
+ * Tooltip colors
+ * @param $color - color property
+ * Usage example:
+   @include tooltipColor($COLOR_RED);
+ */
+/*
+ * Convert Tooltip colors
+ * @param $color - css color property
+ * Usage example:
+   @include convertTooltipColor(var(--status-default));
+ */
+/*
+    Constants
+*/
+/*
+    Variables
+*/
+/*
+    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
+    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
+    Variables name example: --title-center-semibold-red
+ */
+/*
+    to use styles without modifier class on .inline-icon
+    use @extend
+
+    e.g. style icon on parent hover:
+        a:hover .inline-icon {
+            @extend %inline-icon.active;
+        }
+*/
+/**
+ * Define Breakpoints here.
+ */
+/** @define dc-form-submit-error-message; weak */
+.dc-form-submit-error-message {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  font-size: var(--text-size-xxs);
+  font-weight: bold;
+  flex: 1;
+  color: var(--text-prominent); }
+  .dc-form-submit-error-message p {
+    padding-left: 16px; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .dc-form-submit-error-message p {
+        line-height: 20px; } }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .dc-form-submit-error-message {
+      padding: 0 1.6rem 1rem;
+      position: absolute;
+      bottom: 7rem; } }
 
 /*------------------------------------*
  *  # Constants
@@ -6094,108 +8393,6 @@
 /**
  * Define Breakpoints here.
  */
-
-/*------------------------------------*
- *  # Constants
- *------------------------------------*/
-/* stylelint-disable color-no-hex */
-/* COLOR PALETTE */
-/* colors */
-/* alpha colors */
-/* gradient colors */
-/* Preserve legacy variables */
-/* Primary */
-/* stylelint-enable color-no-hex */
-/*------------------------------------*
- *  # SASS Mixins and Functions
- *------------------------------------*/
-/*
- * SASS interpolation
- */
-/*
- * PX to EM
- * @param $px - px value to be converted
- * @param $base - base font size (in `em`)
- * Note: 'em' values are calculate based on the element font-size
- *       to properly converts 'px' to 'em', please pass in the element font-size with it
- * Usage example:
-    padding: em(16px, 1.6em); // font-size in 'em'
- */
-/*
- * Set property by passing a property name, and values.
- * @param $property name - padding, margin etc.
- * @param $values        - values in `px` (space separated for multiple values)
- * @param $font-size     - base font-size in `em`
- * Usage example:
-   @include toEm(padding, 8px 16px 8px, 1.6em);
- */
-/*
- * Generate typefaces key-value pair of variable name and config
- * Example:
-   --paragraph-center-bold-black: (14px, center, bold, black)
- */
-/*
- * Sets font-size, font-weight, color, text-transform, text-align and line-height
- * Usage example:
-   @include setTypeface(16px, bold, black, uppercase);
- */
-/*
- * Set typefaces by passing a typeface variable name
- * @param $var   - typeface variable
- * @param $tt    - text-transform property
- * @param $align - text-align property
- * Usage example:
-   @include typeface(--paragraph-bold-black, uppercase, center);
- */
-/*
- * Range Slider Thumb styling is set here
- */
-/*
- * SVG icons colors
- */
-/*
- * Bar Spinner Animation
- * @param $count    - number of bars
- * @param $duration - duration of animation
- * @param $phase    - each bar phase change delay
- * Usage example:
-   @include createBarspinnerAnimation(5, 1.2s, 0,1);
- */
-/*
- * Tooltip colors
- * @param $color - color property
- * Usage example:
-   @include tooltipColor($COLOR_RED);
- */
-/*
- * Convert Tooltip colors
- * @param $color - css color property
- * Usage example:
-   @include convertTooltipColor(var(--status-default));
- */
-/*
-    Constants
-*/
-/*
-    Variables
-*/
-/*
-    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
-    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
-    Variables name example: --title-center-semibold-red
- */
-/*
-    to use styles without modifier class on .inline-icon
-    use @extend
-
-    e.g. style icon on parent hover:
-        a:hover .inline-icon {
-            @extend %inline-icon.active;
-        }
-*/
-/**
- * Define Breakpoints here.
- */
 .dc-label {
   font-size: 14px;
   font-weight: bold;
@@ -6206,84 +8403,49 @@
   margin: 0 2px;
   position: relative;
   /* TODO: change all :after to normal background color once styleguide ready */ }
-  .dc-label--default {
+  .dc-label:after {
+    opacity: 0.16;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 12px; }
+  .dc-label--general--default {
     color: var(--status-default); }
-    .dc-label--default:after {
-      background-color: var(--status-default);
-      opacity: 0.16;
-      content: '';
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      position: absolute;
-      border-radius: 12px; }
-  .dc-label--danger {
+    .dc-label--general--default:after {
+      background-color: var(--status-default); }
+  .dc-label--general--adjustment {
+    color: var(--status-adjustment); }
+    .dc-label--general--adjustment:after {
+      background-color: var(--status-adjustment); }
+  .dc-label--general--danger {
     color: var(--status-danger); }
-    .dc-label--danger:after {
-      background-color: var(--status-danger);
-      opacity: 0.16;
-      content: '';
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      position: absolute;
-      border-radius: 12px; }
-  .dc-label--warn {
+    .dc-label--general--danger:after {
+      background-color: var(--status-danger); }
+  .dc-label--general--warn {
     color: var(--status-warning); }
-    .dc-label--warn:after {
-      background-color: var(--status-warning);
-      opacity: 0.16;
-      content: '';
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      position: absolute;
-      border-radius: 12px; }
-  .dc-label--success {
+    .dc-label--general--warn:after {
+      background-color: var(--status-warning); }
+  .dc-label--general--success {
     color: var(--status-success); }
-    .dc-label--success:after {
-      background-color: var(--status-success);
-      opacity: 0.16;
-      content: '';
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      position: absolute;
-      border-radius: 12px; }
-  .dc-label--default-invert {
-    color: var(--text-less-prominent); }
-    .dc-label--default-invert:after {
-      background-color: var(--text-less-prominent);
-      opacity: 0.16;
-      content: '';
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      position: absolute;
-      border-radius: 12px; }
-  .dc-label--success-invert {
+    .dc-label--general--success:after {
+      background-color: var(--status-success); }
+  .dc-label--general--default-invert {
+    color: var(--status-less-prominent); }
+    .dc-label--general--default-invert:after {
+      background-color: var(--status-less-prominent); }
+  .dc-label--general--success-invert {
     color: var(--text-colored-background);
     background-color: var(--status-success); }
-  .dc-label--warn-invert {
+  .dc-label--general--warn-invert {
     color: var(--text-colored-background);
     background-color: var(--status-warning); }
-  .dc-label--info {
+  .dc-label--general--info {
     color: var(--status-info); }
-    .dc-label--info:after {
-      background-color: var(--status-info);
-      opacity: 0.16;
-      content: '';
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      position: absolute;
-      border-radius: 12px; }
+    .dc-label--general--info:after {
+      background-color: var(--status-info); }
   .dc-label--large {
     height: 28px;
     border-radius: 20px;
@@ -6648,182 +8810,6 @@
             @extend %inline-icon.active;
         }
 */
-/**
- * Define Breakpoints here.
- */
-/** @define dc-mobile-dialog; weak */
-.dc-mobile-dialog {
-  box-sizing: border-box;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: 999;
-  overflow: auto;
-  transition: opacity 0.2s;
-  opacity: 0;
-  pointer-events: none;
-  background: var(--general-section-2); }
-  .dc-mobile-dialog--enter, .dc-mobile-dialog--exit {
-    opacity: 0;
-    pointer-events: none; }
-    .dc-mobile-dialog--enter .dc-mobile-dialog__content, .dc-mobile-dialog--exit .dc-mobile-dialog__content {
-      transform: scale(0); }
-    .dc-mobile-dialog--enter .dc-mobile-dialog__header, .dc-mobile-dialog--exit .dc-mobile-dialog__header {
-      transform: translateY(-100%); }
-  .dc-mobile-dialog--enter-done {
-    opacity: 1;
-    pointer-events: auto; }
-    .dc-mobile-dialog--enter-done .dc-mobile-dialog__content {
-      transform: scale(1); }
-    .dc-mobile-dialog--enter-done .dc-mobile-dialog__header {
-      transform: translateY(0); }
-  .dc-mobile-dialog__container--has-scroll {
-    overflow-x: hidden;
-    overflow-y: auto; }
-  .dc-mobile-dialog__content {
-    margin-top: 0.4rem;
-    box-sizing: border-box;
-    position: relative;
-    padding-top: 3.6rem;
-    z-index: 1;
-    background: var(--general-section-2);
-    transition: all 0.2s ease-out; }
-    .dc-mobile-dialog__content > div {
-      height: 100%; }
-  .dc-mobile-dialog__header {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    padding: 1rem;
-    height: 40px;
-    z-index: 4;
-    background: var(--general-section-2);
-    transition: all 0.2s ease-out;
-    transition-delay: 0.2s;
-    border-bottom: 1px solid var(--border-disabled); }
-  .dc-mobile-dialog__footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0px;
-    z-index: 4; }
-  .dc-mobile-dialog__title {
-    padding: 1.2rem 1.2rem 1.2rem 0.4rem;
-    font-size: 1.4rem;
-    font-weight: bold;
-    color: var(--text-prominent);
-    margin: 0; }
-  .dc-mobile-dialog__close-btn-icon {
-    margin: 1.2rem 0.4rem;
-    width: 1.6rem;
-    height: 1.6rem;
-    /* postcss-bem-linter: ignore */
-    --fill-color1: var(--text-prominent) !important; }
-
-/*------------------------------------*
- *  # Constants
- *------------------------------------*/
-/* stylelint-disable color-no-hex */
-/* COLOR PALETTE */
-/* colors */
-/* alpha colors */
-/* gradient colors */
-/* Preserve legacy variables */
-/* Primary */
-/* stylelint-enable color-no-hex */
-/*------------------------------------*
- *  # SASS Mixins and Functions
- *------------------------------------*/
-/*
- * SASS interpolation
- */
-/*
- * PX to EM
- * @param $px - px value to be converted
- * @param $base - base font size (in `em`)
- * Note: 'em' values are calculate based on the element font-size
- *       to properly converts 'px' to 'em', please pass in the element font-size with it
- * Usage example:
-    padding: em(16px, 1.6em); // font-size in 'em'
- */
-/*
- * Set property by passing a property name, and values.
- * @param $property name - padding, margin etc.
- * @param $values        - values in `px` (space separated for multiple values)
- * @param $font-size     - base font-size in `em`
- * Usage example:
-   @include toEm(padding, 8px 16px 8px, 1.6em);
- */
-/*
- * Generate typefaces key-value pair of variable name and config
- * Example:
-   --paragraph-center-bold-black: (14px, center, bold, black)
- */
-/*
- * Sets font-size, font-weight, color, text-transform, text-align and line-height
- * Usage example:
-   @include setTypeface(16px, bold, black, uppercase);
- */
-/*
- * Set typefaces by passing a typeface variable name
- * @param $var   - typeface variable
- * @param $tt    - text-transform property
- * @param $align - text-align property
- * Usage example:
-   @include typeface(--paragraph-bold-black, uppercase, center);
- */
-/*
- * Range Slider Thumb styling is set here
- */
-/*
- * SVG icons colors
- */
-/*
- * Bar Spinner Animation
- * @param $count    - number of bars
- * @param $duration - duration of animation
- * @param $phase    - each bar phase change delay
- * Usage example:
-   @include createBarspinnerAnimation(5, 1.2s, 0,1);
- */
-/*
- * Tooltip colors
- * @param $color - color property
- * Usage example:
-   @include tooltipColor($COLOR_RED);
- */
-/*
- * Convert Tooltip colors
- * @param $color - css color property
- * Usage example:
-   @include convertTooltipColor(var(--status-default));
- */
-/*
-    Constants
-*/
-/*
-    Variables
-*/
-/*
-    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
-    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
-    Variables name example: --title-center-semibold-red
- */
-/*
-    to use styles without modifier class on .inline-icon
-    use @extend
-
-    e.g. style icon on parent hover:
-        a:hover .inline-icon {
-            @extend %inline-icon.active;
-        }
-*/
   .dc-mobile-drawer__header-close {
     /* postcss-bem-linter: ignore */
     /* postcss-bem-linter: ignore */ }
@@ -6852,7 +8838,7 @@
   .dc-mobile-drawer__header {
     display: flex;
     width: 100%;
-    height: 40px;
+    height: 50px;
     z-index: 4;
     line-height: 24px;
     align-items: center;
@@ -7153,6 +9139,14 @@
       max-width: 440px; }
       .dc-modal__container--small .dc-modal-header {
         border-bottom: none; }
+    .dc-modal__container--is-confirmation-modal .dc-modal-header {
+      border-bottom: none; }
+      .dc-modal__container--is-confirmation-modal .dc-modal-header__title {
+        padding: 2.4rem; }
+    .dc-modal__container--is-confirmation-modal .dc-modal-body {
+      padding: 0 2.4rem; }
+    .dc-modal__container--is-confirmation-modal .dc-modal-footer {
+      padding: 2.4rem; }
     @media (min-width: 1024px) {
       .dc-modal__container {
         min-width: 400px !important;
@@ -7230,115 +9224,14 @@
   .dc-modal-footer {
     display: flex;
     justify-content: flex-end;
-    padding: 1.6rem; }
+    padding: 1.6rem;
+    margin-top: auto; }
     .dc-modal-footer .dc-btn {
       margin: 0 0.8rem; }
       .dc-modal-footer .dc-btn:last-child {
         margin: 0; }
     .dc-modal-footer--separator {
       border-top: 2px solid var(--general-section-1); }
-
-/*------------------------------------*
- *  # Constants
- *------------------------------------*/
-/* stylelint-disable color-no-hex */
-/* COLOR PALETTE */
-/* colors */
-/* alpha colors */
-/* gradient colors */
-/* Preserve legacy variables */
-/* Primary */
-/* stylelint-enable color-no-hex */
-/*------------------------------------*
- *  # SASS Mixins and Functions
- *------------------------------------*/
-/*
- * SASS interpolation
- */
-/*
- * PX to EM
- * @param $px - px value to be converted
- * @param $base - base font size (in `em`)
- * Note: 'em' values are calculate based on the element font-size
- *       to properly converts 'px' to 'em', please pass in the element font-size with it
- * Usage example:
-    padding: em(16px, 1.6em); // font-size in 'em'
- */
-/*
- * Set property by passing a property name, and values.
- * @param $property name - padding, margin etc.
- * @param $values        - values in `px` (space separated for multiple values)
- * @param $font-size     - base font-size in `em`
- * Usage example:
-   @include toEm(padding, 8px 16px 8px, 1.6em);
- */
-/*
- * Generate typefaces key-value pair of variable name and config
- * Example:
-   --paragraph-center-bold-black: (14px, center, bold, black)
- */
-/*
- * Sets font-size, font-weight, color, text-transform, text-align and line-height
- * Usage example:
-   @include setTypeface(16px, bold, black, uppercase);
- */
-/*
- * Set typefaces by passing a typeface variable name
- * @param $var   - typeface variable
- * @param $tt    - text-transform property
- * @param $align - text-align property
- * Usage example:
-   @include typeface(--paragraph-bold-black, uppercase, center);
- */
-/*
- * Range Slider Thumb styling is set here
- */
-/*
- * SVG icons colors
- */
-/*
- * Bar Spinner Animation
- * @param $count    - number of bars
- * @param $duration - duration of animation
- * @param $phase    - each bar phase change delay
- * Usage example:
-   @include createBarspinnerAnimation(5, 1.2s, 0,1);
- */
-/*
- * Tooltip colors
- * @param $color - color property
- * Usage example:
-   @include tooltipColor($COLOR_RED);
- */
-/*
- * Convert Tooltip colors
- * @param $color - css color property
- * Usage example:
-   @include convertTooltipColor(var(--status-default));
- */
-/*
-    Constants
-*/
-/*
-    Variables
-*/
-/*
-    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
-    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
-    Variables name example: --title-center-semibold-red
- */
-/*
-    to use styles without modifier class on .inline-icon
-    use @extend
-
-    e.g. style icon on parent hover:
-        a:hover .inline-icon {
-            @extend %inline-icon.active;
-        }
-*/
-/**
- * Define Breakpoints here.
- */
 
 /*------------------------------------*
  *  # Constants
@@ -10093,118 +11986,6 @@
 /**
  * Define Breakpoints here.
  */
-.dc-tick-progress {
-  display: grid;
-  grid-gap: 0.8rem; }
-  .dc-tick-progress__tick {
-    border-radius: 50%;
-    width: 0.8rem;
-    height: 0.8rem;
-    background-color: var(--fill-disabled); }
-    .dc-tick-progress__tick--on {
-      background-color: var(--brand-secondary); }
-
-/*------------------------------------*
- *  # Constants
- *------------------------------------*/
-/* stylelint-disable color-no-hex */
-/* COLOR PALETTE */
-/* colors */
-/* alpha colors */
-/* gradient colors */
-/* Preserve legacy variables */
-/* Primary */
-/* stylelint-enable color-no-hex */
-/*------------------------------------*
- *  # SASS Mixins and Functions
- *------------------------------------*/
-/*
- * SASS interpolation
- */
-/*
- * PX to EM
- * @param $px - px value to be converted
- * @param $base - base font size (in `em`)
- * Note: 'em' values are calculate based on the element font-size
- *       to properly converts 'px' to 'em', please pass in the element font-size with it
- * Usage example:
-    padding: em(16px, 1.6em); // font-size in 'em'
- */
-/*
- * Set property by passing a property name, and values.
- * @param $property name - padding, margin etc.
- * @param $values        - values in `px` (space separated for multiple values)
- * @param $font-size     - base font-size in `em`
- * Usage example:
-   @include toEm(padding, 8px 16px 8px, 1.6em);
- */
-/*
- * Generate typefaces key-value pair of variable name and config
- * Example:
-   --paragraph-center-bold-black: (14px, center, bold, black)
- */
-/*
- * Sets font-size, font-weight, color, text-transform, text-align and line-height
- * Usage example:
-   @include setTypeface(16px, bold, black, uppercase);
- */
-/*
- * Set typefaces by passing a typeface variable name
- * @param $var   - typeface variable
- * @param $tt    - text-transform property
- * @param $align - text-align property
- * Usage example:
-   @include typeface(--paragraph-bold-black, uppercase, center);
- */
-/*
- * Range Slider Thumb styling is set here
- */
-/*
- * SVG icons colors
- */
-/*
- * Bar Spinner Animation
- * @param $count    - number of bars
- * @param $duration - duration of animation
- * @param $phase    - each bar phase change delay
- * Usage example:
-   @include createBarspinnerAnimation(5, 1.2s, 0,1);
- */
-/*
- * Tooltip colors
- * @param $color - color property
- * Usage example:
-   @include tooltipColor($COLOR_RED);
- */
-/*
- * Convert Tooltip colors
- * @param $color - css color property
- * Usage example:
-   @include convertTooltipColor(var(--status-default));
- */
-/*
-    Constants
-*/
-/*
-    Variables
-*/
-/*
-    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
-    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
-    Variables name example: --title-center-semibold-red
- */
-/*
-    to use styles without modifier class on .inline-icon
-    use @extend
-
-    e.g. style icon on parent hover:
-        a:hover .inline-icon {
-            @extend %inline-icon.active;
-        }
-*/
-/**
- * Define Breakpoints here.
- */
 .dc-timeline__flex {
   display: flex;
   border-left: var(--brand-red-coral) solid 1px;
@@ -10628,7 +12409,7 @@
     color: var(--text-general);
     font-weight: 700;
     text-transform: none;
-    text-align: center;
+    text-align: left;
     line-height: 1.5;
     line-height: 1.5;
     color: var(--text-general);
@@ -10650,9 +12431,12 @@
       margin-right: 0.4rem; }
     .dc-vertical-tab__header__icon, .dc-vertical-tab__header-group__icon {
       margin-right: 1.6rem; }
+      .dc-vertical-tab__header__icon--active, .dc-vertical-tab__header-group__icon--active {
+        --fill-color1: var(--text-prominent); }
     .dc-vertical-tab__header__counter, .dc-vertical-tab__header-group__counter {
       margin-left: 1rem; }
     .dc-vertical-tab__header--active .dc-vertical-tab__header__link, .dc-vertical-tab__header-group--active .dc-vertical-tab__header__link, .dc-vertical-tab__header--active .dc-vertical-tab__header-group__link, .dc-vertical-tab__header-group--active .dc-vertical-tab__header-group__link {
+      color: var(--text-prominent);
       font-weight: bold; }
     .dc-vertical-tab__header--highlight, .dc-vertical-tab__header-group--highlight {
       position: absolute;
@@ -10972,8 +12756,8 @@
 
 .settings-language__language-container {
   display: grid;
-  grid-template-columns: repeat(5, 80px);
-  grid-template-rows: repeat(5, 84px);
+  grid-template-columns: repeat(4, minmax(90px, 1fr));
+  grid-template-rows: repeat(5, auto);
   grid-gap: 16px; }
 
 .settings-language__language-link {
@@ -10985,7 +12769,8 @@
   border-radius: 4px;
   padding: 16px;
   text-decoration: none;
-  background-color: var(--state-normal); }
+  background-color: var(--state-normal);
+  cursor: pointer; }
   .settings-language__language-link--active {
     border: 1px solid var(--border-active);
     color: var(--text-prominent); }
@@ -11001,7 +12786,8 @@
   text-transform: none;
   text-align: left;
   line-height: 1.5;
-  color: var(--text-prominent); }
+  color: var(--text-prominent);
+  margin-top: 0.8rem; }
   .settings-language__language-name--active {
     font-weight: bold;
     color: var(--text-prominent); }
@@ -11267,7 +13053,7 @@
     .notifications-item__cta-button {
       margin: 8px 0 0 auto;
       height: 24px !important;
-      width: 106px; }
+      width: auto; }
       .notifications-item__cta-button .dc-btn__text {
         font-size: 1.2rem; }
       @media (min-width: 320px) and (max-width: 767px) {
@@ -11296,6 +13082,9 @@
         text-decoration: none;
         font-weight: bold;
         color: var(--text-prominent); }
+    .notifications-item__action {
+      display: flex;
+      justify-content: flex-end; }
     @media (min-width: 320px) and (max-width: 767px) {
       .notifications-item {
         display: flex;
@@ -11627,6 +13416,9 @@
       color: var(--text-general); }
     .acc-switcher__new-account-btn {
       margin-left: auto; }
+    .acc-switcher__new-account--disabled {
+      opacity: 0.5;
+      cursor: default; }
   .acc-switcher__list {
     border-radius: 4px;
     display: flex;
@@ -12618,6 +14410,9 @@
         margin: 0;
         padding: 1rem 1.6rem 0;
         overflow-y: scroll; } }
+  .details-form__loader .barspinner {
+    margin-top: 0.4rem;
+    margin-bottom: 3.2rem; }
   .details-form__tax {
     position: relative; }
     @media (min-width: 320px) and (max-width: 767px) {
@@ -12632,10 +14427,10 @@
         .details-form__tax .dc-popover {
           right: -5px; } }
   .details-form__tin-warn-divider {
-    height: 3rem; }
+    height: 5rem; }
     @media (min-width: 320px) and (max-width: 767px) {
       .details-form__tin-warn-divider {
-        height: 4.5rem; } }
+        height: 6rem; } }
   .details-form__tin-confirm {
     margin-left: -5px; }
     .details-form__tin-confirm .dc-checkbox__box {
@@ -12649,7 +14444,7 @@
     font-size: var(--text-size-xxs);
     line-height: 1.8rem;
     margin: 1.6rem auto;
-    width: 40%;
+    width: 45%;
     color: var(--text-general); }
     @media (min-width: 1024px) {
       .details-form__description {
@@ -12954,8 +14749,8 @@
   .status-dialog__icon-area {
     display: flex;
     align-items: center;
-    width: 100%;
-    justify-content: space-between;
+    width: auto;
+    justify-content: center;
     position: relative; }
     .status-dialog__icon-area .bottom-right-overlay {
       position: absolute;
@@ -12968,6 +14763,8 @@
       height: 120px; }
     .status-dialog__icon-area svg {
       display: block; }
+      .status-dialog__icon-area svg.dc-icon--red {
+        margin: 0 1rem; }
       @media (min-width: 320px) and (max-width: 767px) {
         .status-dialog__icon-area svg {
           max-width: 96px;
@@ -13403,11 +15200,15 @@
     margin-bottom: 1.6rem; }
   .account-wizard form {
     width: 100%; }
+    @media (min-width: 768px) {
+      .account-wizard form {
+        display: grid;
+        grid-template-rows: minmax(20rem, 1fr); } }
     .account-wizard form .currency-selector__radio-group {
       display: flex;
       flex-direction: column;
       flex-grow: 1;
-      justify-content: space-around;
+      justify-content: center;
       align-items: center; }
       .account-wizard form .currency-selector__radio-group--is-header {
         font-size: 1.6rem;
@@ -13433,27 +15234,13 @@
           overflow-y: auto; }
           .account-wizard form .currency-selector__container--no-top-margin {
             margin-top: 0; } }
-    @media not all and (min-resolution: 0.001dpcm) {
-      @supports (-webkit-appearance: none) and (stroke-color: transparent) {
-        @media (min-width: 1024px) {
-          .account-wizard form {
-            max-height: calc(100% - 48px); } }
-        @media (min-width: 768px) and (max-width: 1023px) {
-          .account-wizard form {
-            max-height: calc(100% - 48px); } } } }
-    @media (min-width: 1024px) {
-      .account-wizard form {
-        height: 100%;
-        display: grid;
-        grid-template-rows: minmax(20rem, 1fr); } }
+    .account-wizard form .currency-selector__button {
+      margin-top: 1.6rem; }
+  .account-wizard__body {
+    display: flex; }
     @media (min-width: 768px) and (max-width: 1023px) {
-      .account-wizard form {
-        height: 100%;
-        display: grid;
-        grid-template-rows: minmax(20rem, 1fr); } }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .account-wizard__body .details-form {
-      grid-template-rows: minmax(10rem, 1fr); } }
+      .account-wizard__body .details-form {
+        grid-template-rows: minmax(10rem, 1fr); } }
   .account-wizard__set-currency p {
     margin: 2.4rem 0;
     font-size: 1.4rem;
@@ -13567,34 +15354,37 @@
         font-weight: bold;
         padding: 0 2.4rem; } }
 
-.add-crypto-currency__title, .add-crypto-currency__sub-title,
-.change-currency__title,
-.change-currency__sub-title {
-  font-size: 1.6rem;
-  color: var(--text-general);
-  font-weight: 700;
-  text-transform: none;
-  text-align: left;
-  line-height: 1.75;
-  color: var(--text-prominent);
-  text-align: center; }
-
-.add-crypto-currency__title,
-.change-currency__title {
-  margin-top: 3rem; }
-
-.add-crypto-currency__sub-title,
-.change-currency__sub-title {
-  font-size: var(--text-size-xxs);
-  font-weight: normal;
-  margin-bottom: 1rem; }
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  .add-crypto-currency form,
-  .change-currency form {
-    display: grid;
-    grid-template-rows: repeat(2, 7rem) 1fr 7rem;
-    height: auto; } }
+.add-crypto-currency,
+.change-currency {
+  padding-bottom: 1.6rem; }
+  .add-crypto-currency__title, .add-crypto-currency__sub-title,
+  .change-currency__title,
+  .change-currency__sub-title {
+    font-size: 1.6rem;
+    color: var(--text-general);
+    font-weight: 700;
+    text-transform: none;
+    text-align: left;
+    line-height: 1.75;
+    color: var(--text-prominent);
+    text-align: center; }
+  .add-crypto-currency__title,
+  .change-currency__title {
+    margin-top: 3rem; }
+  .add-crypto-currency__sub-title,
+  .change-currency__sub-title {
+    font-size: var(--text-size-xxs);
+    font-weight: normal;
+    margin-bottom: 1rem; }
+  .add-crypto-currency__button,
+  .change-currency__button {
+    margin-top: 1.6rem; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .add-crypto-currency form,
+    .change-currency form {
+      display: grid;
+      grid-template-rows: repeat(2, 7rem) 1fr 7rem;
+      height: auto; } }
 
 /* TODO: [refactor-components] Refactor form subheader to components */
 .account-form__header {
@@ -13897,6 +15687,9 @@
   .notification__text-body {
     font-size: 1.4rem;
     line-height: 1.43; }
+  .notification__action {
+    display: flex;
+    justify-content: flex-end; }
   .notification__header {
     font-size: 1.6rem;
     font-weight: bold;
@@ -14433,6 +16226,7 @@ strong {
     --fill-active: var(--brand-secondary);
     --fill-disabled: #eaeced;
     --status-default: #eaeced;
+    --status-adjustment: #999999;
     --status-danger: #ec3f3f;
     --status-success: #4bb4b3;
     --status-warning: #ffad3a;
@@ -14442,7 +16236,8 @@ strong {
     --transparent-info: rgba(55, 124, 252, 0.16);
     /* TODO: change to styleguide later */
     --gradient-success: linear-gradient(to top, #ffffff, rgba(75, 180, 179, 0.16));
-    --gradient-danger: linear-gradient(to top, #ffffff, rgba(255, 68, 79, 0.16)); }
+    --gradient-danger: linear-gradient(to top, #ffffff, rgba(255, 68, 79, 0.16));
+    --contract-gradient-danger: linear-gradient(to top, #ffffff 50%, rgba(255, 68, 79, 0.16)); }
   :host .theme--dark,
   :root .theme--dark {
     --general-main-1: #0e0e0e;
@@ -14489,6 +16284,7 @@ strong {
     --fill-active: var(--brand-secondary);
     --fill-disabled: #1d1f20;
     --status-default: #eaeced;
+    --status-adjustment: #999999;
     --status-danger: #cc2e3d;
     --status-warning: #ffad3a;
     --status-success: #00a79e;
@@ -14498,7 +16294,8 @@ strong {
     --transparent-info: rgba(55, 124, 252, 0.16);
     /* TODO: change to styleguide later */
     --gradient-success: linear-gradient(to top, #0e0e0e, rgba(0, 167, 158, 0.16));
-    --gradient-danger: linear-gradient(to top, #0e0e0e, rgba(255, 68, 79, 0.16)); }
+    --gradient-danger: linear-gradient(to top, #0e0e0e, rgba(255, 68, 79, 0.16));
+    --contract-gradient-danger: linear-gradient(to top, #0e0e0e 50%, rgba(255, 68, 79, 0.16)); }
 
 @font-face {
   font-family: 'BinarySymbols';
@@ -14677,13 +16474,14 @@ strong {
         top: 0; }
       .app-contents .contract-details-wrapper {
         height: inherit;
-        position: relative; }
+        position: relative;
+        z-index: 1; }
       .app-contents .contract-audit-card {
         background-color: var(--general-section-1);
         border-radius: 4px; }
         .app-contents .contract-audit-card .contract-audit__wrapper {
           height: 100%;
-          max-height: calc(100% - 16px); } }
+          max-height: calc(100% - 38px); } }
 
 /** @define sidebar; weak; */
 .sidebar__container {
@@ -15335,13 +17133,18 @@ strong {
   padding-right: 1.6rem; }
   .livechat__icon {
     margin-right: 0.8rem; }
+    .livechat__icon-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
   .livechat__title {
     font-size: 1.4rem;
     color: var(--text-general);
     font-weight: 400;
     text-transform: none;
     text-align: left;
-    line-height: 1.5; }
+    line-height: 1.5;
+    line-height: 1.25; }
 
 /** @define cookie-banner; weak */
 .cookie-banner {
@@ -15579,4 +17382,159 @@ strong {
 
 .redirect-notice {
   z-index: 50000; }
+
+.dc-modal__container_welcome {
+  overflow: visible; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .dc-modal__container_welcome {
+      overflow: auto;
+      max-height: 95vh; } }
+
+.welcome__title {
+  font-size: 1.6rem;
+  color: var(--text-prominent);
+  font-weight: 700;
+  text-transform: none;
+  text-align: center;
+  line-height: 1.75;
+  margin: 2.4rem; }
+
+.welcome__message {
+  display: none;
+  flex-direction: row;
+  position: fixed;
+  align-items: center; }
+  .welcome__message__text {
+    font-size: 1.6rem;
+    color: var(--text-colored-background);
+    font-weight: 700;
+    text-transform: none;
+    text-align: left;
+    line-height: 1.75;
+    padding-left: 0.8rem; }
+  .welcome__message--left {
+    top: 50%;
+    left: -1.6rem;
+    transform: translate(-100%, -50%); }
+    .welcome__message--left .welcome__message__text {
+      width: 12rem; }
+  .welcome__message--right {
+    top: 50%;
+    right: -1.6rem;
+    transform: translate(100%, -50%); }
+  @media (min-width: 1024px) {
+    .welcome__message--visible {
+      display: flex; } }
+
+.welcome-column {
+  width: 32rem;
+  height: 46.3rem;
+  position: relative;
+  padding: 1.6rem;
+  background-repeat: no-repeat;
+  background-position: top right; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .welcome-column:not(:last-child) {
+      margin-bottom: 3rem; } }
+  .welcome-column:hover {
+    box-shadow: 0 0 3rem 0.5rem var(--shadow-drop); }
+  .welcome-column--left:hover {
+    background-image: url(/br_market-close-notif/public/images/common/welcome-bg-blue.svg); }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .welcome-column--left {
+      height: 37rem;
+      background-image: url(/br_market-close-notif/public/images/common/welcome-bg-blue.svg);
+      box-shadow: 0 0 3rem 0.5rem var(--shadow-drop); } }
+  .welcome-column--right:hover {
+    background-image: url(/br_market-close-notif/public/images/common/welcome-bg-red.svg); }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .welcome-column--right {
+      height: 43rem;
+      background-image: url(/br_market-close-notif/public/images/common/welcome-bg-red.svg);
+      box-shadow: 0 0 3rem 0.5rem var(--shadow-drop); } }
+  .welcome-column__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .welcome-column__icon {
+    margin: 0.8rem 0.6rem 1.6rem; }
+  .welcome-column__title {
+    font-size: 1.6rem;
+    color: var(--text-prominent);
+    font-weight: 700;
+    text-transform: none;
+    text-align: center;
+    line-height: 1.75; }
+  .welcome-column__description {
+    font-size: 1.2rem;
+    color: var(--text-prominent);
+    font-weight: 400;
+    text-transform: none;
+    text-align: center;
+    line-height: 1.25;
+    line-height: 1.5;
+    height: 7.8rem;
+    padding: 0.8rem 0 1.6rem;
+    border-bottom: 1px solid var(--general-section-1); }
+  .welcome-column__button {
+    width: calc(100% - 3.2rem);
+    position: absolute;
+    bottom: 1.6rem;
+    left: 1.6rem; }
+  .welcome-column__platforms__title {
+    font-size: 1.4rem;
+    color: var(--text-prominent);
+    font-weight: 700;
+    text-transform: none;
+    text-align: center;
+    line-height: 1.5;
+    padding: 2.4rem 1.6rem 1.6rem; }
+  .welcome-column__platforms__container {
+    display: flex;
+    flex-direction: column; }
+  .welcome-column__platform {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 0.8rem;
+    grid-row-gap: 0.4rem;
+    margin-bottom: 1.6rem; }
+    .welcome-column__platform__icon {
+      grid-row: 1 / -1;
+      grid-column: 1; }
+    .welcome-column__platform__title {
+      font-size: 1.2rem;
+      color: var(--text-prominent);
+      font-weight: 700;
+      text-transform: none;
+      text-align: left;
+      line-height: 1.25;
+      grid-row: 1;
+      grid-column: 2; }
+    .welcome-column__platform__description {
+      font-size: 1.2rem;
+      color: var(--text-less-prominent);
+      font-weight: 400;
+      text-transform: none;
+      text-align: left;
+      line-height: 1.25;
+      grid-row: 2;
+      grid-column: 2; }
+
+.welcome__body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .welcome__body {
+      flex-wrap: wrap; } }
+
+.welcome__footer {
+  font-size: 1.2rem;
+  color: var(--text-less-prominent);
+  font-weight: 400;
+  text-transform: none;
+  text-align: center;
+  line-height: 1.25;
+  padding: 2.4rem; }
 
