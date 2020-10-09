@@ -5111,6 +5111,8 @@ html, body {
     opacity: 1; }
   100% {
     opacity: 0; } }
+.barrier {
+  height: 0px; }
 .barrier-area {
   padding: 13px 0; }
 /* Drag Lines and Prices */
