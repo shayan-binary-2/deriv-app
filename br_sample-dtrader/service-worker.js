@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/br_sample-dtrader/precache-manifest.0dcdd21886d04aa4711c3392e0883768.js"
+  "/br_sample-dtrader/precache-manifest.750844b1cd7f3c054d4f9fdebd76b5d9.js"
 );
 
 workbox.core.skipWaiting();
