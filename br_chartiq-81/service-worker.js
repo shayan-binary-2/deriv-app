@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/br_chartiq-81/precache-manifest.e7322c7538984f1034aa9dc4e81aaa92.js"
+  "/br_chartiq-81/precache-manifest.d203244c23ad8762fd8d25fd75f71661.js"
 );
 
 workbox.core.skipWaiting();
