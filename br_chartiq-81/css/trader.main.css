@@ -3412,8 +3412,8 @@
   /* postcss-bem-linter: ignore */ }
   .trade-container__fieldset {
     border-radius: 4px;
-    padding: 0.8em;
-    margin-bottom: 0.4em;
+    padding: 0.8rem;
+    margin-bottom: 0.4rem;
     background-color: var(--general-section-1);
     border-color: var(--general-section-1);
     color: var(--text-general);
@@ -3494,21 +3494,19 @@
       border-radius: 4px; }
   .trade-container__currency {
     position: absolute;
-    float: right;
-    font-size: 10px;
-    height: 32px;
-    right: 50px;
+    height: 3.2rem;
+    right: 4rem;
     align-items: center;
     justify-content: center;
-    width: 20px;
     display: flex;
     background: transparent;
     border-color: transparent;
     z-index: 2;
     color: inherit; }
     .trade-container__currency--symbol {
-      font-size: 1.3em;
-      line-height: 1.5; }
+      font-size: 1.4rem;
+      line-height: 1.5;
+      padding-bottom: 0.2rem; }
     .trade-container__currency:before {
       font-size: 1.4rem;
       color: var(--text-general);
@@ -3629,7 +3627,7 @@
   .trade-container__currency-options {
     display: grid;
     grid-template-columns: 3fr 1.5fr;
-    grid-gap: 0.2em; }
+    grid-gap: 0.4rem; }
     .trade-container__currency-options .dc-dropdown-container {
       /* postcss-bem-linter: ignore */ }
       .trade-container__currency-options .dc-dropdown-container__currency {
@@ -3640,17 +3638,41 @@
         .trade-container__currency-options .dc-dropdown-container__currency .dc-dropdown__select-arrow {
           top: 9px; }
         .trade-container__currency-options .dc-dropdown-container__currency .dc-dropdown__display {
-          border-radius: 4px 0 0 4px;
+          border-radius: 4px;
           /* postcss-bem-linter: ignore */ }
           .trade-container__currency-options .dc-dropdown-container__currency .dc-dropdown__display .symbols {
             font-size: 1.4em; }
-  .trade-container__amount #dt_amount_input {
-    text-align: left !important;
-    font-size: 1.3rem;
-    padding-left: 45px; }
+  .trade-container__amount--multipliers .trade-container__input {
+    left: 3.6rem; }
+  .trade-container__amount .dc-tooltip--error .dc-input-wrapper {
+    border: 1px solid var(--status-danger); }
+    .trade-container__amount .dc-tooltip--error .dc-input-wrapper:hover {
+      border-color: var(--status-danger); }
+  .trade-container__amount .dc-input-wrapper {
+    border-radius: 4px;
+    background: var(--fill-normal);
+    border: 1px solid var(--fill-normal);
+    height: 3.2rem;
+    box-sizing: border-box; }
+    .trade-container__amount .dc-input-wrapper__button {
+      top: 1px; }
+      .trade-container__amount .dc-input-wrapper__button--increment {
+        right: 1px; }
+      .trade-container__amount .dc-input-wrapper__button--decrement {
+        left: 1px; }
+    .trade-container__amount .dc-input-wrapper:hover {
+      border-color: var(--border-hover); }
+    .trade-container__amount .dc-input-wrapper:active, .trade-container__amount .dc-input-wrapper:focus {
+      border-color: var(--border-active); }
   .trade-container__amount .trade-container__input {
-    padding: 0 30px;
-    border-radius: 0 4px 4px 0; }
+    font-size: 1.4rem;
+    max-width: calc(100% - 7.2rem);
+    border-radius: 0 4px 4px 0;
+    background: none;
+    border: none;
+    padding: 0 0 0.2rem; }
+    .trade-container__amount .trade-container__input.input--error {
+      border: none !important; }
   .trade-container__multiplier {
     display: flex;
     flex-direction: column;
@@ -3677,7 +3699,7 @@
       font-size: 1.1rem; }
     @media (min-width: 320px) and (max-width: 767px) {
       .trade-container__cancel-deal-info {
-        padding: 0rem 0.4rem;
+        padding: 0 0.4rem;
         min-height: 1.4rem; }
         .trade-container__cancel-deal-info .trade-container__price-info-basis {
           color: var(--text-general); }

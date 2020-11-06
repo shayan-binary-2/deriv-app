@@ -15646,7 +15646,7 @@
       .details-form__elements {
         width: 100%;
         margin: 0;
-        padding: 1rem 1.6rem 0;
+        padding: 1rem 1.6rem 4rem;
         overflow-y: scroll; } }
   .details-form__loader .barspinner {
     margin-top: 0.4rem;
@@ -15851,7 +15851,7 @@
     .terms-of-use {
       overflow-x: hidden;
       margin: 0;
-      padding: 0 2.4rem 4rem;
+      padding: 0 2.4rem 10rem;
       overflow-y: auto; }
       .terms-of-use .dc-checkbox__box {
         width: 2.4rem;
@@ -16069,9 +16069,6 @@
   flex-direction: column;
   position: relative;
   flex-grow: 1;
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
   padding: 2rem 2rem 1rem; }
   .status-dialog__icon-area {
     display: flex;
@@ -16685,8 +16682,6 @@
   @media (min-width: 1024px) {
     .account-wizard--deriv-crypto {
       grid-template-rows: 0 !important; }
-    .account-wizard .currency-list__items__is-fiat {
-      width: 100%; }
     .account-wizard .currency-list__items__is-crypto {
       margin-bottom: 9rem; }
     .account-wizard .dc-modal-footer {
@@ -16735,7 +16730,8 @@
     color: var(--text-general);
     margin-bottom: 1.6rem; }
   .account-wizard form {
-    width: 100%; }
+    width: 100%;
+    height: 100%; }
     @media (min-width: 768px) {
       .account-wizard form {
         display: grid;
