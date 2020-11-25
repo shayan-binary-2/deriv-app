@@ -53,7 +53,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + ({"chartiq":"chartiq","de-json":"de-json","es-json":"es-json","fr-json":"fr-json","html2canvas":"html2canvas","id-json":"id-json","it-json":"it-json","messages-json":"messages-json","nl-json":"nl-json","pl-json":"pl-json","pt-json":"pt-json","ru-json":"ru-json","th-json":"th-json","vendors~resize-observer-polyfill":"vendors~resize-observer-polyfill","vi-json":"vi-json","zh-json":"zh-json","zh_cn-json":"zh_cn-json","zh_tw-json":"zh_tw-json"}[chunkId]||chunkId) + "-" + {"chartiq":"46ce2c","de-json":"4e16ba","es-json":"06cd16","fr-json":"cd02e9","html2canvas":"f92cd2","id-json":"612ad5","it-json":"846e48","messages-json":"64bbc0","nl-json":"b7b901","pl-json":"3bd74c","pt-json":"aec260","ru-json":"a0cb25","th-json":"3ea3b2","vendors~resize-observer-polyfill":"358f59","vi-json":"858fb8","zh-json":"0364e7","zh_cn-json":"78af4d","zh_tw-json":"4e7387"}[chunkId] + ".smartcharts.js"
+/******/ 		return __webpack_require__.p + "" + ({"chartiq":"chartiq","de-json":"de-json","es-json":"es-json","fr-json":"fr-json","html2canvas":"html2canvas","id-json":"id-json","it-json":"it-json","messages-json":"messages-json","nl-json":"nl-json","pl-json":"pl-json","pt-json":"pt-json","ru-json":"ru-json","th-json":"th-json","vendors~resize-observer-polyfill":"vendors~resize-observer-polyfill","vi-json":"vi-json","zh-json":"zh-json","zh_cn-json":"zh_cn-json","zh_tw-json":"zh_tw-json"}[chunkId]||chunkId) + "-" + {"chartiq":"af68dd","de-json":"4e16ba","es-json":"b6d3ae","fr-json":"23473f","html2canvas":"f92cd2","id-json":"939de3","it-json":"4d43be","messages-json":"64bbc0","nl-json":"b7b901","pl-json":"297feb","pt-json":"ebf0d3","ru-json":"178aae","th-json":"28f12e","vendors~resize-observer-polyfill":"358f59","vi-json":"09bdde","zh-json":"0364e7","zh_cn-json":"1935ee","zh_tw-json":"78b8e0"}[chunkId] + ".smartcharts.js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -1567,7 +1567,7 @@ var TimePicker = /*#__PURE__*/function (_React$PureComponent2) {
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -1868,7 +1868,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -2053,7 +2053,7 @@ var Notification = /*#__PURE__*/function (_React$Component) {
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -2067,7 +2067,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -2081,7 +2081,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -3466,7 +3466,7 @@ function mergeTickHistory(master, patch) {
 module.exports = {
       id: "ic-calendar-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-calendar-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-calendar-usage",
       toString: function () {
         return this.url;
       }
@@ -3484,7 +3484,7 @@ module.exports = {
 module.exports = {
       id: "ic-time-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-time-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-time-usage",
       toString: function () {
         return this.url;
       }
@@ -3624,7 +3624,6 @@ var connectionManager = new _connection__WEBPACK_IMPORTED_MODULE_8__["Connection
   language: language,
   endpoint: serverUrl
 });
-var ActiveMarkets = ['forex', 'indices', 'stocks', 'commodities', 'synthetic_index'];
 var IntervalEnum = {
   second: 1,
   minute: 60,
@@ -3730,6 +3729,10 @@ var App = /*#__PURE__*/function (_Component) {
       });
     };
 
+    _this.handleStateChange = function (tag, option) {
+      return console.log("chart state changed to ".concat(tag, " with the option of ").concat(option ? JSON.stringify(option) : '{}'));
+    };
+
     _this.renderTopWidgets = function () {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_binary_com_smartcharts__WEBPACK_IMPORTED_MODULE_0__["ChartTitle"], {
         onChange: _this.symbolChange,
@@ -3757,10 +3760,7 @@ var App = /*#__PURE__*/function (_Component) {
     };
 
     _this.getIsChartReady = function (isChartReady) {
-      setTimeout(function () {
-        // this.setState({ isChartReady });
-        console.log('isChartReady', isChartReady);
-      }, 400);
+      return isChartReady;
     };
 
     _this.onMarkerRef = function (ref) {
@@ -3779,10 +3779,11 @@ var App = /*#__PURE__*/function (_Component) {
     var _chartType;
 
     var granularity;
-    var startEpoch = moment__WEBPACK_IMPORTED_MODULE_3___default()().utc().second(0).subtract(10, 'minutes').unix();
-    var endEpoch = moment__WEBPACK_IMPORTED_MODULE_3___default()().utc().second(0).subtract(0, 'minutes').unix();
 
     var _settings = Object(_binary_com_smartcharts__WEBPACK_IMPORTED_MODULE_0__["createObjectFromLocalStorage"])('smartchart-setting');
+
+    var endEpoch = moment__WEBPACK_IMPORTED_MODULE_3___default()().utc().second(0).subtract(0, 'minutes').unix();
+    var startEpoch = moment__WEBPACK_IMPORTED_MODULE_3___default()().utc().second(0).subtract(10, 'minutes').unix();
 
     if (_settings) {
       _settings.language = language;
@@ -3828,11 +3829,9 @@ var App = /*#__PURE__*/function (_Component) {
       settings: _settings,
       endEpoch: endEpoch,
       startEpoch: startEpoch,
-      scroll_to_epoch: endEpoch,
       chartType: _chartType,
       granularity: granularity,
-      isConnectionOpened: true,
-      isChartReady: false
+      isConnectionOpened: true
     };
     return _this;
   }
@@ -3859,20 +3858,18 @@ var App = /*#__PURE__*/function (_Component) {
           settings = _this$state.settings,
           isConnectionOpened = _this$state.isConnectionOpened,
           symbol = _this$state.symbol,
-          startEpoch = _this$state.startEpoch,
           endEpoch = _this$state.endEpoch,
-          scroll_to_epoch = _this$state.scroll_to_epoch,
-          isChartReady = _this$state.isChartReady,
+          startEpoch = _this$state.startEpoch,
           networkStatus = _this$state.networkStatus;
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_binary_com_smartcharts__WEBPACK_IMPORTED_MODULE_0__["SmartChart"], {
         id: chartId,
-        chartStatusListener: function chartStatusListener(v) {
-          return _this2.getIsChartReady(v);
+        chartStatusListener: function chartStatusListener(isChartReady) {
+          return _this2.getIsChartReady(isChartReady);
         },
+        stateChangeListener: this.handleStateChange,
         symbol: symbol,
         isMobile: isMobile,
         onMessage: this.onMessage,
-        activeSymbols: ActiveMarkets,
         enableRouting: true,
         removeAllComparisons: settings.historical,
         topWidgets: this.renderTopWidgets,
@@ -3884,7 +3881,6 @@ var App = /*#__PURE__*/function (_Component) {
         settings: settings,
         endEpoch: endEpoch,
         startEpoch: startEpoch,
-        scrollToEpoch: isChartReady ? scroll_to_epoch : null,
         chartType: this.state.chartType,
         granularity: this.state.granularity,
         crosshair: isMobile ? 0 : null,
@@ -15498,7 +15494,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -15941,7 +15937,7 @@ module.exports = function (module) {
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -15955,7 +15951,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -15969,7 +15965,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -15983,7 +15979,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -15997,7 +15993,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16011,7 +16007,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16025,7 +16021,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16039,7 +16035,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16053,7 +16049,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16067,7 +16063,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16081,7 +16077,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16095,7 +16091,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16109,7 +16105,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16123,7 +16119,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16137,7 +16133,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16151,7 +16147,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16165,7 +16161,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16179,7 +16175,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16193,7 +16189,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16207,7 +16203,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16221,7 +16217,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16235,7 +16231,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16249,7 +16245,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16263,7 +16259,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16277,7 +16273,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16291,7 +16287,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16305,7 +16301,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16319,7 +16315,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16333,7 +16329,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16347,7 +16343,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16361,7 +16357,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -16377,7 +16373,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 module.exports = {
       id: "ic-oilusd-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-oilusd-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-oilusd-usage",
       toString: function () {
         return this.url;
       }
@@ -16395,7 +16391,7 @@ module.exports = {
 module.exports = {
       id: "ic-otcbadge-usage",
       viewBox: "0 0 13 9",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-otcbadge-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-otcbadge-usage",
       toString: function () {
         return this.url;
       }
@@ -16413,7 +16409,7 @@ module.exports = {
 module.exports = {
       id: "ic-smartfx-placeholder-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-smartfx-placeholder-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-smartfx-placeholder-usage",
       toString: function () {
         return this.url;
       }
@@ -16431,7 +16427,7 @@ module.exports = {
 module.exports = {
       id: "ic-metal-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-metal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-metal-usage",
       toString: function () {
         return this.url;
       }
@@ -16449,7 +16445,7 @@ module.exports = {
 module.exports = {
       id: "ic-10-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-10-index-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-10-index-usage",
       toString: function () {
         return this.url;
       }
@@ -16467,7 +16463,7 @@ module.exports = {
 module.exports = {
       id: "ic-100-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-100-index-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-100-index-usage",
       toString: function () {
         return this.url;
       }
@@ -16485,7 +16481,7 @@ module.exports = {
 module.exports = {
       id: "ic-10-1s-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-10-1s-index-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-10-1s-index-usage",
       toString: function () {
         return this.url;
       }
@@ -16503,7 +16499,7 @@ module.exports = {
 module.exports = {
       id: "ic-100-1s-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-100-1s-index-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-100-1s-index-usage",
       toString: function () {
         return this.url;
       }
@@ -16521,7 +16517,7 @@ module.exports = {
 module.exports = {
       id: "light-25(1s)index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#light-25(1s)index-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#light-25(1s)index-usage",
       toString: function () {
         return this.url;
       }
@@ -16539,7 +16535,7 @@ module.exports = {
 module.exports = {
       id: "light-50(1s) index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#light-50(1s) index-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#light-50(1s) index-usage",
       toString: function () {
         return this.url;
       }
@@ -16557,7 +16553,7 @@ module.exports = {
 module.exports = {
       id: "light-75(1s) index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#light-75(1s) index-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#light-75(1s) index-usage",
       toString: function () {
         return this.url;
       }
@@ -16575,7 +16571,7 @@ module.exports = {
 module.exports = {
       id: "ic-25-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-25-index-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-25-index-usage",
       toString: function () {
         return this.url;
       }
@@ -16593,7 +16589,7 @@ module.exports = {
 module.exports = {
       id: "ic-50-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-50-index-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-50-index-usage",
       toString: function () {
         return this.url;
       }
@@ -16611,7 +16607,7 @@ module.exports = {
 module.exports = {
       id: "ic-75-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-75-index-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-75-index-usage",
       toString: function () {
         return this.url;
       }
@@ -16629,7 +16625,43 @@ module.exports = {
 module.exports = {
       id: "ic-marketbear-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-marketbear-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-marketbear-usage",
+      toString: function () {
+        return this.url;
+      }
+    }
+
+/***/ }),
+
+/***/ "./sass/icons/active-symbols/volatility/boom1000 index/boom1000 index.svg":
+/*!********************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/boom1000 index/boom1000 index.svg ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = {
+      id: "boom1000 index-usage",
+      viewBox: "0 0 32 32",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#boom1000 index-usage",
+      toString: function () {
+        return this.url;
+      }
+    }
+
+/***/ }),
+
+/***/ "./sass/icons/active-symbols/volatility/boom500 index/boom500 index.svg":
+/*!******************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/boom500 index/boom500 index.svg ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = {
+      id: "boom500 index-usage",
+      viewBox: "0 0 32 32",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#boom500 index-usage",
       toString: function () {
         return this.url;
       }
@@ -16647,7 +16679,61 @@ module.exports = {
 module.exports = {
       id: "ic-marketbull-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-marketbull-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-marketbull-usage",
+      toString: function () {
+        return this.url;
+      }
+    }
+
+/***/ }),
+
+/***/ "./sass/icons/active-symbols/volatility/crash1000 index/crash1000 index.svg":
+/*!**********************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/crash1000 index/crash1000 index.svg ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = {
+      id: "crash1000 index-usage",
+      viewBox: "0 0 32 32",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#crash1000 index-usage",
+      toString: function () {
+        return this.url;
+      }
+    }
+
+/***/ }),
+
+/***/ "./sass/icons/active-symbols/volatility/crash500 index/crash500 index.svg":
+/*!********************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/crash500 index/crash500 index.svg ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = {
+      id: "crash500 index-usage",
+      viewBox: "0 0 32 32",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#crash500 index-usage",
+      toString: function () {
+        return this.url;
+      }
+    }
+
+/***/ }),
+
+/***/ "./sass/icons/active-symbols/volatility/step index/step index.svg":
+/*!************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/step index/step index.svg ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = {
+      id: "step index-usage",
+      viewBox: "0 0 32 32",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#step index-usage",
       toString: function () {
         return this.url;
       }
@@ -16665,7 +16751,7 @@ module.exports = {
 module.exports = {
       id: "error-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#error-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#error-usage",
       toString: function () {
         return this.url;
       }
@@ -16683,7 +16769,7 @@ module.exports = {
 module.exports = {
       id: "info-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#info-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#info-usage",
       toString: function () {
         return this.url;
       }
@@ -16701,7 +16787,7 @@ module.exports = {
 module.exports = {
       id: "success-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#success-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#success-usage",
       toString: function () {
         return this.url;
       }
@@ -16719,7 +16805,7 @@ module.exports = {
 module.exports = {
       id: "warning-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#warning-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#warning-usage",
       toString: function () {
         return this.url;
       }
@@ -16737,7 +16823,7 @@ module.exports = {
 module.exports = {
       id: "ic-arrow-green-usage",
       viewBox: "0 0 22 31",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-arrow-green-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-arrow-green-usage",
       toString: function () {
         return this.url;
       }
@@ -16755,7 +16841,7 @@ module.exports = {
 module.exports = {
       id: "ic-arrow-orange-usage",
       viewBox: "0 0 22 31",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-arrow-orange-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-arrow-orange-usage",
       toString: function () {
         return this.url;
       }
@@ -16773,7 +16859,7 @@ module.exports = {
 module.exports = {
       id: "ic-back-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-back-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-back-usage",
       toString: function () {
         return this.url;
       }
@@ -16791,7 +16877,7 @@ module.exports = {
 module.exports = {
       id: "ic-baseline-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-baseline-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-baseline-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -16809,7 +16895,7 @@ module.exports = {
 module.exports = {
       id: "ic-candle-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-candle-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-candle-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -16827,7 +16913,7 @@ module.exports = {
 module.exports = {
       id: "ic-dot-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-dot-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-dot-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -16845,7 +16931,7 @@ module.exports = {
 module.exports = {
       id: "ic-hollowcandle-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-hollowcandle-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-hollowcandle-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -16863,7 +16949,7 @@ module.exports = {
 module.exports = {
       id: "ic-heikin-ashi-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-heikin-ashi-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-heikin-ashi-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -16881,7 +16967,7 @@ module.exports = {
 module.exports = {
       id: "ic-kagi-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-kagi-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-kagi-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -16899,7 +16985,7 @@ module.exports = {
 module.exports = {
       id: "ic-linebreak-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-linebreak-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-linebreak-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -16917,7 +17003,7 @@ module.exports = {
 module.exports = {
       id: "ic-pointfigure-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-pointfigure-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-pointfigure-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -16935,7 +17021,7 @@ module.exports = {
 module.exports = {
       id: "ic-rangebars-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-rangebars-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-rangebars-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -16953,7 +17039,7 @@ module.exports = {
 module.exports = {
       id: "ic-renko-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-renko-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-renko-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -16971,7 +17057,7 @@ module.exports = {
 module.exports = {
       id: "ic-linedot-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-linedot-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-linedot-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -16989,7 +17075,7 @@ module.exports = {
 module.exports = {
       id: "ic-line-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-line-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-line-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -17007,7 +17093,7 @@ module.exports = {
 module.exports = {
       id: "ic-ohlc-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-ohlc-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-ohlc-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -17025,7 +17111,7 @@ module.exports = {
 module.exports = {
       id: "ic-spline-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-spline-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-spline-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -17043,7 +17129,7 @@ module.exports = {
 module.exports = {
       id: "table-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#table-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#table-usage",
       toString: function () {
         return this.url;
       }
@@ -17061,7 +17147,7 @@ module.exports = {
 module.exports = {
       id: "ic-comparison-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-comparison-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-comparison-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -17079,7 +17165,7 @@ module.exports = {
 module.exports = {
       id: "ic-crosshair-off-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-crosshair-off-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-crosshair-off-usage",
       toString: function () {
         return this.url;
       }
@@ -17097,7 +17183,7 @@ module.exports = {
 module.exports = {
       id: "ic-crosshair-on-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-crosshair-on-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-crosshair-on-usage",
       toString: function () {
         return this.url;
       }
@@ -17115,7 +17201,7 @@ module.exports = {
 module.exports = {
       id: "ic-crosshair-tooltip-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-crosshair-tooltip-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-crosshair-tooltip-usage",
       toString: function () {
         return this.url;
       }
@@ -17133,7 +17219,7 @@ module.exports = {
 module.exports = {
       id: "ic-drawingtools-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-drawingtools-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-drawingtools-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -17151,7 +17237,7 @@ module.exports = {
 module.exports = {
       id: "ic-position-bottom-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-position-bottom-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-position-bottom-usage",
       toString: function () {
         return this.url;
       }
@@ -17169,7 +17255,7 @@ module.exports = {
 module.exports = {
       id: "ic-position-left-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-position-left-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-position-left-usage",
       toString: function () {
         return this.url;
       }
@@ -17187,7 +17273,7 @@ module.exports = {
 module.exports = {
       id: "ic-zoomin-light-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-zoomin-light-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-zoomin-light-usage",
       toString: function () {
         return this.url;
       }
@@ -17205,7 +17291,7 @@ module.exports = {
 module.exports = {
       id: "ic-zoomout-light-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-zoomout-light-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-zoomout-light-usage",
       toString: function () {
         return this.url;
       }
@@ -17223,7 +17309,7 @@ module.exports = {
 module.exports = {
       id: "ic-area-grayscale-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-area-grayscale-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-area-grayscale-usage",
       toString: function () {
         return this.url;
       }
@@ -17241,7 +17327,7 @@ module.exports = {
 module.exports = {
       id: "ic-area-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-area-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-area-usage",
       toString: function () {
         return this.url;
       }
@@ -17259,7 +17345,7 @@ module.exports = {
 module.exports = {
       id: "ic-candle-grayscale-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-candle-grayscale-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-candle-grayscale-usage",
       toString: function () {
         return this.url;
       }
@@ -17277,7 +17363,7 @@ module.exports = {
 module.exports = {
       id: "ic-candle-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-candle-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-candle-usage",
       toString: function () {
         return this.url;
       }
@@ -17295,7 +17381,7 @@ module.exports = {
 module.exports = {
       id: "ic-hollow-grayscale-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-hollow-grayscale-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-hollow-grayscale-usage",
       toString: function () {
         return this.url;
       }
@@ -17313,7 +17399,7 @@ module.exports = {
 module.exports = {
       id: "ic-hollow-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-hollow-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-hollow-usage",
       toString: function () {
         return this.url;
       }
@@ -17331,7 +17417,7 @@ module.exports = {
 module.exports = {
       id: "ic-ohlc-grayscale-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-ohlc-grayscale-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-ohlc-grayscale-usage",
       toString: function () {
         return this.url;
       }
@@ -17349,7 +17435,7 @@ module.exports = {
 module.exports = {
       id: "ic-ohlc-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-ohlc-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-ohlc-usage",
       toString: function () {
         return this.url;
       }
@@ -17367,7 +17453,7 @@ module.exports = {
 module.exports = {
       id: "ic-down-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-down-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-down-usage",
       toString: function () {
         return this.url;
       }
@@ -17385,7 +17471,7 @@ module.exports = {
 module.exports = {
       id: "ic-maximize-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-maximize-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-maximize-usage",
       toString: function () {
         return this.url;
       }
@@ -17403,7 +17489,7 @@ module.exports = {
 module.exports = {
       id: "resize-icon-usage",
       viewBox: "0 0 6 14",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#resize-icon-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#resize-icon-usage",
       toString: function () {
         return this.url;
       }
@@ -17421,7 +17507,7 @@ module.exports = {
 module.exports = {
       id: "ic-clear-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-clear-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-clear-usage",
       toString: function () {
         return this.url;
       }
@@ -17439,7 +17525,7 @@ module.exports = {
 module.exports = {
       id: "ic-close-bold-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-close-bold-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-close-bold-usage",
       toString: function () {
         return this.url;
       }
@@ -17457,7 +17543,7 @@ module.exports = {
 module.exports = {
       id: "ic-close-circle-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-close-circle-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-close-circle-usage",
       toString: function () {
         return this.url;
       }
@@ -17475,7 +17561,7 @@ module.exports = {
 module.exports = {
       id: "full-screen-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#full-screen-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#full-screen-usage",
       toString: function () {
         return this.url;
       }
@@ -17493,7 +17579,7 @@ module.exports = {
 module.exports = {
       id: "ic-active-usage",
       viewBox: "0 0 17 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-active-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-active-usage",
       toString: function () {
         return this.url;
       }
@@ -17511,7 +17597,7 @@ module.exports = {
 module.exports = {
       id: "ic-add-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-add-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-add-usage",
       toString: function () {
         return this.url;
       }
@@ -17529,7 +17615,7 @@ module.exports = {
 module.exports = {
       id: "ic-charts-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-charts-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-charts-usage",
       toString: function () {
         return this.url;
       }
@@ -17547,7 +17633,7 @@ module.exports = {
 module.exports = {
       id: "ic-checkbox-active-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-checkbox-active-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-checkbox-active-usage",
       toString: function () {
         return this.url;
       }
@@ -17565,7 +17651,7 @@ module.exports = {
 module.exports = {
       id: "ic-checkbox-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-checkbox-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-checkbox-usage",
       toString: function () {
         return this.url;
       }
@@ -17583,7 +17669,7 @@ module.exports = {
 module.exports = {
       id: "ic-close-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-close-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-close-usage",
       toString: function () {
         return this.url;
       }
@@ -17601,7 +17687,7 @@ module.exports = {
 module.exports = {
       id: "ic-download-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-download-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-download-usage",
       toString: function () {
         return this.url;
       }
@@ -17619,7 +17705,7 @@ module.exports = {
 module.exports = {
       id: "ic-drawing-tool-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-drawing-tool-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-drawing-tool-usage",
       toString: function () {
         return this.url;
       }
@@ -17637,7 +17723,7 @@ module.exports = {
 module.exports = {
       id: "ic-help-center-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-help-center-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-help-center-usage",
       toString: function () {
         return this.url;
       }
@@ -17655,7 +17741,7 @@ module.exports = {
 module.exports = {
       id: "ic-indicators-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-indicators-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-indicators-usage",
       toString: function () {
         return this.url;
       }
@@ -17673,7 +17759,7 @@ module.exports = {
 module.exports = {
       id: "ic-info-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-info-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-info-usage",
       toString: function () {
         return this.url;
       }
@@ -17691,7 +17777,7 @@ module.exports = {
 module.exports = {
       id: "ic-input-number-minus-usage",
       viewBox: "0 0 8 8",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-input-number-minus-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-input-number-minus-usage",
       toString: function () {
         return this.url;
       }
@@ -17709,7 +17795,7 @@ module.exports = {
 module.exports = {
       id: "ic-input-number-plus-usage",
       viewBox: "0 0 8 8",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-input-number-plus-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-input-number-plus-usage",
       toString: function () {
         return this.url;
       }
@@ -17727,7 +17813,7 @@ module.exports = {
 module.exports = {
       id: "ic-language-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-language-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-language-usage",
       toString: function () {
         return this.url;
       }
@@ -17745,7 +17831,7 @@ module.exports = {
 module.exports = {
       id: "ic-minimize-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-minimize-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-minimize-usage",
       toString: function () {
         return this.url;
       }
@@ -17763,7 +17849,7 @@ module.exports = {
 module.exports = {
       id: "ic-templates-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-templates-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-templates-usage",
       toString: function () {
         return this.url;
       }
@@ -17781,7 +17867,7 @@ module.exports = {
 module.exports = {
       id: "ic-theme-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-theme-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-theme-usage",
       toString: function () {
         return this.url;
       }
@@ -17799,7 +17885,7 @@ module.exports = {
 module.exports = {
       id: "ic-delete-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-delete-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-delete-usage",
       toString: function () {
         return this.url;
       }
@@ -17817,7 +17903,7 @@ module.exports = {
 module.exports = {
       id: "ic-csv-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-csv-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-csv-usage",
       toString: function () {
         return this.url;
       }
@@ -17835,7 +17921,7 @@ module.exports = {
 module.exports = {
       id: "ic-png-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-png-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-png-usage",
       toString: function () {
         return this.url;
       }
@@ -17853,7 +17939,7 @@ module.exports = {
 module.exports = {
       id: "ic-channel-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-channel-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-channel-usage",
       toString: function () {
         return this.url;
       }
@@ -17871,7 +17957,7 @@ module.exports = {
 module.exports = {
       id: "ic-continuous-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-continuous-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-continuous-usage",
       toString: function () {
         return this.url;
       }
@@ -17889,7 +17975,7 @@ module.exports = {
 module.exports = {
       id: "ic-fibonacci-fan-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-fibonacci-fan-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-fibonacci-fan-usage",
       toString: function () {
         return this.url;
       }
@@ -17907,7 +17993,7 @@ module.exports = {
 module.exports = {
       id: "ic-horizontal-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-horizontal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-horizontal-usage",
       toString: function () {
         return this.url;
       }
@@ -17925,7 +18011,7 @@ module.exports = {
 module.exports = {
       id: "ic-line-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-line-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-line-usage",
       toString: function () {
         return this.url;
       }
@@ -17943,7 +18029,7 @@ module.exports = {
 module.exports = {
       id: "ic-ray-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-ray-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-ray-usage",
       toString: function () {
         return this.url;
       }
@@ -17961,7 +18047,7 @@ module.exports = {
 module.exports = {
       id: "ic-rectangle-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-rectangle-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-rectangle-usage",
       toString: function () {
         return this.url;
       }
@@ -17979,7 +18065,7 @@ module.exports = {
 module.exports = {
       id: "ic-trend-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-trend-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-trend-usage",
       toString: function () {
         return this.url;
       }
@@ -17997,7 +18083,7 @@ module.exports = {
 module.exports = {
       id: "ic-vertical-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-vertical-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-vertical-usage",
       toString: function () {
         return this.url;
       }
@@ -18015,7 +18101,7 @@ module.exports = {
 module.exports = {
       id: "ic-dropdown-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-dropdown-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-dropdown-usage",
       toString: function () {
         return this.url;
       }
@@ -18033,7 +18119,7 @@ module.exports = {
 module.exports = {
       id: "ic-edit-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-edit-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-edit-usage",
       toString: function () {
         return this.url;
       }
@@ -18051,7 +18137,7 @@ module.exports = {
 module.exports = {
       id: "ic-favorite-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-favorite-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-favorite-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -18069,7 +18155,7 @@ module.exports = {
 module.exports = {
       id: "aud-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#aud-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#aud-usage",
       toString: function () {
         return this.url;
       }
@@ -18087,7 +18173,7 @@ module.exports = {
 module.exports = {
       id: "cad-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#cad-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#cad-usage",
       toString: function () {
         return this.url;
       }
@@ -18105,7 +18191,7 @@ module.exports = {
 module.exports = {
       id: "chf-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#chf-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#chf-usage",
       toString: function () {
         return this.url;
       }
@@ -18123,7 +18209,7 @@ module.exports = {
 module.exports = {
       id: "chinese-traditional-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#chinese-traditional-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#chinese-traditional-usage",
       toString: function () {
         return this.url;
       }
@@ -18141,7 +18227,7 @@ module.exports = {
 module.exports = {
       id: "chinese-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#chinese-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#chinese-usage",
       toString: function () {
         return this.url;
       }
@@ -18159,7 +18245,7 @@ module.exports = {
 module.exports = {
       id: "dutch-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#dutch-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#dutch-usage",
       toString: function () {
         return this.url;
       }
@@ -18177,7 +18263,7 @@ module.exports = {
 module.exports = {
       id: "eur-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#eur-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#eur-usage",
       toString: function () {
         return this.url;
       }
@@ -18195,7 +18281,7 @@ module.exports = {
 module.exports = {
       id: "french-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#french-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#french-usage",
       toString: function () {
         return this.url;
       }
@@ -18213,7 +18299,7 @@ module.exports = {
 module.exports = {
       id: "gbp-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#gbp-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#gbp-usage",
       toString: function () {
         return this.url;
       }
@@ -18231,7 +18317,7 @@ module.exports = {
 module.exports = {
       id: "german-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#german-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#german-usage",
       toString: function () {
         return this.url;
       }
@@ -18249,7 +18335,7 @@ module.exports = {
 module.exports = {
       id: "hong kong-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#hong kong-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#hong kong-usage",
       toString: function () {
         return this.url;
       }
@@ -18267,7 +18353,7 @@ module.exports = {
 module.exports = {
       id: "indonesia-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#indonesia-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#indonesia-usage",
       toString: function () {
         return this.url;
       }
@@ -18285,7 +18371,7 @@ module.exports = {
 module.exports = {
       id: "italy-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#italy-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#italy-usage",
       toString: function () {
         return this.url;
       }
@@ -18303,7 +18389,7 @@ module.exports = {
 module.exports = {
       id: "jpy-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#jpy-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#jpy-usage",
       toString: function () {
         return this.url;
       }
@@ -18321,7 +18407,7 @@ module.exports = {
 module.exports = {
       id: "mxn-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#mxn-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#mxn-usage",
       toString: function () {
         return this.url;
       }
@@ -18339,7 +18425,7 @@ module.exports = {
 module.exports = {
       id: "nok-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#nok-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#nok-usage",
       toString: function () {
         return this.url;
       }
@@ -18357,7 +18443,7 @@ module.exports = {
 module.exports = {
       id: "nzd-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#nzd-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#nzd-usage",
       toString: function () {
         return this.url;
       }
@@ -18375,7 +18461,7 @@ module.exports = {
 module.exports = {
       id: "pln-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#pln-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#pln-usage",
       toString: function () {
         return this.url;
       }
@@ -18393,7 +18479,7 @@ module.exports = {
 module.exports = {
       id: "portugal-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#portugal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#portugal-usage",
       toString: function () {
         return this.url;
       }
@@ -18411,7 +18497,7 @@ module.exports = {
 module.exports = {
       id: "russia-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#russia-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#russia-usage",
       toString: function () {
         return this.url;
       }
@@ -18429,7 +18515,7 @@ module.exports = {
 module.exports = {
       id: "sek-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#sek-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#sek-usage",
       toString: function () {
         return this.url;
       }
@@ -18447,7 +18533,7 @@ module.exports = {
 module.exports = {
       id: "spanish-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#spanish-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#spanish-usage",
       toString: function () {
         return this.url;
       }
@@ -18465,7 +18551,7 @@ module.exports = {
 module.exports = {
       id: "thailand-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#thailand-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#thailand-usage",
       toString: function () {
         return this.url;
       }
@@ -18483,7 +18569,7 @@ module.exports = {
 module.exports = {
       id: "usd-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#usd-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#usd-usage",
       toString: function () {
         return this.url;
       }
@@ -18501,7 +18587,7 @@ module.exports = {
 module.exports = {
       id: "vietnam-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#vietnam-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#vietnam-usage",
       toString: function () {
         return this.url;
       }
@@ -18519,7 +18605,7 @@ module.exports = {
 module.exports = {
       id: "wallstreet-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#wallstreet-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#wallstreet-usage",
       toString: function () {
         return this.url;
       }
@@ -18537,7 +18623,7 @@ module.exports = {
 module.exports = {
       id: "ic-adx-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-adx-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-adx-usage",
       toString: function () {
         return this.url;
       }
@@ -18555,7 +18641,7 @@ module.exports = {
 module.exports = {
       id: "ic-alligator-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-alligator-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-alligator-usage",
       toString: function () {
         return this.url;
       }
@@ -18573,7 +18659,7 @@ module.exports = {
 module.exports = {
       id: "ic-aroon-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-aroon-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-aroon-usage",
       toString: function () {
         return this.url;
       }
@@ -18591,7 +18677,7 @@ module.exports = {
 module.exports = {
       id: "ic-averages-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-averages-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-averages-usage",
       toString: function () {
         return this.url;
       }
@@ -18609,7 +18695,7 @@ module.exports = {
 module.exports = {
       id: "ic-awesome-oscillator-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-awesome-oscillator-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-awesome-oscillator-usage",
       toString: function () {
         return this.url;
       }
@@ -18627,7 +18713,7 @@ module.exports = {
 module.exports = {
       id: "ic-bollinger-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-bollinger-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-bollinger-usage",
       toString: function () {
         return this.url;
       }
@@ -18645,7 +18731,7 @@ module.exports = {
 module.exports = {
       id: "ic-cat-averages-usage",
       viewBox: "0 0 17 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-cat-averages-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-cat-averages-usage",
       toString: function () {
         return this.url;
       }
@@ -18663,7 +18749,7 @@ module.exports = {
 module.exports = {
       id: "ic-commodity-channel-index-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-commodity-channel-index-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-commodity-channel-index-usage",
       toString: function () {
         return this.url;
       }
@@ -18681,7 +18767,7 @@ module.exports = {
 module.exports = {
       id: "ic-donchian-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-donchian-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-donchian-usage",
       toString: function () {
         return this.url;
       }
@@ -18699,7 +18785,7 @@ module.exports = {
 module.exports = {
       id: "ic-dtrended-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-dtrended-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-dtrended-usage",
       toString: function () {
         return this.url;
       }
@@ -18717,7 +18803,7 @@ module.exports = {
 module.exports = {
       id: "ic-envelope-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-envelope-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-envelope-usage",
       toString: function () {
         return this.url;
       }
@@ -18735,7 +18821,7 @@ module.exports = {
 module.exports = {
       id: "ic-fractal-chaos-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-fractal-chaos-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-fractal-chaos-usage",
       toString: function () {
         return this.url;
       }
@@ -18753,7 +18839,7 @@ module.exports = {
 module.exports = {
       id: "ic-gator-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-gator-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-gator-usage",
       toString: function () {
         return this.url;
       }
@@ -18771,7 +18857,7 @@ module.exports = {
 module.exports = {
       id: "ic-ichimoku-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-ichimoku-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-ichimoku-usage",
       toString: function () {
         return this.url;
       }
@@ -18789,7 +18875,7 @@ module.exports = {
 module.exports = {
       id: "ic-macd-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-macd-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-macd-usage",
       toString: function () {
         return this.url;
       }
@@ -18807,7 +18893,7 @@ module.exports = {
 module.exports = {
       id: "ic-momentum-usage",
       viewBox: "0 0 17 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-momentum-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-momentum-usage",
       toString: function () {
         return this.url;
       }
@@ -18825,7 +18911,7 @@ module.exports = {
 module.exports = {
       id: "ic-other-usage",
       viewBox: "0 0 17 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-other-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-other-usage",
       toString: function () {
         return this.url;
       }
@@ -18843,7 +18929,7 @@ module.exports = {
 module.exports = {
       id: "ic-parabolic-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-parabolic-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-parabolic-usage",
       toString: function () {
         return this.url;
       }
@@ -18861,7 +18947,7 @@ module.exports = {
 module.exports = {
       id: "ic-rainbow-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-rainbow-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-rainbow-usage",
       toString: function () {
         return this.url;
       }
@@ -18879,7 +18965,7 @@ module.exports = {
 module.exports = {
       id: "ic-rate-of-change-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-rate-of-change-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-rate-of-change-usage",
       toString: function () {
         return this.url;
       }
@@ -18897,7 +18983,7 @@ module.exports = {
 module.exports = {
       id: "ic-rsi-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-rsi-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-rsi-usage",
       toString: function () {
         return this.url;
       }
@@ -18915,7 +19001,7 @@ module.exports = {
 module.exports = {
       id: "ic-stochastic-momentum-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-stochastic-momentum-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-stochastic-momentum-usage",
       toString: function () {
         return this.url;
       }
@@ -18933,7 +19019,7 @@ module.exports = {
 module.exports = {
       id: "ic-stochastic-oscillator-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-stochastic-oscillator-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-stochastic-oscillator-usage",
       toString: function () {
         return this.url;
       }
@@ -18951,7 +19037,7 @@ module.exports = {
 module.exports = {
       id: "ic-trend-dark-usage",
       viewBox: "0 0 17 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-trend-dark-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-trend-dark-usage",
       toString: function () {
         return this.url;
       }
@@ -18969,7 +19055,7 @@ module.exports = {
 module.exports = {
       id: "ic-trend-light-usage",
       viewBox: "0 0 17 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-trend-light-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-trend-light-usage",
       toString: function () {
         return this.url;
       }
@@ -18987,7 +19073,7 @@ module.exports = {
 module.exports = {
       id: "ic-volatility-usage",
       viewBox: "0 0 17 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-volatility-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-volatility-usage",
       toString: function () {
         return this.url;
       }
@@ -19005,7 +19091,7 @@ module.exports = {
 module.exports = {
       id: "ic-william-percent-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-william-percent-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-william-percent-usage",
       toString: function () {
         return this.url;
       }
@@ -19023,7 +19109,7 @@ module.exports = {
 module.exports = {
       id: "ic-zig-zag-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-zig-zag-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-zig-zag-usage",
       toString: function () {
         return this.url;
       }
@@ -19041,7 +19127,7 @@ module.exports = {
 module.exports = {
       id: "ic-measure-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-measure-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-measure-usage",
       toString: function () {
         return this.url;
       }
@@ -19059,7 +19145,7 @@ module.exports = {
 module.exports = {
       id: "ic-home-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-home-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-home-usage",
       toString: function () {
         return this.url;
       }
@@ -19077,7 +19163,7 @@ module.exports = {
 module.exports = {
       id: "ic-scale-full-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-scale-full-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-scale-full-usage",
       toString: function () {
         return this.url;
       }
@@ -19095,7 +19181,7 @@ module.exports = {
 module.exports = {
       id: "ic-zoomin-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-zoomin-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-zoomin-usage",
       toString: function () {
         return this.url;
       }
@@ -19113,7 +19199,7 @@ module.exports = {
 module.exports = {
       id: "ic-zoomout-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-zoomout-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-zoomout-usage",
       toString: function () {
         return this.url;
       }
@@ -19131,7 +19217,7 @@ module.exports = {
 module.exports = {
       id: "ic-pencil-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-pencil-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-pencil-usage",
       toString: function () {
         return this.url;
       }
@@ -19149,7 +19235,7 @@ module.exports = {
 module.exports = {
       id: "ic-placeholder-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-placeholder-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-placeholder-usage",
       toString: function () {
         return this.url;
       }
@@ -19167,7 +19253,7 @@ module.exports = {
 module.exports = {
       id: "ic-search-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-search-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-search-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -19185,7 +19271,7 @@ module.exports = {
 module.exports = {
       id: "ic-countdown-dark-active-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-countdown-dark-active-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-countdown-dark-active-usage",
       toString: function () {
         return this.url;
       }
@@ -19203,7 +19289,7 @@ module.exports = {
 module.exports = {
       id: "ic-countdown-dark-normal-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-countdown-dark-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-countdown-dark-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -19221,7 +19307,7 @@ module.exports = {
 module.exports = {
       id: "ic-countdown-light-active-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-countdown-light-active-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-countdown-light-active-usage",
       toString: function () {
         return this.url;
       }
@@ -19239,7 +19325,7 @@ module.exports = {
 module.exports = {
       id: "ic-countdown-light-normal-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-countdown-light-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-countdown-light-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -19257,7 +19343,7 @@ module.exports = {
 module.exports = {
       id: "ic-highest-lowest-dark-active-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-highest-lowest-dark-active-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-highest-lowest-dark-active-usage",
       toString: function () {
         return this.url;
       }
@@ -19275,7 +19361,7 @@ module.exports = {
 module.exports = {
       id: "ic-highest-lowest-dark-normal-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-highest-lowest-dark-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-highest-lowest-dark-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -19293,7 +19379,7 @@ module.exports = {
 module.exports = {
       id: "ic-highest-lowest-light-active-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-highest-lowest-light-active-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-highest-lowest-light-active-usage",
       toString: function () {
         return this.url;
       }
@@ -19311,7 +19397,7 @@ module.exports = {
 module.exports = {
       id: "ic-highest-lowest-light-normal-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-highest-lowest-light-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-highest-lowest-light-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -19329,7 +19415,7 @@ module.exports = {
 module.exports = {
       id: "ic-historical-dark-active-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-historical-dark-active-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-historical-dark-active-usage",
       toString: function () {
         return this.url;
       }
@@ -19347,7 +19433,7 @@ module.exports = {
 module.exports = {
       id: "ic-historical-dark-normal-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-historical-dark-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-historical-dark-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -19365,7 +19451,7 @@ module.exports = {
 module.exports = {
       id: "ic-historical-light-active-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-historical-light-active-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-historical-light-active-usage",
       toString: function () {
         return this.url;
       }
@@ -19383,7 +19469,7 @@ module.exports = {
 module.exports = {
       id: "ic-historical-light-normal-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-historical-light-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-historical-light-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -19401,7 +19487,7 @@ module.exports = {
 module.exports = {
       id: "ic-theme-dark-usage",
       viewBox: "0 0 236 180",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-theme-dark-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-theme-dark-usage",
       toString: function () {
         return this.url;
       }
@@ -19419,7 +19505,7 @@ module.exports = {
 module.exports = {
       id: "ic-theme-light-usage",
       viewBox: "0 0 236 180",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-theme-light-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-theme-light-usage",
       toString: function () {
         return this.url;
       }
@@ -19437,7 +19523,7 @@ module.exports = {
 module.exports = {
       id: "ic-empty-state-usage",
       viewBox: "0 0 128 118",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-empty-state-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-empty-state-usage",
       toString: function () {
         return this.url;
       }
@@ -19455,7 +19541,7 @@ module.exports = {
 module.exports = {
       id: "ic-overwrite-state-usage",
       viewBox: "0 0 128 128",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-overwrite-state-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-overwrite-state-usage",
       toString: function () {
         return this.url;
       }
@@ -19473,7 +19559,7 @@ module.exports = {
 module.exports = {
       id: "ic-commodities-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-commodities-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-commodities-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -19491,7 +19577,7 @@ module.exports = {
 module.exports = {
       id: "ic-forex-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-forex-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-forex-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -19509,7 +19595,7 @@ module.exports = {
 module.exports = {
       id: "ic-indices-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-indices-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-indices-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -19527,7 +19613,7 @@ module.exports = {
 module.exports = {
       id: "ic-otc-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-otc-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-otc-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -19545,7 +19631,7 @@ module.exports = {
 module.exports = {
       id: "ic-synth-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-synth-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-synth-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -19563,7 +19649,7 @@ module.exports = {
 module.exports = {
       id: "ic-volatility-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-volatility-normal-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-volatility-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -19581,7 +19667,7 @@ module.exports = {
 module.exports = {
       id: "ic-tick-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-tick-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-tick-usage",
       toString: function () {
         return this.url;
       }
@@ -19599,7 +19685,7 @@ module.exports = {
 module.exports = {
       id: "ic-time-usage",
       viewBox: "0 0 12 12",
-      url: __webpack_require__.p + "sprite-2a54e4.smartcharts.svg#ic-time-usage",
+      url: __webpack_require__.p + "sprite-a7d323.smartcharts.svg#ic-time-usage",
       toString: function () {
         return this.url;
       }
@@ -19615,7 +19701,7 @@ module.exports = {
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","dark_chart_mountain_border":"#fff","light_chart_mountain_bg":"rgba(133,172,176,0.16)","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","light_candle_text_closed":"rgba(0,0,0,0.16)","dark_candle_text_closed":"rgba(127,131,151,0.3)","light_candle_bg_closed":"#d6d6d6","dark_candle_bg_closed":"#303342","light_chart_closed_candle":"#d6d6d6","dark_chart_closed_candle":"#303342","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
+module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text":"#999","light_chart_grid":"#f2f3f4","dark_chart_grid":"#1d1f20","light_chart_mountain_border":"#85acb0","light_chart_mountain_bg":"rgba(133,172,176,0.16)","light_chart_mountain_bg_shade":"rgba(255,255,255,0)","light_chart_closed_mountain_border":"rgba(133,172,176,0.32)","dark_chart_mountain_border":"#fff","dark_chart_mountain_bg":"rgba(255,255,255,0.36)","dark_chart_mountain_bg_shade":"rgba(16,19,32,0)","dark_chart_closed_mountain_border":"rgba(255,255,255,0.32)","chart_closed_candle_up":"rgba(133,172,176,0.32)","chart_closed_candle_down":"rgba(255,68,79,0.32)","chart_closed_candle_border":"rgba(51,51,51,0.32)","chart_current_hr":"#ff444f","chart_closed_current_hr":"rgba(255,68,79,0.32)","light_chart_bg":"#fff","dark_chart_bg":"#0e0e0e","light_float_labels_bg":"#d6dadb","dark_float_labels_bg":"#323738","light_float_labels_text":"#333","dark_float_labels_text":"#fff"};
     if(false) { var cssReload; }
   
 
@@ -19625,17 +19711,18 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 /*!*************************!*\
   !*** ./src/Constant.js ***!
   \*************************/
-/*! exports provided: drawTools, IndicatorsTree, ExcludedStudies, ChartTypes, Intervals, Languages */
+/*! exports provided: drawTools, getIndicatorsTree, ExcludedStudies, ChartTypes, Intervals, Languages, STATE */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(t) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "drawTools", function() { return drawTools; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IndicatorsTree", function() { return IndicatorsTree; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getIndicatorsTree", function() { return getIndicatorsTree; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ExcludedStudies", function() { return ExcludedStudies; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ChartTypes", function() { return ChartTypes; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Intervals", function() { return Intervals; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Languages", function() { return Languages; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "STATE", function() { return STATE; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Icons.jsx */ "./src/components/Icons.jsx");
@@ -19688,142 +19775,144 @@ var drawTools = {
     icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["DrawToolsVerticalIcon"]
   }
 };
-var IndicatorsTree = [{
-  id: 'momentum',
-  name: 'Momentum',
-  icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorCatMomentumIcon"],
-  items: [{
-    id: 'Awesome',
-    name: 'Awesome Oscillator',
-    description: t.translate('The Awesome Oscillator is an indicator used to measure market momentum. AO calculates the difference of a 34 Period and 5 Period Simple Moving Averages. The Simple Moving Averages that are used are not calculated using closing price but rather each bar\'s midpoints. AO is generally used to affirm trends or to anticipate possible reversals.'),
-    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorAwesomeOscillatorIcon"]
+var getIndicatorsTree = function getIndicatorsTree() {
+  return [{
+    id: 'momentum',
+    name: 'Momentum',
+    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorCatMomentumIcon"],
+    items: [{
+      id: 'Awesome',
+      name: 'Awesome Oscillator',
+      description: t.translate('The Awesome Oscillator is an indicator used to measure market momentum. AO calculates the difference of a 34 Period and 5 Period Simple Moving Averages. The Simple Moving Averages that are used are not calculated using closing price but rather each bar\'s midpoints. AO is generally used to affirm trends or to anticipate possible reversals.'),
+      icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorAwesomeOscillatorIcon"]
+    }, {
+      id: 'Detrended',
+      name: 'Detrended Price Oscillator',
+      description: t.translate('The Detrended Price Oscillator (DPO) helps to identify price cycles without the influence of short- and long-term trends. The DPO compares a simple moving average to a historical pricenear the middle of a specified period. It also shows the peaks and drops over that particular period, making it easier to predict buy points.'),
+      icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorDTrendedIcon"]
+    }, {
+      id: 'Gator',
+      name: 'Gator Oscillator',
+      description: t.translate('The Gator Oscillator helps to detect trend changes in the market price. Based on the Alligator indicator, the Gator plots 2 histograms on either side of the zero line. The sleeping phase (absence of a trend) is when the bars on both sides are red. The awakening phase (formation of a trend) is when there are red and green bars on both sides. When there are green bars on both sides, it indicates the eating phase (trend strengthening). A solitary red bar appearing after the eating phase indicates the beginning of the sated phase (trend approaching its end).'),
+      icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorGatorIcon"]
+    }, {
+      id: 'macd',
+      name: 'MACD',
+      description: t.translate('MACD is a trading indicator used in technical analysis of stock prices. It is supposed to reveal changes in the strength, direction, momentum, and duration of a trend in a stock\'s price.'),
+      icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorMacdIcon"]
+    }, {
+      id: 'Price ROC',
+      name: 'Price Rate of Change',
+      description: t.translate('The Price Rate-of-Change (ROC) indicator displays the difference between the current price and the price x-time periods ago. The difference can be displayed in either points or as a percentage.'),
+      icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorRateChangeIcon"]
+    }, {
+      id: 'rsi',
+      name: 'Relative Strength Index (RSI)',
+      description: t.translate('The Relative Strength Index (RSI) was published by J. Welles Wilder. The current price is normalized as a percentage between 0 and 100. The name of this oscillator is misleading because it does not compare the instrument relative to another instrument or set of instruments, but rather represents the current price relative to other recent pieces within the selected lookback window length.'),
+      icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorRSIIcon"]
+    }, {
+      id: 'stochastics',
+      name: 'Stochastic Oscillator',
+      description: t.translate('A technical momentum indicator that compares a security\'s closing price to its price range over a given time period. The oscillator\'s sensitivity to market movements can be reduced by adjusting the time period or by taking a moving average of the result.'),
+      icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorStochasticOscillatorIcon"]
+    }, {
+      id: 'Stch Mtm',
+      name: 'Stochastic Momentum Index',
+      description: t.translate('The Stochastic Momentum Index (SMI) helps to identify overbought or oversold conditions in the market and to predict bearish or bullish trends. It calculates the distance between the current closing price and the median of the high/low range, and displays 2 lines on the chart: the first (known as %K) represents the price movement while the second (known as %D) is a moving average of the first line. If the closing price is higher than the median of the high/low range, the SMI returns a positive value. If the closing price is lower than the average price, a negative value is returned. Values above 40 indicate a bullish trend while values below -40 indicate a bearish trend.'),
+      icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorStochasticMomentumIcon"]
+    }, {
+      id: 'Williams %R',
+      name: 'William\'s Percent Range',
+      description: t.translate('Developed by Larry Williams, Williams %R is a momentum indicator that is the inverse of the Fast Stochastic Oscillator. Also referred to as %R, Williams %R reflects the level of the close relative to the highest high for the look-back period.'),
+      icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorWilliamPercentIcon"]
+    }]
   }, {
-    id: 'Detrended',
-    name: 'Detrended Price Oscillator',
-    description: t.translate('The Detrended Price Oscillator (DPO) helps to identify price cycles without the influence of short- and long-term trends. The DPO compares a simple moving average to a historical pricenear the middle of a specified period. It also shows the peaks and drops over that particular period, making it easier to predict buy points.'),
-    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorDTrendedIcon"]
+    id: 'trend',
+    name: 'Trend',
+    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorCatTrendLightIcon"],
+    items: [{
+      id: 'Aroon',
+      name: 'Aroon',
+      description: t.translate('Developed by Tushar Chande in 1995, Aroon is an indicator system that determines whether a stock is trending or not and how strong the trend is. There are two separate indicators: Aroon-Up and Aroon-Down. A 25-day Aroon-Up measures the number of days since a 25-day high. A 25-day Aroon-Down measures the number of days since a 25-day low.'),
+      icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorAroonIcon"]
+    }, {
+      id: 'ADX',
+      name: 'ADX/DMS',
+      description: t.translate('The Average Directional Movement Index index (ADX) was developed in 1978 by J. Welles Wilder as an indicator of trend strength in a series of prices of a financial instrument ADX will range between 0 and 100. Generally, ADX readings below 20 indicate trend weakness, and readings above 40 indicate trend strength.'),
+      icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorAdxIcon"]
+    }, {
+      id: 'CCI',
+      name: 'Commodity Channel Index',
+      description: t.translate('The Commodity Channel Index (CCI) is a versatile indicator that can be used to identify a new trend or warn of extreme conditions.'),
+      icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorCommodityChannelIndexIcon"]
+    }, {
+      id: 'Ichimoku Clouds',
+      name: 'Ichimoku Clouds',
+      description: t.translate('The Ichimoku Cloud, also known as Ichimoku Kinko Hyo, is a versatile indicator that defines support and resistance, identifies trend direction, gauges momentum and provides trading signals. Ichimoku Kinko Hyo translates into “one look equilibrium chart”.'),
+      icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorIchimokuIcon"]
+    }, {
+      id: 'PSAR',
+      name: 'Parabolic SAR',
+      description: t.translate('The parabolic SAR is calculated almost independently for each trend in the price. When the price is in an uptrend, the SAR emerges below the price and converges upwards towards it. Similarly, on a downtrend, the SAR emerges above the price and converges downwards. At each step within a trend, the SAR is calculated one period in advance.'),
+      icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorParabolicIcon"]
+    }, {
+      id: 'ZigZag',
+      name: 'Zig Zag',
+      description: t.translate('Zig Zag helps to identify trend reversals and filters out relatively small price movements by determining the support and resistance levels of the market. It accepts a percentage of deviation as the input and displays a line if the price change is larger than the percentage of deviation. Zig Zag ignores any sideways movement and is useful to filter out “market noise”.'),
+      icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorZigZagIcon"]
+    }]
   }, {
-    id: 'Gator',
-    name: 'Gator Oscillator',
-    description: t.translate('The Gator Oscillator helps to detect trend changes in the market price. Based on the Alligator indicator, the Gator plots 2 histograms on either side of the zero line. The sleeping phase (absence of a trend) is when the bars on both sides are red. The awakening phase (formation of a trend) is when there are red and green bars on both sides. When there are green bars on both sides, it indicates the eating phase (trend strengthening). A solitary red bar appearing after the eating phase indicates the beginning of the sated phase (trend approaching its end).'),
-    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorGatorIcon"]
+    id: 'volatility',
+    name: 'Volatility',
+    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorCatVolatilityIcon"],
+    items: [{
+      id: 'Bollinger Bands',
+      name: 'Bollinger Bands',
+      description: t.translate('Bollinger Bands can be used to measure the highness or lowness of the price relative to previous trades.'),
+      icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorBollingerIcon"]
+    }, {
+      id: 'Donchian Channel',
+      name: 'Donchian Channel',
+      description: t.translate('The Donchian Channel is an indicator used in market trading developed by Richard Donchian. It is formed by taking the highest high and the lowest low of the last n periods. The area between the high and the low is the channel for the period chosen.'),
+      icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorDonchianIcon"]
+    }]
   }, {
-    id: 'macd',
-    name: 'MACD',
-    description: t.translate('MACD is a trading indicator used in technical analysis of stock prices. It is supposed to reveal changes in the strength, direction, momentum, and duration of a trend in a stock\'s price.'),
-    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorMacdIcon"]
+    id: 'moving-averages',
+    name: 'Moving averages',
+    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorCatAveragesIcon"],
+    items: [{
+      id: 'ma',
+      name: 'Moving Average (MA)',
+      description: t.translate('The Moving Average (MA) helps to identify the overall market trend by filtering out short-term price fluctuations. Using historical data, it calculates the average price over a specific period and plots a line on the chart. If the MA line moves upwards, it’s an indicator of an uptrend, a downtrend if it moves downwards. A buy signal occurs when the price moves above the MA line.'),
+      icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorAveragesIcon"]
+    }, {
+      id: 'MA Env',
+      name: 'Moving Average Envelope',
+      description: t.translate('The Moving Average Envelope (MAE) helps to identify strong price movement that indicates the start of a trend. The MAE creates a moving average line as well as 2 bands around it. In theory, when the market price touches the upper or lower bands, a trend reversal will occur, indicating a buy signal.'),
+      icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorEnvelopeIcon"]
+    }, {
+      id: 'Rainbow MA',
+      name: 'Rainbow Moving Average',
+      description: t.translate('The Rainbow Moving Average (RMA) displays several moving average lines simultaneously. When the lines intersect, it’s an indicator of price reversal and the angle of the lines are helpful to predict the trend strength. The steeper the curve, the stronger the trend. When the price crosses the moving average lines from below, it signals an upward trend. When the price crosses the moving average lines from above, it signals a downward trend. The RMA is easier to use compared to using several different moving average indicators at once.'),
+      icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorRainbowIcon"]
+    }]
   }, {
-    id: 'Price ROC',
-    name: 'Price Rate of Change',
-    description: t.translate('The Price Rate-of-Change (ROC) indicator displays the difference between the current price and the price x-time periods ago. The difference can be displayed in either points or as a percentage.'),
-    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorRateChangeIcon"]
-  }, {
-    id: 'rsi',
-    name: 'Relative Strength Index (RSI)',
-    description: t.translate('The Relative Strength Index (RSI) was published by J. Welles Wilder. The current price is normalized as a percentage between 0 and 100. The name of this oscillator is misleading because it does not compare the instrument relative to another instrument or set of instruments, but rather represents the current price relative to other recent pieces within the selected lookback window length.'),
-    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorRSIIcon"]
-  }, {
-    id: 'stochastics',
-    name: 'Stochastic Oscillator',
-    description: t.translate('A technical momentum indicator that compares a security\'s closing price to its price range over a given time period. The oscillator\'s sensitivity to market movements can be reduced by adjusting the time period or by taking a moving average of the result.'),
-    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorStochasticOscillatorIcon"]
-  }, {
-    id: 'Stch Mtm',
-    name: 'Stochastic Momentum Index',
-    description: t.translate('The Stochastic Momentum Index (SMI) helps to identify overbought or oversold conditions in the market and to predict bearish or bullish trends. It calculates the distance between the current closing price and the median of the high/low range, and displays 2 lines on the chart: the first (known as %K) represents the price movement while the second (known as %D) is a moving average of the first line. If the closing price is higher than the median of the high/low range, the SMI returns a positive value. If the closing price is lower than the average price, a negative value is returned. Values above 40 indicate a bullish trend while values below -40 indicate a bearish trend.'),
-    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorStochasticMomentumIcon"]
-  }, {
-    id: 'Williams %R',
-    name: 'William\'s Percent Range',
-    description: t.translate('Developed by Larry Williams, Williams %R is a momentum indicator that is the inverse of the Fast Stochastic Oscillator. Also referred to as %R, Williams %R reflects the level of the close relative to the highest high for the look-back period.'),
-    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorWilliamPercentIcon"]
-  }]
-}, {
-  id: 'trend',
-  name: 'Trend',
-  icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorCatTrendLightIcon"],
-  items: [{
-    id: 'Aroon',
-    name: 'Aroon',
-    description: t.translate('Developed by Tushar Chande in 1995, Aroon is an indicator system that determines whether a stock is trending or not and how strong the trend is. There are two separate indicators: Aroon-Up and Aroon-Down. A 25-day Aroon-Up measures the number of days since a 25-day high. A 25-day Aroon-Down measures the number of days since a 25-day low.'),
-    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorAroonIcon"]
-  }, {
-    id: 'ADX',
-    name: 'ADX/DMS',
-    description: t.translate('The Average Directional Movement Index index (ADX) was developed in 1978 by J. Welles Wilder as an indicator of trend strength in a series of prices of a financial instrument ADX will range between 0 and 100. Generally, ADX readings below 20 indicate trend weakness, and readings above 40 indicate trend strength.'),
-    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorAdxIcon"]
-  }, {
-    id: 'CCI',
-    name: 'Commodity Channel Index',
-    description: t.translate('The Commodity Channel Index (CCI) is a versatile indicator that can be used to identify a new trend or warn of extreme conditions.'),
-    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorCommodityChannelIndexIcon"]
-  }, {
-    id: 'Ichimoku Clouds',
-    name: 'Ichimoku Clouds',
-    description: t.translate('The Ichimoku Cloud, also known as Ichimoku Kinko Hyo, is a versatile indicator that defines support and resistance, identifies trend direction, gauges momentum and provides trading signals. Ichimoku Kinko Hyo translates into “one look equilibrium chart”.'),
-    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorIchimokuIcon"]
-  }, {
-    id: 'PSAR',
-    name: 'Parabolic SAR',
-    description: t.translate('The parabolic SAR is calculated almost independently for each trend in the price. When the price is in an uptrend, the SAR emerges below the price and converges upwards towards it. Similarly, on a downtrend, the SAR emerges above the price and converges downwards. At each step within a trend, the SAR is calculated one period in advance.'),
-    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorParabolicIcon"]
-  }, {
-    id: 'ZigZag',
-    name: 'Zig Zag',
-    description: t.translate('Zig Zag helps to identify trend reversals and filters out relatively small price movements by determining the support and resistance levels of the market. It accepts a percentage of deviation as the input and displays a line if the price change is larger than the percentage of deviation. Zig Zag ignores any sideways movement and is useful to filter out “market noise”.'),
-    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorZigZagIcon"]
-  }]
-}, {
-  id: 'volatility',
-  name: 'Volatility',
-  icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorCatVolatilityIcon"],
-  items: [{
-    id: 'Bollinger Bands',
-    name: 'Bollinger Bands',
-    description: t.translate('Bollinger Bands can be used to measure the highness or lowness of the price relative to previous trades.'),
-    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorBollingerIcon"]
-  }, {
-    id: 'Donchian Channel',
-    name: 'Donchian Channel',
-    description: t.translate('The Donchian Channel is an indicator used in market trading developed by Richard Donchian. It is formed by taking the highest high and the lowest low of the last n periods. The area between the high and the low is the channel for the period chosen.'),
-    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorDonchianIcon"]
-  }]
-}, {
-  id: 'moving-averages',
-  name: 'Moving averages',
-  icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorCatAveragesIcon"],
-  items: [{
-    id: 'ma',
-    name: 'Moving Average (MA)',
-    description: t.translate('The Moving Average (MA) helps to identify the overall market trend by filtering out short-term price fluctuations. Using historical data, it calculates the average price over a specific period and plots a line on the chart. If the MA line moves upwards, it’s an indicator of an uptrend, a downtrend if it moves downwards. A buy signal occurs when the price moves above the MA line.'),
-    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorAveragesIcon"]
-  }, {
-    id: 'MA Env',
-    name: 'Moving Average Envelope',
-    description: t.translate('The Moving Average Envelope (MAE) helps to identify strong price movement that indicates the start of a trend. The MAE creates a moving average line as well as 2 bands around it. In theory, when the market price touches the upper or lower bands, a trend reversal will occur, indicating a buy signal.'),
-    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorEnvelopeIcon"]
-  }, {
-    id: 'Rainbow MA',
-    name: 'Rainbow Moving Average',
-    description: t.translate('The Rainbow Moving Average (RMA) displays several moving average lines simultaneously. When the lines intersect, it’s an indicator of price reversal and the angle of the lines are helpful to predict the trend strength. The steeper the curve, the stronger the trend. When the price crosses the moving average lines from below, it signals an upward trend. When the price crosses the moving average lines from above, it signals a downward trend. The RMA is easier to use compared to using several different moving average indicators at once.'),
-    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorRainbowIcon"]
-  }]
-}, {
-  id: 'others',
-  name: 'Others',
-  icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorCatOtherIcon"],
-  items: [{
-    id: 'Alligator',
-    name: 'Alligator',
-    description: t.translate('Bill Williams introduced the Alligator indicator in 1995. The Alligator is as much a metaphor as it is an indicator. It consists of three lines, overlaid on a pricing chart, that represent the jaw, the teeth and the lips of the beast, and was created to help the trader confirm the presence of a trend and its direction. The Alligator indicator can also help traders designate impulse and corrective wave formations, but the tool works best when combined with a momentum indicator.'),
-    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorAlligatorIcon"]
-  }, {
-    id: 'Fractal Chaos Bands',
-    name: 'Fractal Chaos Band',
-    description: t.translate('Fractals are indicators on candlestick charts that identify reversal points in the market. Traders often use fractals to get an idea about the direction in which the price will develop. A fractal will form when a particular price pattern happens on a chart.'),
-    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorFractalChaosIcon"]
-  }]
-}];
+    id: 'others',
+    name: 'Others',
+    icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorCatOtherIcon"],
+    items: [{
+      id: 'Alligator',
+      name: 'Alligator',
+      description: t.translate('Bill Williams introduced the Alligator indicator in 1995. The Alligator is as much a metaphor as it is an indicator. It consists of three lines, overlaid on a pricing chart, that represent the jaw, the teeth and the lips of the beast, and was created to help the trader confirm the presence of a trend and its direction. The Alligator indicator can also help traders designate impulse and corrective wave formations, but the tool works best when combined with a momentum indicator.'),
+      icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorAlligatorIcon"]
+    }, {
+      id: 'Fractal Chaos Bands',
+      name: 'Fractal Chaos Band',
+      description: t.translate('Fractals are indicators on candlestick charts that identify reversal points in the market. Traders often use fractals to get an idea about the direction in which the price will develop. A fractal will form when a particular price pattern happens on a chart.'),
+      icon: _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["IndicatorFractalChaosIcon"]
+    }]
+  }];
+};
 var ExcludedStudies = {
   Beta: true,
   // volume is not supported in chart
@@ -20051,6 +20140,11 @@ var Languages = [{
   name: 'espanyol',
   icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["FlagIcons"].Spanish, null)
 }];
+var STATE = {
+  INITIAL: 'INITIAL',
+  READY: 'READY',
+  SCROLL_TO_LEFT: 'SCROLL_TO_LEFT'
+};
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./src/Translation.js */ "./src/Translation.js")["t"]))
 
 /***/ }),
@@ -20220,7 +20314,18 @@ var Translation = /*#__PURE__*/function () {
 
       var curr_lang = lang_map[this.lang];
       var key = args[0].trim();
-      var translated = curr_lang ? curr_lang[key] || key : key;
+      var key_with_quotation = key.replace(/"/gi, '\\\"');
+      /* eslint-disable-line */
+
+      var translated = key;
+      var has_quotation = false;
+
+      if (curr_lang && curr_lang[key]) {
+        translated = curr_lang[key];
+      } else if (curr_lang && curr_lang[key_with_quotation]) {
+        translated = curr_lang[key_with_quotation];
+        has_quotation = true;
+      }
 
       if (args[1]) {
         Object.keys(args[1]).forEach(function (prop) {
@@ -20228,7 +20333,8 @@ var Translation = /*#__PURE__*/function () {
         });
       }
 
-      return translated;
+      return has_quotation ? translated.replace(/\\\"/gi, '"') : translated;
+      /* eslint-disable-line */
     }
   }]);
 
@@ -20287,7 +20393,7 @@ function _initializerWarningHelper(descriptor, context) { throw new Error('Decor
 
 var DefaultSymbols = ['forex', 'indices', 'stocks', 'commodities', 'synthetic_index'];
 var ActiveSymbols = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, (_class = (_temp = /*#__PURE__*/function () {
-  function ActiveSymbols(api, tradingTimes, activeSymbols) {
+  function ActiveSymbols(api, tradingTimes, getMarketsOrder) {
     _classCallCheck(this, ActiveSymbols);
 
     _initializerDefineProperty(this, "changes", _descriptor, this);
@@ -20299,7 +20405,7 @@ var ActiveSymbols = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, (
     this.isRetrievingSymbols = false;
     this._api = api;
     this._tradingTimes = tradingTimes;
-    this._activeSymbols = activeSymbols instanceof Array ? activeSymbols : DefaultSymbols;
+    this.getMarketsOrder = getMarketsOrder;
   }
 
   _createClass(ActiveSymbols, [{
@@ -20425,9 +20531,10 @@ var ActiveSymbols = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, (
         _iterator2.f();
       }
 
+      var orderedMarkets = typeof this.getMarketsOrder === 'function' ? this.getMarketsOrder(symbols) : DefaultSymbols;
       var orderedSymbols = [];
 
-      var _iterator3 = _createForOfIteratorHelper(this._activeSymbols),
+      var _iterator3 = _createForOfIteratorHelper(orderedMarkets),
           _step3;
 
       try {
@@ -20796,6 +20903,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
 
+var DaysOfWeek = ['Sundays', 'Mondays', 'Tuesdays', 'Wednesdays', 'Thursdays', 'Fridays', 'Saturdays'];
 
 var TradingTimes = /*#__PURE__*/function () {
   _createClass(TradingTimes, null, [{
@@ -21022,12 +21130,56 @@ var TradingTimes = /*#__PURE__*/function () {
                         try {
                           _loop = function _loop() {
                             var symbolObj = _step3.value;
-                            var times = symbolObj.times,
+                            var events = symbolObj.events,
+                                times = symbolObj.times,
                                 symbol = symbolObj.symbol,
                                 feed_license = symbolObj.feed_license,
                                 delay_amount = symbolObj.delay_amount;
                             var open = times.open,
                                 close = times.close;
+                            var isClosedToday = false;
+                            var holidays = [];
+                            var closes_early = [];
+                            var opens_late = [];
+                            events.map(function (event) {
+                              return event.dates.includes(',') ? event.dates.split(',').map(function (date) {
+                                return {
+                                  date: date.trim(),
+                                  description: event.descrip
+                                };
+                              }) : [{
+                                date: event.dates,
+                                description: event.descrip
+                              }];
+                            }).reduce(function (ary, item) {
+                              return ary.concat(item);
+                            }, []).forEach(function (event) {
+                              var lower_description = event.description.toLowerCase(); // Open Late
+
+                              if (/^opens late \(at (\d{1,2}:\d{1,2})\)$/gm.test(event.description.toLowerCase())) {
+                                var event_hour = "".concat(lower_description.replace('opens late (at ', '').replace(')', ''), ":00");
+                                var event_date = event.date === 'today' || event.date === DaysOfWeek[now.getDay()] ? dateStr.substring(0, 10) : event.date;
+                                opens_late.push({
+                                  date: event_date,
+                                  open: new Date("".concat(event_date, "T").concat(event_hour, "Z")),
+                                  close: new Date("".concat(event_date, "T").concat(close[0], "Z"))
+                                }); // Close early
+                              } else if (/^closes early \(at (\d{1,2}:\d{1,2})\)$/gm.test(lower_description)) {
+                                var _event_hour = "".concat(lower_description.replace('closes early (at ', '').replace(')', ''), ":00");
+
+                                var _event_date = event.date === 'today' || event.date === DaysOfWeek[now.getDay()] ? dateStr.substring(0, 10) : event.date;
+
+                                closes_early.push({
+                                  date: _event_date,
+                                  open: new Date("".concat(_event_date, "T").concat(open[0], "Z")),
+                                  close: new Date("".concat(_event_date, "T").concat(_event_hour, "Z"))
+                                }); // Special date
+                              } else if (/^\d{4}-\d{2}-\d{2}$/.test(event.date)) {
+                                holidays.push(event.date);
+                              } else if (event.date === 'today') {
+                                isClosedToday = true;
+                              }
+                            });
 
                             var _times = void 0;
 
@@ -21045,6 +21197,10 @@ var TradingTimes = /*#__PURE__*/function () {
 
                             _this2._tradingTimesMap[symbol] = {
                               feed_license: feed_license,
+                              isClosedToday: isClosedToday,
+                              holidays: holidays,
+                              closes_early: closes_early,
+                              opens_late: opens_late,
                               delay_amount: delay_amount || 0,
                               times: _times,
                               isOpenAllDay: isOpenAllDay,
@@ -21125,12 +21281,41 @@ var TradingTimes = /*#__PURE__*/function () {
     value: function _calcIsMarketOpened(symbol) {
       var now = this._serverTime.getLocalDate();
 
+      var dateStr = now.toISOString().substring(0, 10);
       var _this$_tradingTimesMa = this._tradingTimesMap[symbol],
           times = _this$_tradingTimesMa.times,
           feed_license = _this$_tradingTimesMa.feed_license,
           isOpenAllDay = _this$_tradingTimesMa.isOpenAllDay,
-          isClosedAllDay = _this$_tradingTimesMa.isClosedAllDay;
-      if (isClosedAllDay || feed_license === TradingTimes.FEED_UNAVAILABLE) return false;
+          isClosedAllDay = _this$_tradingTimesMa.isClosedAllDay,
+          holidays = _this$_tradingTimesMa.holidays,
+          closes_early = _this$_tradingTimesMa.closes_early,
+          opens_late = _this$_tradingTimesMa.opens_late,
+          isClosedToday = _this$_tradingTimesMa.isClosedToday;
+
+      if (isClosedAllDay || feed_license === TradingTimes.FEED_UNAVAILABLE || isClosedToday || holidays.includes(dateStr)) {
+        return false;
+      }
+
+      var opens_late_date = opens_late.find(function (event) {
+        return event.date === dateStr;
+      });
+
+      if (opens_late_date) {
+        var open = opens_late_date.open,
+            close = opens_late_date.close;
+        return !!(now >= open && now < close);
+      }
+
+      var closes_early_date = closes_early.find(function (event) {
+        return event.date === dateStr;
+      });
+
+      if (closes_early_date) {
+        var _open = closes_early_date.open,
+            _close = closes_early_date.close;
+        return !!(now >= _open && now < _close);
+      }
+
       if (isOpenAllDay) return true;
 
       var _iterator4 = _createForOfIteratorHelper(times),
@@ -21139,10 +21324,10 @@ var TradingTimes = /*#__PURE__*/function () {
       try {
         for (_iterator4.s(); !(_step4 = _iterator4.n()).done;) {
           var session = _step4.value;
-          var open = session.open,
-              close = session.close;
+          var _open2 = session.open,
+              _close2 = session.close;
 
-          if (now >= open && now < close) {
+          if (now >= _open2 && now < _close2) {
             return true;
           }
         }
@@ -21236,6 +21421,38 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+/***/ }),
+
+/***/ "./src/chartiq_injections/backingStore.js":
+/*!************************************************!*\
+  !*** ./src/chartiq_injections/backingStore.js ***!
+  \************************************************/
+/*! exports provided: BackingStore */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BackingStore", function() { return BackingStore; });
+var BackingStore = function BackingStore() {
+  CIQ.ChartEngine.prototype.disableBackingStore = function () {
+    if (!this.useBackingStore) return;
+    var canvases = [this.chart.canvas];
+    if (this.useBackgroundCanvas) canvases.push(this.chart.backgroundCanvas);
+    var backing = this.backing;
+    canvases.forEach(function (canvas) {
+      if (backing) {
+        if (canvas.width === backing.styleWidth) return;
+        canvas.width = backing.styleWidth;
+        canvas.height = backing.styleHeight;
+      }
+
+      canvas.context.scale(1, 1);
+    });
+    this.adjustedDisplayPixelRatio = 1;
+    this.draw();
+  };
+};
 
 /***/ }),
 
@@ -21422,9 +21639,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _resizing__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./resizing */ "./src/chartiq_injections/resizing.js");
 /* harmony import */ var _plotterDrawText__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./plotterDrawText */ "./src/chartiq_injections/plotterDrawText.js");
 /* harmony import */ var _setMeasure__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./setMeasure */ "./src/chartiq_injections/setMeasure.js");
+/* harmony import */ var _backingStore__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./backingStore */ "./src/chartiq_injections/backingStore.js");
 
 
  // import { manageMasterDataLength } from './manageMasterDataLength';
+
 
 
 
@@ -21438,6 +21657,7 @@ var inject = function inject(option) {
 
   Object(_plotterDrawText__WEBPACK_IMPORTED_MODULE_4__["plotterDrawText"])();
   Object(_setMeasure__WEBPACK_IMPORTED_MODULE_5__["overideMeasure"])(option);
+  Object(_backingStore__WEBPACK_IMPORTED_MODULE_6__["BackingStore"])();
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (inject);
@@ -22764,7 +22984,7 @@ var ChartTitle = /*#__PURE__*/function (_Component) {
       var prevUpdateProps = prevProps.updateProps,
           previousProps = _objectWithoutProperties(prevProps, ["updateProps"]);
 
-      if (previousProps.active_category !== props.active_category || previousProps.open !== props.open) {
+      if (previousProps.open_market !== props.open_market || previousProps.open !== props.open) {
         updateProps(props);
       }
     }
@@ -25020,132 +25240,142 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sass_icons_active_symbols_volatility_1s75_index_light_75_1s_index_svg__WEBPACK_IMPORTED_MODULE_113___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_volatility_1s75_index_light_75_1s_index_svg__WEBPACK_IMPORTED_MODULE_113__);
 /* harmony import */ var _sass_icons_active_symbols_volatility_1s100_index_ic_100_1s_index_svg__WEBPACK_IMPORTED_MODULE_114__ = __webpack_require__(/*! ../../sass/icons/active-symbols/volatility/1s100 index/ic-100-1s-index.svg */ "./sass/icons/active-symbols/volatility/1s100 index/ic-100-1s-index.svg");
 /* harmony import */ var _sass_icons_active_symbols_volatility_1s100_index_ic_100_1s_index_svg__WEBPACK_IMPORTED_MODULE_114___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_volatility_1s100_index_ic_100_1s_index_svg__WEBPACK_IMPORTED_MODULE_114__);
-/* harmony import */ var _sass_icons_active_symbols_volatility_bear_market_ic_marketbear_svg__WEBPACK_IMPORTED_MODULE_115__ = __webpack_require__(/*! ../../sass/icons/active-symbols/volatility/bear market/ic-marketbear.svg */ "./sass/icons/active-symbols/volatility/bear market/ic-marketbear.svg");
-/* harmony import */ var _sass_icons_active_symbols_volatility_bear_market_ic_marketbear_svg__WEBPACK_IMPORTED_MODULE_115___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_volatility_bear_market_ic_marketbear_svg__WEBPACK_IMPORTED_MODULE_115__);
-/* harmony import */ var _sass_icons_active_symbols_volatility_bull_market_ic_marketbull_svg__WEBPACK_IMPORTED_MODULE_116__ = __webpack_require__(/*! ../../sass/icons/active-symbols/volatility/bull market/ic-marketbull.svg */ "./sass/icons/active-symbols/volatility/bull market/ic-marketbull.svg");
-/* harmony import */ var _sass_icons_active_symbols_volatility_bull_market_ic_marketbull_svg__WEBPACK_IMPORTED_MODULE_116___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_volatility_bull_market_ic_marketbull_svg__WEBPACK_IMPORTED_MODULE_116__);
-/* harmony import */ var _sass_icons_active_symbols_ic_otcbadge_svg__WEBPACK_IMPORTED_MODULE_117__ = __webpack_require__(/*! ../../sass/icons/active-symbols/ic-otcbadge.svg */ "./sass/icons/active-symbols/ic-otcbadge.svg");
-/* harmony import */ var _sass_icons_active_symbols_ic_otcbadge_svg__WEBPACK_IMPORTED_MODULE_117___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_ic_otcbadge_svg__WEBPACK_IMPORTED_MODULE_117__);
-/* harmony import */ var _sass_icons_active_symbols_ic_smartfx_placeholder_svg__WEBPACK_IMPORTED_MODULE_118__ = __webpack_require__(/*! ../../sass/icons/active-symbols/ic-smartfx-placeholder.svg */ "./sass/icons/active-symbols/ic-smartfx-placeholder.svg");
-/* harmony import */ var _sass_icons_active_symbols_ic_smartfx_placeholder_svg__WEBPACK_IMPORTED_MODULE_118___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_ic_smartfx_placeholder_svg__WEBPACK_IMPORTED_MODULE_118__);
-/* harmony import */ var _sass_icons_shape_ic_empty_state_svg__WEBPACK_IMPORTED_MODULE_119__ = __webpack_require__(/*! ../../sass/icons/shape/ic-empty-state.svg */ "./sass/icons/shape/ic-empty-state.svg");
-/* harmony import */ var _sass_icons_shape_ic_empty_state_svg__WEBPACK_IMPORTED_MODULE_119___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_shape_ic_empty_state_svg__WEBPACK_IMPORTED_MODULE_119__);
-/* harmony import */ var _sass_icons_shape_ic_overwrite_state_svg__WEBPACK_IMPORTED_MODULE_120__ = __webpack_require__(/*! ../../sass/icons/shape/ic-overwrite-state.svg */ "./sass/icons/shape/ic-overwrite-state.svg");
-/* harmony import */ var _sass_icons_shape_ic_overwrite_state_svg__WEBPACK_IMPORTED_MODULE_120___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_shape_ic_overwrite_state_svg__WEBPACK_IMPORTED_MODULE_120__);
-/* harmony import */ var _sass_icons_common_ic_info_svg__WEBPACK_IMPORTED_MODULE_121__ = __webpack_require__(/*! ../../sass/icons/common/ic-info.svg */ "./sass/icons/common/ic-info.svg");
-/* harmony import */ var _sass_icons_common_ic_info_svg__WEBPACK_IMPORTED_MODULE_121___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_common_ic_info_svg__WEBPACK_IMPORTED_MODULE_121__);
-/* harmony import */ var _sass_icons_common_ic_language_svg__WEBPACK_IMPORTED_MODULE_122__ = __webpack_require__(/*! ../../sass/icons/common/ic-language.svg */ "./sass/icons/common/ic-language.svg");
-/* harmony import */ var _sass_icons_common_ic_language_svg__WEBPACK_IMPORTED_MODULE_122___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_common_ic_language_svg__WEBPACK_IMPORTED_MODULE_122__);
-/* harmony import */ var _sass_icons_common_ic_theme_svg__WEBPACK_IMPORTED_MODULE_123__ = __webpack_require__(/*! ../../sass/icons/common/ic-theme.svg */ "./sass/icons/common/ic-theme.svg");
-/* harmony import */ var _sass_icons_common_ic_theme_svg__WEBPACK_IMPORTED_MODULE_123___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_common_ic_theme_svg__WEBPACK_IMPORTED_MODULE_123__);
-/* harmony import */ var _sass_icons_common_ic_charts_svg__WEBPACK_IMPORTED_MODULE_124__ = __webpack_require__(/*! ../../sass/icons/common/ic-charts.svg */ "./sass/icons/common/ic-charts.svg");
-/* harmony import */ var _sass_icons_common_ic_charts_svg__WEBPACK_IMPORTED_MODULE_124___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_common_ic_charts_svg__WEBPACK_IMPORTED_MODULE_124__);
-/* harmony import */ var _sass_icons_common_ic_checkbox_svg__WEBPACK_IMPORTED_MODULE_125__ = __webpack_require__(/*! ../../sass/icons/common/ic-checkbox.svg */ "./sass/icons/common/ic-checkbox.svg");
-/* harmony import */ var _sass_icons_common_ic_checkbox_svg__WEBPACK_IMPORTED_MODULE_125___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_common_ic_checkbox_svg__WEBPACK_IMPORTED_MODULE_125__);
-/* harmony import */ var _sass_icons_common_ic_checkbox_active_svg__WEBPACK_IMPORTED_MODULE_126__ = __webpack_require__(/*! ../../sass/icons/common/ic-checkbox-active.svg */ "./sass/icons/common/ic-checkbox-active.svg");
-/* harmony import */ var _sass_icons_common_ic_checkbox_active_svg__WEBPACK_IMPORTED_MODULE_126___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_common_ic_checkbox_active_svg__WEBPACK_IMPORTED_MODULE_126__);
-/* harmony import */ var _sass_icons_setting_ic_theme_light_svg__WEBPACK_IMPORTED_MODULE_127__ = __webpack_require__(/*! ../../sass/icons/setting/ic-theme-light.svg */ "./sass/icons/setting/ic-theme-light.svg");
-/* harmony import */ var _sass_icons_setting_ic_theme_light_svg__WEBPACK_IMPORTED_MODULE_127___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_ic_theme_light_svg__WEBPACK_IMPORTED_MODULE_127__);
-/* harmony import */ var _sass_icons_setting_ic_theme_dark_svg__WEBPACK_IMPORTED_MODULE_128__ = __webpack_require__(/*! ../../sass/icons/setting/ic-theme-dark.svg */ "./sass/icons/setting/ic-theme-dark.svg");
-/* harmony import */ var _sass_icons_setting_ic_theme_dark_svg__WEBPACK_IMPORTED_MODULE_128___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_ic_theme_dark_svg__WEBPACK_IMPORTED_MODULE_128__);
-/* harmony import */ var _sass_icons_setting_countdown_ic_countdown_light_normal_svg__WEBPACK_IMPORTED_MODULE_129__ = __webpack_require__(/*! ../../sass/icons/setting/countdown/ic-countdown-light-normal.svg */ "./sass/icons/setting/countdown/ic-countdown-light-normal.svg");
-/* harmony import */ var _sass_icons_setting_countdown_ic_countdown_light_normal_svg__WEBPACK_IMPORTED_MODULE_129___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_countdown_ic_countdown_light_normal_svg__WEBPACK_IMPORTED_MODULE_129__);
-/* harmony import */ var _sass_icons_setting_countdown_ic_countdown_light_active_svg__WEBPACK_IMPORTED_MODULE_130__ = __webpack_require__(/*! ../../sass/icons/setting/countdown/ic-countdown-light-active.svg */ "./sass/icons/setting/countdown/ic-countdown-light-active.svg");
-/* harmony import */ var _sass_icons_setting_countdown_ic_countdown_light_active_svg__WEBPACK_IMPORTED_MODULE_130___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_countdown_ic_countdown_light_active_svg__WEBPACK_IMPORTED_MODULE_130__);
-/* harmony import */ var _sass_icons_setting_countdown_ic_countdown_dark_normal_svg__WEBPACK_IMPORTED_MODULE_131__ = __webpack_require__(/*! ../../sass/icons/setting/countdown/ic-countdown-dark-normal.svg */ "./sass/icons/setting/countdown/ic-countdown-dark-normal.svg");
-/* harmony import */ var _sass_icons_setting_countdown_ic_countdown_dark_normal_svg__WEBPACK_IMPORTED_MODULE_131___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_countdown_ic_countdown_dark_normal_svg__WEBPACK_IMPORTED_MODULE_131__);
-/* harmony import */ var _sass_icons_setting_countdown_ic_countdown_dark_active_svg__WEBPACK_IMPORTED_MODULE_132__ = __webpack_require__(/*! ../../sass/icons/setting/countdown/ic-countdown-dark-active.svg */ "./sass/icons/setting/countdown/ic-countdown-dark-active.svg");
-/* harmony import */ var _sass_icons_setting_countdown_ic_countdown_dark_active_svg__WEBPACK_IMPORTED_MODULE_132___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_countdown_ic_countdown_dark_active_svg__WEBPACK_IMPORTED_MODULE_132__);
-/* harmony import */ var _sass_icons_setting_historical_ic_historical_light_normal_svg__WEBPACK_IMPORTED_MODULE_133__ = __webpack_require__(/*! ../../sass/icons/setting/historical/ic-historical-light-normal.svg */ "./sass/icons/setting/historical/ic-historical-light-normal.svg");
-/* harmony import */ var _sass_icons_setting_historical_ic_historical_light_normal_svg__WEBPACK_IMPORTED_MODULE_133___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_historical_ic_historical_light_normal_svg__WEBPACK_IMPORTED_MODULE_133__);
-/* harmony import */ var _sass_icons_setting_historical_ic_historical_light_active_svg__WEBPACK_IMPORTED_MODULE_134__ = __webpack_require__(/*! ../../sass/icons/setting/historical/ic-historical-light-active.svg */ "./sass/icons/setting/historical/ic-historical-light-active.svg");
-/* harmony import */ var _sass_icons_setting_historical_ic_historical_light_active_svg__WEBPACK_IMPORTED_MODULE_134___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_historical_ic_historical_light_active_svg__WEBPACK_IMPORTED_MODULE_134__);
-/* harmony import */ var _sass_icons_setting_historical_ic_historical_dark_normal_svg__WEBPACK_IMPORTED_MODULE_135__ = __webpack_require__(/*! ../../sass/icons/setting/historical/ic-historical-dark-normal.svg */ "./sass/icons/setting/historical/ic-historical-dark-normal.svg");
-/* harmony import */ var _sass_icons_setting_historical_ic_historical_dark_normal_svg__WEBPACK_IMPORTED_MODULE_135___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_historical_ic_historical_dark_normal_svg__WEBPACK_IMPORTED_MODULE_135__);
-/* harmony import */ var _sass_icons_setting_historical_ic_historical_dark_active_svg__WEBPACK_IMPORTED_MODULE_136__ = __webpack_require__(/*! ../../sass/icons/setting/historical/ic-historical-dark-active.svg */ "./sass/icons/setting/historical/ic-historical-dark-active.svg");
-/* harmony import */ var _sass_icons_setting_historical_ic_historical_dark_active_svg__WEBPACK_IMPORTED_MODULE_136___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_historical_ic_historical_dark_active_svg__WEBPACK_IMPORTED_MODULE_136__);
-/* harmony import */ var _sass_icons_setting_highest_lowest_ic_highest_lowest_light_normal_svg__WEBPACK_IMPORTED_MODULE_137__ = __webpack_require__(/*! ../../sass/icons/setting/highest-lowest/ic-highest-lowest-light-normal.svg */ "./sass/icons/setting/highest-lowest/ic-highest-lowest-light-normal.svg");
-/* harmony import */ var _sass_icons_setting_highest_lowest_ic_highest_lowest_light_normal_svg__WEBPACK_IMPORTED_MODULE_137___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_highest_lowest_ic_highest_lowest_light_normal_svg__WEBPACK_IMPORTED_MODULE_137__);
-/* harmony import */ var _sass_icons_setting_highest_lowest_ic_highest_lowest_light_active_svg__WEBPACK_IMPORTED_MODULE_138__ = __webpack_require__(/*! ../../sass/icons/setting/highest-lowest/ic-highest-lowest-light-active.svg */ "./sass/icons/setting/highest-lowest/ic-highest-lowest-light-active.svg");
-/* harmony import */ var _sass_icons_setting_highest_lowest_ic_highest_lowest_light_active_svg__WEBPACK_IMPORTED_MODULE_138___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_highest_lowest_ic_highest_lowest_light_active_svg__WEBPACK_IMPORTED_MODULE_138__);
-/* harmony import */ var _sass_icons_setting_highest_lowest_ic_highest_lowest_dark_normal_svg__WEBPACK_IMPORTED_MODULE_139__ = __webpack_require__(/*! ../../sass/icons/setting/highest-lowest/ic-highest-lowest-dark-normal.svg */ "./sass/icons/setting/highest-lowest/ic-highest-lowest-dark-normal.svg");
-/* harmony import */ var _sass_icons_setting_highest_lowest_ic_highest_lowest_dark_normal_svg__WEBPACK_IMPORTED_MODULE_139___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_highest_lowest_ic_highest_lowest_dark_normal_svg__WEBPACK_IMPORTED_MODULE_139__);
-/* harmony import */ var _sass_icons_setting_highest_lowest_ic_highest_lowest_dark_active_svg__WEBPACK_IMPORTED_MODULE_140__ = __webpack_require__(/*! ../../sass/icons/setting/highest-lowest/ic-highest-lowest-dark-active.svg */ "./sass/icons/setting/highest-lowest/ic-highest-lowest-dark-active.svg");
-/* harmony import */ var _sass_icons_setting_highest_lowest_ic_highest_lowest_dark_active_svg__WEBPACK_IMPORTED_MODULE_140___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_highest_lowest_ic_highest_lowest_dark_active_svg__WEBPACK_IMPORTED_MODULE_140__);
-/* harmony import */ var _sass_icons_indicators_ic_momentum_svg__WEBPACK_IMPORTED_MODULE_141__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-momentum.svg */ "./sass/icons/indicators/ic-momentum.svg");
-/* harmony import */ var _sass_icons_indicators_ic_momentum_svg__WEBPACK_IMPORTED_MODULE_141___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_momentum_svg__WEBPACK_IMPORTED_MODULE_141__);
-/* harmony import */ var _sass_icons_indicators_ic_trend_light_svg__WEBPACK_IMPORTED_MODULE_142__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-trend-light.svg */ "./sass/icons/indicators/ic-trend-light.svg");
-/* harmony import */ var _sass_icons_indicators_ic_trend_light_svg__WEBPACK_IMPORTED_MODULE_142___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_trend_light_svg__WEBPACK_IMPORTED_MODULE_142__);
-/* harmony import */ var _sass_icons_indicators_ic_trend_dark_svg__WEBPACK_IMPORTED_MODULE_143__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-trend-dark.svg */ "./sass/icons/indicators/ic-trend-dark.svg");
-/* harmony import */ var _sass_icons_indicators_ic_trend_dark_svg__WEBPACK_IMPORTED_MODULE_143___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_trend_dark_svg__WEBPACK_IMPORTED_MODULE_143__);
-/* harmony import */ var _sass_icons_indicators_ic_volatility_svg__WEBPACK_IMPORTED_MODULE_144__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-volatility.svg */ "./sass/icons/indicators/ic-volatility.svg");
-/* harmony import */ var _sass_icons_indicators_ic_volatility_svg__WEBPACK_IMPORTED_MODULE_144___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_volatility_svg__WEBPACK_IMPORTED_MODULE_144__);
-/* harmony import */ var _sass_icons_indicators_ic_cat_averages_svg__WEBPACK_IMPORTED_MODULE_145__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-cat-averages.svg */ "./sass/icons/indicators/ic-cat-averages.svg");
-/* harmony import */ var _sass_icons_indicators_ic_cat_averages_svg__WEBPACK_IMPORTED_MODULE_145___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_cat_averages_svg__WEBPACK_IMPORTED_MODULE_145__);
-/* harmony import */ var _sass_icons_indicators_ic_other_svg__WEBPACK_IMPORTED_MODULE_146__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-other.svg */ "./sass/icons/indicators/ic-other.svg");
-/* harmony import */ var _sass_icons_indicators_ic_other_svg__WEBPACK_IMPORTED_MODULE_146___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_other_svg__WEBPACK_IMPORTED_MODULE_146__);
-/* harmony import */ var _sass_icons_indicators_ic_awesome_oscillator_svg__WEBPACK_IMPORTED_MODULE_147__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-awesome-oscillator.svg */ "./sass/icons/indicators/ic-awesome-oscillator.svg");
-/* harmony import */ var _sass_icons_indicators_ic_awesome_oscillator_svg__WEBPACK_IMPORTED_MODULE_147___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_awesome_oscillator_svg__WEBPACK_IMPORTED_MODULE_147__);
-/* harmony import */ var _sass_icons_indicators_ic_dtrended_svg__WEBPACK_IMPORTED_MODULE_148__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-dtrended.svg */ "./sass/icons/indicators/ic-dtrended.svg");
-/* harmony import */ var _sass_icons_indicators_ic_dtrended_svg__WEBPACK_IMPORTED_MODULE_148___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_dtrended_svg__WEBPACK_IMPORTED_MODULE_148__);
-/* harmony import */ var _sass_icons_indicators_ic_gator_svg__WEBPACK_IMPORTED_MODULE_149__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-gator.svg */ "./sass/icons/indicators/ic-gator.svg");
-/* harmony import */ var _sass_icons_indicators_ic_gator_svg__WEBPACK_IMPORTED_MODULE_149___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_gator_svg__WEBPACK_IMPORTED_MODULE_149__);
-/* harmony import */ var _sass_icons_indicators_ic_macd_svg__WEBPACK_IMPORTED_MODULE_150__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-macd.svg */ "./sass/icons/indicators/ic-macd.svg");
-/* harmony import */ var _sass_icons_indicators_ic_macd_svg__WEBPACK_IMPORTED_MODULE_150___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_macd_svg__WEBPACK_IMPORTED_MODULE_150__);
-/* harmony import */ var _sass_icons_indicators_ic_rate_of_change_svg__WEBPACK_IMPORTED_MODULE_151__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-rate-of-change.svg */ "./sass/icons/indicators/ic-rate-of-change.svg");
-/* harmony import */ var _sass_icons_indicators_ic_rate_of_change_svg__WEBPACK_IMPORTED_MODULE_151___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_rate_of_change_svg__WEBPACK_IMPORTED_MODULE_151__);
-/* harmony import */ var _sass_icons_indicators_ic_rsi_svg__WEBPACK_IMPORTED_MODULE_152__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-rsi.svg */ "./sass/icons/indicators/ic-rsi.svg");
-/* harmony import */ var _sass_icons_indicators_ic_rsi_svg__WEBPACK_IMPORTED_MODULE_152___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_rsi_svg__WEBPACK_IMPORTED_MODULE_152__);
-/* harmony import */ var _sass_icons_indicators_ic_stochastic_oscillator_svg__WEBPACK_IMPORTED_MODULE_153__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-stochastic-oscillator.svg */ "./sass/icons/indicators/ic-stochastic-oscillator.svg");
-/* harmony import */ var _sass_icons_indicators_ic_stochastic_oscillator_svg__WEBPACK_IMPORTED_MODULE_153___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_stochastic_oscillator_svg__WEBPACK_IMPORTED_MODULE_153__);
-/* harmony import */ var _sass_icons_indicators_ic_stochastic_momentum_svg__WEBPACK_IMPORTED_MODULE_154__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-stochastic-momentum.svg */ "./sass/icons/indicators/ic-stochastic-momentum.svg");
-/* harmony import */ var _sass_icons_indicators_ic_stochastic_momentum_svg__WEBPACK_IMPORTED_MODULE_154___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_stochastic_momentum_svg__WEBPACK_IMPORTED_MODULE_154__);
-/* harmony import */ var _sass_icons_indicators_ic_william_percent_svg__WEBPACK_IMPORTED_MODULE_155__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-william-percent.svg */ "./sass/icons/indicators/ic-william-percent.svg");
-/* harmony import */ var _sass_icons_indicators_ic_william_percent_svg__WEBPACK_IMPORTED_MODULE_155___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_william_percent_svg__WEBPACK_IMPORTED_MODULE_155__);
-/* harmony import */ var _sass_icons_indicators_ic_aroon_svg__WEBPACK_IMPORTED_MODULE_156__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-aroon.svg */ "./sass/icons/indicators/ic-aroon.svg");
-/* harmony import */ var _sass_icons_indicators_ic_aroon_svg__WEBPACK_IMPORTED_MODULE_156___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_aroon_svg__WEBPACK_IMPORTED_MODULE_156__);
-/* harmony import */ var _sass_icons_indicators_ic_adx_svg__WEBPACK_IMPORTED_MODULE_157__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-adx.svg */ "./sass/icons/indicators/ic-adx.svg");
-/* harmony import */ var _sass_icons_indicators_ic_adx_svg__WEBPACK_IMPORTED_MODULE_157___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_adx_svg__WEBPACK_IMPORTED_MODULE_157__);
-/* harmony import */ var _sass_icons_indicators_ic_commodity_channel_index_svg__WEBPACK_IMPORTED_MODULE_158__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-commodity-channel-index.svg */ "./sass/icons/indicators/ic-commodity-channel-index.svg");
-/* harmony import */ var _sass_icons_indicators_ic_commodity_channel_index_svg__WEBPACK_IMPORTED_MODULE_158___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_commodity_channel_index_svg__WEBPACK_IMPORTED_MODULE_158__);
-/* harmony import */ var _sass_icons_indicators_ic_ichimoku_svg__WEBPACK_IMPORTED_MODULE_159__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-ichimoku.svg */ "./sass/icons/indicators/ic-ichimoku.svg");
-/* harmony import */ var _sass_icons_indicators_ic_ichimoku_svg__WEBPACK_IMPORTED_MODULE_159___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_ichimoku_svg__WEBPACK_IMPORTED_MODULE_159__);
-/* harmony import */ var _sass_icons_indicators_ic_parabolic_svg__WEBPACK_IMPORTED_MODULE_160__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-parabolic.svg */ "./sass/icons/indicators/ic-parabolic.svg");
-/* harmony import */ var _sass_icons_indicators_ic_parabolic_svg__WEBPACK_IMPORTED_MODULE_160___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_parabolic_svg__WEBPACK_IMPORTED_MODULE_160__);
-/* harmony import */ var _sass_icons_indicators_ic_zig_zag_svg__WEBPACK_IMPORTED_MODULE_161__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-zig-zag.svg */ "./sass/icons/indicators/ic-zig-zag.svg");
-/* harmony import */ var _sass_icons_indicators_ic_zig_zag_svg__WEBPACK_IMPORTED_MODULE_161___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_zig_zag_svg__WEBPACK_IMPORTED_MODULE_161__);
-/* harmony import */ var _sass_icons_indicators_ic_bollinger_svg__WEBPACK_IMPORTED_MODULE_162__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-bollinger.svg */ "./sass/icons/indicators/ic-bollinger.svg");
-/* harmony import */ var _sass_icons_indicators_ic_bollinger_svg__WEBPACK_IMPORTED_MODULE_162___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_bollinger_svg__WEBPACK_IMPORTED_MODULE_162__);
-/* harmony import */ var _sass_icons_indicators_ic_donchian_svg__WEBPACK_IMPORTED_MODULE_163__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-donchian.svg */ "./sass/icons/indicators/ic-donchian.svg");
-/* harmony import */ var _sass_icons_indicators_ic_donchian_svg__WEBPACK_IMPORTED_MODULE_163___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_donchian_svg__WEBPACK_IMPORTED_MODULE_163__);
-/* harmony import */ var _sass_icons_indicators_ic_averages_svg__WEBPACK_IMPORTED_MODULE_164__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-averages.svg */ "./sass/icons/indicators/ic-averages.svg");
-/* harmony import */ var _sass_icons_indicators_ic_averages_svg__WEBPACK_IMPORTED_MODULE_164___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_averages_svg__WEBPACK_IMPORTED_MODULE_164__);
-/* harmony import */ var _sass_icons_indicators_ic_envelope_svg__WEBPACK_IMPORTED_MODULE_165__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-envelope.svg */ "./sass/icons/indicators/ic-envelope.svg");
-/* harmony import */ var _sass_icons_indicators_ic_envelope_svg__WEBPACK_IMPORTED_MODULE_165___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_envelope_svg__WEBPACK_IMPORTED_MODULE_165__);
-/* harmony import */ var _sass_icons_indicators_ic_alligator_svg__WEBPACK_IMPORTED_MODULE_166__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-alligator.svg */ "./sass/icons/indicators/ic-alligator.svg");
-/* harmony import */ var _sass_icons_indicators_ic_alligator_svg__WEBPACK_IMPORTED_MODULE_166___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_alligator_svg__WEBPACK_IMPORTED_MODULE_166__);
-/* harmony import */ var _sass_icons_indicators_ic_fractal_chaos_svg__WEBPACK_IMPORTED_MODULE_167__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-fractal-chaos.svg */ "./sass/icons/indicators/ic-fractal-chaos.svg");
-/* harmony import */ var _sass_icons_indicators_ic_fractal_chaos_svg__WEBPACK_IMPORTED_MODULE_167___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_fractal_chaos_svg__WEBPACK_IMPORTED_MODULE_167__);
-/* harmony import */ var _sass_icons_indicators_ic_rainbow_svg__WEBPACK_IMPORTED_MODULE_168__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-rainbow.svg */ "./sass/icons/indicators/ic-rainbow.svg");
-/* harmony import */ var _sass_icons_indicators_ic_rainbow_svg__WEBPACK_IMPORTED_MODULE_168___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_rainbow_svg__WEBPACK_IMPORTED_MODULE_168__);
-/* harmony import */ var _sass_icons_draw_tools_ic_channel_svg__WEBPACK_IMPORTED_MODULE_169__ = __webpack_require__(/*! ../../sass/icons/draw-tools/ic-channel.svg */ "./sass/icons/draw-tools/ic-channel.svg");
-/* harmony import */ var _sass_icons_draw_tools_ic_channel_svg__WEBPACK_IMPORTED_MODULE_169___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_draw_tools_ic_channel_svg__WEBPACK_IMPORTED_MODULE_169__);
-/* harmony import */ var _sass_icons_draw_tools_ic_continuous_svg__WEBPACK_IMPORTED_MODULE_170__ = __webpack_require__(/*! ../../sass/icons/draw-tools/ic-continuous.svg */ "./sass/icons/draw-tools/ic-continuous.svg");
-/* harmony import */ var _sass_icons_draw_tools_ic_continuous_svg__WEBPACK_IMPORTED_MODULE_170___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_draw_tools_ic_continuous_svg__WEBPACK_IMPORTED_MODULE_170__);
-/* harmony import */ var _sass_icons_draw_tools_ic_fibonacci_fan_svg__WEBPACK_IMPORTED_MODULE_171__ = __webpack_require__(/*! ../../sass/icons/draw-tools/ic-fibonacci-fan.svg */ "./sass/icons/draw-tools/ic-fibonacci-fan.svg");
-/* harmony import */ var _sass_icons_draw_tools_ic_fibonacci_fan_svg__WEBPACK_IMPORTED_MODULE_171___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_draw_tools_ic_fibonacci_fan_svg__WEBPACK_IMPORTED_MODULE_171__);
-/* harmony import */ var _sass_icons_draw_tools_ic_horizontal_svg__WEBPACK_IMPORTED_MODULE_172__ = __webpack_require__(/*! ../../sass/icons/draw-tools/ic-horizontal.svg */ "./sass/icons/draw-tools/ic-horizontal.svg");
-/* harmony import */ var _sass_icons_draw_tools_ic_horizontal_svg__WEBPACK_IMPORTED_MODULE_172___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_draw_tools_ic_horizontal_svg__WEBPACK_IMPORTED_MODULE_172__);
-/* harmony import */ var _sass_icons_draw_tools_ic_line_svg__WEBPACK_IMPORTED_MODULE_173__ = __webpack_require__(/*! ../../sass/icons/draw-tools/ic-line.svg */ "./sass/icons/draw-tools/ic-line.svg");
-/* harmony import */ var _sass_icons_draw_tools_ic_line_svg__WEBPACK_IMPORTED_MODULE_173___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_draw_tools_ic_line_svg__WEBPACK_IMPORTED_MODULE_173__);
-/* harmony import */ var _sass_icons_draw_tools_ic_ray_svg__WEBPACK_IMPORTED_MODULE_174__ = __webpack_require__(/*! ../../sass/icons/draw-tools/ic-ray.svg */ "./sass/icons/draw-tools/ic-ray.svg");
-/* harmony import */ var _sass_icons_draw_tools_ic_ray_svg__WEBPACK_IMPORTED_MODULE_174___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_draw_tools_ic_ray_svg__WEBPACK_IMPORTED_MODULE_174__);
-/* harmony import */ var _sass_icons_draw_tools_ic_rectangle_svg__WEBPACK_IMPORTED_MODULE_175__ = __webpack_require__(/*! ../../sass/icons/draw-tools/ic-rectangle.svg */ "./sass/icons/draw-tools/ic-rectangle.svg");
-/* harmony import */ var _sass_icons_draw_tools_ic_rectangle_svg__WEBPACK_IMPORTED_MODULE_175___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_draw_tools_ic_rectangle_svg__WEBPACK_IMPORTED_MODULE_175__);
-/* harmony import */ var _sass_icons_draw_tools_ic_trend_svg__WEBPACK_IMPORTED_MODULE_176__ = __webpack_require__(/*! ../../sass/icons/draw-tools/ic-trend.svg */ "./sass/icons/draw-tools/ic-trend.svg");
-/* harmony import */ var _sass_icons_draw_tools_ic_trend_svg__WEBPACK_IMPORTED_MODULE_176___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_draw_tools_ic_trend_svg__WEBPACK_IMPORTED_MODULE_176__);
-/* harmony import */ var _sass_icons_draw_tools_ic_vertical_svg__WEBPACK_IMPORTED_MODULE_177__ = __webpack_require__(/*! ../../sass/icons/draw-tools/ic-vertical.svg */ "./sass/icons/draw-tools/ic-vertical.svg");
-/* harmony import */ var _sass_icons_draw_tools_ic_vertical_svg__WEBPACK_IMPORTED_MODULE_177___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_draw_tools_ic_vertical_svg__WEBPACK_IMPORTED_MODULE_177__);
+/* harmony import */ var _sass_icons_active_symbols_volatility_crash500_index_crash500_index_svg__WEBPACK_IMPORTED_MODULE_115__ = __webpack_require__(/*! ../../sass/icons/active-symbols/volatility/crash500 index/crash500 index.svg */ "./sass/icons/active-symbols/volatility/crash500 index/crash500 index.svg");
+/* harmony import */ var _sass_icons_active_symbols_volatility_crash500_index_crash500_index_svg__WEBPACK_IMPORTED_MODULE_115___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_volatility_crash500_index_crash500_index_svg__WEBPACK_IMPORTED_MODULE_115__);
+/* harmony import */ var _sass_icons_active_symbols_volatility_crash1000_index_crash1000_index_svg__WEBPACK_IMPORTED_MODULE_116__ = __webpack_require__(/*! ../../sass/icons/active-symbols/volatility/crash1000 index/crash1000 index.svg */ "./sass/icons/active-symbols/volatility/crash1000 index/crash1000 index.svg");
+/* harmony import */ var _sass_icons_active_symbols_volatility_crash1000_index_crash1000_index_svg__WEBPACK_IMPORTED_MODULE_116___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_volatility_crash1000_index_crash1000_index_svg__WEBPACK_IMPORTED_MODULE_116__);
+/* harmony import */ var _sass_icons_active_symbols_volatility_boom500_index_boom500_index_svg__WEBPACK_IMPORTED_MODULE_117__ = __webpack_require__(/*! ../../sass/icons/active-symbols/volatility/boom500 index/boom500 index.svg */ "./sass/icons/active-symbols/volatility/boom500 index/boom500 index.svg");
+/* harmony import */ var _sass_icons_active_symbols_volatility_boom500_index_boom500_index_svg__WEBPACK_IMPORTED_MODULE_117___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_volatility_boom500_index_boom500_index_svg__WEBPACK_IMPORTED_MODULE_117__);
+/* harmony import */ var _sass_icons_active_symbols_volatility_boom1000_index_boom1000_index_svg__WEBPACK_IMPORTED_MODULE_118__ = __webpack_require__(/*! ../../sass/icons/active-symbols/volatility/boom1000 index/boom1000 index.svg */ "./sass/icons/active-symbols/volatility/boom1000 index/boom1000 index.svg");
+/* harmony import */ var _sass_icons_active_symbols_volatility_boom1000_index_boom1000_index_svg__WEBPACK_IMPORTED_MODULE_118___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_volatility_boom1000_index_boom1000_index_svg__WEBPACK_IMPORTED_MODULE_118__);
+/* harmony import */ var _sass_icons_active_symbols_volatility_bear_market_ic_marketbear_svg__WEBPACK_IMPORTED_MODULE_119__ = __webpack_require__(/*! ../../sass/icons/active-symbols/volatility/bear market/ic-marketbear.svg */ "./sass/icons/active-symbols/volatility/bear market/ic-marketbear.svg");
+/* harmony import */ var _sass_icons_active_symbols_volatility_bear_market_ic_marketbear_svg__WEBPACK_IMPORTED_MODULE_119___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_volatility_bear_market_ic_marketbear_svg__WEBPACK_IMPORTED_MODULE_119__);
+/* harmony import */ var _sass_icons_active_symbols_volatility_bull_market_ic_marketbull_svg__WEBPACK_IMPORTED_MODULE_120__ = __webpack_require__(/*! ../../sass/icons/active-symbols/volatility/bull market/ic-marketbull.svg */ "./sass/icons/active-symbols/volatility/bull market/ic-marketbull.svg");
+/* harmony import */ var _sass_icons_active_symbols_volatility_bull_market_ic_marketbull_svg__WEBPACK_IMPORTED_MODULE_120___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_volatility_bull_market_ic_marketbull_svg__WEBPACK_IMPORTED_MODULE_120__);
+/* harmony import */ var _sass_icons_active_symbols_volatility_step_index_step_index_svg__WEBPACK_IMPORTED_MODULE_121__ = __webpack_require__(/*! ../../sass/icons/active-symbols/volatility/step index/step index.svg */ "./sass/icons/active-symbols/volatility/step index/step index.svg");
+/* harmony import */ var _sass_icons_active_symbols_volatility_step_index_step_index_svg__WEBPACK_IMPORTED_MODULE_121___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_volatility_step_index_step_index_svg__WEBPACK_IMPORTED_MODULE_121__);
+/* harmony import */ var _sass_icons_active_symbols_ic_otcbadge_svg__WEBPACK_IMPORTED_MODULE_122__ = __webpack_require__(/*! ../../sass/icons/active-symbols/ic-otcbadge.svg */ "./sass/icons/active-symbols/ic-otcbadge.svg");
+/* harmony import */ var _sass_icons_active_symbols_ic_otcbadge_svg__WEBPACK_IMPORTED_MODULE_122___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_ic_otcbadge_svg__WEBPACK_IMPORTED_MODULE_122__);
+/* harmony import */ var _sass_icons_active_symbols_ic_smartfx_placeholder_svg__WEBPACK_IMPORTED_MODULE_123__ = __webpack_require__(/*! ../../sass/icons/active-symbols/ic-smartfx-placeholder.svg */ "./sass/icons/active-symbols/ic-smartfx-placeholder.svg");
+/* harmony import */ var _sass_icons_active_symbols_ic_smartfx_placeholder_svg__WEBPACK_IMPORTED_MODULE_123___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_ic_smartfx_placeholder_svg__WEBPACK_IMPORTED_MODULE_123__);
+/* harmony import */ var _sass_icons_shape_ic_empty_state_svg__WEBPACK_IMPORTED_MODULE_124__ = __webpack_require__(/*! ../../sass/icons/shape/ic-empty-state.svg */ "./sass/icons/shape/ic-empty-state.svg");
+/* harmony import */ var _sass_icons_shape_ic_empty_state_svg__WEBPACK_IMPORTED_MODULE_124___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_shape_ic_empty_state_svg__WEBPACK_IMPORTED_MODULE_124__);
+/* harmony import */ var _sass_icons_shape_ic_overwrite_state_svg__WEBPACK_IMPORTED_MODULE_125__ = __webpack_require__(/*! ../../sass/icons/shape/ic-overwrite-state.svg */ "./sass/icons/shape/ic-overwrite-state.svg");
+/* harmony import */ var _sass_icons_shape_ic_overwrite_state_svg__WEBPACK_IMPORTED_MODULE_125___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_shape_ic_overwrite_state_svg__WEBPACK_IMPORTED_MODULE_125__);
+/* harmony import */ var _sass_icons_common_ic_info_svg__WEBPACK_IMPORTED_MODULE_126__ = __webpack_require__(/*! ../../sass/icons/common/ic-info.svg */ "./sass/icons/common/ic-info.svg");
+/* harmony import */ var _sass_icons_common_ic_info_svg__WEBPACK_IMPORTED_MODULE_126___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_common_ic_info_svg__WEBPACK_IMPORTED_MODULE_126__);
+/* harmony import */ var _sass_icons_common_ic_language_svg__WEBPACK_IMPORTED_MODULE_127__ = __webpack_require__(/*! ../../sass/icons/common/ic-language.svg */ "./sass/icons/common/ic-language.svg");
+/* harmony import */ var _sass_icons_common_ic_language_svg__WEBPACK_IMPORTED_MODULE_127___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_common_ic_language_svg__WEBPACK_IMPORTED_MODULE_127__);
+/* harmony import */ var _sass_icons_common_ic_theme_svg__WEBPACK_IMPORTED_MODULE_128__ = __webpack_require__(/*! ../../sass/icons/common/ic-theme.svg */ "./sass/icons/common/ic-theme.svg");
+/* harmony import */ var _sass_icons_common_ic_theme_svg__WEBPACK_IMPORTED_MODULE_128___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_common_ic_theme_svg__WEBPACK_IMPORTED_MODULE_128__);
+/* harmony import */ var _sass_icons_common_ic_charts_svg__WEBPACK_IMPORTED_MODULE_129__ = __webpack_require__(/*! ../../sass/icons/common/ic-charts.svg */ "./sass/icons/common/ic-charts.svg");
+/* harmony import */ var _sass_icons_common_ic_charts_svg__WEBPACK_IMPORTED_MODULE_129___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_common_ic_charts_svg__WEBPACK_IMPORTED_MODULE_129__);
+/* harmony import */ var _sass_icons_common_ic_checkbox_svg__WEBPACK_IMPORTED_MODULE_130__ = __webpack_require__(/*! ../../sass/icons/common/ic-checkbox.svg */ "./sass/icons/common/ic-checkbox.svg");
+/* harmony import */ var _sass_icons_common_ic_checkbox_svg__WEBPACK_IMPORTED_MODULE_130___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_common_ic_checkbox_svg__WEBPACK_IMPORTED_MODULE_130__);
+/* harmony import */ var _sass_icons_common_ic_checkbox_active_svg__WEBPACK_IMPORTED_MODULE_131__ = __webpack_require__(/*! ../../sass/icons/common/ic-checkbox-active.svg */ "./sass/icons/common/ic-checkbox-active.svg");
+/* harmony import */ var _sass_icons_common_ic_checkbox_active_svg__WEBPACK_IMPORTED_MODULE_131___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_common_ic_checkbox_active_svg__WEBPACK_IMPORTED_MODULE_131__);
+/* harmony import */ var _sass_icons_setting_ic_theme_light_svg__WEBPACK_IMPORTED_MODULE_132__ = __webpack_require__(/*! ../../sass/icons/setting/ic-theme-light.svg */ "./sass/icons/setting/ic-theme-light.svg");
+/* harmony import */ var _sass_icons_setting_ic_theme_light_svg__WEBPACK_IMPORTED_MODULE_132___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_ic_theme_light_svg__WEBPACK_IMPORTED_MODULE_132__);
+/* harmony import */ var _sass_icons_setting_ic_theme_dark_svg__WEBPACK_IMPORTED_MODULE_133__ = __webpack_require__(/*! ../../sass/icons/setting/ic-theme-dark.svg */ "./sass/icons/setting/ic-theme-dark.svg");
+/* harmony import */ var _sass_icons_setting_ic_theme_dark_svg__WEBPACK_IMPORTED_MODULE_133___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_ic_theme_dark_svg__WEBPACK_IMPORTED_MODULE_133__);
+/* harmony import */ var _sass_icons_setting_countdown_ic_countdown_light_normal_svg__WEBPACK_IMPORTED_MODULE_134__ = __webpack_require__(/*! ../../sass/icons/setting/countdown/ic-countdown-light-normal.svg */ "./sass/icons/setting/countdown/ic-countdown-light-normal.svg");
+/* harmony import */ var _sass_icons_setting_countdown_ic_countdown_light_normal_svg__WEBPACK_IMPORTED_MODULE_134___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_countdown_ic_countdown_light_normal_svg__WEBPACK_IMPORTED_MODULE_134__);
+/* harmony import */ var _sass_icons_setting_countdown_ic_countdown_light_active_svg__WEBPACK_IMPORTED_MODULE_135__ = __webpack_require__(/*! ../../sass/icons/setting/countdown/ic-countdown-light-active.svg */ "./sass/icons/setting/countdown/ic-countdown-light-active.svg");
+/* harmony import */ var _sass_icons_setting_countdown_ic_countdown_light_active_svg__WEBPACK_IMPORTED_MODULE_135___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_countdown_ic_countdown_light_active_svg__WEBPACK_IMPORTED_MODULE_135__);
+/* harmony import */ var _sass_icons_setting_countdown_ic_countdown_dark_normal_svg__WEBPACK_IMPORTED_MODULE_136__ = __webpack_require__(/*! ../../sass/icons/setting/countdown/ic-countdown-dark-normal.svg */ "./sass/icons/setting/countdown/ic-countdown-dark-normal.svg");
+/* harmony import */ var _sass_icons_setting_countdown_ic_countdown_dark_normal_svg__WEBPACK_IMPORTED_MODULE_136___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_countdown_ic_countdown_dark_normal_svg__WEBPACK_IMPORTED_MODULE_136__);
+/* harmony import */ var _sass_icons_setting_countdown_ic_countdown_dark_active_svg__WEBPACK_IMPORTED_MODULE_137__ = __webpack_require__(/*! ../../sass/icons/setting/countdown/ic-countdown-dark-active.svg */ "./sass/icons/setting/countdown/ic-countdown-dark-active.svg");
+/* harmony import */ var _sass_icons_setting_countdown_ic_countdown_dark_active_svg__WEBPACK_IMPORTED_MODULE_137___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_countdown_ic_countdown_dark_active_svg__WEBPACK_IMPORTED_MODULE_137__);
+/* harmony import */ var _sass_icons_setting_historical_ic_historical_light_normal_svg__WEBPACK_IMPORTED_MODULE_138__ = __webpack_require__(/*! ../../sass/icons/setting/historical/ic-historical-light-normal.svg */ "./sass/icons/setting/historical/ic-historical-light-normal.svg");
+/* harmony import */ var _sass_icons_setting_historical_ic_historical_light_normal_svg__WEBPACK_IMPORTED_MODULE_138___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_historical_ic_historical_light_normal_svg__WEBPACK_IMPORTED_MODULE_138__);
+/* harmony import */ var _sass_icons_setting_historical_ic_historical_light_active_svg__WEBPACK_IMPORTED_MODULE_139__ = __webpack_require__(/*! ../../sass/icons/setting/historical/ic-historical-light-active.svg */ "./sass/icons/setting/historical/ic-historical-light-active.svg");
+/* harmony import */ var _sass_icons_setting_historical_ic_historical_light_active_svg__WEBPACK_IMPORTED_MODULE_139___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_historical_ic_historical_light_active_svg__WEBPACK_IMPORTED_MODULE_139__);
+/* harmony import */ var _sass_icons_setting_historical_ic_historical_dark_normal_svg__WEBPACK_IMPORTED_MODULE_140__ = __webpack_require__(/*! ../../sass/icons/setting/historical/ic-historical-dark-normal.svg */ "./sass/icons/setting/historical/ic-historical-dark-normal.svg");
+/* harmony import */ var _sass_icons_setting_historical_ic_historical_dark_normal_svg__WEBPACK_IMPORTED_MODULE_140___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_historical_ic_historical_dark_normal_svg__WEBPACK_IMPORTED_MODULE_140__);
+/* harmony import */ var _sass_icons_setting_historical_ic_historical_dark_active_svg__WEBPACK_IMPORTED_MODULE_141__ = __webpack_require__(/*! ../../sass/icons/setting/historical/ic-historical-dark-active.svg */ "./sass/icons/setting/historical/ic-historical-dark-active.svg");
+/* harmony import */ var _sass_icons_setting_historical_ic_historical_dark_active_svg__WEBPACK_IMPORTED_MODULE_141___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_historical_ic_historical_dark_active_svg__WEBPACK_IMPORTED_MODULE_141__);
+/* harmony import */ var _sass_icons_setting_highest_lowest_ic_highest_lowest_light_normal_svg__WEBPACK_IMPORTED_MODULE_142__ = __webpack_require__(/*! ../../sass/icons/setting/highest-lowest/ic-highest-lowest-light-normal.svg */ "./sass/icons/setting/highest-lowest/ic-highest-lowest-light-normal.svg");
+/* harmony import */ var _sass_icons_setting_highest_lowest_ic_highest_lowest_light_normal_svg__WEBPACK_IMPORTED_MODULE_142___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_highest_lowest_ic_highest_lowest_light_normal_svg__WEBPACK_IMPORTED_MODULE_142__);
+/* harmony import */ var _sass_icons_setting_highest_lowest_ic_highest_lowest_light_active_svg__WEBPACK_IMPORTED_MODULE_143__ = __webpack_require__(/*! ../../sass/icons/setting/highest-lowest/ic-highest-lowest-light-active.svg */ "./sass/icons/setting/highest-lowest/ic-highest-lowest-light-active.svg");
+/* harmony import */ var _sass_icons_setting_highest_lowest_ic_highest_lowest_light_active_svg__WEBPACK_IMPORTED_MODULE_143___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_highest_lowest_ic_highest_lowest_light_active_svg__WEBPACK_IMPORTED_MODULE_143__);
+/* harmony import */ var _sass_icons_setting_highest_lowest_ic_highest_lowest_dark_normal_svg__WEBPACK_IMPORTED_MODULE_144__ = __webpack_require__(/*! ../../sass/icons/setting/highest-lowest/ic-highest-lowest-dark-normal.svg */ "./sass/icons/setting/highest-lowest/ic-highest-lowest-dark-normal.svg");
+/* harmony import */ var _sass_icons_setting_highest_lowest_ic_highest_lowest_dark_normal_svg__WEBPACK_IMPORTED_MODULE_144___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_highest_lowest_ic_highest_lowest_dark_normal_svg__WEBPACK_IMPORTED_MODULE_144__);
+/* harmony import */ var _sass_icons_setting_highest_lowest_ic_highest_lowest_dark_active_svg__WEBPACK_IMPORTED_MODULE_145__ = __webpack_require__(/*! ../../sass/icons/setting/highest-lowest/ic-highest-lowest-dark-active.svg */ "./sass/icons/setting/highest-lowest/ic-highest-lowest-dark-active.svg");
+/* harmony import */ var _sass_icons_setting_highest_lowest_ic_highest_lowest_dark_active_svg__WEBPACK_IMPORTED_MODULE_145___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_setting_highest_lowest_ic_highest_lowest_dark_active_svg__WEBPACK_IMPORTED_MODULE_145__);
+/* harmony import */ var _sass_icons_indicators_ic_momentum_svg__WEBPACK_IMPORTED_MODULE_146__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-momentum.svg */ "./sass/icons/indicators/ic-momentum.svg");
+/* harmony import */ var _sass_icons_indicators_ic_momentum_svg__WEBPACK_IMPORTED_MODULE_146___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_momentum_svg__WEBPACK_IMPORTED_MODULE_146__);
+/* harmony import */ var _sass_icons_indicators_ic_trend_light_svg__WEBPACK_IMPORTED_MODULE_147__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-trend-light.svg */ "./sass/icons/indicators/ic-trend-light.svg");
+/* harmony import */ var _sass_icons_indicators_ic_trend_light_svg__WEBPACK_IMPORTED_MODULE_147___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_trend_light_svg__WEBPACK_IMPORTED_MODULE_147__);
+/* harmony import */ var _sass_icons_indicators_ic_trend_dark_svg__WEBPACK_IMPORTED_MODULE_148__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-trend-dark.svg */ "./sass/icons/indicators/ic-trend-dark.svg");
+/* harmony import */ var _sass_icons_indicators_ic_trend_dark_svg__WEBPACK_IMPORTED_MODULE_148___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_trend_dark_svg__WEBPACK_IMPORTED_MODULE_148__);
+/* harmony import */ var _sass_icons_indicators_ic_volatility_svg__WEBPACK_IMPORTED_MODULE_149__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-volatility.svg */ "./sass/icons/indicators/ic-volatility.svg");
+/* harmony import */ var _sass_icons_indicators_ic_volatility_svg__WEBPACK_IMPORTED_MODULE_149___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_volatility_svg__WEBPACK_IMPORTED_MODULE_149__);
+/* harmony import */ var _sass_icons_indicators_ic_cat_averages_svg__WEBPACK_IMPORTED_MODULE_150__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-cat-averages.svg */ "./sass/icons/indicators/ic-cat-averages.svg");
+/* harmony import */ var _sass_icons_indicators_ic_cat_averages_svg__WEBPACK_IMPORTED_MODULE_150___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_cat_averages_svg__WEBPACK_IMPORTED_MODULE_150__);
+/* harmony import */ var _sass_icons_indicators_ic_other_svg__WEBPACK_IMPORTED_MODULE_151__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-other.svg */ "./sass/icons/indicators/ic-other.svg");
+/* harmony import */ var _sass_icons_indicators_ic_other_svg__WEBPACK_IMPORTED_MODULE_151___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_other_svg__WEBPACK_IMPORTED_MODULE_151__);
+/* harmony import */ var _sass_icons_indicators_ic_awesome_oscillator_svg__WEBPACK_IMPORTED_MODULE_152__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-awesome-oscillator.svg */ "./sass/icons/indicators/ic-awesome-oscillator.svg");
+/* harmony import */ var _sass_icons_indicators_ic_awesome_oscillator_svg__WEBPACK_IMPORTED_MODULE_152___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_awesome_oscillator_svg__WEBPACK_IMPORTED_MODULE_152__);
+/* harmony import */ var _sass_icons_indicators_ic_dtrended_svg__WEBPACK_IMPORTED_MODULE_153__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-dtrended.svg */ "./sass/icons/indicators/ic-dtrended.svg");
+/* harmony import */ var _sass_icons_indicators_ic_dtrended_svg__WEBPACK_IMPORTED_MODULE_153___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_dtrended_svg__WEBPACK_IMPORTED_MODULE_153__);
+/* harmony import */ var _sass_icons_indicators_ic_gator_svg__WEBPACK_IMPORTED_MODULE_154__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-gator.svg */ "./sass/icons/indicators/ic-gator.svg");
+/* harmony import */ var _sass_icons_indicators_ic_gator_svg__WEBPACK_IMPORTED_MODULE_154___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_gator_svg__WEBPACK_IMPORTED_MODULE_154__);
+/* harmony import */ var _sass_icons_indicators_ic_macd_svg__WEBPACK_IMPORTED_MODULE_155__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-macd.svg */ "./sass/icons/indicators/ic-macd.svg");
+/* harmony import */ var _sass_icons_indicators_ic_macd_svg__WEBPACK_IMPORTED_MODULE_155___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_macd_svg__WEBPACK_IMPORTED_MODULE_155__);
+/* harmony import */ var _sass_icons_indicators_ic_rate_of_change_svg__WEBPACK_IMPORTED_MODULE_156__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-rate-of-change.svg */ "./sass/icons/indicators/ic-rate-of-change.svg");
+/* harmony import */ var _sass_icons_indicators_ic_rate_of_change_svg__WEBPACK_IMPORTED_MODULE_156___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_rate_of_change_svg__WEBPACK_IMPORTED_MODULE_156__);
+/* harmony import */ var _sass_icons_indicators_ic_rsi_svg__WEBPACK_IMPORTED_MODULE_157__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-rsi.svg */ "./sass/icons/indicators/ic-rsi.svg");
+/* harmony import */ var _sass_icons_indicators_ic_rsi_svg__WEBPACK_IMPORTED_MODULE_157___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_rsi_svg__WEBPACK_IMPORTED_MODULE_157__);
+/* harmony import */ var _sass_icons_indicators_ic_stochastic_oscillator_svg__WEBPACK_IMPORTED_MODULE_158__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-stochastic-oscillator.svg */ "./sass/icons/indicators/ic-stochastic-oscillator.svg");
+/* harmony import */ var _sass_icons_indicators_ic_stochastic_oscillator_svg__WEBPACK_IMPORTED_MODULE_158___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_stochastic_oscillator_svg__WEBPACK_IMPORTED_MODULE_158__);
+/* harmony import */ var _sass_icons_indicators_ic_stochastic_momentum_svg__WEBPACK_IMPORTED_MODULE_159__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-stochastic-momentum.svg */ "./sass/icons/indicators/ic-stochastic-momentum.svg");
+/* harmony import */ var _sass_icons_indicators_ic_stochastic_momentum_svg__WEBPACK_IMPORTED_MODULE_159___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_stochastic_momentum_svg__WEBPACK_IMPORTED_MODULE_159__);
+/* harmony import */ var _sass_icons_indicators_ic_william_percent_svg__WEBPACK_IMPORTED_MODULE_160__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-william-percent.svg */ "./sass/icons/indicators/ic-william-percent.svg");
+/* harmony import */ var _sass_icons_indicators_ic_william_percent_svg__WEBPACK_IMPORTED_MODULE_160___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_william_percent_svg__WEBPACK_IMPORTED_MODULE_160__);
+/* harmony import */ var _sass_icons_indicators_ic_aroon_svg__WEBPACK_IMPORTED_MODULE_161__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-aroon.svg */ "./sass/icons/indicators/ic-aroon.svg");
+/* harmony import */ var _sass_icons_indicators_ic_aroon_svg__WEBPACK_IMPORTED_MODULE_161___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_aroon_svg__WEBPACK_IMPORTED_MODULE_161__);
+/* harmony import */ var _sass_icons_indicators_ic_adx_svg__WEBPACK_IMPORTED_MODULE_162__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-adx.svg */ "./sass/icons/indicators/ic-adx.svg");
+/* harmony import */ var _sass_icons_indicators_ic_adx_svg__WEBPACK_IMPORTED_MODULE_162___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_adx_svg__WEBPACK_IMPORTED_MODULE_162__);
+/* harmony import */ var _sass_icons_indicators_ic_commodity_channel_index_svg__WEBPACK_IMPORTED_MODULE_163__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-commodity-channel-index.svg */ "./sass/icons/indicators/ic-commodity-channel-index.svg");
+/* harmony import */ var _sass_icons_indicators_ic_commodity_channel_index_svg__WEBPACK_IMPORTED_MODULE_163___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_commodity_channel_index_svg__WEBPACK_IMPORTED_MODULE_163__);
+/* harmony import */ var _sass_icons_indicators_ic_ichimoku_svg__WEBPACK_IMPORTED_MODULE_164__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-ichimoku.svg */ "./sass/icons/indicators/ic-ichimoku.svg");
+/* harmony import */ var _sass_icons_indicators_ic_ichimoku_svg__WEBPACK_IMPORTED_MODULE_164___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_ichimoku_svg__WEBPACK_IMPORTED_MODULE_164__);
+/* harmony import */ var _sass_icons_indicators_ic_parabolic_svg__WEBPACK_IMPORTED_MODULE_165__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-parabolic.svg */ "./sass/icons/indicators/ic-parabolic.svg");
+/* harmony import */ var _sass_icons_indicators_ic_parabolic_svg__WEBPACK_IMPORTED_MODULE_165___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_parabolic_svg__WEBPACK_IMPORTED_MODULE_165__);
+/* harmony import */ var _sass_icons_indicators_ic_zig_zag_svg__WEBPACK_IMPORTED_MODULE_166__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-zig-zag.svg */ "./sass/icons/indicators/ic-zig-zag.svg");
+/* harmony import */ var _sass_icons_indicators_ic_zig_zag_svg__WEBPACK_IMPORTED_MODULE_166___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_zig_zag_svg__WEBPACK_IMPORTED_MODULE_166__);
+/* harmony import */ var _sass_icons_indicators_ic_bollinger_svg__WEBPACK_IMPORTED_MODULE_167__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-bollinger.svg */ "./sass/icons/indicators/ic-bollinger.svg");
+/* harmony import */ var _sass_icons_indicators_ic_bollinger_svg__WEBPACK_IMPORTED_MODULE_167___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_bollinger_svg__WEBPACK_IMPORTED_MODULE_167__);
+/* harmony import */ var _sass_icons_indicators_ic_donchian_svg__WEBPACK_IMPORTED_MODULE_168__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-donchian.svg */ "./sass/icons/indicators/ic-donchian.svg");
+/* harmony import */ var _sass_icons_indicators_ic_donchian_svg__WEBPACK_IMPORTED_MODULE_168___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_donchian_svg__WEBPACK_IMPORTED_MODULE_168__);
+/* harmony import */ var _sass_icons_indicators_ic_averages_svg__WEBPACK_IMPORTED_MODULE_169__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-averages.svg */ "./sass/icons/indicators/ic-averages.svg");
+/* harmony import */ var _sass_icons_indicators_ic_averages_svg__WEBPACK_IMPORTED_MODULE_169___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_averages_svg__WEBPACK_IMPORTED_MODULE_169__);
+/* harmony import */ var _sass_icons_indicators_ic_envelope_svg__WEBPACK_IMPORTED_MODULE_170__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-envelope.svg */ "./sass/icons/indicators/ic-envelope.svg");
+/* harmony import */ var _sass_icons_indicators_ic_envelope_svg__WEBPACK_IMPORTED_MODULE_170___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_envelope_svg__WEBPACK_IMPORTED_MODULE_170__);
+/* harmony import */ var _sass_icons_indicators_ic_alligator_svg__WEBPACK_IMPORTED_MODULE_171__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-alligator.svg */ "./sass/icons/indicators/ic-alligator.svg");
+/* harmony import */ var _sass_icons_indicators_ic_alligator_svg__WEBPACK_IMPORTED_MODULE_171___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_alligator_svg__WEBPACK_IMPORTED_MODULE_171__);
+/* harmony import */ var _sass_icons_indicators_ic_fractal_chaos_svg__WEBPACK_IMPORTED_MODULE_172__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-fractal-chaos.svg */ "./sass/icons/indicators/ic-fractal-chaos.svg");
+/* harmony import */ var _sass_icons_indicators_ic_fractal_chaos_svg__WEBPACK_IMPORTED_MODULE_172___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_fractal_chaos_svg__WEBPACK_IMPORTED_MODULE_172__);
+/* harmony import */ var _sass_icons_indicators_ic_rainbow_svg__WEBPACK_IMPORTED_MODULE_173__ = __webpack_require__(/*! ../../sass/icons/indicators/ic-rainbow.svg */ "./sass/icons/indicators/ic-rainbow.svg");
+/* harmony import */ var _sass_icons_indicators_ic_rainbow_svg__WEBPACK_IMPORTED_MODULE_173___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_indicators_ic_rainbow_svg__WEBPACK_IMPORTED_MODULE_173__);
+/* harmony import */ var _sass_icons_draw_tools_ic_channel_svg__WEBPACK_IMPORTED_MODULE_174__ = __webpack_require__(/*! ../../sass/icons/draw-tools/ic-channel.svg */ "./sass/icons/draw-tools/ic-channel.svg");
+/* harmony import */ var _sass_icons_draw_tools_ic_channel_svg__WEBPACK_IMPORTED_MODULE_174___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_draw_tools_ic_channel_svg__WEBPACK_IMPORTED_MODULE_174__);
+/* harmony import */ var _sass_icons_draw_tools_ic_continuous_svg__WEBPACK_IMPORTED_MODULE_175__ = __webpack_require__(/*! ../../sass/icons/draw-tools/ic-continuous.svg */ "./sass/icons/draw-tools/ic-continuous.svg");
+/* harmony import */ var _sass_icons_draw_tools_ic_continuous_svg__WEBPACK_IMPORTED_MODULE_175___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_draw_tools_ic_continuous_svg__WEBPACK_IMPORTED_MODULE_175__);
+/* harmony import */ var _sass_icons_draw_tools_ic_fibonacci_fan_svg__WEBPACK_IMPORTED_MODULE_176__ = __webpack_require__(/*! ../../sass/icons/draw-tools/ic-fibonacci-fan.svg */ "./sass/icons/draw-tools/ic-fibonacci-fan.svg");
+/* harmony import */ var _sass_icons_draw_tools_ic_fibonacci_fan_svg__WEBPACK_IMPORTED_MODULE_176___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_draw_tools_ic_fibonacci_fan_svg__WEBPACK_IMPORTED_MODULE_176__);
+/* harmony import */ var _sass_icons_draw_tools_ic_horizontal_svg__WEBPACK_IMPORTED_MODULE_177__ = __webpack_require__(/*! ../../sass/icons/draw-tools/ic-horizontal.svg */ "./sass/icons/draw-tools/ic-horizontal.svg");
+/* harmony import */ var _sass_icons_draw_tools_ic_horizontal_svg__WEBPACK_IMPORTED_MODULE_177___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_draw_tools_ic_horizontal_svg__WEBPACK_IMPORTED_MODULE_177__);
+/* harmony import */ var _sass_icons_draw_tools_ic_line_svg__WEBPACK_IMPORTED_MODULE_178__ = __webpack_require__(/*! ../../sass/icons/draw-tools/ic-line.svg */ "./sass/icons/draw-tools/ic-line.svg");
+/* harmony import */ var _sass_icons_draw_tools_ic_line_svg__WEBPACK_IMPORTED_MODULE_178___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_draw_tools_ic_line_svg__WEBPACK_IMPORTED_MODULE_178__);
+/* harmony import */ var _sass_icons_draw_tools_ic_ray_svg__WEBPACK_IMPORTED_MODULE_179__ = __webpack_require__(/*! ../../sass/icons/draw-tools/ic-ray.svg */ "./sass/icons/draw-tools/ic-ray.svg");
+/* harmony import */ var _sass_icons_draw_tools_ic_ray_svg__WEBPACK_IMPORTED_MODULE_179___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_draw_tools_ic_ray_svg__WEBPACK_IMPORTED_MODULE_179__);
+/* harmony import */ var _sass_icons_draw_tools_ic_rectangle_svg__WEBPACK_IMPORTED_MODULE_180__ = __webpack_require__(/*! ../../sass/icons/draw-tools/ic-rectangle.svg */ "./sass/icons/draw-tools/ic-rectangle.svg");
+/* harmony import */ var _sass_icons_draw_tools_ic_rectangle_svg__WEBPACK_IMPORTED_MODULE_180___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_draw_tools_ic_rectangle_svg__WEBPACK_IMPORTED_MODULE_180__);
+/* harmony import */ var _sass_icons_draw_tools_ic_trend_svg__WEBPACK_IMPORTED_MODULE_181__ = __webpack_require__(/*! ../../sass/icons/draw-tools/ic-trend.svg */ "./sass/icons/draw-tools/ic-trend.svg");
+/* harmony import */ var _sass_icons_draw_tools_ic_trend_svg__WEBPACK_IMPORTED_MODULE_181___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_draw_tools_ic_trend_svg__WEBPACK_IMPORTED_MODULE_181__);
+/* harmony import */ var _sass_icons_draw_tools_ic_vertical_svg__WEBPACK_IMPORTED_MODULE_182__ = __webpack_require__(/*! ../../sass/icons/draw-tools/ic-vertical.svg */ "./sass/icons/draw-tools/ic-vertical.svg");
+/* harmony import */ var _sass_icons_draw_tools_ic_vertical_svg__WEBPACK_IMPORTED_MODULE_182___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_draw_tools_ic_vertical_svg__WEBPACK_IMPORTED_MODULE_182__);
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
@@ -25337,6 +25567,11 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 
 
+
+
+
+
+
 var Wrapper = function Wrapper(SvgLogo) {
   return function (props) {
     var className = props.className,
@@ -25362,8 +25597,8 @@ var Wrapper = function Wrapper(SvgLogo) {
   };
 };
 var DrawingCursorIcon = Wrapper(_sass_icons_pencil_ic_pencil_svg__WEBPACK_IMPORTED_MODULE_51___default.a);
-var ThemeLightIcon = Wrapper(_sass_icons_setting_ic_theme_light_svg__WEBPACK_IMPORTED_MODULE_127___default.a);
-var ThemeDarkIcon = Wrapper(_sass_icons_setting_ic_theme_dark_svg__WEBPACK_IMPORTED_MODULE_128___default.a);
+var ThemeLightIcon = Wrapper(_sass_icons_setting_ic_theme_light_svg__WEBPACK_IMPORTED_MODULE_132___default.a);
+var ThemeDarkIcon = Wrapper(_sass_icons_setting_ic_theme_dark_svg__WEBPACK_IMPORTED_MODULE_133___default.a);
 var DrawToolIcon = Wrapper(_sass_icons_common_ic_drawing_tool_svg__WEBPACK_IMPORTED_MODULE_52___default.a);
 var ActiveIcon = Wrapper(_sass_icons_common_ic_active_svg__WEBPACK_IMPORTED_MODULE_38___default.a);
 var FullScreenIcon = Wrapper(_sass_icons_common_full_screen_svg__WEBPACK_IMPORTED_MODULE_57___default.a); // Chart Types:
@@ -25414,7 +25649,7 @@ var FavoriteIcon = Wrapper(_sass_icons_favorite_ic_favorite_normal_svg__WEBPACK_
 var HelpCenterIcon = Wrapper(_sass_icons_common_ic_help_center_svg__WEBPACK_IMPORTED_MODULE_53___default.a);
 var DownloadIcon = Wrapper(_sass_icons_common_ic_download_svg__WEBPACK_IMPORTED_MODULE_54___default.a);
 var InfoIcon = Wrapper(_sass_icons_alert_message_info_svg__WEBPACK_IMPORTED_MODULE_61___default.a);
-var InfoCircleIcon = Wrapper(_sass_icons_common_ic_info_svg__WEBPACK_IMPORTED_MODULE_121___default.a);
+var InfoCircleIcon = Wrapper(_sass_icons_common_ic_info_svg__WEBPACK_IMPORTED_MODULE_126___default.a);
 var PositionLeftIcon = Wrapper(_sass_icons_chart_settings_setting_ic_position_left_svg__WEBPACK_IMPORTED_MODULE_48___default.a);
 var PositionBottomIcon = Wrapper(_sass_icons_chart_settings_setting_ic_position_bottom_svg__WEBPACK_IMPORTED_MODULE_49___default.a);
 var BackIcon = Wrapper(_sass_icons_back_ic_back_svg__WEBPACK_IMPORTED_MODULE_50___default.a);
@@ -25422,11 +25657,11 @@ var HomeIcon = Wrapper(_sass_icons_navigation_widgets_ic_home_svg__WEBPACK_IMPOR
 var ScaleIcon = Wrapper(_sass_icons_navigation_widgets_ic_scale_full_svg__WEBPACK_IMPORTED_MODULE_63___default.a);
 var ZoominIcon = Wrapper(_sass_icons_navigation_widgets_ic_zoomin_svg__WEBPACK_IMPORTED_MODULE_64___default.a);
 var ZoomoutIcon = Wrapper(_sass_icons_navigation_widgets_ic_zoomout_svg__WEBPACK_IMPORTED_MODULE_65___default.a);
-var LanguageIcon = Wrapper(_sass_icons_common_ic_language_svg__WEBPACK_IMPORTED_MODULE_122___default.a);
-var ThemeIcon = Wrapper(_sass_icons_common_ic_theme_svg__WEBPACK_IMPORTED_MODULE_123___default.a);
-var ChartIcon = Wrapper(_sass_icons_common_ic_charts_svg__WEBPACK_IMPORTED_MODULE_124___default.a);
-var CheckboxIcon = Wrapper(_sass_icons_common_ic_checkbox_svg__WEBPACK_IMPORTED_MODULE_125___default.a);
-var CheckboxActiveIcon = Wrapper(_sass_icons_common_ic_checkbox_active_svg__WEBPACK_IMPORTED_MODULE_126___default.a);
+var LanguageIcon = Wrapper(_sass_icons_common_ic_language_svg__WEBPACK_IMPORTED_MODULE_127___default.a);
+var ThemeIcon = Wrapper(_sass_icons_common_ic_theme_svg__WEBPACK_IMPORTED_MODULE_128___default.a);
+var ChartIcon = Wrapper(_sass_icons_common_ic_charts_svg__WEBPACK_IMPORTED_MODULE_129___default.a);
+var CheckboxIcon = Wrapper(_sass_icons_common_ic_checkbox_svg__WEBPACK_IMPORTED_MODULE_130___default.a);
+var CheckboxActiveIcon = Wrapper(_sass_icons_common_ic_checkbox_active_svg__WEBPACK_IMPORTED_MODULE_131___default.a);
 var TypeAreaIcon = Wrapper(_sass_icons_chart_type_ic_area_svg__WEBPACK_IMPORTED_MODULE_66___default.a);
 var TypeCandleIcon = Wrapper(_sass_icons_chart_type_ic_candle_svg__WEBPACK_IMPORTED_MODULE_67___default.a);
 var TypeHollowIcon = Wrapper(_sass_icons_chart_type_ic_hollow_svg__WEBPACK_IMPORTED_MODULE_68___default.a);
@@ -25435,48 +25670,48 @@ var TypeAreaGrayscaleIcon = Wrapper(_sass_icons_chart_type_ic_area_grayscale_svg
 var TypeCandleGrayscaleIcon = Wrapper(_sass_icons_chart_type_ic_candle_grayscale_svg__WEBPACK_IMPORTED_MODULE_71___default.a);
 var TypeHollowGrayscaleIcon = Wrapper(_sass_icons_chart_type_ic_hollow_grayscale_svg__WEBPACK_IMPORTED_MODULE_72___default.a);
 var TypeOhlcGrayscaleIcon = Wrapper(_sass_icons_chart_type_ic_ohlc_grayscale_svg__WEBPACK_IMPORTED_MODULE_73___default.a);
-var IndicatorCatMomentumIcon = Wrapper(_sass_icons_indicators_ic_momentum_svg__WEBPACK_IMPORTED_MODULE_141___default.a);
-var IndicatorCatTrendLightIcon = Wrapper(_sass_icons_indicators_ic_trend_light_svg__WEBPACK_IMPORTED_MODULE_142___default.a);
-var IndicatorCatTrendDarkIcon = Wrapper(_sass_icons_indicators_ic_trend_dark_svg__WEBPACK_IMPORTED_MODULE_143___default.a);
-var IndicatorCatVolatilityIcon = Wrapper(_sass_icons_indicators_ic_volatility_svg__WEBPACK_IMPORTED_MODULE_144___default.a);
-var IndicatorCatAveragesIcon = Wrapper(_sass_icons_indicators_ic_cat_averages_svg__WEBPACK_IMPORTED_MODULE_145___default.a);
-var IndicatorCatOtherIcon = Wrapper(_sass_icons_indicators_ic_other_svg__WEBPACK_IMPORTED_MODULE_146___default.a);
-var IndicatorAwesomeOscillatorIcon = Wrapper(_sass_icons_indicators_ic_awesome_oscillator_svg__WEBPACK_IMPORTED_MODULE_147___default.a);
-var IndicatorDTrendedIcon = Wrapper(_sass_icons_indicators_ic_dtrended_svg__WEBPACK_IMPORTED_MODULE_148___default.a);
-var IndicatorGatorIcon = Wrapper(_sass_icons_indicators_ic_gator_svg__WEBPACK_IMPORTED_MODULE_149___default.a);
-var IndicatorMacdIcon = Wrapper(_sass_icons_indicators_ic_macd_svg__WEBPACK_IMPORTED_MODULE_150___default.a);
-var IndicatorRateChangeIcon = Wrapper(_sass_icons_indicators_ic_rate_of_change_svg__WEBPACK_IMPORTED_MODULE_151___default.a);
-var IndicatorRSIIcon = Wrapper(_sass_icons_indicators_ic_rsi_svg__WEBPACK_IMPORTED_MODULE_152___default.a);
-var IndicatorStochasticOscillatorIcon = Wrapper(_sass_icons_indicators_ic_stochastic_oscillator_svg__WEBPACK_IMPORTED_MODULE_153___default.a);
-var IndicatorStochasticMomentumIcon = Wrapper(_sass_icons_indicators_ic_stochastic_momentum_svg__WEBPACK_IMPORTED_MODULE_154___default.a);
-var IndicatorWilliamPercentIcon = Wrapper(_sass_icons_indicators_ic_william_percent_svg__WEBPACK_IMPORTED_MODULE_155___default.a);
-var IndicatorAroonIcon = Wrapper(_sass_icons_indicators_ic_aroon_svg__WEBPACK_IMPORTED_MODULE_156___default.a);
-var IndicatorAdxIcon = Wrapper(_sass_icons_indicators_ic_adx_svg__WEBPACK_IMPORTED_MODULE_157___default.a);
-var IndicatorCommodityChannelIndexIcon = Wrapper(_sass_icons_indicators_ic_commodity_channel_index_svg__WEBPACK_IMPORTED_MODULE_158___default.a);
-var IndicatorIchimokuIcon = Wrapper(_sass_icons_indicators_ic_ichimoku_svg__WEBPACK_IMPORTED_MODULE_159___default.a);
-var IndicatorParabolicIcon = Wrapper(_sass_icons_indicators_ic_parabolic_svg__WEBPACK_IMPORTED_MODULE_160___default.a);
-var IndicatorZigZagIcon = Wrapper(_sass_icons_indicators_ic_zig_zag_svg__WEBPACK_IMPORTED_MODULE_161___default.a);
-var IndicatorBollingerIcon = Wrapper(_sass_icons_indicators_ic_bollinger_svg__WEBPACK_IMPORTED_MODULE_162___default.a);
-var IndicatorDonchianIcon = Wrapper(_sass_icons_indicators_ic_donchian_svg__WEBPACK_IMPORTED_MODULE_163___default.a);
-var IndicatorAveragesIcon = Wrapper(_sass_icons_indicators_ic_averages_svg__WEBPACK_IMPORTED_MODULE_164___default.a);
-var IndicatorEnvelopeIcon = Wrapper(_sass_icons_indicators_ic_envelope_svg__WEBPACK_IMPORTED_MODULE_165___default.a);
-var IndicatorAlligatorIcon = Wrapper(_sass_icons_indicators_ic_alligator_svg__WEBPACK_IMPORTED_MODULE_166___default.a);
-var IndicatorFractalChaosIcon = Wrapper(_sass_icons_indicators_ic_fractal_chaos_svg__WEBPACK_IMPORTED_MODULE_167___default.a);
-var IndicatorRainbowIcon = Wrapper(_sass_icons_indicators_ic_rainbow_svg__WEBPACK_IMPORTED_MODULE_168___default.a);
+var IndicatorCatMomentumIcon = Wrapper(_sass_icons_indicators_ic_momentum_svg__WEBPACK_IMPORTED_MODULE_146___default.a);
+var IndicatorCatTrendLightIcon = Wrapper(_sass_icons_indicators_ic_trend_light_svg__WEBPACK_IMPORTED_MODULE_147___default.a);
+var IndicatorCatTrendDarkIcon = Wrapper(_sass_icons_indicators_ic_trend_dark_svg__WEBPACK_IMPORTED_MODULE_148___default.a);
+var IndicatorCatVolatilityIcon = Wrapper(_sass_icons_indicators_ic_volatility_svg__WEBPACK_IMPORTED_MODULE_149___default.a);
+var IndicatorCatAveragesIcon = Wrapper(_sass_icons_indicators_ic_cat_averages_svg__WEBPACK_IMPORTED_MODULE_150___default.a);
+var IndicatorCatOtherIcon = Wrapper(_sass_icons_indicators_ic_other_svg__WEBPACK_IMPORTED_MODULE_151___default.a);
+var IndicatorAwesomeOscillatorIcon = Wrapper(_sass_icons_indicators_ic_awesome_oscillator_svg__WEBPACK_IMPORTED_MODULE_152___default.a);
+var IndicatorDTrendedIcon = Wrapper(_sass_icons_indicators_ic_dtrended_svg__WEBPACK_IMPORTED_MODULE_153___default.a);
+var IndicatorGatorIcon = Wrapper(_sass_icons_indicators_ic_gator_svg__WEBPACK_IMPORTED_MODULE_154___default.a);
+var IndicatorMacdIcon = Wrapper(_sass_icons_indicators_ic_macd_svg__WEBPACK_IMPORTED_MODULE_155___default.a);
+var IndicatorRateChangeIcon = Wrapper(_sass_icons_indicators_ic_rate_of_change_svg__WEBPACK_IMPORTED_MODULE_156___default.a);
+var IndicatorRSIIcon = Wrapper(_sass_icons_indicators_ic_rsi_svg__WEBPACK_IMPORTED_MODULE_157___default.a);
+var IndicatorStochasticOscillatorIcon = Wrapper(_sass_icons_indicators_ic_stochastic_oscillator_svg__WEBPACK_IMPORTED_MODULE_158___default.a);
+var IndicatorStochasticMomentumIcon = Wrapper(_sass_icons_indicators_ic_stochastic_momentum_svg__WEBPACK_IMPORTED_MODULE_159___default.a);
+var IndicatorWilliamPercentIcon = Wrapper(_sass_icons_indicators_ic_william_percent_svg__WEBPACK_IMPORTED_MODULE_160___default.a);
+var IndicatorAroonIcon = Wrapper(_sass_icons_indicators_ic_aroon_svg__WEBPACK_IMPORTED_MODULE_161___default.a);
+var IndicatorAdxIcon = Wrapper(_sass_icons_indicators_ic_adx_svg__WEBPACK_IMPORTED_MODULE_162___default.a);
+var IndicatorCommodityChannelIndexIcon = Wrapper(_sass_icons_indicators_ic_commodity_channel_index_svg__WEBPACK_IMPORTED_MODULE_163___default.a);
+var IndicatorIchimokuIcon = Wrapper(_sass_icons_indicators_ic_ichimoku_svg__WEBPACK_IMPORTED_MODULE_164___default.a);
+var IndicatorParabolicIcon = Wrapper(_sass_icons_indicators_ic_parabolic_svg__WEBPACK_IMPORTED_MODULE_165___default.a);
+var IndicatorZigZagIcon = Wrapper(_sass_icons_indicators_ic_zig_zag_svg__WEBPACK_IMPORTED_MODULE_166___default.a);
+var IndicatorBollingerIcon = Wrapper(_sass_icons_indicators_ic_bollinger_svg__WEBPACK_IMPORTED_MODULE_167___default.a);
+var IndicatorDonchianIcon = Wrapper(_sass_icons_indicators_ic_donchian_svg__WEBPACK_IMPORTED_MODULE_168___default.a);
+var IndicatorAveragesIcon = Wrapper(_sass_icons_indicators_ic_averages_svg__WEBPACK_IMPORTED_MODULE_169___default.a);
+var IndicatorEnvelopeIcon = Wrapper(_sass_icons_indicators_ic_envelope_svg__WEBPACK_IMPORTED_MODULE_170___default.a);
+var IndicatorAlligatorIcon = Wrapper(_sass_icons_indicators_ic_alligator_svg__WEBPACK_IMPORTED_MODULE_171___default.a);
+var IndicatorFractalChaosIcon = Wrapper(_sass_icons_indicators_ic_fractal_chaos_svg__WEBPACK_IMPORTED_MODULE_172___default.a);
+var IndicatorRainbowIcon = Wrapper(_sass_icons_indicators_ic_rainbow_svg__WEBPACK_IMPORTED_MODULE_173___default.a);
 var MetalIcon = Wrapper(_sass_icons_active_symbols_metals_ic_metal_svg__WEBPACK_IMPORTED_MODULE_104___default.a);
-var EmptyStateIcon = Wrapper(_sass_icons_shape_ic_empty_state_svg__WEBPACK_IMPORTED_MODULE_119___default.a);
-var OverwriteStateIcon = Wrapper(_sass_icons_shape_ic_overwrite_state_svg__WEBPACK_IMPORTED_MODULE_120___default.a);
+var EmptyStateIcon = Wrapper(_sass_icons_shape_ic_empty_state_svg__WEBPACK_IMPORTED_MODULE_124___default.a);
+var OverwriteStateIcon = Wrapper(_sass_icons_shape_ic_overwrite_state_svg__WEBPACK_IMPORTED_MODULE_125___default.a);
 var ArrowGreenIcon = Wrapper(_sass_icons_arrows_ic_arrow_green_svg__WEBPACK_IMPORTED_MODULE_74___default.a);
 var ArrowOrangeIcon = Wrapper(_sass_icons_arrows_ic_arrow_orange_svg__WEBPACK_IMPORTED_MODULE_75___default.a);
-var DrawToolsChannelIcon = Wrapper(_sass_icons_draw_tools_ic_channel_svg__WEBPACK_IMPORTED_MODULE_169___default.a);
-var DrawToolsContinuousIcon = Wrapper(_sass_icons_draw_tools_ic_continuous_svg__WEBPACK_IMPORTED_MODULE_170___default.a);
-var DrawToolsFibonaccifanIcon = Wrapper(_sass_icons_draw_tools_ic_fibonacci_fan_svg__WEBPACK_IMPORTED_MODULE_171___default.a);
-var DrawToolsHorizontalIcon = Wrapper(_sass_icons_draw_tools_ic_horizontal_svg__WEBPACK_IMPORTED_MODULE_172___default.a);
-var DrawToolsLineIcon = Wrapper(_sass_icons_draw_tools_ic_line_svg__WEBPACK_IMPORTED_MODULE_173___default.a);
-var DrawToolsRayIcon = Wrapper(_sass_icons_draw_tools_ic_ray_svg__WEBPACK_IMPORTED_MODULE_174___default.a);
-var DrawToolsRectangleIcon = Wrapper(_sass_icons_draw_tools_ic_rectangle_svg__WEBPACK_IMPORTED_MODULE_175___default.a);
-var DrawToolsTrendIcon = Wrapper(_sass_icons_draw_tools_ic_trend_svg__WEBPACK_IMPORTED_MODULE_176___default.a);
-var DrawToolsVerticalIcon = Wrapper(_sass_icons_draw_tools_ic_vertical_svg__WEBPACK_IMPORTED_MODULE_177___default.a);
+var DrawToolsChannelIcon = Wrapper(_sass_icons_draw_tools_ic_channel_svg__WEBPACK_IMPORTED_MODULE_174___default.a);
+var DrawToolsContinuousIcon = Wrapper(_sass_icons_draw_tools_ic_continuous_svg__WEBPACK_IMPORTED_MODULE_175___default.a);
+var DrawToolsFibonaccifanIcon = Wrapper(_sass_icons_draw_tools_ic_fibonacci_fan_svg__WEBPACK_IMPORTED_MODULE_176___default.a);
+var DrawToolsHorizontalIcon = Wrapper(_sass_icons_draw_tools_ic_horizontal_svg__WEBPACK_IMPORTED_MODULE_177___default.a);
+var DrawToolsLineIcon = Wrapper(_sass_icons_draw_tools_ic_line_svg__WEBPACK_IMPORTED_MODULE_178___default.a);
+var DrawToolsRayIcon = Wrapper(_sass_icons_draw_tools_ic_ray_svg__WEBPACK_IMPORTED_MODULE_179___default.a);
+var DrawToolsRectangleIcon = Wrapper(_sass_icons_draw_tools_ic_rectangle_svg__WEBPACK_IMPORTED_MODULE_180___default.a);
+var DrawToolsTrendIcon = Wrapper(_sass_icons_draw_tools_ic_trend_svg__WEBPACK_IMPORTED_MODULE_181___default.a);
+var DrawToolsVerticalIcon = Wrapper(_sass_icons_draw_tools_ic_vertical_svg__WEBPACK_IMPORTED_MODULE_182___default.a);
 var alertIconMap = {
   info: Wrapper(_sass_icons_alert_message_info_svg__WEBPACK_IMPORTED_MODULE_61___default.a),
   success: Wrapper(_sass_icons_alert_message_success_svg__WEBPACK_IMPORTED_MODULE_60___default.a),
@@ -25497,32 +25732,32 @@ var CategoryIconMap = {
 };
 var SettingCountdownMap = {
   light: {
-    normal: Wrapper(_sass_icons_setting_countdown_ic_countdown_light_normal_svg__WEBPACK_IMPORTED_MODULE_129___default.a),
-    active: Wrapper(_sass_icons_setting_countdown_ic_countdown_light_active_svg__WEBPACK_IMPORTED_MODULE_130___default.a)
+    normal: Wrapper(_sass_icons_setting_countdown_ic_countdown_light_normal_svg__WEBPACK_IMPORTED_MODULE_134___default.a),
+    active: Wrapper(_sass_icons_setting_countdown_ic_countdown_light_active_svg__WEBPACK_IMPORTED_MODULE_135___default.a)
   },
   dark: {
-    normal: Wrapper(_sass_icons_setting_countdown_ic_countdown_dark_normal_svg__WEBPACK_IMPORTED_MODULE_131___default.a),
-    active: Wrapper(_sass_icons_setting_countdown_ic_countdown_dark_active_svg__WEBPACK_IMPORTED_MODULE_132___default.a)
+    normal: Wrapper(_sass_icons_setting_countdown_ic_countdown_dark_normal_svg__WEBPACK_IMPORTED_MODULE_136___default.a),
+    active: Wrapper(_sass_icons_setting_countdown_ic_countdown_dark_active_svg__WEBPACK_IMPORTED_MODULE_137___default.a)
   }
 };
 var SettingHistoricalMap = {
   light: {
-    normal: Wrapper(_sass_icons_setting_historical_ic_historical_light_normal_svg__WEBPACK_IMPORTED_MODULE_133___default.a),
-    active: Wrapper(_sass_icons_setting_historical_ic_historical_light_active_svg__WEBPACK_IMPORTED_MODULE_134___default.a)
+    normal: Wrapper(_sass_icons_setting_historical_ic_historical_light_normal_svg__WEBPACK_IMPORTED_MODULE_138___default.a),
+    active: Wrapper(_sass_icons_setting_historical_ic_historical_light_active_svg__WEBPACK_IMPORTED_MODULE_139___default.a)
   },
   dark: {
-    normal: Wrapper(_sass_icons_setting_historical_ic_historical_dark_normal_svg__WEBPACK_IMPORTED_MODULE_135___default.a),
-    active: Wrapper(_sass_icons_setting_historical_ic_historical_dark_active_svg__WEBPACK_IMPORTED_MODULE_136___default.a)
+    normal: Wrapper(_sass_icons_setting_historical_ic_historical_dark_normal_svg__WEBPACK_IMPORTED_MODULE_140___default.a),
+    active: Wrapper(_sass_icons_setting_historical_ic_historical_dark_active_svg__WEBPACK_IMPORTED_MODULE_141___default.a)
   }
 };
 var SettingHighestLowestMap = {
   light: {
-    normal: Wrapper(_sass_icons_setting_highest_lowest_ic_highest_lowest_light_normal_svg__WEBPACK_IMPORTED_MODULE_137___default.a),
-    active: Wrapper(_sass_icons_setting_highest_lowest_ic_highest_lowest_light_active_svg__WEBPACK_IMPORTED_MODULE_138___default.a)
+    normal: Wrapper(_sass_icons_setting_highest_lowest_ic_highest_lowest_light_normal_svg__WEBPACK_IMPORTED_MODULE_142___default.a),
+    active: Wrapper(_sass_icons_setting_highest_lowest_ic_highest_lowest_light_active_svg__WEBPACK_IMPORTED_MODULE_143___default.a)
   },
   dark: {
-    normal: Wrapper(_sass_icons_setting_highest_lowest_ic_highest_lowest_dark_normal_svg__WEBPACK_IMPORTED_MODULE_139___default.a),
-    active: Wrapper(_sass_icons_setting_highest_lowest_ic_highest_lowest_dark_active_svg__WEBPACK_IMPORTED_MODULE_140___default.a)
+    normal: Wrapper(_sass_icons_setting_highest_lowest_ic_highest_lowest_dark_normal_svg__WEBPACK_IMPORTED_MODULE_144___default.a),
+    active: Wrapper(_sass_icons_setting_highest_lowest_ic_highest_lowest_dark_active_svg__WEBPACK_IMPORTED_MODULE_145___default.a)
   }
 };
 var FlagIconMap = {
@@ -25589,8 +25824,13 @@ var ItemIconMap = {
   '1HZ50V': Wrapper(_sass_icons_active_symbols_volatility_1s50_index_light_50_1s_index_svg__WEBPACK_IMPORTED_MODULE_112___default.a),
   '1HZ75V': Wrapper(_sass_icons_active_symbols_volatility_1s75_index_light_75_1s_index_svg__WEBPACK_IMPORTED_MODULE_113___default.a),
   '1HZ100V': Wrapper(_sass_icons_active_symbols_volatility_1s100_index_ic_100_1s_index_svg__WEBPACK_IMPORTED_MODULE_114___default.a),
-  RDBEAR: Wrapper(_sass_icons_active_symbols_volatility_bear_market_ic_marketbear_svg__WEBPACK_IMPORTED_MODULE_115___default.a),
-  RDBULL: Wrapper(_sass_icons_active_symbols_volatility_bull_market_ic_marketbull_svg__WEBPACK_IMPORTED_MODULE_116___default.a)
+  BOOM500: Wrapper(_sass_icons_active_symbols_volatility_boom500_index_boom500_index_svg__WEBPACK_IMPORTED_MODULE_117___default.a),
+  BOOM1000: Wrapper(_sass_icons_active_symbols_volatility_boom1000_index_boom1000_index_svg__WEBPACK_IMPORTED_MODULE_118___default.a),
+  CRASH500: Wrapper(_sass_icons_active_symbols_volatility_crash500_index_crash500_index_svg__WEBPACK_IMPORTED_MODULE_115___default.a),
+  CRASH1000: Wrapper(_sass_icons_active_symbols_volatility_crash1000_index_crash1000_index_svg__WEBPACK_IMPORTED_MODULE_116___default.a),
+  RDBEAR: Wrapper(_sass_icons_active_symbols_volatility_bear_market_ic_marketbear_svg__WEBPACK_IMPORTED_MODULE_119___default.a),
+  RDBULL: Wrapper(_sass_icons_active_symbols_volatility_bull_market_ic_marketbull_svg__WEBPACK_IMPORTED_MODULE_120___default.a),
+  stpRNG: Wrapper(_sass_icons_active_symbols_volatility_step_index_step_index_svg__WEBPACK_IMPORTED_MODULE_121___default.a)
 };
 
 function createCompositeIcon(A, B, icId) {
@@ -25610,8 +25850,8 @@ function frx(flagA, flagB) {
   ItemIconMap["frx".concat(flagA).concat(flagB)] = createCompositeIcon(A, B, 'ic-frx');
 }
 
-var OTCBadgeIcon = Wrapper(_sass_icons_active_symbols_ic_otcbadge_svg__WEBPACK_IMPORTED_MODULE_117___default.a);
-var SmartFXIcon = Wrapper(_sass_icons_active_symbols_ic_smartfx_placeholder_svg__WEBPACK_IMPORTED_MODULE_118___default.a);
+var OTCBadgeIcon = Wrapper(_sass_icons_active_symbols_ic_otcbadge_svg__WEBPACK_IMPORTED_MODULE_122___default.a);
+var SmartFXIcon = Wrapper(_sass_icons_active_symbols_ic_smartfx_placeholder_svg__WEBPACK_IMPORTED_MODULE_123___default.a);
 
 function otc(flag, symbol) {
   var FlagIcon = FlagIconMap[flag];
@@ -28588,11 +28828,9 @@ var NormalItem = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(
   var onSelectItem = _ref6.onSelectItem,
       item = _ref6.item,
       disableAll = _ref6.disableAll,
-      favoritesId = _ref6.favoritesId,
-      id = _ref6.id;
-  var itemClass = id ? "".concat(id, "-subcategory-item-").concat(item.itemId) : "subcategory-item-".concat(item.itemId);
+      favoritesId = _ref6.favoritesId;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "sc-mcd__item ".concat(item.selected ? 'sc-mcd__item--selected ' : '', " ").concat(itemClass),
+    className: "sc-mcd__item sc-mcd__item--".concat(item.itemId, " ").concat(item.selected ? 'sc-mcd__item--selected ' : ''),
     onClick: function onClick(e) {
       return item.enabled && onSelectItem(item.dataObject, e);
     },
@@ -28638,12 +28876,17 @@ __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(t) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ResultsPanel", function() { return ResultsPanel; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Icons_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Icons.jsx */ "./src/components/Icons.jsx");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Icons_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Icons.jsx */ "./src/components/Icons.jsx");
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../utils */ "./src/utils/index.js");
 function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
 
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
 
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+
 
 
 
@@ -28683,7 +28926,7 @@ var EmptyCategory = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.me
 var CategoryTitleLeft = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(function (_ref2) {
   var isNestedList = _ref2.isNestedList,
       category = _ref2.category;
-  var CategoryIcon = _Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["CategoryIconMap"][category.categoryId];
+  var CategoryIcon = _Icons_jsx__WEBPACK_IMPORTED_MODULE_2__["CategoryIconMap"][category.categoryId];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "category-title-left"
   }, isNestedList ? CategoryIcon && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CategoryIcon, {
@@ -28697,7 +28940,10 @@ var CategoryTitle = function CategoryTitle(_ref3) {
       isNestedList = _ref3.isNestedList,
       handleTitleClick = _ref3.handleTitleClick;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "sc-mcd__category__head ".concat(category.categorySubtitle ? 'has-subtitle' : '', " ").concat(category.active ? 'active' : ''),
+    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()('sc-mcd__category__head', {
+      'has-subtitle': category.categorySubtitle,
+      active: category.active
+    }),
     onClick: function onClick() {
       return handleTitleClick(category.categoryId);
     }
@@ -28708,7 +28954,7 @@ var CategoryTitle = function CategoryTitle(_ref3) {
     className: "category-name-postfix"
   }, category.categoryNamePostfix), category.categorySubtitle && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "category-subtitle"
-  }, t.translate(category.categorySubtitle)), isNestedList ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Icons_jsx__WEBPACK_IMPORTED_MODULE_1__["ArrowIcon"], {
+  }, t.translate(category.categorySubtitle)), isNestedList ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Icons_jsx__WEBPACK_IMPORTED_MODULE_2__["ArrowIcon"], {
     className: "arrow"
   }) : '');
 };
@@ -28724,7 +28970,10 @@ var Category = function Category(_ref4) {
       isNestedList = _ref4.isNestedList,
       handleTitleClick = _ref4.handleTitleClick;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "sc-mcd__category sc-mcd__category--".concat(category.categoryId, " ").concat(category.categorySubtitle ? 'sc-mcd__category--has-subtitle' : '', " ").concat(category.active ? 'sc-mcd__category--active' : ''),
+    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()('sc-mcd__category', "sc-mcd__category--".concat(category.categoryId), {
+      'sc-mcd__category--has-subtitle': category.categorySubtitle,
+      'sc-mcd__category--active': category.active
+    }),
     ref: function ref(el) {
       return setCategoryElement(el, category.categoryId);
     }
@@ -28735,7 +28984,7 @@ var Category = function Category(_ref4) {
     handleTitleClick: handleTitleClick
   }), category.hasSubcategory ? category.data.map(function (subcategory) {
     return getItemCount(subcategory) > 0 && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "sc-mcd__category__content sc-mcd__category__content--has-subcategory",
+      className: classnames__WEBPACK_IMPORTED_MODULE_1___default()('sc-mcd__category__content', "sc-mcd__category__content--".concat(Object(_utils__WEBPACK_IMPORTED_MODULE_3__["stringToSlug"])(subcategory.subcategoryName)), 'sc-mcd__category__content--has-subcategory'),
       key: subcategory.subcategoryName
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "subcategory"
@@ -33038,6 +33287,7 @@ var CategoricalDisplayStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_1__["action"
         id = _ref.id,
         getCurrentActiveCategory = _ref.getCurrentActiveCategory,
         getCurrentActiveSubCategory = _ref.getCurrentActiveSubCategory,
+        getCurrentActiveMarket = _ref.getCurrentActiveMarket,
         searchInputClassName = _ref.searchInputClassName;
 
     _classCallCheck(this, CategoricalDisplayStore);
@@ -33100,13 +33350,13 @@ var CategoricalDisplayStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_1__["action"
     this.mainStore = mainStore;
     this.getCurrentActiveCategory = getCurrentActiveCategory;
     this.getCurrentActiveSubCategory = getCurrentActiveSubCategory;
+    this.getCurrentActiveMarket = getCurrentActiveMarket;
     this.isInit = false;
     this.searchInput = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createRef();
     this.searchInputClassName = searchInputClassName;
     var normalItem = Object(_Connect__WEBPACK_IMPORTED_MODULE_2__["connect"])(function () {
       return {
-        favoritesId: favoritesId,
-        id: id
+        favoritesId: favoritesId
       };
     })(_components_categoricaldisplay__WEBPACK_IMPORTED_MODULE_4__["NormalItem"]);
     var activeItem = Object(_Connect__WEBPACK_IMPORTED_MODULE_2__["connect"])(function () {
@@ -33360,9 +33610,12 @@ var CategoricalDisplayStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_1__["action"
       this.focusedCategoryKey = null;
       this.activeCategoryKey = this.getCurrentActiveCategory ? this.getCurrentActiveCategory() : 'favorite';
       this.activeSubCategory = this.getCurrentActiveSubCategory ? this.getCurrentActiveSubCategory() : '';
+      this.activeMarket = this.getCurrentActiveMarket ? this.getCurrentActiveMarket() : '';
       var el = this.categoryElements[this.activeCategoryKey];
-      var activeSubCategoryClassName = this.id ? ".category-".concat(this.activeCategoryKey, " .").concat(this.id, "-subcategory-item-").concat(this.activeSubCategory) : ".category-".concat(this.activeCategoryKey, "  .subcategory-item-").concat(this.activeSubCategory);
+      var activeSubCategoryClassName = ".sc-mcd__category--".concat(this.activeCategoryKey, "  .sc-mcd__category__content--").concat(this.activeSubCategory);
       var el_active_sub_category = this.scrollPanel.querySelector(activeSubCategoryClassName);
+      var activeMarketClassName = "".concat(activeSubCategoryClassName, " .sc-mcd__item--").concat(this.activeMarket);
+      var el_active_market = this.scrollPanel.querySelector(activeMarketClassName);
       this.activeHeadKey = this.activeCategoryKey || null;
       this.activeHeadTop = 0;
       this.pauseScrollSpy = true;
@@ -33375,9 +33628,13 @@ var CategoricalDisplayStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_1__["action"
       } else if (el) {
         this.scrollPanel.scrollTop = el.offsetTop;
 
-        if (el_active_sub_category) {
+        if (el_active_market) {
           var topOffset = this.mainStore.chart.isMobile ? 100 : 40;
-          this.scrollPanel.scrollTop = el.offsetTop + el_active_sub_category.offsetTop - topOffset;
+          this.scrollPanel.scrollTop = el.offsetTop + el_active_market.offsetTop - topOffset;
+        } else if (el_active_sub_category) {
+          var _topOffset = this.mainStore.chart.isMobile ? 100 : 0;
+
+          this.scrollPanel.scrollTop = el.offsetTop + el_active_sub_category.offsetTop - _topOffset;
         }
       }
 
@@ -34165,7 +34422,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils */ "./src/utils/index.js");
 /* harmony import */ var _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../sass/_themes.scss */ "./sass/_themes.scss");
 /* harmony import */ var _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_themes_scss__WEBPACK_IMPORTED_MODULE_2__);
-var _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _class, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _descriptor15, _descriptor16, _descriptor17, _descriptor18, _descriptor19, _descriptor20, _descriptor21, _descriptor22, _descriptor23, _descriptor24, _descriptor25, _descriptor26, _descriptor27, _descriptor28, _temp;
+/* harmony import */ var _Constant__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Constant */ "./src/Constant.js");
+var _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _class, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _descriptor15, _descriptor16, _descriptor17, _descriptor18, _descriptor19, _descriptor20, _descriptor21, _descriptor22, _descriptor23, _descriptor24, _descriptor25, _descriptor26, _descriptor27, _descriptor28, _descriptor29, _temp;
 
 function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
 
@@ -34197,7 +34455,8 @@ function _initializerWarningHelper(descriptor, context) { throw new Error('Decor
 
 
 
-var ChartState = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec2 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec3 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec4 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec5 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec6 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec7 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec8 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec9 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec10 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, (_class = (_temp = /*#__PURE__*/function () {
+
+var ChartState = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec2 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec3 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec4 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec5 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec6 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec7 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec8 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec9 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec10 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec11 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, (_class = (_temp = /*#__PURE__*/function () {
   _createClass(ChartState, [{
     key: "comparisonStore",
     get: function get() {
@@ -34261,48 +34520,50 @@ var ChartState = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec
 
     _initializerDefineProperty(this, "chartStatusListener", _descriptor8, this);
 
-    _initializerDefineProperty(this, "settings", _descriptor9, this);
+    _initializerDefineProperty(this, "stateChangeListener", _descriptor9, this);
 
-    _initializerDefineProperty(this, "showLastDigitStats", _descriptor10, this);
+    _initializerDefineProperty(this, "settings", _descriptor10, this);
 
-    _initializerDefineProperty(this, "scrollToEpoch", _descriptor11, this);
+    _initializerDefineProperty(this, "showLastDigitStats", _descriptor11, this);
 
-    _initializerDefineProperty(this, "onExportLayout", _descriptor12, this);
+    _initializerDefineProperty(this, "scrollToEpoch", _descriptor12, this);
 
-    _initializerDefineProperty(this, "clearChart", _descriptor13, this);
+    _initializerDefineProperty(this, "onExportLayout", _descriptor13, this);
 
-    _initializerDefineProperty(this, "isChartClosed", _descriptor14, this);
+    _initializerDefineProperty(this, "clearChart", _descriptor14, this);
 
-    _initializerDefineProperty(this, "shouldMinimiseLastDigits", _descriptor15, this);
+    _initializerDefineProperty(this, "isChartClosed", _descriptor15, this);
 
-    _initializerDefineProperty(this, "isStaticChart", _descriptor16, this);
+    _initializerDefineProperty(this, "shouldMinimiseLastDigits", _descriptor16, this);
 
-    _initializerDefineProperty(this, "shouldFetchTradingTimes", _descriptor17, this);
+    _initializerDefineProperty(this, "isStaticChart", _descriptor17, this);
 
-    _initializerDefineProperty(this, "refreshActiveSymbols", _descriptor18, this);
+    _initializerDefineProperty(this, "shouldFetchTradingTimes", _descriptor18, this);
 
-    _initializerDefineProperty(this, "hasReachedEndOfData", _descriptor19, this);
+    _initializerDefineProperty(this, "refreshActiveSymbols", _descriptor19, this);
 
-    _initializerDefineProperty(this, "prevChartType", _descriptor20, this);
+    _initializerDefineProperty(this, "hasReachedEndOfData", _descriptor20, this);
 
-    _initializerDefineProperty(this, "isChartScrollingToEpoch", _descriptor21, this);
+    _initializerDefineProperty(this, "prevChartType", _descriptor21, this);
 
-    _initializerDefineProperty(this, "crosshairState", _descriptor22, this);
+    _initializerDefineProperty(this, "isChartScrollingToEpoch", _descriptor22, this);
 
-    _initializerDefineProperty(this, "crosshairTooltipLeftAllow", _descriptor23, this);
+    _initializerDefineProperty(this, "crosshairState", _descriptor23, this);
 
-    _initializerDefineProperty(this, "maxTick", _descriptor24, this);
+    _initializerDefineProperty(this, "crosshairTooltipLeftAllow", _descriptor24, this);
 
-    _initializerDefineProperty(this, "enableScroll", _descriptor25, this);
+    _initializerDefineProperty(this, "maxTick", _descriptor25, this);
 
-    _initializerDefineProperty(this, "enableZoom", _descriptor26, this);
+    _initializerDefineProperty(this, "enableScroll", _descriptor26, this);
 
-    _initializerDefineProperty(this, "yAxisMargin", _descriptor27, this);
+    _initializerDefineProperty(this, "enableZoom", _descriptor27, this);
+
+    _initializerDefineProperty(this, "yAxisMargin", _descriptor28, this);
 
     this.chartControlsWidgets = void 0;
     this.enabledChartFooter = void 0;
 
-    _initializerDefineProperty(this, "onContextReady", _descriptor28, this);
+    _initializerDefineProperty(this, "onContextReady", _descriptor29, this);
 
     this.scrollChartToLeft = function (leftTick, force) {
       var scrollToEpoch = _this.scrollToEpoch || leftTick && Object(_utils__WEBPACK_IMPORTED_MODULE_1__["getUTCEpoch"])(leftTick.DT);
@@ -34394,6 +34655,7 @@ var ChartState = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec
           chartControlsWidgets = _ref.chartControlsWidgets,
           enabledChartFooter = _ref.enabledChartFooter,
           chartStatusListener = _ref.chartStatusListener,
+          stateChangeListener = _ref.stateChangeListener,
           chartType = _ref.chartType,
           clearChart = _ref.clearChart,
           endEpoch = _ref.endEpoch,
@@ -34429,6 +34691,7 @@ var ChartState = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec
       var isGranularityChanged = false;
       this.chartId = id;
       this.chartStatusListener = chartStatusListener;
+      this.stateChangeListener = stateChangeListener;
       this.isAnimationEnabled = isAnimationEnabled;
       this.isConnectionOpened = isConnectionOpened;
       this.isStaticChart = isStaticChart;
@@ -34517,6 +34780,7 @@ var ChartState = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec
         if (this.mainStore.chart && this.mainStore.chart.feed && !isSymbolChanged && !isGranularityChanged) {
           this.setIsChartScrollingToEpoch(true);
           this.scrollChartToLeft();
+          this.stateChange(_Constant__WEBPACK_IMPORTED_MODULE_3__["STATE"].SCROLL_TO_LEFT);
         }
       }
 
@@ -34609,62 +34873,45 @@ var ChartState = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec
       this.rootNode.querySelector('.chartContainer').style.backgroundColor = _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a["".concat(theme, "_chart_bg")]; // change chart colors to grey if the current market is closed and it is not a static chart
 
       if (isChartClosed && !this.isStaticChart) {
-        var closedChartColor = 'rgba(129, 133, 152, 0.35)';
-        this.stxx.setStyle('stx_mountain_chart', 'borderTopColor', closedChartColor);
-        this.stxx.setStyle('stx_mountain_chart', 'backgroundColor', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a["".concat(theme, "_chart_mountain_bg")]);
-        this.stxx.setStyle('stx_mountain_chart', 'color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a["".concat(theme, "_chart_mountain_bg_shade")]); // line chart
+        this.stxx.setStyle('stx_mountain_chart', 'borderTopColor', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a["".concat(theme, "_chart_closed_mountain_border")]); // Candle type
 
-        this.stxx.setStyle('stx_line_chart', 'color', closedChartColor);
-        this.stxx.setStyle('stx_line_up', 'color', closedChartColor);
-        this.stxx.setStyle('stx_line_down', 'color', closedChartColor);
-        this.stxx.setStyle('stx_line_even', 'color', closedChartColor); // bar chart
+        this.stxx.setStyle('stx_candle_up', 'color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a.chart_closed_candle_up);
+        this.stxx.setStyle('stx_candle_shadow_up', 'color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a.chart_closed_candle_border);
+        this.stxx.setStyle('stx_candle_down', 'color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a.chart_closed_candle_down);
+        this.stxx.setStyle('stx_candle_shadow_down', 'color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a.chart_closed_candle_border); // Hollow type
 
-        this.stxx.setStyle('stx_bar_up', 'color', closedChartColor);
-        this.stxx.setStyle('stx_bar_down', 'color', closedChartColor);
-        this.stxx.setStyle('stx_bar_even', 'color', closedChartColor); // candle chart
+        this.stxx.setStyle('stx_hollow_candle_up', 'color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a.chart_closed_candle_up);
+        this.stxx.setStyle('stx_hollow_candle_down', 'color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a.chart_closed_candle_down); // OHLC type
 
-        this.stxx.setStyle('stx_candle_up', 'color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a["".concat(theme, "_chart_closed_candle")]);
-        this.stxx.setStyle('stx_candle_down', 'color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a["".concat(theme, "_chart_closed_candle")]);
-        this.stxx.setStyle('stx_candle_even', 'color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a["".concat(theme, "_chart_closed_candle")]); // candle wick
+        this.stxx.setStyle('stx_bar_up', 'color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a.chart_closed_candle_up);
+        this.stxx.setStyle('stx_bar_down', 'color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a.chart_closed_candle_down); // current price bg color
 
-        this.stxx.setStyle('stx_candle_shadow_up', 'color', closedChartColor);
-        this.stxx.setStyle('stx_candle_shadow_down', 'color', closedChartColor);
-        this.stxx.setStyle('stx_candle_shadow_even', 'color', closedChartColor); // hollow candle
-
-        this.stxx.setStyle('stx_hollow_candle_up', 'color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a["".concat(theme, "_chart_closed_candle")]);
-        this.stxx.setStyle('stx_hollow_candle_down', 'color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a["".concat(theme, "_chart_closed_candle")]);
-        this.stxx.setStyle('stx_hollow_candle_even', 'color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a["".concat(theme, "_chart_closed_candle")]); // baseline chart
-
-        this.stxx.setStyle('stx_baseline_up', 'color', closedChartColor);
-        this.stxx.setStyle('stx_baseline_down', 'color', closedChartColor);
-        this.stxx.setStyle('stx_baseline_even', 'color', closedChartColor); // kagi
-
-        this.stxx.setStyle('stx_kagi_up', 'color', closedChartColor);
-        this.stxx.setStyle('stx_kagi_down', 'color', closedChartColor); // this.stxx.setStyle('stx_kagi_even', 'color', closedChartColor);
-        // pandf
-
-        this.stxx.setStyle('stx_pandf_up', 'color', closedChartColor);
-        this.stxx.setStyle('stx_pandf_down', 'color', closedChartColor); // current price text color
-
-        this.stxx.setStyle('stx_current_hr_down', 'color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a["".concat(theme, "_candle_text_closed")]);
-        this.stxx.setStyle('stx_current_hr_up', 'color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a["".concat(theme, "_candle_text_closed")]); // current price bg color
-
-        this.stxx.setStyle('stx_current_hr_down', 'background-color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a["".concat(theme, "_candle_bg_closed")]);
-        this.stxx.setStyle('stx_current_hr_up', 'background-color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a["".concat(theme, "_candle_bg_closed")]);
+        this.stxx.setStyle('stx_current_hr_down', 'background-color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a.chart_closed_current_hr);
+        this.stxx.setStyle('stx_current_hr_up', 'background-color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a.chart_closed_current_hr);
       } else {
         this.stxx.setStyle('stx_mountain_chart', 'borderTopColor', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a["".concat(theme, "_chart_mountain_border")]);
         this.stxx.setStyle('stx_mountain_chart', 'backgroundColor', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a["".concat(theme, "_chart_mountain_bg")]);
-        this.stxx.setStyle('stx_mountain_chart', 'color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a["".concat(theme, "_chart_mountain_bg_shade")]);
-        this.stxx.setStyle('stx_line_chart', 'color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a["".concat(theme, "_chart_mountain_border")]);
+        this.stxx.setStyle('stx_mountain_chart', 'color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a["".concat(theme, "_chart_mountain_bg_shade")]); // current price bg color
+
+        this.stxx.setStyle('stx_current_hr_down', 'background-color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a.chart_current_hr);
+        this.stxx.setStyle('stx_current_hr_up', 'background-color', _sass_themes_scss__WEBPACK_IMPORTED_MODULE_2___default.a.chart_current_hr);
       }
 
       this.stxx.draw();
+    }
+  }, {
+    key: "stateChange",
+    value: function stateChange(tag, option) {
+      if (this.stateChangeListener && typeof this.stateChangeListener === 'function') {
+        this.stateChangeListener(tag, option);
+      }
     }
   }, {
     key: "setChartIsReady",
     value: function setChartIsReady(isChartReady) {
       if (this.isChartReady !== isChartReady) {
         this.isChartReady = isChartReady;
+        this.stateChange(_Constant__WEBPACK_IMPORTED_MODULE_3__["STATE"].READY);
 
         if (this.chartStatusListener && typeof this.chartStatusListener === 'function') {
           this.chartStatusListener(isChartReady);
@@ -34944,117 +35191,122 @@ var ChartState = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor9 = _applyDecoratedDescriptor(_class.prototype, "settings", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
+}), _descriptor9 = _applyDecoratedDescriptor(_class.prototype, "stateChangeListener", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor10 = _applyDecoratedDescriptor(_class.prototype, "showLastDigitStats", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
+}), _descriptor10 = _applyDecoratedDescriptor(_class.prototype, "settings", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor11 = _applyDecoratedDescriptor(_class.prototype, "scrollToEpoch", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
+}), _descriptor11 = _applyDecoratedDescriptor(_class.prototype, "showLastDigitStats", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor12 = _applyDecoratedDescriptor(_class.prototype, "onExportLayout", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
+}), _descriptor12 = _applyDecoratedDescriptor(_class.prototype, "scrollToEpoch", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor13 = _applyDecoratedDescriptor(_class.prototype, "clearChart", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
+}), _descriptor13 = _applyDecoratedDescriptor(_class.prototype, "onExportLayout", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor14 = _applyDecoratedDescriptor(_class.prototype, "isChartClosed", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
+}), _descriptor14 = _applyDecoratedDescriptor(_class.prototype, "clearChart", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
+  configurable: true,
+  enumerable: true,
+  writable: true,
+  initializer: null
+}), _descriptor15 = _applyDecoratedDescriptor(_class.prototype, "isChartClosed", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: function initializer() {
     return false;
   }
-}), _descriptor15 = _applyDecoratedDescriptor(_class.prototype, "shouldMinimiseLastDigits", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
+}), _descriptor16 = _applyDecoratedDescriptor(_class.prototype, "shouldMinimiseLastDigits", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: function initializer() {
     return false;
   }
-}), _descriptor16 = _applyDecoratedDescriptor(_class.prototype, "isStaticChart", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
+}), _descriptor17 = _applyDecoratedDescriptor(_class.prototype, "isStaticChart", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: function initializer() {
     return false;
   }
-}), _descriptor17 = _applyDecoratedDescriptor(_class.prototype, "shouldFetchTradingTimes", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
+}), _descriptor18 = _applyDecoratedDescriptor(_class.prototype, "shouldFetchTradingTimes", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: function initializer() {
     return true;
   }
-}), _descriptor18 = _applyDecoratedDescriptor(_class.prototype, "refreshActiveSymbols", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
+}), _descriptor19 = _applyDecoratedDescriptor(_class.prototype, "refreshActiveSymbols", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor19 = _applyDecoratedDescriptor(_class.prototype, "hasReachedEndOfData", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
+}), _descriptor20 = _applyDecoratedDescriptor(_class.prototype, "hasReachedEndOfData", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: function initializer() {
     return false;
   }
-}), _descriptor20 = _applyDecoratedDescriptor(_class.prototype, "prevChartType", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
+}), _descriptor21 = _applyDecoratedDescriptor(_class.prototype, "prevChartType", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor21 = _applyDecoratedDescriptor(_class.prototype, "isChartScrollingToEpoch", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
+}), _descriptor22 = _applyDecoratedDescriptor(_class.prototype, "isChartScrollingToEpoch", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: function initializer() {
     return false;
   }
-}), _descriptor22 = _applyDecoratedDescriptor(_class.prototype, "crosshairState", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
+}), _descriptor23 = _applyDecoratedDescriptor(_class.prototype, "crosshairState", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: function initializer() {
     return 1;
   }
-}), _descriptor23 = _applyDecoratedDescriptor(_class.prototype, "crosshairTooltipLeftAllow", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
+}), _descriptor24 = _applyDecoratedDescriptor(_class.prototype, "crosshairTooltipLeftAllow", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: function initializer() {
     return null;
   }
-}), _descriptor24 = _applyDecoratedDescriptor(_class.prototype, "maxTick", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
+}), _descriptor25 = _applyDecoratedDescriptor(_class.prototype, "maxTick", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor25 = _applyDecoratedDescriptor(_class.prototype, "enableScroll", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
+}), _descriptor26 = _applyDecoratedDescriptor(_class.prototype, "enableScroll", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: function initializer() {
     return true;
   }
-}), _descriptor26 = _applyDecoratedDescriptor(_class.prototype, "enableZoom", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
+}), _descriptor27 = _applyDecoratedDescriptor(_class.prototype, "enableZoom", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: function initializer() {
     return true;
   }
-}), _descriptor27 = _applyDecoratedDescriptor(_class.prototype, "yAxisMargin", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
+}), _descriptor28 = _applyDecoratedDescriptor(_class.prototype, "yAxisMargin", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
   configurable: true,
   enumerable: true,
   writable: true,
@@ -35064,7 +35316,7 @@ var ChartState = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec
       bottom: 64
     };
   }
-}), _descriptor28 = _applyDecoratedDescriptor(_class.prototype, "onContextReady", [_dec], {
+}), _descriptor29 = _applyDecoratedDescriptor(_class.prototype, "onContextReady", [_dec], {
   configurable: true,
   enumerable: true,
   writable: true,
@@ -35089,7 +35341,7 @@ var ChartState = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec
       _this3.stxx.maxMasterDataSize = _this3.chartStore.getMaxMasterDataSize(_this3.granularity);
     };
   }
-}), _applyDecoratedDescriptor(_class.prototype, "updateProps", [_dec2], Object.getOwnPropertyDescriptor(_class.prototype, "updateProps"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "setMaxtTick", [_dec3], Object.getOwnPropertyDescriptor(_class.prototype, "setMaxtTick"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "setIsChartScrollingToEpoch", [_dec4], Object.getOwnPropertyDescriptor(_class.prototype, "setIsChartScrollingToEpoch"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "hasReachedEndOfData", [_dec5], Object.getOwnPropertyDescriptor(_class.prototype, "hasReachedEndOfData"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "setChartClosed", [_dec6], Object.getOwnPropertyDescriptor(_class.prototype, "setChartClosed"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "setChartIsReady", [_dec7], Object.getOwnPropertyDescriptor(_class.prototype, "setChartIsReady"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "setChartGranularity", [_dec8], Object.getOwnPropertyDescriptor(_class.prototype, "setChartGranularity"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "setChartType", [_dec9], Object.getOwnPropertyDescriptor(_class.prototype, "setChartType"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "setShouldMinimiseLastDigit", [_dec10], Object.getOwnPropertyDescriptor(_class.prototype, "setShouldMinimiseLastDigit"), _class.prototype)), _class));
+}), _applyDecoratedDescriptor(_class.prototype, "updateProps", [_dec2], Object.getOwnPropertyDescriptor(_class.prototype, "updateProps"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "setMaxtTick", [_dec3], Object.getOwnPropertyDescriptor(_class.prototype, "setMaxtTick"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "setIsChartScrollingToEpoch", [_dec4], Object.getOwnPropertyDescriptor(_class.prototype, "setIsChartScrollingToEpoch"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "hasReachedEndOfData", [_dec5], Object.getOwnPropertyDescriptor(_class.prototype, "hasReachedEndOfData"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "setChartClosed", [_dec6], Object.getOwnPropertyDescriptor(_class.prototype, "setChartClosed"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "stateChange", [_dec7], Object.getOwnPropertyDescriptor(_class.prototype, "stateChange"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "setChartIsReady", [_dec8], Object.getOwnPropertyDescriptor(_class.prototype, "setChartIsReady"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "setChartGranularity", [_dec9], Object.getOwnPropertyDescriptor(_class.prototype, "setChartGranularity"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "setChartType", [_dec10], Object.getOwnPropertyDescriptor(_class.prototype, "setChartType"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "setShouldMinimiseLastDigit", [_dec11], Object.getOwnPropertyDescriptor(_class.prototype, "setShouldMinimiseLastDigit"), _class.prototype)), _class));
 /* harmony default export */ __webpack_exports__["default"] = (ChartState);
 
 /***/ }),
@@ -35127,6 +35379,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sass_icons_navigation_widgets_ic_home_svg__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_navigation_widgets_ic_home_svg__WEBPACK_IMPORTED_MODULE_15__);
 /* harmony import */ var _sass_icons_chart_ic_maximize_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../sass/icons/chart/ic-maximize.svg */ "./sass/icons/chart/ic-maximize.svg");
 /* harmony import */ var _sass_icons_chart_ic_maximize_svg__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_chart_ic_maximize_svg__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _Constant__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../Constant */ "./src/Constant.js");
 var _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _dec16, _class, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _descriptor15, _descriptor16, _descriptor17, _descriptor18, _class2, _temp;
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -35180,6 +35433,7 @@ function _initializerWarningHelper(descriptor, context) { throw new Error('Decor
 
 
  // import '../utils/raf';
+
 
 var ChartStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec2 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec3 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec4 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec5 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec6 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec7 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec8 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec9 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec10 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec11 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec12 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec13 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec14 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec15 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec16 = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, (_class = (_temp = _class2 = /*#__PURE__*/function () {
   function ChartStore(mainStore) {
@@ -35835,11 +36089,11 @@ var ChartStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec
           onMessage = props.onMessage,
           settings = props.settings,
           onSettingsChange = props.onSettingsChange,
-          activeSymbols = props.activeSymbols;
+          getMarketsOrder = props.getMarketsOrder;
       this.api = new _binaryapi__WEBPACK_IMPORTED_MODULE_2__["BinaryAPI"](requestAPI, requestSubscribe, requestForget, requestForgetStream); // trading times and active symbols can be reused across multiple charts
 
       this.tradingTimes = ChartStore.tradingTimes || (ChartStore.tradingTimes = new _binaryapi__WEBPACK_IMPORTED_MODULE_2__["TradingTimes"](this.api, this.mainStore.state.shouldFetchTradingTimes));
-      this.activeSymbols = ChartStore.activeSymbols || (ChartStore.activeSymbols = new _binaryapi__WEBPACK_IMPORTED_MODULE_2__["ActiveSymbols"](this.api, this.tradingTimes, activeSymbols));
+      this.activeSymbols = ChartStore.activeSymbols || (ChartStore.activeSymbols = new _binaryapi__WEBPACK_IMPORTED_MODULE_2__["ActiveSymbols"](this.api, this.tradingTimes, getMarketsOrder));
       var chartSetting = this.mainStore.chartSetting;
       chartSetting.setSettings(settings);
       chartSetting.onSettingsChange = onSettingsChange;
@@ -35858,7 +36112,6 @@ var ChartStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec
         },
         // hide the default zoom buttons
         yaxisLabelStyle: 'roundRect',
-        useBackingStore: false,
         preferences: {
           currentPriceLine: true,
           whitespace: isMobile ? 50 : 150
@@ -35955,6 +36208,7 @@ var ChartStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec
 
       stxx.addEventListener('studyOverlayEdit', this.studiesStore.editStudy);
       stxx.addEventListener('studyPanelEdit', this.studiesStore.editStudy);
+      this.stateStore.stateChange(_Constant__WEBPACK_IMPORTED_MODULE_17__["STATE"].INITIAL);
       this.loader.setState('market-symbol');
       this.activeSymbols.retrieveActiveSymbols().then(function () {
         _this2.loader.setState('trading-time');
@@ -36137,6 +36391,8 @@ var ChartStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec
 
         _this3.loader.hide();
 
+        _this3.chartClosedOpenThemeChange(!symbolObj.exchange_is_open);
+
         _this3.mainStore.paginationLoader.updateOnPagination(false);
 
         _this3.mainStore.drawTools.computeActiveDrawTools();
@@ -36163,7 +36419,6 @@ var ChartStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec
       };
       CIQ.extend(parameters, _objectSpread(_objectSpread({}, params), rangeSpan), true);
       this.stxx.loadChart(symbolObj, parameters, onChartLoad);
-      this.chartClosedOpenThemeChange(!symbolObj.exchange_is_open);
     }
   }, {
     key: "getRangeSpan",
@@ -36785,7 +37040,7 @@ var ChartTitleStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound,
 
     _initializerDefineProperty(this, "isVisible", _descriptor3, this);
 
-    _initializerDefineProperty(this, "activeCategory", _descriptor4, this);
+    _initializerDefineProperty(this, "openMarket", _descriptor4, this);
 
     this.enableShowPrice = false;
     this.searchInputClassName = void 0;
@@ -36835,7 +37090,10 @@ var ChartTitleStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound,
         return _this.currentActiveCategory;
       },
       getCurrentActiveSubCategory: function getCurrentActiveSubCategory() {
-        return _this.mainStore.chart.currentActiveSymbol ? _this.mainStore.chart.currentActiveSymbol.symbol : '';
+        return _this.currentActiveSubCategory;
+      },
+      getCurrentActiveMarket: function getCurrentActiveMarket() {
+        return _this.currentActiveMarket;
       },
       searchInputClassName: function searchInputClassName() {
         return _this.searchInputClassName;
@@ -36922,11 +37180,11 @@ var ChartTitleStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound,
   }, {
     key: "updateProps",
     value: function updateProps(_ref) {
-      var active_category = _ref.active_category,
+      var open_market = _ref.open_market,
           open = _ref.open;
 
-      if (active_category) {
-        this.activeCategory = active_category;
+      if (open_market) {
+        this.openMarket = open_market;
       }
 
       if (open) {
@@ -36993,11 +37251,29 @@ var ChartTitleStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound,
   }, {
     key: "currentActiveCategory",
     get: function get() {
-      if (this.activeCategory) {
-        return this.activeCategory;
+      if (this.openMarket.category) {
+        return this.openMarket.category;
       }
 
       return this.mainStore.chart.currentActiveSymbol ? this.mainStore.chart.currentActiveSymbol.market : 'favorite';
+    }
+  }, {
+    key: "currentActiveSubCategory",
+    get: function get() {
+      if (this.openMarket.subcategory) {
+        return this.openMarket.subcategory;
+      }
+
+      return this.mainStore.chart.currentActiveSymbol ? this.mainStore.chart.currentActiveSymbol.symbol : '';
+    }
+  }, {
+    key: "currentActiveMarket",
+    get: function get() {
+      if (this.openMarket.market) {
+        return this.openMarket.market;
+      }
+
+      return null;
     }
   }]);
 
@@ -37023,14 +37299,14 @@ var ChartTitleStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound,
   initializer: function initializer() {
     return false;
   }
-}), _descriptor4 = _applyDecoratedDescriptor(_class.prototype, "activeCategory", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
+}), _descriptor4 = _applyDecoratedDescriptor(_class.prototype, "openMarket", [mobx__WEBPACK_IMPORTED_MODULE_0__["observable"]], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: function initializer() {
-    return null;
+    return {};
   }
-}), _applyDecoratedDescriptor(_class.prototype, "currentSymbol", [mobx__WEBPACK_IMPORTED_MODULE_0__["computed"]], Object.getOwnPropertyDescriptor(_class.prototype, "currentSymbol"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "isSymbolOpen", [mobx__WEBPACK_IMPORTED_MODULE_0__["computed"]], Object.getOwnPropertyDescriptor(_class.prototype, "isSymbolOpen"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "decimalPlaces", [mobx__WEBPACK_IMPORTED_MODULE_0__["computed"]], Object.getOwnPropertyDescriptor(_class.prototype, "decimalPlaces"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "isShowChartPrice", [mobx__WEBPACK_IMPORTED_MODULE_0__["computed"]], Object.getOwnPropertyDescriptor(_class.prototype, "isShowChartPrice"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "tradingTimes", [mobx__WEBPACK_IMPORTED_MODULE_0__["computed"]], Object.getOwnPropertyDescriptor(_class.prototype, "tradingTimes"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "symbolOpenTime", [mobx__WEBPACK_IMPORTED_MODULE_0__["computed"]], Object.getOwnPropertyDescriptor(_class.prototype, "symbolOpenTime"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "currentActiveCategory", [mobx__WEBPACK_IMPORTED_MODULE_0__["computed"]], Object.getOwnPropertyDescriptor(_class.prototype, "currentActiveCategory"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "setSymbol", [_dec], Object.getOwnPropertyDescriptor(_class.prototype, "setSymbol"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "update", [_dec2], Object.getOwnPropertyDescriptor(_class.prototype, "update"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "hidePrice", [_dec3], Object.getOwnPropertyDescriptor(_class.prototype, "hidePrice"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "updateProps", [_dec4], Object.getOwnPropertyDescriptor(_class.prototype, "updateProps"), _class.prototype)), _class));
+}), _applyDecoratedDescriptor(_class.prototype, "currentSymbol", [mobx__WEBPACK_IMPORTED_MODULE_0__["computed"]], Object.getOwnPropertyDescriptor(_class.prototype, "currentSymbol"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "isSymbolOpen", [mobx__WEBPACK_IMPORTED_MODULE_0__["computed"]], Object.getOwnPropertyDescriptor(_class.prototype, "isSymbolOpen"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "decimalPlaces", [mobx__WEBPACK_IMPORTED_MODULE_0__["computed"]], Object.getOwnPropertyDescriptor(_class.prototype, "decimalPlaces"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "isShowChartPrice", [mobx__WEBPACK_IMPORTED_MODULE_0__["computed"]], Object.getOwnPropertyDescriptor(_class.prototype, "isShowChartPrice"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "tradingTimes", [mobx__WEBPACK_IMPORTED_MODULE_0__["computed"]], Object.getOwnPropertyDescriptor(_class.prototype, "tradingTimes"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "symbolOpenTime", [mobx__WEBPACK_IMPORTED_MODULE_0__["computed"]], Object.getOwnPropertyDescriptor(_class.prototype, "symbolOpenTime"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "currentActiveCategory", [mobx__WEBPACK_IMPORTED_MODULE_0__["computed"]], Object.getOwnPropertyDescriptor(_class.prototype, "currentActiveCategory"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "currentActiveSubCategory", [mobx__WEBPACK_IMPORTED_MODULE_0__["computed"]], Object.getOwnPropertyDescriptor(_class.prototype, "currentActiveSubCategory"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "currentActiveMarket", [mobx__WEBPACK_IMPORTED_MODULE_0__["computed"]], Object.getOwnPropertyDescriptor(_class.prototype, "currentActiveMarket"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "setSymbol", [_dec], Object.getOwnPropertyDescriptor(_class.prototype, "setSymbol"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "update", [_dec2], Object.getOwnPropertyDescriptor(_class.prototype, "update"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "hidePrice", [_dec3], Object.getOwnPropertyDescriptor(_class.prototype, "hidePrice"), _class.prototype), _applyDecoratedDescriptor(_class.prototype, "updateProps", [_dec4], Object.getOwnPropertyDescriptor(_class.prototype, "updateProps"), _class.prototype)), _class));
 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./src/Translation.js */ "./src/Translation.js")["t"]))
 
@@ -42195,7 +42471,7 @@ var StudyLegendStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_1__["action"].bound
           return;
         }
 
-        var studyObjCategory = _Constant__WEBPACK_IMPORTED_MODULE_9__["IndicatorsTree"].find(function (category) {
+        var studyObjCategory = Object(_Constant__WEBPACK_IMPORTED_MODULE_9__["getIndicatorsTree"])().find(function (category) {
           return category.items.find(function (item) {
             return item.id === sd.type;
           });
@@ -42292,7 +42568,7 @@ var StudyLegendStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_1__["action"].bound
     get: function get() {
       var _this6 = this;
 
-      return _toConsumableArray(_Constant__WEBPACK_IMPORTED_MODULE_9__["IndicatorsTree"]).map(function (indicator) {
+      return _toConsumableArray(Object(_Constant__WEBPACK_IMPORTED_MODULE_9__["getIndicatorsTree"])()).map(function (indicator) {
         // the only icon which is different on light/dark is trend
         if (indicator.id === 'trend') {
           indicator.icon = _this6.mainStore.chartSetting.theme === 'light' ? _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_11__["IndicatorCatTrendLightIcon"] : _components_Icons_jsx__WEBPACK_IMPORTED_MODULE_11__["IndicatorCatTrendDarkIcon"];
@@ -42306,7 +42582,7 @@ var StudyLegendStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_1__["action"].bound
     get: function get() {
       var _this7 = this;
 
-      return _toConsumableArray(_Constant__WEBPACK_IMPORTED_MODULE_9__["IndicatorsTree"]).map(function (category) {
+      return _toConsumableArray(Object(_Constant__WEBPACK_IMPORTED_MODULE_9__["getIndicatorsTree"])()).map(function (category) {
         category.foundItems = category.items.filter(function (item) {
           return item.name.toLowerCase().indexOf(_this7.filterText.toLowerCase().trim()) !== -1;
         });
@@ -43445,7 +43721,7 @@ function logEvent(category, action, label) {
 /*!****************************!*\
   !*** ./src/utils/index.js ***!
   \****************************/
-/*! exports provided: createObjectFromLocalStorage, isValidProp, getTimeUnit, getIntervalInSeconds, stableSort, sameBar, downloadFileInBrowser, stxtap, getUTCEpoch, getUTCDate, getLocalDate, updatePropIfChanged, calculateTimeUnitInterval, calculateGranularity, displayMilliseconds, cloneCategory, cloneCategories, patchPixelFromChart, ARROW_HEIGHT, ARROW_COLORS, DIRECTIONS, formatCamelCase, prepareIndicatorName, renderSVGString, wrapText */
+/*! exports provided: createObjectFromLocalStorage, isValidProp, getTimeUnit, getIntervalInSeconds, stableSort, sameBar, downloadFileInBrowser, stxtap, getUTCEpoch, getUTCDate, getLocalDate, updatePropIfChanged, calculateTimeUnitInterval, calculateGranularity, displayMilliseconds, cloneCategory, cloneCategories, patchPixelFromChart, ARROW_HEIGHT, ARROW_COLORS, DIRECTIONS, formatCamelCase, prepareIndicatorName, renderSVGString, wrapText, stringToSlug */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43475,6 +43751,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "prepareIndicatorName", function() { return prepareIndicatorName; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "renderSVGString", function() { return renderSVGString; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "wrapText", function() { return wrapText; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "stringToSlug", function() { return stringToSlug; });
 function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
 
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
@@ -43843,6 +44120,9 @@ var wrapText = function wrapText(str, letter_count) {
   }
 
   return str;
+};
+var stringToSlug = function stringToSlug(str) {
+  return str.toLowerCase().replace(/[^\w ]+/g, '').replace(/ +/g, '-');
 };
 
 /***/ }),
