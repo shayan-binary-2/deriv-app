@@ -304,7 +304,8 @@
   display: flex;
   padding: 24px;
   flex-direction: column;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border-radius: 4px; }
 .smartcharts-light .sc-interval {
     background: #ffffff;
     color: #333333; }
@@ -422,14 +423,16 @@
       color: #333333 !important; }
 .smartcharts-dark .sc-chart-mode__menu__timeperiod {
       color: #c2c2c2 !important; }
+.sc-chart-mode__section {
+  border-radius: 4px; }
 .smartcharts-light .sc-chart-mode__section {
-  background: #ffffff; }
+    background: #ffffff; }
 .smartcharts-dark .sc-chart-mode__section {
-  background: #151717; }
+    background: #151717; }
 .smartcharts-light .sc-chart-mode__section__item:first-child {
-  border-bottom: 4px solid #f2f3f4; }
+    border-bottom: 4px solid #f2f3f4; }
 .smartcharts-dark .sc-chart-mode__section__item:first-child {
-  border-bottom: 4px solid #0e0e0e; }
+    border-bottom: 4px solid #0e0e0e; }
 .sc-toolbar-widget .sc-chart-mode__menu {
   padding: 8px; }
 .sc-toolbar-widget .sc-chart-mode__menu__timeperiod {
@@ -481,6 +484,8 @@
       background: #d6dadb; }
 .smartcharts-dark .sc-scrollbar::-webkit-scrollbar-thumb {
       background: #323738; }
+.sc-scrollbar::-webkit-scrollbar-button, .sc-scrollbar::-webkit-scrollbar-corner {
+    display: none; }
 .sc-scrollbar--auto-hide {
     scrollbar-color: transparent transparent !important; }
 .sc-scrollbar--auto-hide::-webkit-scrollbar-thumb {
@@ -1352,7 +1357,6 @@
       background: #151717; }
 .sc-dropdown .dropdown.active {
       opacity: 1;
-      overflow: hidden;
       max-height: 200px;
       pointer-events: all;
       transform: translateY(8px); }
@@ -2133,7 +2137,8 @@
   width: 320px; }
 .sc-download {
   padding: 24px;
-  display: flex; }
+  display: flex;
+  border-radius: 4px; }
 .smartcharts-light .sc-download {
     background: #ffffff;
     color: #333333; }
@@ -3921,7 +3926,7 @@ html, body {
   padding: 0px;
   margin-bottom: 17px;
   border-radius: 4px;
-  z-index: 12;
+  z-index: 15;
   cursor: pointer; }
 .smartcharts-light .stx_jump_today {
     background: #f2f3f4; }
