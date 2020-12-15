@@ -19255,7 +19255,8 @@ strong {
     margin-bottom: 0.8rem;
     border-radius: 0 0 8px 8px; }
   .reality-check__row :first-child {
-    width: 11.8rem; }
+    width: 12.8rem;
+    padding-right: 0.8rem; }
     @media (min-width: 320px) and (max-width: 767px) {
       .reality-check__row :first-child {
         width: 16.8rem; } }
