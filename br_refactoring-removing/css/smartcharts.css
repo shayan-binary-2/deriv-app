@@ -1409,7 +1409,8 @@
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
-            user-select: none; }
+            user-select: none;
+    z-index: 1; }
 .sc-color-picker .subtitle span {
       padding-left: 4px;
       padding-right: 4px;
@@ -1435,7 +1436,8 @@
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    justify-content: space-between; }
+    justify-content: space-between;
+    position: relative; }
 .smartcharts-light .sc-color-picker .value {
       background-color: #ffffff;
       color: #333333 !important;
@@ -1444,6 +1446,13 @@
       background-color: #151717;
       color: #c2c2c2 !important;
       border: 1px solid #323738; }
+.sc-color-picker .value:before {
+      position: absolute;
+      content: ' ';
+      width: 100%;
+      height: 100%;
+      left: 0px;
+      top: 0px; }
 .sc-color-picker .value .sc-input-color {
       height: 100%;
       width: 100%;
