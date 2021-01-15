@@ -2403,7 +2403,7 @@
 .smartcharts-mobile .sc-dialog {
   left: 10px;
   width: calc(100% - 20px);
-  height: calc((100vh - 486px) / 2); }
+  top: calc((100vh - 486px) / 2); }
 .smartcharts-mobile .sc-dialog .react-tabs__tab-panel {
     height: 430px; }
 .smartcharts-mobile .sc-dialog .cq-titlebar {
