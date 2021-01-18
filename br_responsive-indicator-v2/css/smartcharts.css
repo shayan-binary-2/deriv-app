@@ -726,6 +726,8 @@
     margin: 0px; }
 .sc-studies__info .btn {
     width: 100%; }
+.smartcharts-mobile .sc-studies .react-tabs__tab-panel {
+  height: 380px !important; }
 .smartcharts-mobile .tabs--vertical .react-tabs__tab-list {
   width: 50px;
   min-width: 50px; }
