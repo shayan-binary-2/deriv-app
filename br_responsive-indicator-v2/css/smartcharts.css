@@ -534,6 +534,13 @@
   height: 392px;
   padding: 8px 0px 8px 8px;
   box-sizing: border-box; }
+.sc-studies__panel > h3 {
+    font-size: 14px;
+    color: #999999;
+    font-weight: normal;
+    padding: 0 8px;
+    margin: 18px 0;
+    display: none; }
 .sc-studies__panel__head {
     display: flex;
     justify-content: space-between;
@@ -661,7 +668,7 @@
       line-height: 1.43;
       letter-spacing: normal;
       text-align: right;
-      margin-left: 8px; }
+      margin-left: 16px; }
 .sc-studies__list__item .detail .ic-icon {
       width: 16px;
       height: 16px;
@@ -727,7 +734,9 @@
 .sc-studies__info .btn {
     width: 100%; }
 .smartcharts-mobile .sc-studies .react-tabs__tab-panel {
-  height: 380px !important; }
+  height: 425px !important; }
+.smartcharts-mobile .sc-studies .sc-dialog {
+  top: 100px !important; }
 .smartcharts-mobile .tabs--vertical .react-tabs__tab-list {
   width: 50px;
   min-width: 50px; }
@@ -747,6 +756,8 @@
   width: calc(100% - 50px); }
 .smartcharts-mobile .sc-studies__panel {
   width: 100%; }
+.smartcharts-mobile .sc-studies__panel > h3 {
+    display: block; }
 .smartcharts-mobile .sc-studies__panel__content--active .sc-studies__list__item {
   padding: 4px; }
 .smartcharts-mobile .sc-studies__list__item .info {
@@ -2404,8 +2415,7 @@
 /* Mobile Style */
 .smartcharts-mobile .sc-dialog {
   left: 10px;
-  width: calc(100% - 20px);
-  top: calc((100vh - 486px) / 2); }
+  width: calc(100% - 20px); }
 .smartcharts-mobile .sc-dialog .react-tabs__tab-panel {
     height: 430px; }
 .smartcharts-mobile .sc-dialog .cq-titlebar {
