@@ -11,6 +11,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -127,6 +128,8 @@
     --fill-color1: var(--brand-red-coral);
     --fill-color2: var(--brand-secondary);
     --fill-color3: #ffffff; }
+  .dc-icon--black {
+    --fill-color1: #000000; }
 
 /*------------------------------------*
  *  # Constants
@@ -140,6 +143,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -280,6 +284,564 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
+/*------------------------------------*
+ *  # SASS Mixins and Functions
+ *------------------------------------*/
+/*
+ * SASS interpolation
+ */
+/*
+ * PX to EM
+ * @param $px - px value to be converted
+ * @param $base - base font size (in `em`)
+ * Note: 'em' values are calculate based on the element font-size
+ *       to properly converts 'px' to 'em', please pass in the element font-size with it
+ * Usage example:
+    padding: em(16px, 1.6em); // font-size in 'em'
+ */
+/*
+ * Set property by passing a property name, and values.
+ * @param $property name - padding, margin etc.
+ * @param $values        - values in `px` (space separated for multiple values)
+ * @param $font-size     - base font-size in `em`
+ * Usage example:
+   @include toEm(padding, 8px 16px 8px, 1.6em);
+ */
+/*
+ * Generate typefaces key-value pair of variable name and config
+ * Example:
+   --paragraph-center-bold-black: (14px, center, bold, black)
+ */
+/*
+ * Sets font-size, font-weight, color, text-transform, text-align and line-height
+ * Usage example:
+   @include setTypeface(16px, bold, black, uppercase);
+ */
+/*
+ * Set typefaces by passing a typeface variable name
+ * @param $var   - typeface variable
+ * @param $tt    - text-transform property
+ * @param $align - text-align property
+ * Usage example:
+   @include typeface(--paragraph-bold-black, uppercase, center);
+ */
+/*
+ * Range Slider Thumb styling is set here
+ */
+/*
+ * SVG icons colors
+ */
+/*
+ * Bar Spinner Animation
+ * @param $count    - number of bars
+ * @param $duration - duration of animation
+ * @param $phase    - each bar phase change delay
+ * Usage example:
+   @include createBarspinnerAnimation(5, 1.2s, 0,1);
+ */
+/*
+ * Tooltip colors
+ * @param $color - color property
+ * Usage example:
+   @include tooltipColor($COLOR_RED);
+ */
+/*
+ * Convert Tooltip colors
+ * @param $color - css color property
+ * Usage example:
+   @include convertTooltipColor(var(--status-default));
+ */
+/*
+    Constants
+*/
+/*
+    Variables
+*/
+/*
+    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
+    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
+    Variables name example: --title-center-semibold-red
+ */
+/*
+    to use styles without modifier class on .inline-icon
+    use @extend
+
+    e.g. style icon on parent hover:
+        a:hover .inline-icon {
+            @extend %inline-icon.active;
+        }
+*/
+/**
+ * Define Breakpoints here.
+ */
+.dc-text {
+  font-size: var(--text-size);
+  color: var(--text-color);
+  line-height: var(--text-lh);
+  font-weight: var(--text-weight);
+  text-align: var(--text-align); }
+  .dc-text--right {
+    text-align: right; }
+  .dc-text--center {
+    text-align: center; }
+
+/*------------------------------------*
+ *  # Constants
+ *------------------------------------*/
+/* stylelint-disable color-no-hex */
+/* COLOR PALETTE */
+/* colors */
+/* alpha colors */
+/* gradient colors */
+/* Preserve legacy variables */
+/* Primary */
+/* stylelint-enable color-no-hex */
+/* Wallet gradient background */
+/* App Cards gradient background */
+/*------------------------------------*
+ *  # SASS Mixins and Functions
+ *------------------------------------*/
+/*
+ * SASS interpolation
+ */
+/*
+ * PX to EM
+ * @param $px - px value to be converted
+ * @param $base - base font size (in `em`)
+ * Note: 'em' values are calculate based on the element font-size
+ *       to properly converts 'px' to 'em', please pass in the element font-size with it
+ * Usage example:
+    padding: em(16px, 1.6em); // font-size in 'em'
+ */
+/*
+ * Set property by passing a property name, and values.
+ * @param $property name - padding, margin etc.
+ * @param $values        - values in `px` (space separated for multiple values)
+ * @param $font-size     - base font-size in `em`
+ * Usage example:
+   @include toEm(padding, 8px 16px 8px, 1.6em);
+ */
+/*
+ * Generate typefaces key-value pair of variable name and config
+ * Example:
+   --paragraph-center-bold-black: (14px, center, bold, black)
+ */
+/*
+ * Sets font-size, font-weight, color, text-transform, text-align and line-height
+ * Usage example:
+   @include setTypeface(16px, bold, black, uppercase);
+ */
+/*
+ * Set typefaces by passing a typeface variable name
+ * @param $var   - typeface variable
+ * @param $tt    - text-transform property
+ * @param $align - text-align property
+ * Usage example:
+   @include typeface(--paragraph-bold-black, uppercase, center);
+ */
+/*
+ * Range Slider Thumb styling is set here
+ */
+/*
+ * SVG icons colors
+ */
+/*
+ * Bar Spinner Animation
+ * @param $count    - number of bars
+ * @param $duration - duration of animation
+ * @param $phase    - each bar phase change delay
+ * Usage example:
+   @include createBarspinnerAnimation(5, 1.2s, 0,1);
+ */
+/*
+ * Tooltip colors
+ * @param $color - color property
+ * Usage example:
+   @include tooltipColor($COLOR_RED);
+ */
+/*
+ * Convert Tooltip colors
+ * @param $color - css color property
+ * Usage example:
+   @include convertTooltipColor(var(--status-default));
+ */
+/*
+    Constants
+*/
+/*
+    Variables
+*/
+/*
+    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
+    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
+    Variables name example: --title-center-semibold-red
+ */
+/*
+    to use styles without modifier class on .inline-icon
+    use @extend
+
+    e.g. style icon on parent hover:
+        a:hover .inline-icon {
+            @extend %inline-icon.active;
+        }
+*/
+/**
+ * Define Breakpoints here.
+ */
+
+/*------------------------------------*
+ *  # Constants
+ *------------------------------------*/
+/* stylelint-disable color-no-hex */
+/* COLOR PALETTE */
+/* colors */
+/* alpha colors */
+/* gradient colors */
+/* Preserve legacy variables */
+/* Primary */
+/* stylelint-enable color-no-hex */
+/* Wallet gradient background */
+/* App Cards gradient background */
+/*------------------------------------*
+ *  # SASS Mixins and Functions
+ *------------------------------------*/
+/*
+ * SASS interpolation
+ */
+/*
+ * PX to EM
+ * @param $px - px value to be converted
+ * @param $base - base font size (in `em`)
+ * Note: 'em' values are calculate based on the element font-size
+ *       to properly converts 'px' to 'em', please pass in the element font-size with it
+ * Usage example:
+    padding: em(16px, 1.6em); // font-size in 'em'
+ */
+/*
+ * Set property by passing a property name, and values.
+ * @param $property name - padding, margin etc.
+ * @param $values        - values in `px` (space separated for multiple values)
+ * @param $font-size     - base font-size in `em`
+ * Usage example:
+   @include toEm(padding, 8px 16px 8px, 1.6em);
+ */
+/*
+ * Generate typefaces key-value pair of variable name and config
+ * Example:
+   --paragraph-center-bold-black: (14px, center, bold, black)
+ */
+/*
+ * Sets font-size, font-weight, color, text-transform, text-align and line-height
+ * Usage example:
+   @include setTypeface(16px, bold, black, uppercase);
+ */
+/*
+ * Set typefaces by passing a typeface variable name
+ * @param $var   - typeface variable
+ * @param $tt    - text-transform property
+ * @param $align - text-align property
+ * Usage example:
+   @include typeface(--paragraph-bold-black, uppercase, center);
+ */
+/*
+ * Range Slider Thumb styling is set here
+ */
+/*
+ * SVG icons colors
+ */
+/*
+ * Bar Spinner Animation
+ * @param $count    - number of bars
+ * @param $duration - duration of animation
+ * @param $phase    - each bar phase change delay
+ * Usage example:
+   @include createBarspinnerAnimation(5, 1.2s, 0,1);
+ */
+/*
+ * Tooltip colors
+ * @param $color - color property
+ * Usage example:
+   @include tooltipColor($COLOR_RED);
+ */
+/*
+ * Convert Tooltip colors
+ * @param $color - css color property
+ * Usage example:
+   @include convertTooltipColor(var(--status-default));
+ */
+/*
+    Constants
+*/
+/*
+    Variables
+*/
+/*
+    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
+    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
+    Variables name example: --title-center-semibold-red
+ */
+/*
+    to use styles without modifier class on .inline-icon
+    use @extend
+
+    e.g. style icon on parent hover:
+        a:hover .inline-icon {
+            @extend %inline-icon.active;
+        }
+*/
+/**
+ * Define Breakpoints here.
+ */
+.dc-app-card__wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: flex-start; }
+  .dc-app-card__wrapper--virtual {
+    width: 28rem;
+    height: 21.4rem;
+    background: var(--app-card-virtual);
+    border-radius: 0.8rem;
+    padding: 0.8rem 1.6rem; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .dc-app-card__wrapper--virtual {
+        width: 27.2rem;
+        height: 17.6rem;
+        padding: 0.8rem 1.2rem; } }
+    .dc-app-card__wrapper--virtual-swap-free {
+      background: var(--app-card-virtual-swap-free); }
+  .dc-app-card__wrapper--real {
+    width: 28rem;
+    height: 18.2rem;
+    background: var(--general-main-1);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05), 0px 16px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 1.6rem;
+    padding: 1.6rem; }
+    .dc-app-card__wrapper--real-background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 6rem;
+      width: 100%;
+      border-radius: 1.6rem 1.6rem 0 0; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .dc-app-card__wrapper--real {
+        width: 27.2rem;
+        height: 14.4rem;
+        padding: 1.2rem; } }
+  .dc-app-card__wrapper--mini {
+    height: 12.8rem;
+    width: 21.6rem;
+    padding: 1.6rem; }
+  .dc-app-card__wrapper--micro {
+    height: 9.6rem;
+    width: 16.2rem;
+    padding: 1.2rem; }
+
+.dc-app-card__badge {
+  height: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.8rem;
+  padding: 0.2rem 0.8rem;
+  border-radius: 1.2rem; }
+
+.dc-app-card-header__wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.dc-app-card-header__container {
+  display: flex;
+  flex-direction: row; }
+
+.dc-app-card-header__badge--demo {
+  background: var(--badge-white);
+  cursor: text; }
+
+.dc-app-card-header__badge--swap-free {
+  background: var(--badge-green);
+  cursor: text; }
+
+.dc-app-card-header__badge--add-real {
+  height: 2.4rem;
+  background: var(--badge-blue);
+  margin-right: unset;
+  cursor: pointer; }
+  .dc-app-card-header__badge--add-real-icon {
+    height: 1.2rem;
+    width: 1.2rem;
+    border: 1px solid var(--general-main-1);
+    border-radius: 0.6rem; }
+  .dc-app-card-header__badge--add-real-text {
+    margin-left: 0.4rem; }
+
+.dc-app-card-body__wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  z-index: 5; }
+  .dc-app-card-body__wrapper--no-hover {
+    flex-grow: 1;
+    justify-content: space-between; }
+  .dc-app-card-body__wrapper--virtual-default {
+    margin-top: 1.6rem; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .dc-app-card-body__wrapper--virtual-default {
+        margin-top: 0.8rem; } }
+  .dc-app-card-body__wrapper--virtual-mini {
+    margin-top: 0; }
+  .dc-app-card-body__wrapper--virtual-micro {
+    flex-grow: unset;
+    justify-content: unset; }
+  .dc-app-card-body__wrapper--real-micro {
+    flex-grow: unset;
+    justify-content: unset; }
+
+.dc-app-card-body__app-info-wrapper {
+  display: flex;
+  align-items: center; }
+
+.dc-app-card-body__app-info-icon--default {
+  height: 48px;
+  width: 48px; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .dc-app-card-body__app-info-icon--default {
+      height: 32px;
+      width: 32px; } }
+
+.dc-app-card-body__app-info-icon--mini {
+  height: 24px;
+  width: 24px; }
+
+.dc-app-card-body__app-info-icon--micro {
+  height: 18px;
+  width: 18px; }
+
+.dc-app-card-body__app-info-name--default {
+  margin-left: 0.8rem; }
+
+.dc-app-card-body__app-info-name--mini {
+  margin-left: 0.6rem; }
+
+.dc-app-card-body__app-info-name--micro {
+  margin-left: 0.4rem; }
+
+.dc-app-card-body__balance-info-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; }
+
+.dc-app-card-body__balance-info-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .dc-app-card-body__balance-info-content--default {
+    margin-top: 1.6rem; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .dc-app-card-body__balance-info-content--default {
+        margin-top: 0.8rem; } }
+  .dc-app-card-body__balance-info-content--mini {
+    margin-top: 0.8rem; }
+  .dc-app-card-body__balance-info-content--micro {
+    margin-top: 0.4rem; }
+
+.dc-app-card-body__badge--swap-free {
+  background: var(--badge-violet);
+  cursor: text;
+  margin-right: unset;
+  position: absolute;
+  right: 1rem;
+  top: 1rem; }
+
+.dc-app-card-footer__wrapper {
+  width: calc(100% - 3.2rem);
+  height: 3.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 1.6rem; }
+  .dc-app-card-footer__wrapper--default {
+    bottom: 1.8rem; }
+  .dc-app-card-footer__wrapper--mini {
+    bottom: 1.2rem; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .dc-app-card-footer__wrapper {
+      height: unset;
+      bottom: 1.2rem; } }
+
+.dc-app-card-footer__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.dc-app-card-actions__wrapper {
+  height: 3.2rem;
+  width: calc(100% - 2.4rem);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 1.2rem; }
+
+.dc-app-card-actions__content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+  cursor: pointer; }
+  .dc-app-card-actions__content-wrapper:hover {
+    transform: scale(1.5); }
+
+.dc-app-card-actions__icon {
+  height: 1.6rem;
+  width: 1.6rem; }
+  .dc-app-card-actions__icon--hover {
+    padding: 0.2rem;
+    border-radius: 0.8rem; }
+    .dc-app-card-actions__icon--hover-virtual {
+      border: 1px solid var(--general-main-1); }
+    .dc-app-card-actions__icon--hover-real {
+      border: 1px solid var(--border-hover-1); }
+  .dc-app-card-actions__icon--play {
+    height: 3.2rem;
+    width: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.6rem;
+    background: var(--brand-red-coral);
+    transition: transform 0.2s;
+    cursor: pointer; }
+    @media (min-width: 1024px) {
+      .dc-app-card-actions__icon--play:hover {
+        transform: scale(1.3); } }
+
+/*------------------------------------*
+ *  # Constants
+ *------------------------------------*/
+/* stylelint-disable color-no-hex */
+/* COLOR PALETTE */
+/* colors */
+/* alpha colors */
+/* gradient colors */
+/* Preserve legacy variables */
+/* Primary */
+/* stylelint-enable color-no-hex */
+/* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -411,6 +973,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -561,6 +1124,8 @@
         transform: translate(0, -1.8rem) scale(0.75);
         padding: 0 4px; }
     .dc-input__field:disabled {
+      -webkit-text-fill-color: var(--text-disabled);
+      opacity: 1;
       color: var(--text-disabled);
       /* stylelint-disable */
       /* stylelint-enable */ }
@@ -582,7 +1147,7 @@
         opacity: 0.4; }
       .dc-input__field:focus::placeholder {
         opacity: 0.4; }
-    .dc-input__field:not(.dc-input--no-placeholder):not(:focus):not([value='']) ~ label {
+    .dc-input__field:not(.dc-input--no-placeholder):not(:focus):not(:disabled):not([value='']) ~ label {
       color: var(--text-general); }
     .dc-input__field[type='number']::-webkit-inner-spin-button, .dc-input__field[type='number']::-webkit-outer-spin-button {
       -webkit-appearance: none;
@@ -691,6 +1256,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -841,6 +1407,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -979,6 +1546,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -1082,6 +1650,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -1264,6 +1833,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -1405,6 +1975,14 @@
     text-decoration: none; }
   .dc-btn__rounded {
     border-radius: 24px; }
+  .dc-btn--plus {
+    width: 2.4rem;
+    height: 2.4rem !important;
+    border: 1px solid var(--border-hover) !important;
+    padding: 0 !important;
+    background: inherit;
+    background-repeat: no-repeat;
+    background-position: center; }
   .dc-btn--primary {
     background: var(--button-primary-default);
     color: var(--text-colored-background); }
@@ -1443,6 +2021,16 @@
     .dc-btn--tertiary:disabled, .dc-btn--tertiary[disabled] {
       opacity: 0.32;
       cursor: not-allowed !important; }
+  .dc-btn--alternate {
+    background: var(--button-tertiary-default);
+    border: 2px solid var(--button-primary-default); }
+    .dc-btn--alternate:hover:not([disabled]) {
+      background: var(--button-primary-default); }
+      .dc-btn--alternate:hover:not([disabled]) .dc-btn__text {
+        color: var(--text-colored-background); }
+    .dc-btn--alternate .dc-btn__text,
+    .dc-btn--alternate .dc-btn__icon {
+      color: var(--brand-red-coral); }
   .dc-btn--green {
     background: var(--status-success); }
     .dc-btn--green:hover:not([disabled]) {
@@ -1531,6 +2119,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -1634,6 +2223,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -1810,6 +2400,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -1926,6 +2517,8 @@
     --fill-color1: var(--brand-red-coral);
     --fill-color2: var(--brand-secondary);
     --fill-color3: #ffffff; }
+  .dc-icon--black {
+    --fill-color1: #000000; }
 
 .dc-popover__wrapper {
   position: relative; }
@@ -1994,6 +2587,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -2294,6 +2888,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -2413,6 +3008,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -2573,6 +3169,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -2678,6 +3275,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -2817,6 +3415,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -2957,6 +3556,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -3084,6 +3684,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -3256,6 +3857,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -3456,6 +4058,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -3570,6 +4173,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -3694,6 +4298,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -3797,6 +4402,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -4054,6 +4660,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -4157,6 +4764,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -4260,6 +4868,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -4427,109 +5036,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
-/*------------------------------------*
- *  # SASS Mixins and Functions
- *------------------------------------*/
-/*
- * SASS interpolation
- */
-/*
- * PX to EM
- * @param $px - px value to be converted
- * @param $base - base font size (in `em`)
- * Note: 'em' values are calculate based on the element font-size
- *       to properly converts 'px' to 'em', please pass in the element font-size with it
- * Usage example:
-    padding: em(16px, 1.6em); // font-size in 'em'
- */
-/*
- * Set property by passing a property name, and values.
- * @param $property name - padding, margin etc.
- * @param $values        - values in `px` (space separated for multiple values)
- * @param $font-size     - base font-size in `em`
- * Usage example:
-   @include toEm(padding, 8px 16px 8px, 1.6em);
- */
-/*
- * Generate typefaces key-value pair of variable name and config
- * Example:
-   --paragraph-center-bold-black: (14px, center, bold, black)
- */
-/*
- * Sets font-size, font-weight, color, text-transform, text-align and line-height
- * Usage example:
-   @include setTypeface(16px, bold, black, uppercase);
- */
-/*
- * Set typefaces by passing a typeface variable name
- * @param $var   - typeface variable
- * @param $tt    - text-transform property
- * @param $align - text-align property
- * Usage example:
-   @include typeface(--paragraph-bold-black, uppercase, center);
- */
-/*
- * Range Slider Thumb styling is set here
- */
-/*
- * SVG icons colors
- */
-/*
- * Bar Spinner Animation
- * @param $count    - number of bars
- * @param $duration - duration of animation
- * @param $phase    - each bar phase change delay
- * Usage example:
-   @include createBarspinnerAnimation(5, 1.2s, 0,1);
- */
-/*
- * Tooltip colors
- * @param $color - color property
- * Usage example:
-   @include tooltipColor($COLOR_RED);
- */
-/*
- * Convert Tooltip colors
- * @param $color - css color property
- * Usage example:
-   @include convertTooltipColor(var(--status-default));
- */
-/*
-    Constants
-*/
-/*
-    Variables
-*/
-/*
-    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
-    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
-    Variables name example: --title-center-semibold-red
- */
-/*
-    to use styles without modifier class on .inline-icon
-    use @extend
-
-    e.g. style icon on parent hover:
-        a:hover .inline-icon {
-            @extend %inline-icon.active;
-        }
-*/
-/**
- * Define Breakpoints here.
- */
-
-/*------------------------------------*
- *  # Constants
- *------------------------------------*/
-/* stylelint-disable color-no-hex */
-/* COLOR PALETTE */
-/* colors */
-/* alpha colors */
-/* gradient colors */
-/* Preserve legacy variables */
-/* Primary */
-/* stylelint-enable color-no-hex */
-/* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -4787,6 +5294,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -5109,6 +5617,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -5219,6 +5728,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -5322,6 +5832,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -5501,6 +6012,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -5612,6 +6124,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -5725,6 +6238,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -5909,6 +6423,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -6057,6 +6572,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -6560,6 +7076,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -6662,7 +7179,7 @@
     padding: 0 1.2rem;
     -webkit-appearance: none;
     -moz-appearance: none; }
-    .dc-datepicker__input .dc-input__field:hover {
+    .dc-datepicker__input .dc-input__field:hover:not(:disabled) {
       cursor: pointer;
       border-color: var(--border-hover); }
     .dc-datepicker__input .dc-input__field:focus {
@@ -6677,8 +7194,9 @@
   .dc-datepicker__input--has-leading-icon .dc-input__field {
     text-align: center; }
   .dc-datepicker .dc-icon {
-    top: 25%;
-    cursor: pointer; }
+    top: 25%; }
+    .dc-datepicker .dc-icon:not(.dc-icon--disabled) {
+      cursor: pointer; }
   .dc-datepicker__picker {
     position: absolute;
     z-index: 2;
@@ -6715,6 +7233,8 @@
       min-width: calc(100% - 1rem);
       position: absolute;
       height: 38px; }
+      .dc-input--disabled .dc-datepicker__native {
+        border-color: var(--general-disabled); }
     .dc-datepicker__display {
       display: flex;
       align-items: center;
@@ -6751,6 +7271,8 @@
         color: var(--brand-red-coral); }
       .dc-datepicker__placeholder--is-focused {
         color: var(--brand-secondary); }
+      .dc-input--disabled .dc-datepicker__placeholder {
+        color: var(--text-disabled); }
     .dc-datepicker__error {
       display: flex;
       font-size: 1.2rem;
@@ -6771,6 +7293,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -6874,6 +7397,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -7007,6 +7531,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -7183,6 +7708,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -7354,6 +7880,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -7568,6 +8095,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -7661,22 +8189,34 @@
 /** @define dc-drawer */
 .dc-drawer {
   position: fixed;
-  top: 1px;
-  left: calc(100vw - 16px);
-  width: 366px;
-  height: calc(100vh - 82px);
   will-change: transform;
   transition: transform 0.3s ease;
-  background: var(--general-main-2);
-  z-index: 4; }
+  background: var(--general-main-2); }
+  .dc-drawer--left {
+    display: flex;
+    flex-direction: row-reverse;
+    right: calc(100vw - 16px); }
+  .dc-drawer--right {
+    display: flex;
+    flex-direction: row;
+    left: calc(100vw - 16px); }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .dc-drawer {
+      width: 100vw !important;
+      height: calc(100% - 10.1rem) !important;
+      top: calc(100% - 10.2rem) !important; } }
   .dc-drawer__container {
     display: flex;
     flex-direction: column;
     height: 100%;
-    margin-left: 16px; }
-    .dc-drawer__container--mobile {
-      margin-left: unset;
-      height: calc(100% - 3.6rem); }
+    width: 100%; }
+    .dc-drawer__container--left {
+      padding-right: 16px; }
+    .dc-drawer__container--right {
+      padding-left: 16px; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .dc-drawer__container {
+        height: calc(100% - 3.6rem); } }
   .dc-drawer__header {
     border-bottom: 1px solid var(--general-section-1);
     line-height: 40px;
@@ -7697,46 +8237,39 @@
     border-right: 1px solid var(--border-disabled);
     display: flex;
     position: absolute;
-    top: 0;
     width: 16px;
     height: 100%;
     background-color: var(--general-section-1);
     cursor: pointer; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .dc-drawer__toggle {
+        position: unset;
+        width: 100%;
+        height: 3.6rem;
+        justify-content: center;
+        background-color: var(--general-main-1);
+        border-top: solid 1px var(--general-section-1); } }
     .dc-drawer__toggle-icon {
-      transition: 0.25s ease;
+      transition: 0.25s ease; }
+      .dc-drawer__toggle-icon--left {
+        transform: rotate(0); }
+      .dc-drawer__toggle-icon--right {
+        transform: rotate(180deg); }
+      @media (min-width: 320px) and (max-width: 767px) {
+        .dc-drawer__toggle-icon {
+          width: 2.5rem;
+          height: 0.8rem;
+          transform: rotate(0); } }
+    .dc-drawer__toggle--open > .dc-drawer__toggle-icon--left {
       transform: rotate(180deg); }
-    .dc-drawer__toggle-icon--mobile {
-      width: 2.5rem;
-      height: 0.8rem;
-      transition: 0.25s ease;
+    .dc-drawer__toggle--open > .dc-drawer__toggle-icon--right {
       transform: rotate(0); }
-    .dc-drawer__toggle--open > .dc-drawer__toggle-icon {
-      transform: rotate(0); }
-    .dc-drawer__toggle--open > .dc-drawer__toggle-icon--mobile {
-      transform: rotate(180deg); }
-    .dc-drawer__toggle--mobile {
-      position: unset;
-      width: 100%;
-      height: 3.6rem;
-      justify-content: center;
-      background-color: var(--general-main-1);
-      border-top: solid 2px var(--general-section-1); }
-  .dc-drawer__clear-button {
-    position: absolute;
-    right: 1.6rem;
-    height: 2.6rem;
-    width: 8rem; }
-  .dc-drawer--open {
-    transform: translateX(-366px);
-    left: 100vw; }
-    .dc-drawer--open-mobile {
-      transform: translateY(calc(-100% + 4rem)); }
-  .dc-drawer--mobile {
-    left: unset;
-    width: 100vw !important;
-    height: calc(100% - 10.1rem) !important;
-    top: calc(100% - 10.2rem) !important;
-    z-index: unset; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .dc-drawer__toggle--open > .dc-drawer__toggle-icon {
+        transform: rotate(180deg); } }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .dc-drawer--open {
+      transform: translateY(calc(-100% + 4rem)); } }
 
 /*------------------------------------*
  *  # Constants
@@ -7750,6 +8283,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -8152,6 +8686,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -8379,6 +8914,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -8516,6 +9052,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -8619,6 +9156,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -8789,6 +9327,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -8972,6 +9511,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -9076,10 +9616,11 @@
     .dc-form-submit-button .dc-btn:last-child {
       margin: 0; }
   .dc-form-submit-button--absolute {
-    bottom: 0;
     position: absolute;
-    left: 0;
-    padding: 2.4rem;
+    right: 0;
+    bottom: 0;
+    padding: 1.6rem;
+    width: 100%;
     background-color: var(--general-main-1);
     border-top: 1px solid var(--general-section-1); }
   .dc-form-submit-button--center {
@@ -9124,6 +9665,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -9246,6 +9788,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -9363,6 +9906,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -9466,6 +10010,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -9628,6 +10173,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -9753,6 +10299,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -9889,6 +10436,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -10162,6 +10710,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -10333,6 +10882,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -10587,6 +11137,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -10711,6 +11262,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -10854,6 +11406,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -11066,6 +11619,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -11240,6 +11794,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -11432,6 +11987,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -11537,6 +12093,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -11669,6 +12226,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -11772,6 +12330,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -11912,6 +12471,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -12039,6 +12599,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -12157,9 +12718,13 @@
     transition: all 0.3s ease-in-out;
     margin-right: 8px;
     align-self: center; }
+    .dc-radio-group__circle--disabled {
+      border-color: var(--border-disabled); }
     .dc-radio-group__circle--selected {
       border-width: 4px;
       border-color: var(--brand-red-coral); }
+  .dc-radio-group__label--disabled {
+    color: var(--text-disabled); }
 
 /*------------------------------------*
  *  # Constants
@@ -12173,6 +12738,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -12279,6 +12845,182 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
+/*------------------------------------*
+ *  # SASS Mixins and Functions
+ *------------------------------------*/
+/*
+ * SASS interpolation
+ */
+/*
+ * PX to EM
+ * @param $px - px value to be converted
+ * @param $base - base font size (in `em`)
+ * Note: 'em' values are calculate based on the element font-size
+ *       to properly converts 'px' to 'em', please pass in the element font-size with it
+ * Usage example:
+    padding: em(16px, 1.6em); // font-size in 'em'
+ */
+/*
+ * Set property by passing a property name, and values.
+ * @param $property name - padding, margin etc.
+ * @param $values        - values in `px` (space separated for multiple values)
+ * @param $font-size     - base font-size in `em`
+ * Usage example:
+   @include toEm(padding, 8px 16px 8px, 1.6em);
+ */
+/*
+ * Generate typefaces key-value pair of variable name and config
+ * Example:
+   --paragraph-center-bold-black: (14px, center, bold, black)
+ */
+/*
+ * Sets font-size, font-weight, color, text-transform, text-align and line-height
+ * Usage example:
+   @include setTypeface(16px, bold, black, uppercase);
+ */
+/*
+ * Set typefaces by passing a typeface variable name
+ * @param $var   - typeface variable
+ * @param $tt    - text-transform property
+ * @param $align - text-align property
+ * Usage example:
+   @include typeface(--paragraph-bold-black, uppercase, center);
+ */
+/*
+ * Range Slider Thumb styling is set here
+ */
+/*
+ * SVG icons colors
+ */
+/*
+ * Bar Spinner Animation
+ * @param $count    - number of bars
+ * @param $duration - duration of animation
+ * @param $phase    - each bar phase change delay
+ * Usage example:
+   @include createBarspinnerAnimation(5, 1.2s, 0,1);
+ */
+/*
+ * Tooltip colors
+ * @param $color - color property
+ * Usage example:
+   @include tooltipColor($COLOR_RED);
+ */
+/*
+ * Convert Tooltip colors
+ * @param $color - css color property
+ * Usage example:
+   @include convertTooltipColor(var(--status-default));
+ */
+/*
+    Constants
+*/
+/*
+    Variables
+*/
+/*
+    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
+    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
+    Variables name example: --title-center-semibold-red
+ */
+/*
+    to use styles without modifier class on .inline-icon
+    use @extend
+
+    e.g. style icon on parent hover:
+        a:hover .inline-icon {
+            @extend %inline-icon.active;
+        }
+*/
+/**
+ * Define Breakpoints here.
+ */
+.dc-real-wallet-card {
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .dc-real-wallet-card__actions-container {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    height: 4.3rem;
+    justify-content: space-between;
+    width: calc(100% - 3.2rem); }
+    .dc-real-wallet-card__actions-container--temporarily-unavailable {
+      height: unset; }
+  .dc-real-wallet-card__action {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.25s ease-in-out; }
+    .dc-real-wallet-card__action--icon {
+      border: 0.33px solid var(--general-main-1);
+      border-radius: 0.8rem;
+      padding: 0.24rem;
+      transform: scale(1.6);
+      transition: transform 0.25s ease-in-out; }
+    .dc-real-wallet-card__action--text {
+      display: flex;
+      padding-top: 0.4rem;
+      transform: scale(1);
+      transition: transform 0.25s ease-in-out; }
+  .dc-real-wallet-card__content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 0 1.6rem; }
+    .dc-real-wallet-card__content--no-footer {
+      justify-content: flex-end;
+      padding-bottom: 1.6rem; }
+  .dc-real-wallet-card__footer--temporarily-unavailable {
+    align-items: center;
+    align-self: center;
+    background: var(--status-warning);
+    border-radius: 1.6rem;
+    display: flex;
+    height: 2.2rem;
+    justify-content: center;
+    margin: 0 1rem 0.8rem;
+    width: calc(100% - 2rem); }
+  .dc-real-wallet-card__footer--deposit {
+    align-self: flex-end;
+    border-radius: 2.1rem;
+    height: 2.4rem;
+    margin: 0 1.6rem 1.6rem;
+    width: 7.1rem; }
+    .dc-real-wallet-card__footer--deposit .dc-btn__icon {
+      padding-right: 0.3rem; }
+  .dc-real-wallet-card__header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.6rem 1.6rem 0.4rem; }
+    .dc-real-wallet-card__header--icon {
+      height: 4rem;
+      width: 6.4rem; }
+    .dc-real-wallet-card__header--selected {
+      justify-content: space-between; }
+  .dc-real-wallet-card--linked {
+    border: 4px solid var(--status-info); }
+  .dc-real-wallet-card--no-funds {
+    background: rgba(255, 255, 255, 0.32);
+    position: absolute; }
+
+/*------------------------------------*
+ *  # Constants
+ *------------------------------------*/
+/* stylelint-disable color-no-hex */
+/* COLOR PALETTE */
+/* colors */
+/* alpha colors */
+/* gradient colors */
+/* Preserve legacy variables */
+/* Primary */
+/* stylelint-enable color-no-hex */
+/* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -12382,6 +13124,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -12523,6 +13266,8 @@
       transform: translate(0, -1.8rem) scale(0.75);
       color: var(--text-general);
       max-width: 100%; }
+    .dc-select-native__placeholder--disabled {
+      color: var(--text-disabled); }
   .dc-select-native__picker {
     opacity: 0;
     width: 100%;
@@ -12556,6 +13301,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -12685,6 +13431,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -12814,6 +13561,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -12937,6 +13685,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -13088,6 +13837,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -13272,119 +14022,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
-/*------------------------------------*
- *  # SASS Mixins and Functions
- *------------------------------------*/
-/*
- * SASS interpolation
- */
-/*
- * PX to EM
- * @param $px - px value to be converted
- * @param $base - base font size (in `em`)
- * Note: 'em' values are calculate based on the element font-size
- *       to properly converts 'px' to 'em', please pass in the element font-size with it
- * Usage example:
-    padding: em(16px, 1.6em); // font-size in 'em'
- */
-/*
- * Set property by passing a property name, and values.
- * @param $property name - padding, margin etc.
- * @param $values        - values in `px` (space separated for multiple values)
- * @param $font-size     - base font-size in `em`
- * Usage example:
-   @include toEm(padding, 8px 16px 8px, 1.6em);
- */
-/*
- * Generate typefaces key-value pair of variable name and config
- * Example:
-   --paragraph-center-bold-black: (14px, center, bold, black)
- */
-/*
- * Sets font-size, font-weight, color, text-transform, text-align and line-height
- * Usage example:
-   @include setTypeface(16px, bold, black, uppercase);
- */
-/*
- * Set typefaces by passing a typeface variable name
- * @param $var   - typeface variable
- * @param $tt    - text-transform property
- * @param $align - text-align property
- * Usage example:
-   @include typeface(--paragraph-bold-black, uppercase, center);
- */
-/*
- * Range Slider Thumb styling is set here
- */
-/*
- * SVG icons colors
- */
-/*
- * Bar Spinner Animation
- * @param $count    - number of bars
- * @param $duration - duration of animation
- * @param $phase    - each bar phase change delay
- * Usage example:
-   @include createBarspinnerAnimation(5, 1.2s, 0,1);
- */
-/*
- * Tooltip colors
- * @param $color - color property
- * Usage example:
-   @include tooltipColor($COLOR_RED);
- */
-/*
- * Convert Tooltip colors
- * @param $color - css color property
- * Usage example:
-   @include convertTooltipColor(var(--status-default));
- */
-/*
-    Constants
-*/
-/*
-    Variables
-*/
-/*
-    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
-    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
-    Variables name example: --title-center-semibold-red
- */
-/*
-    to use styles without modifier class on .inline-icon
-    use @extend
-
-    e.g. style icon on parent hover:
-        a:hover .inline-icon {
-            @extend %inline-icon.active;
-        }
-*/
-/**
- * Define Breakpoints here.
- */
-.dc-text {
-  font-size: var(--text-size);
-  color: var(--text-color);
-  line-height: var(--text-lh);
-  font-weight: var(--text-weight);
-  text-align: var(--text-align); }
-  .dc-text--right {
-    text-align: right; }
-  .dc-text--center {
-    text-align: center; }
-
-/*------------------------------------*
- *  # Constants
- *------------------------------------*/
-/* stylelint-disable color-no-hex */
-/* COLOR PALETTE */
-/* colors */
-/* alpha colors */
-/* gradient colors */
-/* Preserve legacy variables */
-/* Primary */
-/* stylelint-enable color-no-hex */
-/* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -13543,6 +14181,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -13678,6 +14317,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -13828,6 +14468,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -13971,6 +14612,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -14157,6 +14799,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -14358,7 +15001,7 @@
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none; }
-    .dc-vertical-tab__header:hover:not(.dc-vertical-tab__header--active), .dc-vertical-tab__header-group:hover:not(.dc-vertical-tab__header--active) {
+    .dc-vertical-tab__header:hover:not(.dc-vertical-tab__header--active):not(.dc-vertical-tab__header-group--active), .dc-vertical-tab__header-group:hover:not(.dc-vertical-tab__header--active):not(.dc-vertical-tab__header-group--active) {
       background-color: var(--state-hover); }
     .dc-vertical-tab__header__link, .dc-vertical-tab__header-group__link {
       font-weight: normal;
@@ -14435,6 +15078,159 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
+/*------------------------------------*
+ *  # SASS Mixins and Functions
+ *------------------------------------*/
+/*
+ * SASS interpolation
+ */
+/*
+ * PX to EM
+ * @param $px - px value to be converted
+ * @param $base - base font size (in `em`)
+ * Note: 'em' values are calculate based on the element font-size
+ *       to properly converts 'px' to 'em', please pass in the element font-size with it
+ * Usage example:
+    padding: em(16px, 1.6em); // font-size in 'em'
+ */
+/*
+ * Set property by passing a property name, and values.
+ * @param $property name - padding, margin etc.
+ * @param $values        - values in `px` (space separated for multiple values)
+ * @param $font-size     - base font-size in `em`
+ * Usage example:
+   @include toEm(padding, 8px 16px 8px, 1.6em);
+ */
+/*
+ * Generate typefaces key-value pair of variable name and config
+ * Example:
+   --paragraph-center-bold-black: (14px, center, bold, black)
+ */
+/*
+ * Sets font-size, font-weight, color, text-transform, text-align and line-height
+ * Usage example:
+   @include setTypeface(16px, bold, black, uppercase);
+ */
+/*
+ * Set typefaces by passing a typeface variable name
+ * @param $var   - typeface variable
+ * @param $tt    - text-transform property
+ * @param $align - text-align property
+ * Usage example:
+   @include typeface(--paragraph-bold-black, uppercase, center);
+ */
+/*
+ * Range Slider Thumb styling is set here
+ */
+/*
+ * SVG icons colors
+ */
+/*
+ * Bar Spinner Animation
+ * @param $count    - number of bars
+ * @param $duration - duration of animation
+ * @param $phase    - each bar phase change delay
+ * Usage example:
+   @include createBarspinnerAnimation(5, 1.2s, 0,1);
+ */
+/*
+ * Tooltip colors
+ * @param $color - color property
+ * Usage example:
+   @include tooltipColor($COLOR_RED);
+ */
+/*
+ * Convert Tooltip colors
+ * @param $color - css color property
+ * Usage example:
+   @include convertTooltipColor(var(--status-default));
+ */
+/*
+    Constants
+*/
+/*
+    Variables
+*/
+/*
+    List of all typefaces variables in the format: --$FONT_SIZES-$TEXT_ALIGN-$FONT_WEIGHTS-COLORS.
+    See $FONT_SIZES, $TEXT_ALIGN, $FONT_WEIGHTS, $COLORS maps above for references.
+    Variables name example: --title-center-semibold-red
+ */
+/*
+    to use styles without modifier class on .inline-icon
+    use @extend
+
+    e.g. style icon on parent hover:
+        a:hover .inline-icon {
+            @extend %inline-icon.active;
+        }
+*/
+/**
+ * Define Breakpoints here.
+ */
+.dc-virtual-wallet-card {
+  background: var(--wallet-virtual);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .dc-virtual-wallet-card__actions-container {
+    display: flex;
+    flex-direction: row;
+    height: 4.3rem;
+    justify-content: space-between;
+    padding-left: 1.6rem;
+    width: calc(100% - 18rem); }
+  .dc-virtual-wallet-card__action {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.25s ease-in-out; }
+    .dc-virtual-wallet-card__action--icon {
+      border: 0.33px solid var(--general-main-1);
+      border-radius: 0.8rem;
+      padding: 0.24rem;
+      transform: scale(1.6);
+      transition: transform 0.25s ease-in-out; }
+    .dc-virtual-wallet-card__action--text {
+      display: flex;
+      padding-top: 0.4rem;
+      transform: scale(1);
+      transition: transform 0.25s ease-in-out; }
+  .dc-virtual-wallet-card__content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 0 1.6rem; }
+    .dc-virtual-wallet-card__content--no-footer {
+      justify-content: flex-end;
+      padding-bottom: 1.6rem; }
+  .dc-virtual-wallet-card__header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.6rem 1.6rem 0.4rem; }
+    .dc-virtual-wallet-card__header--icon {
+      height: 4rem;
+      width: 6.4rem; }
+  .dc-virtual-wallet-card--no-funds {
+    background: rgba(255, 255, 255, 0.32);
+    position: absolute; }
+
+/*------------------------------------*
+ *  # Constants
+ *------------------------------------*/
+/* stylelint-disable color-no-hex */
+/* COLOR PALETTE */
+/* colors */
+/* alpha colors */
+/* gradient colors */
+/* Preserve legacy variables */
+/* Primary */
+/* stylelint-enable color-no-hex */
+/* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -14541,6 +15337,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -14656,6 +15453,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -14863,6 +15661,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -15145,6 +15944,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -15599,6 +16399,8 @@
     font-size: 1rem;
     color: var(--text-less-prominent);
     line-height: 1.4; }
+    .acc-switcher__loginid-text--disabled {
+      color: var(--text-disabled); }
   .acc-switcher__loader {
     margin: 1rem auto !important;
     font-size: 0.8rem; }
@@ -15629,6 +16431,17 @@
   line-height: 1.5;
   text-align: right; }
 
+/** @define badge-server; weak */
+.badge-server {
+  display: inline-block;
+  background-color: #2a3052;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  margin-left: 0.5rem;
+  height: 2.2rem; }
+  .badge-server--disabled {
+    background-color: var(--border-disabled); }
+
 /*------------------------------------*
  *  # Constants
  *------------------------------------*/
@@ -15641,6 +16454,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -15826,6 +16640,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -15972,6 +16787,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -16093,6 +16909,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -16190,7 +17007,8 @@
   .currency-list__items {
     display: flex;
     flex-wrap: wrap;
-    width: 768px; }
+    width: 768px;
+    margin: auto; }
     .currency-list__items__center {
       justify-content: center !important; }
     @media (min-width: 1024px) {
@@ -16318,6 +17136,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -16529,6 +17348,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -16691,6 +17511,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -17007,6 +17828,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -17133,6 +17955,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -17294,6 +18117,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -17723,12 +18547,6 @@
   .add-crypto-currency__button,
   .change-currency__button {
     margin-top: 1.6rem; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .add-crypto-currency form,
-    .change-currency form {
-      display: grid;
-      grid-template-rows: repeat(2, 7rem) 1fr 7rem;
-      height: auto; } }
 
 /* TODO: [refactor-components] Refactor form subheader to components */
 .account-form__header {
@@ -17788,6 +18606,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -17885,6 +18704,10 @@
   width: 100%;
   height: 100%; }
 
+@media (min-width: 768px) and (max-width: 904px) {
+  .dc-modal__container_real-account-signup-modal {
+    width: 768px !important; } }
+
 /*------------------------------------*
  *  # Constants
  *------------------------------------*/
@@ -17897,6 +18720,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -18002,6 +18826,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -18155,11 +18980,11 @@
     font-size: 1.6rem;
     font-weight: bold;
     line-height: 1.5;
-    margin-bottom: 1.2rem; }
+    margin-bottom: 0.8rem; }
   .notification__close-button {
     position: absolute;
-    top: -4px;
-    right: 8px;
+    top: 0.4rem;
+    right: 1.6rem;
     visibility: visible;
     background: none;
     border: none;
@@ -18208,6 +19033,7 @@
 /* Primary */
 /* stylelint-enable color-no-hex */
 /* Wallet gradient background */
+/* App Cards gradient background */
 /*------------------------------------*
  *  # SASS Mixins and Functions
  *------------------------------------*/
@@ -18629,6 +19455,7 @@ strong {
 /* stylelint-enable */
 :host,
 :root {
+  --text-size-xxxxs: 0.8rem;
   --text-size-xxxs: 1rem;
   --text-size-xxs: 1.2rem;
   --text-size-xs: 1.4rem;
@@ -18656,17 +19483,24 @@ strong {
   --brand-orange: #ff6444;
   --brand-secondary: #85acb0;
   --wallet-airtm: linear-gradient(90deg, #1a8fff 0%, #0083ff 100%);
+  --wallet-banxa: linear-gradient(90deg, #000000 0%, #4ac0ba 96.35%);
   --wallet-bitcoin: linear-gradient(90deg, #f89e32 0%, #f7931b 103.12%);
   --wallet-credit: linear-gradient(274.73deg, #464750 3.82%, #0e0f11 88.49%);
   --wallet-dp2p: linear-gradient(90deg, #ff444f 0%, #211d1e 95.22%);
+  --wallet-fasapay: linear-gradient(90deg, #f6931c 0%, #4873ac 95.22%);
   --wallet-jeton: linear-gradient(90deg, #ff7635 0%, #ff671f 100%);
   --wallet-mastercard: linear-gradient(90deg, #eb001b 0%, #f79e1b 100%);
   --wallet-neteller: linear-gradient(90deg, #98cc53 0%, #8dc640 100%);
+  --wallet-paylivre: linear-gradient(90deg, #352caa 0%, #9a6bfc 100%);
+  --wallet-paysafe: linear-gradient(90deg, #e3001b 0%, #008ac9 100%);
+  --wallet-perfectmoney: gradient-perfectmoney;
   --wallet-skrill: linear-gradient(274.73deg, #5a205d 3.82%, #7f3883 88.49%);
   --wallet-sticpay: linear-gradient(90deg, #f36938 0%, #f25822 100%);
-  --wallet-virtual: linear-gradient(90deg, #ff6444 0%, #ff444f 100%);
+  --wallet-virtual: linear-gradient(274.25deg, #333333 9.01%, #5c5b5b 103.31%);
   --wallet-visa: linear-gradient(274.73deg, #1a205e 3.82%, #122d96 88.49%);
-  --wallet-webmoney: linear-gradient(90deg, #1a77ac 0%, #0068a3 100%); }
+  --wallet-webmoney: linear-gradient(90deg, #1a77ac 0%, #0068a3 100%);
+  --app-card-virtual: linear-gradient(274.25deg, #333333 9.01%, #5c5b5b 103.31%);
+  --app-card-virtual-swap-free: linear-gradient(58.51deg, #061828 28.06%, #1a3c60 93.51%); }
   :host .theme--light,
   :root .theme--light {
     --general-main-1: #ffffff;
@@ -18683,6 +19517,8 @@ strong {
     --text-profit-success: #4bb4b3;
     --text-loss-danger: #ec3f3f;
     --text-colored-background: #ffffff;
+    --icon-light-background: #5c5c5c;
+    --icon-dark-background: #ffffff;
     --purchase-main-1: #4bb4b3;
     --purchase-section-1: #3d9494;
     --purchase-main-2: #ec3f3f;
@@ -18706,6 +19542,7 @@ strong {
     --state-disabled: #eaeced;
     --border-normal: #d6dadb;
     --border-hover: #999999;
+    --border-hover-1: #5c5c5c;
     --border-active: var(--brand-secondary);
     --border-disabled: #eaeced;
     --fill-normal: #ffffff;
@@ -18724,7 +19561,11 @@ strong {
     /* TODO: change to styleguide later */
     --gradient-success: linear-gradient(to top, #ffffff, rgba(75, 180, 179, 0.16));
     --gradient-danger: linear-gradient(to top, #ffffff, rgba(255, 68, 79, 0.16));
-    --gradient-right-edge: linear-gradient(to right, rgba(255, 255, 255, 0) -5%, #ffffff 71%); }
+    --gradient-right-edge: linear-gradient(to right, rgba(255, 255, 255, 0) -5%, #ffffff 71%);
+    --badge-white: #ffffff;
+    --badge-blue: #0796e0;
+    --badge-violet: #2a3052;
+    --badge-green: #00a79e; }
   :host .theme--dark,
   :root .theme--dark {
     --general-main-1: #0e0e0e;
@@ -18741,6 +19582,8 @@ strong {
     --text-profit-success: #00a79e;
     --text-loss-danger: #cc2e3d;
     --text-colored-background: #ffffff;
+    --icon-light-background: #5c5c5c;
+    --icon-dark-background: #ffffff;
     --purchase-main-1: #00a79e;
     --purchase-section-1: #008079;
     --purchase-main-2: #cc2e3d;
@@ -18764,6 +19607,7 @@ strong {
     --state-disabled: #1d1f20;
     --border-normal: #323738;
     --border-hover: #6e6e6e;
+    --border-hover-1: #5c5c5c;
     --border-active: var(--brand-secondary);
     --border-disabled: #1d1f20;
     --fill-normal: #0e0e0e;
@@ -18782,7 +19626,11 @@ strong {
     /* TODO: change to styleguide later */
     --gradient-success: linear-gradient(to top, #0e0e0e, rgba(0, 167, 158, 0.16));
     --gradient-danger: linear-gradient(to top, #0e0e0e, rgba(255, 68, 79, 0.16));
-    --gradient-right-edge: linear-gradient(to right, rgba(14, 14, 14, 0) -5%, #0e0e0e 71%); }
+    --gradient-right-edge: linear-gradient(to right, rgba(14, 14, 14, 0) -5%, #0e0e0e 71%);
+    --badge-white: #ffffff;
+    --badge-blue: #0796e0;
+    --badge-violet: #2a3052;
+    --badge-green: #00a79e; }
 
 @media (min-width: 320px) and (max-width: 767px) {
   /** disabling pull to refresh on iOS / Android browsers */
@@ -19272,24 +20120,39 @@ strong {
   transition: opacity 0.3s;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  background-color: var(--brand-dark-grey);
-  color: var(--text-colored-background); }
-  .dashboard-header__menu-items {
-    margin: 0 1.6rem;
-    width: 100%;
+  padding: 0 4rem;
+  justify-content: space-between; }
+  .dashboard-header > * {
+    align-items: center;
+    display: flex; }
+  .dashboard-header__left > * {
+    cursor: pointer; }
+  .dashboard-header--logged-in {
+    background-color: var(--general-main-1);
+    color: var(--brand-dark-grey); }
+  .dashboard-header__right--logged-in > * {
+    cursor: pointer; }
+  .dashboard-header__right--logged-in-icon {
+    margin-right: 0.8rem; }
+  .dashboard-header--logged-out {
+    background-color: var(--brand-dark-grey);
+    color: var(--text-colored-background); }
+  .dashboard-header__middle--logged-out > :not(:first-child) {
+    margin-left: 4.8rem; }
+  .dashboard-header__middle--logged-out > * {
+    cursor: pointer; }
+  .dashboard-header__preloader {
     display: flex;
-    justify-content: space-between; }
-    .dashboard-header__menu-items > * {
-      align-items: center;
-      display: flex; }
-    .dashboard-header__menu-items-middle {
-      position: fixed;
-      height: 48px;
-      left: 50%;
-      top: 0;
-      transform: translate(-50%, 0); }
-      .dashboard-header__menu-items-middle > :not(:first-child) {
-        margin-left: 2.4rem; }
+    padding: 0 4rem;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    z-index: 100;
+    box-sizing: border-box;
+    height: 48px;
+    width: 100%;
+    top: 0;
+    background-color: var(--general-main-1); }
 
 /** @define footer; weak */
 .footer {
