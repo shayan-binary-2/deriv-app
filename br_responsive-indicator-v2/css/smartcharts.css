@@ -668,7 +668,7 @@
       line-height: 1.43;
       letter-spacing: normal;
       text-align: right;
-      margin-left: 16px; }
+      margin-left: 8px; }
 .sc-studies__list__item .detail .ic-icon {
       width: 16px;
       height: 16px;
@@ -724,6 +724,10 @@
 .smartcharts-dark .sc-studies__info {
     color: #c2c2c2;
     background: #0e0e0e; }
+.sc-studies__info__content {
+    background: #ff0000;
+    margin: -20px -20px 0;
+    padding: 0; }
 .sc-studies__info p {
     font-size: 14px;
     font-weight: normal;
@@ -735,8 +739,6 @@
     width: 100%; }
 .smartcharts-mobile .sc-studies .react-tabs__tab-panel {
   height: 425px !important; }
-.smartcharts-mobile .sc-studies .sc-dialog {
-  top: 100px !important; }
 .smartcharts-mobile .tabs--vertical .react-tabs__tab-list {
   width: 50px;
   min-width: 50px; }
@@ -763,11 +765,17 @@
 .smartcharts-mobile .sc-studies__list__item .info {
   padding: 8px 0 8px 8px; }
 .smartcharts-mobile .sc-studies__list__item .info .text {
-  padding-left: 0px; }
+    padding-left: 0px; }
 .smartcharts-mobile .sc-studies__list__item .ic-info {
   opacity: 1; }
+.smartcharts-mobile .sc-studies__list__item .detail span {
+  margin-left: 16px; }
 .smartcharts-mobile .sc-studies__info {
   width: calc(100% - 50px); }
+.smartcharts-mobile .sc-studies__info > p {
+    max-height: 360px;
+    height: 360px;
+    overflow-y: scroll; }
 
 /* ------------------------ *\
 		Variables
