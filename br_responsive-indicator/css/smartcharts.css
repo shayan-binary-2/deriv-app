@@ -725,7 +725,6 @@
     color: #c2c2c2;
     background: #0e0e0e; }
 .sc-studies__info__content {
-    background: #ff0000;
     margin: -20px -20px 0;
     padding: 0; }
 .sc-studies__info p {
@@ -1464,7 +1463,8 @@
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
-            user-select: none; }
+            user-select: none;
+    z-index: 1; }
 .sc-color-picker .subtitle span {
       padding-left: 4px;
       padding-right: 4px;
@@ -1490,7 +1490,8 @@
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    justify-content: space-between; }
+    justify-content: space-between;
+    position: relative; }
 .smartcharts-light .sc-color-picker .value {
       background-color: #ffffff;
       color: #333333 !important;
@@ -1499,6 +1500,13 @@
       background-color: #151717;
       color: #c2c2c2 !important;
       border: 1px solid #323738; }
+.sc-color-picker .value:before {
+      position: absolute;
+      content: ' ';
+      width: 100%;
+      height: 100%;
+      left: 0px;
+      top: 0px; }
 .sc-color-picker .value .sc-input-color {
       height: 100%;
       width: 100%;
@@ -5212,7 +5220,9 @@ html, body {
   100% {
     opacity: 0; } }
 .barrier-area {
-  padding: 13px 0; }
+  padding: 13px 0;
+  position: absolute;
+  width: 100%; }
 /* Drag Lines and Prices */
 .chart-line {
   position: absolute;
@@ -5942,154 +5952,6 @@ html, body {
         background: -webkit-repeating-linear-gradient(145deg, rgba(255, 0, 0, 0) 1px, #333333 2px, #333333 11px, rgba(255, 0, 0, 0) 12px, rgba(255, 0, 0, 0) 20px);
         background: repeating-linear-gradient(-55deg, rgba(255, 0, 0, 0) 1px, #333333 2px, #333333 11px, rgba(255, 0, 0, 0) 12px, rgba(255, 0, 0, 0) 20px);
         /* stylelint-enable */ }
-
-/* ------------------------ *\
-		Variables
-\* ------------------------ */
-/* --------- COLOR :: Border --------- */
-/* ------------------------ *\
-        Mixin
-\* ------------------------ */
-/* --------- Animation : dialog --------- */
-/* --------- CSS Properties --------- */
-/* stylelint-disable color-no-hex */
-/* stylelint-disable value-keyword-case */
-/* Brand Blue */
-/*****************************\
- *****************************
-        COLOR PALETTE
- *****************************
-\*****************************/
-/* Preserve legacy variables */
-/* Primary */
-/* Comparisons */
-.cq-comparison {
-  position: relative;
-  margin-top: 25px;
-  margin-left: 12px;
-  display: inline-block; }
-.cq-comparison .cq-comparison-label {
-    margin-left: 0.8em; }
-.smartcharts-light .cq-comparison .cq-comparison-label {
-      color: #7f8397; }
-.smartcharts-dark .cq-comparison .cq-comparison-label {
-      color: #ffffff; }
-.cq-comparison .cq-comparison-item {
-    position: relative;
-    justify-content: space-between;
-    padding: 5px 10px;
-    font-size: 1.2em;
-    height: 18px;
-    opacity: 1;
-    transition: background 0.2s 0s, padding 0.2s 0s, opacity 0.2s 0.2s, height 0.2s 0.4s, font-size 0s 0.4s, margin 0.2s 0.4s; }
-.cq-comparison .cq-comparison-item, .cq-comparison .cq-comparison-item .left, .cq-comparison .cq-comparison-item .right {
-      display: flex;
-      align-items: center; }
-.cq-comparison .cq-comparison-item .right {
-      justify-content: flex-end;
-      margin-left: 1.5em;
-      margin-right: 5px;
-      font-weight: bold; }
-.smartcharts-light .cq-comparison .cq-comparison-item .right {
-        color: #7f8397; }
-.smartcharts-dark .cq-comparison .cq-comparison-item .right {
-        color: #ffffff; }
-.cq-comparison .cq-comparison-item:hover {
-      box-shadow: 0 2px 8px 0 rgba(42, 48, 82, 0.14);
-      border-radius: 3px; }
-.smartcharts-light .cq-comparison .cq-comparison-item:hover {
-        background: #ffffff; }
-.smartcharts-dark .cq-comparison .cq-comparison-item:hover {
-        background: #2a3052; }
-.smartcharts-light .cq-comparison .cq-comparison-item:hover svg {
-        fill: #2a3052; }
-.smartcharts-dark .cq-comparison .cq-comparison-item:hover svg {
-        fill: #ffffff; }
-.cq-comparison .cq-comparison-swatch {
-    bottom: 1px;
-    width: 1.3em;
-    height: 1.3em; }
-.cq-comparison .cq-comparison-item .ciq-close {
-    transition: opacity 0.2s 0s;
-    cursor: pointer;
-    opacity: 0;
-    left: 7px;
-    position: relative;
-    width: 16px;
-    height: 16px;
-    line-height: 20px; }
-.cq-comparison .cq-comparison-item:hover .ciq-close {
-    opacity: 0.6; }
-.cq-comparison .cq-comparison-item .ciq-close:hover,
-  .cq-comparison .cq-comparison-item .ciq-close:active {
-    opacity: 1; }
-.cq-comparison .cq-comparison-loader {
-    display: none;
-    height: 16px;
-    width: 16px;
-    margin-left: 10px; }
-.cq-comparison .cq-comparison-loader.stx-show {
-    display: inline-flex; }
-.smartcharts-mobile .cq-comparison {
-  margin-top: 5px; }
-
-/* ------------------------ *\
-		Variables
-\* ------------------------ */
-/* --------- COLOR :: Border --------- */
-/* ------------------------ *\
-        Mixin
-\* ------------------------ */
-/* --------- Animation : dialog --------- */
-/* --------- CSS Properties --------- */
-/* stylelint-disable color-no-hex */
-/* stylelint-disable value-keyword-case */
-/* Brand Blue */
-/*****************************\
- *****************************
-        COLOR PALETTE
- *****************************
-\*****************************/
-/* Preserve legacy variables */
-/* Primary */
-.ciq-asset-information {
-  position: relative;
-  z-index: +1;
-  background: transparent;
-  display: flex;
-  margin: 15px 0px;
-  left: 10px;
-  top: 10px;
-  justify-content: flex-start;
-  opacity: 1;
-  height: 14px;
-  transition: all 0.1s; }
-.ciq-asset-information.hide {
-    height: 0;
-    opacity: 0;
-    margin: 0;
-    pointer-events: none; }
-.ciq-asset-information > div {
-    padding-right: 5px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    font-size: 1.2em; }
-.ciq-asset-information > div div:first-child {
-      padding: 0 8px; }
-.ciq-asset-information > div div:last-child {
-      font-weight: bold; }
-.smartcharts-light .ciq-asset-information > div {
-      color: #7f8397; }
-.smartcharts-dark .ciq-asset-information > div {
-      color: #eaeced; }
-.smartcharts-mobile .ciq-asset-information {
-  left: 2px;
-  flex-wrap: wrap; }
-.smartcharts-mobile .ciq-asset-information > div {
-    font-size: 1.2em; }
-.smartcharts-mobile .ciq-asset-information > div div:first-child {
-      padding: 0px 5px; }
 
 /* ------------------------ *\
 		Variables
