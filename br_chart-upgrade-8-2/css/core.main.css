@@ -10192,6 +10192,10 @@
     color: var(--status-success); }
     .dc-label--general--success:after {
       background-color: var(--status-success); }
+  .dc-label--general--transfer {
+    color: var(--status-transfer); }
+    .dc-label--general--transfer:after {
+      background-color: var(--status-transfer); }
   .dc-label--general--default-invert {
     color: var(--status-less-prominent); }
     .dc-label--general--default-invert:after {
@@ -10861,7 +10865,8 @@
   left: 0px;
   top: calc(40px + 40px);
   background: var(--general-main-1);
-  max-height: 100%; }
+  max-height: 100%;
+  overflow-y: scroll; }
   .dc-mobile-full-page-modal--flex {
     display: flex;
     flex-direction: column;
@@ -18719,13 +18724,9 @@
   margin-top: 1.6rem; }
 
 .account-form__title {
-  color: var(--text-prominent);
   padding-right: 0.8rem; }
 
 .account-form__subtitle {
-  font-size: 1rem;
-  color: var(--text-prominent);
-  font-weight: normal;
   align-self: baseline;
   padding-right: 0.8rem;
   margin-top: 0.2rem; }
@@ -19612,6 +19613,7 @@ strong {
   --text-lh-m: 1.5;
   --text-lh-l: 1.75;
   --text-lh-xl: 2;
+  --text-lh-xxl: 2.4;
   --text-weight-lighter: lighter;
   --text-weight-normal: normal;
   --text-weight-bold: bold;
@@ -19701,6 +19703,7 @@ strong {
     --status-danger: #ec3f3f;
     --status-success: #4bb4b3;
     --status-warning: #ffad3a;
+    --status-transfer: #ff6444;
     --status-info: #377cfc;
     --status-colored-background: #ffffff;
     --dashboard-swap-free: linear-gradient(58.51deg, #061828 28.06%, #1a3c60 93.51%);
@@ -19787,6 +19790,7 @@ strong {
     --status-danger: #cc2e3d;
     --status-warning: #ffad3a;
     --status-success: #00a79e;
+    --status-transfer: #ff6444;
     --status-info: #377cfc;
     --status-colored-background: #ffffff;
     --transparent-success: rgba(0, 167, 158, 0.92);
@@ -19799,6 +19803,82 @@ strong {
     --badge-blue: #0677af;
     --badge-violet: #2a3052;
     --badge-green: #00a79e; }
+
+.dashboard-platform-header {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  height: 48px;
+  left: 0px;
+  top: 0px;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--general-section-1);
+  background-color: var(--general-main-1);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transition: opacity 0.3s;
+  display: flex; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .dashboard-platform-header {
+      height: 40px; } }
+  .dashboard-platform-header__menu-left {
+    display: inline-flex;
+    height: 47px;
+    align-items: center; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .dashboard-platform-header__menu-left {
+        height: 39px; } }
+    .dashboard-platform-header__menu-left-extensions {
+      display: flex;
+      overflow: hidden; }
+  .dashboard-platform-header__menu-right {
+    justify-content: flex-end;
+    display: inline-flex;
+    flex: 1;
+    align-items: center; }
+  .dashboard-platform-header__my-apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13rem; }
+    .dashboard-platform-header__my-apps > * {
+      cursor: pointer; }
+    .dashboard-platform-header__my-apps--title {
+      margin-left: 8px; }
+  .dashboard-platform-header__platform-information {
+    display: flex;
+    align-items: center; }
+    .dashboard-platform-header__platform-information--icon {
+      margin-right: 1.2rem; }
+  .dashboard-platform-header__divider {
+    width: 1px;
+    height: 32px;
+    margin-left: 8px;
+    background: var(--general-section-2); }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .dashboard-platform-header__divider {
+        height: 24px; } }
+  .dashboard-platform-header__setting {
+    margin-right: 12px; }
+    .dashboard-platform-header__setting--icon {
+      cursor: pointer; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .dashboard-platform-header__notification .notifications-toggle {
+      margin-right: 0; } }
+  .dashboard-platform-header__report {
+    margin-right: 24px; }
+  .dashboard-platform-header__balance {
+    display: flex;
+    align-items: center; }
+    .dashboard-platform-header__balance--icon {
+      margin: 0px 8px; }
+  .dashboard-platform-header__button {
+    margin: 6px 16px; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .dashboard-platform-header__button {
+        width: 5.4rem; } }
+  .dashboard-platform-header__mobile-drawer-icon {
+    margin: 12px 8px 12px 12px; }
 
 @media (min-width: 320px) and (max-width: 767px) {
   /** disabling pull to refresh on iOS / Android browsers */
