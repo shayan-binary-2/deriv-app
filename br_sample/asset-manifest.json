@@ -1,11 +1,11 @@
 {
   "main~s.css": "/br_sample/css/coremain~s.main.css",
-  "main~s.js": "/br_sample/js/core.main~s.3df5c19fe52a56fedf24.js",
+  "main~s.js": "/br_sample/js/core.main~s.b020b93f718b85bbacda.js",
   "main~s.svg": "/br_sample/public/images/common/welcome-bg-red.svg",
   "trader~trader_dist_js_trader_js_37c88ea6.js": "/br_sample/js/core.trader~trader_dist_js_trader_js_37c88ea6.83f7e8eb12c75efa9a1a.js",
   "account.js": "/br_sample/js/core.account.e3650ba9d228b2445d39.js",
   "cashier.js": "/br_sample/js/core.cashier.868b309b1ba37017f9be.js",
-  "bot.js": "/br_sample/js/core.bot.92264b47728ed9bcb544.js",
+  "bot.js": "/br_sample/js/core.bot.60f80de95c77207519d1.js",
   "dashboard.js": "/br_sample/js/core.dashboard.a34e9b4ebf26b4b831a2.js",
   "complaints-policy.css": "/br_sample/css/core.complaints-policy.21cab1da62954279e971.css",
   "complaints-policy.js": "/br_sample/js/core.complaints-policy.50e008d3e7e0643453b3.js",
