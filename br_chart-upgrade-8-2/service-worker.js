@@ -716,7 +716,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/js/core.main~components_src_components_l.cdfadd4d7a8b1a50eee7.js",
     "revision": null
   }, {
-    "url": "/js/core.main~s.db547bcd4e0dc9ce2607.js",
+    "url": "/js/core.main~s.16da5f1b71a2c1a14375.js",
     "revision": null
   }, {
     "url": "/js/core.reality-check-modal.817831968299afdaf47c.js",
