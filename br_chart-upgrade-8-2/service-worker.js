@@ -716,7 +716,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/br_chart-upgrade-8-2/js/core.main~components_src_components_l.cdfadd4d7a8b1a50eee7.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.main~s.108cc42e1021ea116f46.js",
+    "url": "/br_chart-upgrade-8-2/js/core.main~s.9f770b4cfe32e030a77c.js",
     "revision": null
   }, {
     "url": "/br_chart-upgrade-8-2/js/core.reality-check-modal.817831968299afdaf47c.js",
