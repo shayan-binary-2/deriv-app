@@ -405,16 +405,25 @@
       line-height: 1.5;
       opacity: 0;
       -moz-transition: opacity 0.25s;
-      transition: opacity 0.25s; }
+      transition: opacity 0.25s;
+      /* To vertically align placeholder in Firefox */ }
     .dc-input__field:-ms-input-placeholder {
       line-height: 1.5;
       opacity: 0;
       -ms-transition: opacity 0.25s;
-      transition: opacity 0.25s; }
+      transition: opacity 0.25s;
+      /* To vertically align placeholder in Firefox */ }
     .dc-input__field::placeholder {
       line-height: 1.5;
       opacity: 0;
-      transition: opacity 0.25s; }
+      transition: opacity 0.25s;
+      /* To vertically align placeholder in Firefox */ }
+
+@-moz-document url-prefix('') {
+  .dc-input__field::-moz-placeholder {
+    line-height: 1.25; }
+  .dc-input__field::placeholder {
+    line-height: 1.25; } }
     .dc-input__field--placeholder-visible::-moz-placeholder {
       opacity: 0.2; }
     .dc-input__field--placeholder-visible:-ms-input-placeholder {

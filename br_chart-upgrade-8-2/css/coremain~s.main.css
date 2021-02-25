@@ -1113,6 +1113,8 @@
   border-radius: 0.2rem;
   margin-left: 0.5rem;
   height: 2.2rem; }
+  .badge-server-bot {
+    color: var(--text-colored-background); }
   .badge-server--disabled {
     background-color: var(--border-disabled); }
 

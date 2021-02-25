@@ -105,7 +105,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
 
   workbox.precacheAndRoute([{
     "url": "/account/css/account.css",
-    "revision": "5b3858cd66d71962fdc2c8fbd5f37a61"
+    "revision": "141399e2aae046dee37c55f200febad9"
   }, {
     "url": "/account/css/terms-of-use.css",
     "revision": "55b3a65e19b511fda088b5b2baa18358"
@@ -132,7 +132,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "revision": "6dfd7288d6794a72c883d1d5cad383ad"
   }, {
     "url": "/account/js/currency-selector.js",
-    "revision": "c7dd5f660e9312058d478e75c6eacfc2"
+    "revision": "eb3c5ab94f16eb4f485f6fa0d27dba38"
   }, {
     "url": "/account/js/demo-message.js",
     "revision": "30ae941a18c7fb0cae12523b2b8cd7aa"
@@ -174,7 +174,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "revision": "46a459ea658fadc58d96f9ba4a0b846c"
   }, {
     "url": "/account/js/personal-details.js",
-    "revision": "14f7fa87d164ed894da184af62e6964e"
+    "revision": "100e3ca2193e1cfe11a7f6aef70c84fc"
   }, {
     "url": "/account/js/poa-expired.js",
     "revision": "639760b19e32b37625acd6a55a6e0b1c"
@@ -225,7 +225,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "revision": "348f3c73081c554dce424ff5e22fa239"
   }, {
     "url": "/account/js/terms-of-use.js",
-    "revision": "6ab3a66a400f2ed659062c530851add5"
+    "revision": "fe4394d75cd3219e348c20fc69c877e1"
   }, {
     "url": "/account/js/text-container.js",
     "revision": "3c07dbfda4f90b324689cd785dbe2545"
@@ -258,7 +258,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "revision": "f34bf15a8f5c63cdfad46e74725b872b"
   }, {
     "url": "/css/coremain~components_src_components_c.main.css",
-    "revision": "ada099291656c6ed7e2ba003f95f244a"
+    "revision": "76bff9ee8015c611ef1f142c448a70a7"
   }, {
     "url": "/css/coremain~components_src_components_ca.main.css",
     "revision": "85812ed2404e46c30ab61e2d6650938a"
@@ -267,7 +267,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "revision": "71dab2d001023fe1f8bceb819a414b96"
   }, {
     "url": "/css/coremain~s.main.css",
-    "revision": "bf59f8b8ec1e66e3f05b430c68e17b45"
+    "revision": "fa1bf7d434b988b5c53165b9769b0576"
   }, {
     "url": "/css/smartcharts.css",
     "revision": "33ec456008ff2fecdca2b9827ad251ae"
@@ -288,7 +288,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "revision": "0cb8c9c65c9adde7eec4f6f79e2f4076"
   }, {
     "url": "/js/asset-manifest.json",
-    "revision": "3b3804e58ac0c039cc921251e547597a"
+    "revision": "b2472417f0feed4c351f9a1eddb0a71b"
   }, {
     "url": "/js/bot/bot-web-ui.main.css",
     "revision": "c647f04bd2774a472a90ab6d64bf7176"
@@ -650,31 +650,31 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/js/cashier.loadjs.2adf858974c0096d308f.js",
     "revision": "2de048860e647716d52fa4b24ce7a970"
   }, {
-    "url": "/js/core.account-info.9cbbefc739fda712d84b.js",
+    "url": "/js/core.account-info.188162e3f4cec39c0485.js",
     "revision": null
   }, {
-    "url": "/js/core.account-signup-modal.318441294a0d056f7de8.js",
+    "url": "/js/core.account-signup-modal.f9264be1f28937768ac1.js",
     "revision": null
   }, {
-    "url": "/js/core.account-types-modal.f8c4bb044a91a53f5977.js",
+    "url": "/js/core.account-types-modal.0f32968916c1ad11b731.js",
     "revision": null
   }, {
     "url": "/js/core.complaints-policy.50e008d3e7e0643453b3.js",
     "revision": null
   }, {
-    "url": "/js/core.main~A.3e946c6b362904dc574c.js",
+    "url": "/js/core.main~A.86197037a84e8cde5586.js",
     "revision": null
   }, {
-    "url": "/js/core.main~App_C.5bf2225258694eb389df.js",
+    "url": "/js/core.main~App_C.20449844b60d6a547f1e.js",
     "revision": null
   }, {
-    "url": "/js/core.main~App_Components_E.04b92cc47cb6c132e18c.js",
+    "url": "/js/core.main~App_Components_E.7d0585876f027dcd5095.js",
     "revision": null
   }, {
-    "url": "/js/core.main~Se.2cffe2cdf71f98a965bb.js",
+    "url": "/js/core.main~Se.58709830fc228aedfc98.js",
     "revision": null
   }, {
-    "url": "/js/core.main~Stores_b.dfed1112bd4019ea1d10.js",
+    "url": "/js/core.main~Stores_b.12820d4159676dbb6ccd.js",
     "revision": null
   }, {
     "url": "/js/core.main~Stores_m.1a408af68ca064dad8ba.js",
@@ -689,16 +689,16 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/js/core.main~account_dist_js_address-details_js_5f06f4a4.bd33d71032c4e8aea510.js",
     "revision": null
   }, {
-    "url": "/js/core.main~account_dist_js_currency-selector_js_9c69d055.5c3d64d4def2320ccab5.js",
+    "url": "/js/core.main~account_dist_js_currency-selector_js_9c69d055.e2e68c2dfcb0278e96f5.js",
     "revision": null
   }, {
     "url": "/js/core.main~account_dist_js_financial-details_js_bfc31623.6f022044acc53c1dcc6b.js",
     "revision": null
   }, {
-    "url": "/js/core.main~account_dist_js_personal-details_js_471575fc.ecd70dad28294236be90.js",
+    "url": "/js/core.main~account_dist_js_personal-details_js_471575fc.7799a1606af6bf13e107.js",
     "revision": null
   }, {
-    "url": "/js/core.main~account_dist_js_terms-of-use_js_e84e3670.08dbfe4c0b086e9f2b5d.js",
+    "url": "/js/core.main~account_dist_js_terms-of-use_js_e84e3670.3b969ab472a223ba7eb5.js",
     "revision": null
   }, {
     "url": "/js/core.main~c.1e90c8f427f4798c8fd2.js",
@@ -713,10 +713,10 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/js/core.main~components_src_components_ca.a92449882b0caa700616.js",
     "revision": null
   }, {
-    "url": "/js/core.main~components_src_components_l.cc0aa7ea38b221fad760.js",
+    "url": "/js/core.main~components_src_components_l.cdfadd4d7a8b1a50eee7.js",
     "revision": null
   }, {
-    "url": "/js/core.main~s.62b434f87483599235a6.js",
+    "url": "/js/core.main~s.06131bb4c49bba056218.js",
     "revision": null
   }, {
     "url": "/js/core.reality-check-modal.817831968299afdaf47c.js",
@@ -941,8 +941,8 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/js/trader.error-component.82cb227571aafb3ef745.js",
     "revision": "ff5de341c2df4cc31e731deb3a4d65d6"
   }, {
-    "url": "/js/trader.mt5.60ca47b86d8030dabe01.js",
-    "revision": "6c7770454c745158161fbcd02fa11a68"
+    "url": "/js/trader.mt5.b0590aefc4a8de8e8e57.js",
+    "revision": "2d0301a047c8c0ce1cfdb47889c6b29c"
   }, {
     "url": "/js/trader.reports.1371fae4dc746c29f8b0.js",
     "revision": "9c6f2cbd70b66be6e3f277431fe232bd"
@@ -950,14 +950,14 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/js/trader.screen-large.b0d82082e8e25124c45b.js",
     "revision": "234c24d41f7f6206f88d09bd82110d3d"
   }, {
-    "url": "/js/trader.screen-small.9ee608288d07ed5c73d1.js",
-    "revision": "a528bf0f78a7a9567283c04307e334d4"
+    "url": "/js/trader.screen-small.63f0e4bc60edc65f93d5.js",
+    "revision": "1885d91709b0946450b40b617ddaf947"
   }, {
     "url": "/js/trader.settings-chart.c3b029283e524868acd4.js",
     "revision": "83fb910243484003c944f15c21ee8349"
   }, {
-    "url": "/js/trader.trade-modals.40442553305a084bc910.js",
-    "revision": "9a67b90c826bb76a053eb2c9bc507fbc"
+    "url": "/js/trader.trade-modals.7fea16926dd365d037c8.js",
+    "revision": "5366c48f70886beee0487b948fed5bf1"
   }, {
     "url": "/js/trader.two-month-picker.82fb1089e45862d80f9e.js",
     "revision": "f000d4ebd163ff893c234bcffbcfafed"
