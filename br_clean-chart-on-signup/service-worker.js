@@ -716,7 +716,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/br_clean-chart-on-signup/js/core.main~components_src_components_l.cdfadd4d7a8b1a50eee7.js",
     "revision": null
   }, {
-    "url": "/br_clean-chart-on-signup/js/core.main~s.49e4d754ec98367ce00d.js",
+    "url": "/br_clean-chart-on-signup/js/core.main~s.fb5cbe434b03f3c72705.js",
     "revision": null
   }, {
     "url": "/br_clean-chart-on-signup/js/core.reality-check-modal.817831968299afdaf47c.js",
