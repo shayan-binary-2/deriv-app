@@ -2885,6 +2885,25 @@
 .modal__container.modal__real-account-signup-modal .dc-vertical-tab__content {
   padding: 0 !important; }
 
+.accept-risk__header {
+  margin-bottom: 0.8rem;
+  padding-top: 4rem; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .accept-risk__header {
+      padding-top: 1rem; } }
+
+.accept-risk__container {
+  padding: 0 7.2rem; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .accept-risk__container {
+      padding: 0 1.6rem; } }
+
+.accept-risk__form {
+  display: grid;
+  height: calc(100% - 57px);
+  position: relative;
+  width: 100%; }
+
 .account-signup-loader {
   width: 100%;
   height: 100%; }

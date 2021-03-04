@@ -105,7 +105,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
 
   workbox.precacheAndRoute([{
     "url": "/br_chart-upgrade-8-2/account/css/account.css",
-    "revision": "141399e2aae046dee37c55f200febad9"
+    "revision": "6f5af147784b34da0496ea22960293c8"
   }, {
     "url": "/br_chart-upgrade-8-2/account/css/terms-of-use.css",
     "revision": "55b3a65e19b511fda088b5b2baa18358"
@@ -123,7 +123,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "revision": "3b2a93c934687eeff9489df721bb45ee"
   }, {
     "url": "/br_chart-upgrade-8-2/account/js/currency-radio-button.js",
-    "revision": "f7109c17f163d90f617b10046d1886bc"
+    "revision": "6aa6a93c5291658358865b5ecef2b3b0"
   }, {
     "url": "/br_chart-upgrade-8-2/account/js/currency-selector-config.js",
     "revision": "2a182e33653d1424ea1a470b6e376b98"
@@ -132,7 +132,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "revision": "6dfd7288d6794a72c883d1d5cad383ad"
   }, {
     "url": "/br_chart-upgrade-8-2/account/js/currency-selector.js",
-    "revision": "eb3c5ab94f16eb4f485f6fa0d27dba38"
+    "revision": "22dc8f1d7e3017b75b857ed61e632b22"
   }, {
     "url": "/br_chart-upgrade-8-2/account/js/demo-message.js",
     "revision": "30ae941a18c7fb0cae12523b2b8cd7aa"
@@ -171,7 +171,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "revision": "28844d6218792fbae14deefae104fc17"
   }, {
     "url": "/br_chart-upgrade-8-2/account/js/personal-details-config.js",
-    "revision": "46a459ea658fadc58d96f9ba4a0b846c"
+    "revision": "a8d8c61f99f933c6e6267879908b6d27"
   }, {
     "url": "/br_chart-upgrade-8-2/account/js/personal-details.js",
     "revision": "100e3ca2193e1cfe11a7f6aef70c84fc"
@@ -198,7 +198,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "revision": "aadff9bc5ae666eeade5f876051f8140"
   }, {
     "url": "/br_chart-upgrade-8-2/account/js/poi-missing-personal-details.js",
-    "revision": "ea0457842759a8810254525ed3a44d0d"
+    "revision": "7f0383a3adf6db408fa9cebd67d038c6"
   }, {
     "url": "/br_chart-upgrade-8-2/account/js/poi-onfido-failed.js",
     "revision": "fef2c254b7292ae57b2687153fcb36bd"
@@ -225,13 +225,13 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "revision": "348f3c73081c554dce424ff5e22fa239"
   }, {
     "url": "/br_chart-upgrade-8-2/account/js/terms-of-use.js",
-    "revision": "fe4394d75cd3219e348c20fc69c877e1"
+    "revision": "81c5b307a2cb0976d474108c94e8eff2"
   }, {
     "url": "/br_chart-upgrade-8-2/account/js/text-container.js",
     "revision": "3c07dbfda4f90b324689cd785dbe2545"
   }, {
     "url": "/br_chart-upgrade-8-2/css/bot-web-ui.main.css",
-    "revision": "c647f04bd2774a472a90ab6d64bf7176"
+    "revision": "69a7c9e45842a15a6cff9106a08ca38d"
   }, {
     "url": "/br_chart-upgrade-8-2/css/cashier.css",
     "revision": "705b2e630b876476a08c9049bf9122a1"
@@ -267,7 +267,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "revision": "71dab2d001023fe1f8bceb819a414b96"
   }, {
     "url": "/br_chart-upgrade-8-2/css/coremain~s.main.css",
-    "revision": "e36317e8be7d487d2c842e2c91a8a2ff"
+    "revision": "dd97c889f9f11b64049410f8e154769a"
   }, {
     "url": "/br_chart-upgrade-8-2/css/smartcharts.css",
     "revision": "33ec456008ff2fecdca2b9827ad251ae"
@@ -275,8 +275,8 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/br_chart-upgrade-8-2/css/trader.main.css",
     "revision": "d8877107c06953b745d74772f4e06b26"
   }, {
-    "url": "/br_chart-upgrade-8-2/css/trader.mt5.94d9b4e54e0e5a79124e.css",
-    "revision": "dd4e0f85917f9c6e77ccf0f0071d6eaf"
+    "url": "/br_chart-upgrade-8-2/css/trader.mt5.1e9f799dc4a445d56629.css",
+    "revision": "18ecc1290a58314ce93234ba6bd63929"
   }, {
     "url": "/br_chart-upgrade-8-2/css/trader.reports.b383f41eb986fca2e9de.css",
     "revision": "6a2fa1952521d27c6d716fd6bfbc4c47"
@@ -288,10 +288,10 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "revision": "0cb8c9c65c9adde7eec4f6f79e2f4076"
   }, {
     "url": "/br_chart-upgrade-8-2/js/asset-manifest.json",
-    "revision": "838b140d08375524b2b72069c65d130a"
+    "revision": "0309f1e9eeb8651718c2ef28e428172c"
   }, {
     "url": "/br_chart-upgrade-8-2/js/bot/bot-web-ui.main.css",
-    "revision": "c647f04bd2774a472a90ab6d64bf7176"
+    "revision": "69a7c9e45842a15a6cff9106a08ca38d"
   }, {
     "url": "/br_chart-upgrade-8-2/js/bot/bot.dalembert-xml.0eec93dcff0e44a79831.js",
     "revision": "d05429f8a2c254794fcabbe5c8122496"
@@ -650,94 +650,94 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/br_chart-upgrade-8-2/js/cashier.loadjs.2adf858974c0096d308f.js",
     "revision": "2de048860e647716d52fa4b24ce7a970"
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.account-info.188162e3f4cec39c0485.js",
+    "url": "/br_chart-upgrade-8-2/js/core.account-info.ec486c5d5d72c80675b9.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.account-signup-modal.f9264be1f28937768ac1.js",
+    "url": "/br_chart-upgrade-8-2/js/core.account-signup-modal.ea57aec1bc566fa3c165.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.account-types-modal.0f32968916c1ad11b731.js",
+    "url": "/br_chart-upgrade-8-2/js/core.account-types-modal.e6fe3b4ee92bcd18660e.js",
     "revision": null
   }, {
     "url": "/br_chart-upgrade-8-2/js/core.complaints-policy.50e008d3e7e0643453b3.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.main~A.86197037a84e8cde5586.js",
+    "url": "/br_chart-upgrade-8-2/js/core.main~A.ef1cb89eccd680415462.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.main~App_C.20449844b60d6a547f1e.js",
+    "url": "/br_chart-upgrade-8-2/js/core.main~App_C.0eea5da8cf02e11bc32a.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.main~App_Components_E.7d0585876f027dcd5095.js",
+    "url": "/br_chart-upgrade-8-2/js/core.main~App_Components_E.507c66d33d741c7abd54.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.main~Se.58709830fc228aedfc98.js",
+    "url": "/br_chart-upgrade-8-2/js/core.main~Se.2fd6eea951e973081cf6.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.main~Stores_b.12820d4159676dbb6ccd.js",
+    "url": "/br_chart-upgrade-8-2/js/core.main~Stores_b.15ae81dfff5d54141aab.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.main~Stores_m.1a408af68ca064dad8ba.js",
+    "url": "/br_chart-upgrade-8-2/js/core.main~Stores_m.c416f3dfa0be1fcfaaac.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.main~U.02140d77894bad406e6a.js",
+    "url": "/br_chart-upgrade-8-2/js/core.main~U.6f90435fa8d10162ca57.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.main~ac.646869d536a1a117a1a0.js",
+    "url": "/br_chart-upgrade-8-2/js/core.main~ac.3ebf0ac6973de96c456c.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.main~account_dist_js_address-details_js_5f06f4a4.bd33d71032c4e8aea510.js",
+    "url": "/br_chart-upgrade-8-2/js/core.main~account_dist_js_address-details_js_5f06f4a4.1645368164d1b8c30d4a.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.main~account_dist_js_currency-selector_js_9c69d055.e2e68c2dfcb0278e96f5.js",
+    "url": "/br_chart-upgrade-8-2/js/core.main~account_dist_js_currency-selector_js_9c69d055.c81781ff69c22a47736e.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.main~account_dist_js_financial-details_js_bfc31623.6f022044acc53c1dcc6b.js",
+    "url": "/br_chart-upgrade-8-2/js/core.main~account_dist_js_financial-details_js_bfc31623.9c2a9662f99a5b2a4f08.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.main~account_dist_js_personal-details_js_471575fc.7799a1606af6bf13e107.js",
+    "url": "/br_chart-upgrade-8-2/js/core.main~account_dist_js_personal-details_js_471575fc.99c37b22aa7cff315897.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.main~account_dist_js_terms-of-use_js_e84e3670.3b969ab472a223ba7eb5.js",
+    "url": "/br_chart-upgrade-8-2/js/core.main~account_dist_js_terms-of-use_js_e84e3670.eecbb2b7f8c577a0d0e9.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.main~c.1e90c8f427f4798c8fd2.js",
+    "url": "/br_chart-upgrade-8-2/js/core.main~c.6b10a35c49a54230d538.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.main~cashier_dist_js_cashier-store_js_40d4fcd6.99133a351f5f669e7ddb.js",
+    "url": "/br_chart-upgrade-8-2/js/core.main~cashier_dist_js_cashier-store_js_40d4fcd6.1b229666524f07becece.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.main~components_src_components_c.44ebf1ad6f4c95b621e1.js",
+    "url": "/br_chart-upgrade-8-2/js/core.main~components_src_components_c.5f792176d188456262c8.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.main~components_src_components_ca.a92449882b0caa700616.js",
+    "url": "/br_chart-upgrade-8-2/js/core.main~components_src_components_ca.112196e2d0f849bc4682.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.main~components_src_components_l.cdfadd4d7a8b1a50eee7.js",
+    "url": "/br_chart-upgrade-8-2/js/core.main~components_src_components_l.0dfec681b22ba8d9e009.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.main~s.9f770b4cfe32e030a77c.js",
+    "url": "/br_chart-upgrade-8-2/js/core.main~s.7b75745594a57cd62d0b.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.reality-check-modal.817831968299afdaf47c.js",
+    "url": "/br_chart-upgrade-8-2/js/core.reality-check-modal.9e8cfa7b2bde446f4384.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.reset-password-modal.48c3bc41d38513895770.js",
+    "url": "/br_chart-upgrade-8-2/js/core.reset-password-modal.d4e80b45ee8b7811d8e2.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.set-residence-modal.9fd38c07994d26fcde4b.js",
+    "url": "/br_chart-upgrade-8-2/js/core.set-residence-modal.2f3754021cc58a0dc0ad.js",
     "revision": null
   }, {
     "url": "/br_chart-upgrade-8-2/js/core.settings-language.a4746b2f39d22cadde0f.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.settings-theme.8ebd033b290d7bb4658c.js",
+    "url": "/br_chart-upgrade-8-2/js/core.settings-theme.998f1e46df0f77c11c10.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.trader~account_dist_js_fi.f7f87ca05677e2a7c86f.js",
+    "url": "/br_chart-upgrade-8-2/js/core.trader~account_dist_js_fi.7a5726df28e2de7c586e.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.trader~account_dist_js_poa-e.f689c848f74a1530f266.js",
+    "url": "/br_chart-upgrade-8-2/js/core.trader~account_dist_js_poa-e.49b3ea953db50f6a83bb.js",
     "revision": null
   }, {
     "url": "/br_chart-upgrade-8-2/js/core.vendors-node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpe-f990e9.e18ac514c79c849b6835.js",
@@ -794,7 +794,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/br_chart-upgrade-8-2/js/core.vendors-node_modules_web-push-notifications_lib_index_js.bfeda2ededb138ea1edd.js",
     "revision": null
   }, {
-    "url": "/br_chart-upgrade-8-2/js/core.welcome-modal.cc4341db4ded321505ac.js",
+    "url": "/br_chart-upgrade-8-2/js/core.welcome-modal.55837dbc8a3e7ba68032.js",
     "revision": null
   }, {
     "url": "/br_chart-upgrade-8-2/js/dashboard/assets/images/app-card-bg.svg",
@@ -932,8 +932,8 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/br_chart-upgrade-8-2/js/smartcharts/zh_tw-json-6b5ab2.smartcharts.js",
     "revision": "d8d355c825074540a5d8a69411cadc36"
   }, {
-    "url": "/br_chart-upgrade-8-2/js/trader.Modules_Trading_Components_Form_TradeParams_Multiplier_info_jsx-Modules_Trading_Components_Fo-bd55fc.394d9838e2f2288003ff.js",
-    "revision": "0e89e2b7b8aa3f1738281cda8eeb8373"
+    "url": "/br_chart-upgrade-8-2/js/trader.Modules_Trading_Components_Form_TradeParams_Multiplier_info_jsx-Modules_Trading_Components_Fo-bd55fc.e21d2aa79d03579cfb00.js",
+    "revision": "8059654aca513547c618fb588503f86e"
   }, {
     "url": "/br_chart-upgrade-8-2/js/trader.contract.4bce11705040a76b9e2b.js",
     "revision": "c417c944ed1f58b49f22aecc3f8eb6a8"
@@ -941,17 +941,17 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/br_chart-upgrade-8-2/js/trader.error-component.82cb227571aafb3ef745.js",
     "revision": "ff5de341c2df4cc31e731deb3a4d65d6"
   }, {
-    "url": "/br_chart-upgrade-8-2/js/trader.mt5.b0590aefc4a8de8e8e57.js",
-    "revision": "2d0301a047c8c0ce1cfdb47889c6b29c"
+    "url": "/br_chart-upgrade-8-2/js/trader.mt5.4f2a2bc8541480d88591.js",
+    "revision": "7e58c19dc4274bdf2262a4cb78598e33"
   }, {
     "url": "/br_chart-upgrade-8-2/js/trader.reports.1371fae4dc746c29f8b0.js",
     "revision": "9c6f2cbd70b66be6e3f277431fe232bd"
   }, {
-    "url": "/br_chart-upgrade-8-2/js/trader.screen-large.b0d82082e8e25124c45b.js",
-    "revision": "234c24d41f7f6206f88d09bd82110d3d"
+    "url": "/br_chart-upgrade-8-2/js/trader.screen-large.c4f963b37ecdbadfadef.js",
+    "revision": "f201fc384e3cf99cacd84fd8ef19055c"
   }, {
-    "url": "/br_chart-upgrade-8-2/js/trader.screen-small.63f0e4bc60edc65f93d5.js",
-    "revision": "1885d91709b0946450b40b617ddaf947"
+    "url": "/br_chart-upgrade-8-2/js/trader.screen-small.32ab91d48d0eb87ffaf3.js",
+    "revision": "efa29b74b32fb9b61de85970560248f2"
   }, {
     "url": "/br_chart-upgrade-8-2/js/trader.settings-chart.c3b029283e524868acd4.js",
     "revision": "83fb910243484003c944f15c21ee8349"

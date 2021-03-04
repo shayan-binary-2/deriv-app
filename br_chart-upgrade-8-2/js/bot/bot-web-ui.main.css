@@ -2668,7 +2668,8 @@
   grid-template-columns: 0.9fr 1fr 1fr;
   grid-template-areas: 'type spot profit';
   padding: 1.2rem 1.6rem;
-  height: 5rem; }
+  height: 5rem;
+  align-items: center; }
   .transactions__header-type {
     grid-column: type; }
   .transactions__header-spot {
@@ -3275,11 +3276,6 @@
     position: fixed;
     bottom: 15.7rem;
     width: 100vw; }
-  .run-panel-tab__content--journal-mobile {
-    position: fixed;
-    bottom: 0;
-    width: 100vw;
-    height: calc(100% - 7.6rem); }
 
 @media (min-width: 320px) and (max-width: 767px) {
   .run-panel__clear-button {
