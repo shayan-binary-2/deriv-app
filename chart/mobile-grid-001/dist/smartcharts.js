@@ -355,7 +355,9 @@ var ChartNotifier = /*#__PURE__*/function () {
   _createClass(ChartNotifier, [{
     key: "notify",
     value: function notify(message) {
-      this.messageCallback(message);
+      if (this.messageCallback) {
+        this.messageCallback(message);
+      }
     }
   }, {
     key: "removeByCategory",
