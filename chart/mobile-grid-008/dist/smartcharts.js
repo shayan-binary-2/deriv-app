@@ -21951,7 +21951,9 @@ var Chart = function Chart(props) {
   }, !isCandle && !isSpline && isHighestLowestMarkerEnabled && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HighestLowestMarker_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_RenderInsideChart_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
     at: "subholder",
     hideInScrollToEpoch: true
-  }, children),  false && /*#__PURE__*/false, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, children), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_RenderInsideChart_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    at: "subholder"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PaginationLoader_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "cq-top-ui-widgets"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TopWidgets, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "chartContainer",
