@@ -21946,7 +21946,12 @@ var Chart = function Chart(props) {
     className: classnames__WEBPACK_IMPORTED_MODULE_1___default()('ciq-chart', {
       'closed-chart': isChartClosed
     })
-  },  false && /*#__PURE__*/false,  false && /*#__PURE__*/false,  false && /*#__PURE__*/false,  false && /*#__PURE__*/false,  false && /*#__PURE__*/false, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  },  false && /*#__PURE__*/false, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_RenderInsideChart_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    at: "subholder"
+  }, !isCandle && !isSpline && isHighestLowestMarkerEnabled && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HighestLowestMarker_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_RenderInsideChart_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    at: "subholder",
+    hideInScrollToEpoch: true
+  }, children),  false && /*#__PURE__*/false,  false && /*#__PURE__*/false, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "chartContainer",
     style: {
       height: chartContainerHeight
