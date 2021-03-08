@@ -1077,8 +1077,7 @@
   display: flex;
   flex-direction: column;
   height: 212px;
-  position: relative;
-  /* iPhone SE screen height fixes due to UI space restrictions */ }
+  position: relative; }
   .mobile-wrapper__content-loader {
     position: absolute;
     height: 100%;
@@ -1088,12 +1087,6 @@
     .mobile-wrapper__content-loader svg {
       height: 100%;
       width: 100%; }
-  @media only screen and (max-height: 480px) {
-    .mobile-wrapper {
-      height: 186px; }
-      .mobile-wrapper .dc-collapsible {
-        transform: scale(1, 0.8);
-        left: 0.8rem; } }
 
 /** @define chart-container; weak */
 .chart-container {
@@ -1133,6 +1126,16 @@
       .chart-container__loader + .smartcharts .cq-bottom-ui-widgets,
       .chart-container__loader + .smartcharts .cq-inchart-subholder {
         display: none; }
+  .chart-container--indicator-mobile .sc-toolbar-widget {
+    background: transparent;
+    border-width: 0;
+    bottom: auto;
+    top: 64px;
+    width: auto;
+    height: 40px;
+    display: flex; }
+  .chart-container--no-indicator-mobile .ciq-menu.sc-studies {
+    display: none !important; }
   .chart-container .smartcharts-mobile .sc-categorical-display {
     height: calc(100% - 8px) !important; }
   .chart-container .cq-context {
@@ -1215,11 +1218,7 @@
       .chart-container .ciq-chart .sc-toolbar-widget {
         background: transparent;
         border-width: 0;
-        bottom: auto;
-        top: 64px;
-        width: auto;
-        height: 40px;
-        display: flex;
+        bottom: 2.8rem;
         /* postcss-bem-linter: ignore */ }
         .chart-container .ciq-chart .sc-toolbar-widget .sc-chart-mode,
         .chart-container .ciq-chart .sc-toolbar-widget .sc-studies {
