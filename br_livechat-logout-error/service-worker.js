@@ -668,10 +668,10 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/br_livechat-logout-error/js/core.main~App_C.b09fbc975e6ca0eb0a50.js",
     "revision": null
   }, {
-    "url": "/br_livechat-logout-error/js/core.main~App_Components_E.3260a609039a0184c01d.js",
+    "url": "/br_livechat-logout-error/js/core.main~App_Components_E.4dc6479acad20600a688.js",
     "revision": null
   }, {
-    "url": "/br_livechat-logout-error/js/core.main~Se.8cca405ed1a96a754a4b.js",
+    "url": "/br_livechat-logout-error/js/core.main~Se.1f9b09e620e59e2ab4d5.js",
     "revision": null
   }, {
     "url": "/br_livechat-logout-error/js/core.main~Stores_b.15ae81dfff5d54141aab.js",
@@ -716,7 +716,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/br_livechat-logout-error/js/core.main~components_src_components_l.0dfec681b22ba8d9e009.js",
     "revision": null
   }, {
-    "url": "/br_livechat-logout-error/js/core.main~s.311121fc44c45db3996b.js",
+    "url": "/br_livechat-logout-error/js/core.main~s.2d507f0c4c10f2b7592a.js",
     "revision": null
   }, {
     "url": "/br_livechat-logout-error/js/core.reality-check-modal.9e8cfa7b2bde446f4384.js",
