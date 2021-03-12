@@ -95,6 +95,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
   * See https://goo.gl/2aRDsh
   */
 
+  importScripts("https://cdn.pushwoosh.com/webpush/v3/pushwoosh-service-worker.js");
   self.skipWaiting();
   workbox.clientsClaim();
   /**
@@ -123,7 +124,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "revision": "3b2a93c934687eeff9489df721bb45ee"
   }, {
     "url": "/br_livechat-logout-error/account/js/currency-radio-button.js",
-    "revision": "6aa6a93c5291658358865b5ecef2b3b0"
+    "revision": "29ced4015579899343a4b4baea0165f3"
   }, {
     "url": "/br_livechat-logout-error/account/js/currency-selector-config.js",
     "revision": "2a182e33653d1424ea1a470b6e376b98"
@@ -132,7 +133,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "revision": "6dfd7288d6794a72c883d1d5cad383ad"
   }, {
     "url": "/br_livechat-logout-error/account/js/currency-selector.js",
-    "revision": "22dc8f1d7e3017b75b857ed61e632b22"
+    "revision": "1bab7588d07d7203407c684a91f3a653"
   }, {
     "url": "/br_livechat-logout-error/account/js/demo-message.js",
     "revision": "30ae941a18c7fb0cae12523b2b8cd7aa"
@@ -216,7 +217,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "revision": "a196e5ea1f8c409211a7f9ce3557cb02"
   }, {
     "url": "/br_livechat-logout-error/account/js/proof-of-address-container.js",
-    "revision": "5e0f0a37bc1eaed417b2414fdb82a42f"
+    "revision": "dadc0bcb7add23bc61fe877b6a62e408"
   }, {
     "url": "/br_livechat-logout-error/account/js/scrollbars-container.js",
     "revision": "d6fe5b36f2f34d3f1f8bb69e8de39275"
@@ -239,7 +240,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/br_livechat-logout-error/css/core.account-signup-modal.2d419514af8154483eac.css",
     "revision": null
   }, {
-    "url": "/br_livechat-logout-error/css/core.account-types-modal.9d375701e99bd66ffa9b.css",
+    "url": "/br_livechat-logout-error/css/core.account-types-modal.0e557c67674f54dc13db.css",
     "revision": null
   }, {
     "url": "/br_livechat-logout-error/css/core.complaints-policy.21cab1da62954279e971.css",
@@ -264,16 +265,16 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "revision": "85812ed2404e46c30ab61e2d6650938a"
   }, {
     "url": "/br_livechat-logout-error/css/coremain~components_src_components_l.main.css",
-    "revision": "71dab2d001023fe1f8bceb819a414b96"
+    "revision": "4ed6a2d34e5e1323696542336fdef83a"
   }, {
     "url": "/br_livechat-logout-error/css/coremain~s.main.css",
-    "revision": "f3210451ac6ea07c418660e3f491f60d"
+    "revision": "0f1b1c29d36d540d737bfd0e5b9e8dfb"
   }, {
     "url": "/br_livechat-logout-error/css/smartcharts.css",
     "revision": "07055d81fe3d537cda084e720e54b959"
   }, {
     "url": "/br_livechat-logout-error/css/trader.main.css",
-    "revision": "8726ee5da47f7af9d8e16d8c658c07b3"
+    "revision": "fc2ba29dbfa3755e1ba3abd09069ee95"
   }, {
     "url": "/br_livechat-logout-error/css/trader.mt5.1e9f799dc4a445d56629.css",
     "revision": "18ecc1290a58314ce93234ba6bd63929"
@@ -288,7 +289,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "revision": "0cb8c9c65c9adde7eec4f6f79e2f4076"
   }, {
     "url": "/br_livechat-logout-error/js/asset-manifest.json",
-    "revision": "62e128c2b2e34b7710237d07efaa6a1e"
+    "revision": "de1d8fa7fd534d415954e3a40e8ff170"
   }, {
     "url": "/br_livechat-logout-error/js/bot/bot-web-ui.main.css",
     "revision": "69a7c9e45842a15a6cff9106a08ca38d"
@@ -650,13 +651,13 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/br_livechat-logout-error/js/cashier.loadjs.2adf858974c0096d308f.js",
     "revision": "2de048860e647716d52fa4b24ce7a970"
   }, {
-    "url": "/br_livechat-logout-error/js/core.account-info.ec486c5d5d72c80675b9.js",
+    "url": "/br_livechat-logout-error/js/core.account-info.e6eec23cba7aaf088aa5.js",
     "revision": null
   }, {
     "url": "/br_livechat-logout-error/js/core.account-signup-modal.ea57aec1bc566fa3c165.js",
     "revision": null
   }, {
-    "url": "/br_livechat-logout-error/js/core.account-types-modal.e6fe3b4ee92bcd18660e.js",
+    "url": "/br_livechat-logout-error/js/core.account-types-modal.2ad560a743c3582988c9.js",
     "revision": null
   }, {
     "url": "/br_livechat-logout-error/js/core.complaints-policy.50e008d3e7e0643453b3.js",
@@ -665,10 +666,10 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/br_livechat-logout-error/js/core.main~A.ef1cb89eccd680415462.js",
     "revision": null
   }, {
-    "url": "/br_livechat-logout-error/js/core.main~App_C.b09fbc975e6ca0eb0a50.js",
+    "url": "/br_livechat-logout-error/js/core.main~App_C.bae176d7062375bfacaa.js",
     "revision": null
   }, {
-    "url": "/br_livechat-logout-error/js/core.main~App_Components_E.4dc6479acad20600a688.js",
+    "url": "/br_livechat-logout-error/js/core.main~App_Components_E.507c66d33d741c7abd54.js",
     "revision": null
   }, {
     "url": "/br_livechat-logout-error/js/core.main~Se.1f9b09e620e59e2ab4d5.js",
@@ -677,19 +678,19 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/br_livechat-logout-error/js/core.main~Stores_b.15ae81dfff5d54141aab.js",
     "revision": null
   }, {
-    "url": "/br_livechat-logout-error/js/core.main~Stores_m.c416f3dfa0be1fcfaaac.js",
+    "url": "/br_livechat-logout-error/js/core.main~Stores_m.be3813f8c536ebfb44bd.js",
     "revision": null
   }, {
-    "url": "/br_livechat-logout-error/js/core.main~U.6f90435fa8d10162ca57.js",
+    "url": "/br_livechat-logout-error/js/core.main~U.3f10dac0c35f54a0f0f0.js",
     "revision": null
   }, {
-    "url": "/br_livechat-logout-error/js/core.main~ac.3ebf0ac6973de96c456c.js",
+    "url": "/br_livechat-logout-error/js/core.main~ac.6c5f98c43f4ac7a0a7fd.js",
     "revision": null
   }, {
     "url": "/br_livechat-logout-error/js/core.main~account_dist_js_address-details_js_5f06f4a4.1645368164d1b8c30d4a.js",
     "revision": null
   }, {
-    "url": "/br_livechat-logout-error/js/core.main~account_dist_js_currency-selector_js_9c69d055.c81781ff69c22a47736e.js",
+    "url": "/br_livechat-logout-error/js/core.main~account_dist_js_currency-selector_js_9c69d055.1bc06aee34c63ccadd48.js",
     "revision": null
   }, {
     "url": "/br_livechat-logout-error/js/core.main~account_dist_js_financial-details_js_bfc31623.9c2a9662f99a5b2a4f08.js",
@@ -710,13 +711,13 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/br_livechat-logout-error/js/core.main~components_src_components_c.5f792176d188456262c8.js",
     "revision": null
   }, {
-    "url": "/br_livechat-logout-error/js/core.main~components_src_components_ca.4bfdfb87d2b26518245d.js",
+    "url": "/br_livechat-logout-error/js/core.main~components_src_components_ca.c4042b8f4ec52f2184db.js",
     "revision": null
   }, {
     "url": "/br_livechat-logout-error/js/core.main~components_src_components_l.0dfec681b22ba8d9e009.js",
     "revision": null
   }, {
-    "url": "/br_livechat-logout-error/js/core.main~s.40f594eb3d66d9661fa2.js",
+    "url": "/br_livechat-logout-error/js/core.main~s.9d3032b6ad26dd33acc2.js",
     "revision": null
   }, {
     "url": "/br_livechat-logout-error/js/core.reality-check-modal.9e8cfa7b2bde446f4384.js",
@@ -884,8 +885,8 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/br_livechat-logout-error/js/smartcharts/zh_tw-json-077157.smartcharts.js",
     "revision": "93aa70880e001ac6ba2facc43fe38536"
   }, {
-    "url": "/br_livechat-logout-error/js/trader.Modules_Trading_Components_Form_TradeParams_Multiplier_info_jsx-Modules_Trading_Components_Fo-bd55fc.e21d2aa79d03579cfb00.js",
-    "revision": "8059654aca513547c618fb588503f86e"
+    "url": "/br_livechat-logout-error/js/trader.Modules_Trading_Components_Form_TradeParams_Multiplier_info_jsx-Modules_Trading_Components_Fo-bd55fc.e326a4f1a1a999a10f7b.js",
+    "revision": "f79010777a895073b4dc2e98f5f8c9b4"
   }, {
     "url": "/br_livechat-logout-error/js/trader.contract.4bce11705040a76b9e2b.js",
     "revision": "c417c944ed1f58b49f22aecc3f8eb6a8"
@@ -896,14 +897,14 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/br_livechat-logout-error/js/trader.mt5.b2e6de89988bfe2f9f2e.js",
     "revision": "1d9436b74ba27a7ccf03456990071ddc"
   }, {
-    "url": "/br_livechat-logout-error/js/trader.reports.1371fae4dc746c29f8b0.js",
-    "revision": "9c6f2cbd70b66be6e3f277431fe232bd"
+    "url": "/br_livechat-logout-error/js/trader.reports.8b42035a2c06926c796e.js",
+    "revision": "3b374a1a6a73862f1bbd62884d179b12"
   }, {
-    "url": "/br_livechat-logout-error/js/trader.screen-large.c4f963b37ecdbadfadef.js",
-    "revision": "f201fc384e3cf99cacd84fd8ef19055c"
+    "url": "/br_livechat-logout-error/js/trader.screen-large.8f883ded14d39709201e.js",
+    "revision": "2d5d0ee759614bff38958f0d935d6c44"
   }, {
-    "url": "/br_livechat-logout-error/js/trader.screen-small.32ab91d48d0eb87ffaf3.js",
-    "revision": "efa29b74b32fb9b61de85970560248f2"
+    "url": "/br_livechat-logout-error/js/trader.screen-small.324fc0da2d25cd7ca5fd.js",
+    "revision": "f882f8e4e338935b9cb1afb3bd048866"
   }, {
     "url": "/br_livechat-logout-error/js/trader.settings-chart.c3b029283e524868acd4.js",
     "revision": "83fb910243484003c944f15c21ee8349"
@@ -921,40 +922,40 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "revision": "6e4ed9640876a6b914a0d7f5da083ea4"
   }, {
     "url": "/br_livechat-logout-error/public/i18n/ach.json",
-    "revision": "000502b829cb2872e105bfc7a68f8ab2"
+    "revision": "95d9e8444ab25b04a7b86efd63b544b8"
   }, {
     "url": "/br_livechat-logout-error/public/i18n/es.json",
-    "revision": "61bf10ba56f88d20cd581b99884d6250"
+    "revision": "46102794e05e3a92e5860f8b3dc4eb18"
   }, {
     "url": "/br_livechat-logout-error/public/i18n/fr.json",
-    "revision": "536c41ad255d2a6578f66251661558f5"
+    "revision": "09ac9e4b14da2b1f5e7d8ce521f8e051"
   }, {
     "url": "/br_livechat-logout-error/public/i18n/id.json",
-    "revision": "382a76185cd5894c5b9cab317e49f5d5"
+    "revision": "039766a6a376a6ca09f25514ff8cb76e"
   }, {
     "url": "/br_livechat-logout-error/public/i18n/it.json",
-    "revision": "27d617868016cc5256a7c71d265ea141"
+    "revision": "320155f9b9a552d1f983576c87dfc14e"
   }, {
     "url": "/br_livechat-logout-error/public/i18n/pl.json",
-    "revision": "08f628bdf051fcd9cead5f02a9782713"
+    "revision": "e4e9f3526b28374da53388903609a397"
   }, {
     "url": "/br_livechat-logout-error/public/i18n/pt.json",
-    "revision": "a5460bc014d5d7bd06ef031c6acc92a0"
+    "revision": "f38567f31452c9b3cf7f453fdf81861b"
   }, {
     "url": "/br_livechat-logout-error/public/i18n/ru.json",
-    "revision": "70f50e699539be27fc816e0df78247e4"
+    "revision": "99feb6199d4b83bbbb4cb5ba3924c554"
   }, {
     "url": "/br_livechat-logout-error/public/i18n/th.json",
-    "revision": "37923a6e8defb091af989f0e3e7251fa"
+    "revision": "8a71886d38269396fb37b8fb04d67619"
   }, {
     "url": "/br_livechat-logout-error/public/i18n/vi.json",
-    "revision": "5e38e45f8ad9b5adc4118c51dcb9db04"
+    "revision": "960bd331b44dce8f37fe6d7436822dfc"
   }, {
     "url": "/br_livechat-logout-error/public/i18n/zh_cn.json",
-    "revision": "028b8e678c9b5035ee12cd31f4f3c7c8"
+    "revision": "b929c899f4afeb5227afdf7b1014dbca"
   }, {
     "url": "/br_livechat-logout-error/public/i18n/zh_tw.json",
-    "revision": "e58a5b21c6f81c2ee2e8ca2ea078f08f"
+    "revision": "4364fa693814a52775c3d2fbb0246fc5"
   }, {
     "url": "/br_livechat-logout-error/public/images/app/header/dbot-logo.svg",
     "revision": "74dd603772623201c277552d07db9dea"
@@ -1050,7 +1051,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "revision": "e0543288c8157aeb3bdd984219c150ee"
   }, {
     "url": "/br_livechat-logout-error/public/images/sprite/common.svg",
-    "revision": "2a4f6b7f969e909fc19bb84146187da8"
+    "revision": "2a4bc2730f4886cd0a78e6e763217549"
   }, {
     "url": "/br_livechat-logout-error/public/images/sprite/currency.svg",
     "revision": "3955f98d0403f371acffa892627a39c6"
@@ -1066,9 +1067,6 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
   }, {
     "url": "/br_livechat-logout-error/public/images/sprite/underlying.svg",
     "revision": "46264d8b921a1db0c1b97979b1265353"
-  }, {
-    "url": "/br_livechat-logout-error/pushwoosh-service-worker.js",
-    "revision": "8579a0257a4a87289af210cbe5d27308"
   }, {
     "url": "/br_livechat-logout-error/robots.txt",
     "revision": "6978a616c585d03cb5b542a891995efb"
