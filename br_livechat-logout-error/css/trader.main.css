@@ -2150,6 +2150,8 @@
       /* postcss-bem-linter: ignore */ }
       .contract-type-item__icon:hover .dc-icon {
         pointer-events: none; }
+  .contract-type-item--invisible {
+    display: none; }
   .contract-type-item--selected {
     background: var(--state-active);
     color: var(--text-prominent); }
