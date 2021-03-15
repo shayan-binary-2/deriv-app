@@ -717,7 +717,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/br_reality-check/js/core.main~components_src_components_l.0dfec681b22ba8d9e009.js",
     "revision": null
   }, {
-    "url": "/br_reality-check/js/core.main~s.4fbf6887b06ed119337a.js",
+    "url": "/br_reality-check/js/core.main~s.2ee0b048c9419ecc2617.js",
     "revision": null
   }, {
     "url": "/br_reality-check/js/core.reality-check-modal.9e8cfa7b2bde446f4384.js",
