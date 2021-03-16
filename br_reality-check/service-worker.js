@@ -717,10 +717,10 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/br_reality-check/js/core.main~components_src_components_l.0dfec681b22ba8d9e009.js",
     "revision": null
   }, {
-    "url": "/br_reality-check/js/core.main~s.5cc3a404ee8ab2f39bdf.js",
+    "url": "/br_reality-check/js/core.main~s.0d20ca1e585c7b7f5f92.js",
     "revision": null
   }, {
-    "url": "/br_reality-check/js/core.reality-check-modal.9e8cfa7b2bde446f4384.js",
+    "url": "/br_reality-check/js/core.reality-check-modal.c07e20f7ec4a06b6503b.js",
     "revision": null
   }, {
     "url": "/br_reality-check/js/core.reset-password-modal.d4e80b45ee8b7811d8e2.js",
