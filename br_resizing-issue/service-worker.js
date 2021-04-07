@@ -746,7 +746,7 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_resizing-issue/js/core.main~components_src_components_l.2d208790acb870af0d01.js",
     "revision": null
   }, {
-    "url": "/br_resizing-issue/js/core.main~s.9bdf047350f54910ddda.js",
+    "url": "/br_resizing-issue/js/core.main~s.031d9d2d82a70440abbf.js",
     "revision": null
   }, {
     "url": "/br_resizing-issue/js/core.reality-check-modal.042f184a060be537e55c.js",
