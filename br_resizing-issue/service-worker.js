@@ -312,7 +312,7 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "revision": "0cb8c9c65c9adde7eec4f6f79e2f4076"
   }, {
     "url": "/br_resizing-issue/js/asset-manifest.json",
-    "revision": "ccd408029b85e0800ca466c8218b3024"
+    "revision": "24ef92500a9e61712dbab2fd66e3cede"
   }, {
     "url": "/br_resizing-issue/js/bot/bot-web-ui.main.css",
     "revision": "f24a41d5324857325e27c49243a44803"
@@ -695,10 +695,10 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_resizing-issue/js/core.main~App_Components_E.358575ba22d896ba0f91.js",
     "revision": null
   }, {
-    "url": "/br_resizing-issue/js/core.main~Se.15c72d04c88995a605ab.js",
+    "url": "/br_resizing-issue/js/core.main~Se.cbf0d60f390f17c9666f.js",
     "revision": null
   }, {
-    "url": "/br_resizing-issue/js/core.main~Stores_b.0abd4bed631f6c1784eb.js",
+    "url": "/br_resizing-issue/js/core.main~Stores_b.3b6bda7a50c364769ebc.js",
     "revision": null
   }, {
     "url": "/br_resizing-issue/js/core.main~Stores_m.afbdcce23b56c10b7c4f.js",
@@ -746,7 +746,7 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_resizing-issue/js/core.main~components_src_components_l.2d208790acb870af0d01.js",
     "revision": null
   }, {
-    "url": "/br_resizing-issue/js/core.main~s.031d9d2d82a70440abbf.js",
+    "url": "/br_resizing-issue/js/core.main~s.b758f61817f716ec42b8.js",
     "revision": null
   }, {
     "url": "/br_resizing-issue/js/core.reality-check-modal.042f184a060be537e55c.js",
@@ -857,9 +857,6 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_resizing-issue/js/smartcharts/chartiq-776126.smartcharts.js",
     "revision": "bd8b1e81d8cbf94c08e5bc47f3f3a225"
   }, {
-    "url": "/br_resizing-issue/js/smartcharts/de-json-a31ab1.smartcharts.js",
-    "revision": "4f7529db6afd5b20d5ae3f578eed225b"
-  }, {
     "url": "/br_resizing-issue/js/smartcharts/de-json-ec472b.smartcharts.js",
     "revision": "fa42e5399cdc15d1271581f354e4151d"
   }, {
@@ -872,14 +869,8 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_resizing-issue/js/smartcharts/es-json-633a64.smartcharts.js",
     "revision": "c9961f98c6150ab93c35e8640e785ce8"
   }, {
-    "url": "/br_resizing-issue/js/smartcharts/es-json-a4de7e.smartcharts.js",
-    "revision": "e9c388ed25a4a0387b6e1e0e9639a361"
-  }, {
     "url": "/br_resizing-issue/js/smartcharts/fr-json-069264.smartcharts.js",
     "revision": "b31458cec7c094388d6d52e72d146ed6"
-  }, {
-    "url": "/br_resizing-issue/js/smartcharts/fr-json-331f9b.smartcharts.js",
-    "revision": "e5b804d84ceae144323df322034c459e"
   }, {
     "url": "/br_resizing-issue/js/smartcharts/fr-json-c881bb.smartcharts.js",
     "revision": "7fd5a6cba8bfdab4b9bdc33a3b7f58c5"
@@ -893,23 +884,14 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_resizing-issue/js/smartcharts/id-json-a814c2.smartcharts.js",
     "revision": "b6645d3f129141685a0f706368baf16e"
   }, {
-    "url": "/br_resizing-issue/js/smartcharts/id-json-c1d0a8.smartcharts.js",
-    "revision": "ad705412e363637aab138b1968efc718"
-  }, {
     "url": "/br_resizing-issue/js/smartcharts/id-json-d17334.smartcharts.js",
     "revision": "ee9f1f1e8026bef0769b48202758a780"
   }, {
     "url": "/br_resizing-issue/js/smartcharts/it-json-01b804.smartcharts.js",
     "revision": "dc1f2dc82842754e8259c3d867ad3015"
   }, {
-    "url": "/br_resizing-issue/js/smartcharts/it-json-17a341.smartcharts.js",
-    "revision": "ce4e35531e9a2ccfb8086ff43c75ab06"
-  }, {
     "url": "/br_resizing-issue/js/smartcharts/it-json-8cd36e.smartcharts.js",
     "revision": "f5129caf5320a33dbafd79c17bfdb4a7"
-  }, {
-    "url": "/br_resizing-issue/js/smartcharts/messages-json-0ca822.smartcharts.js",
-    "revision": "6d420b7dd1897581417cce30e7f76243"
   }, {
     "url": "/br_resizing-issue/js/smartcharts/messages-json-609e83.smartcharts.js",
     "revision": "da30ba797d1b0de44caa92d65ec3d955"
@@ -923,23 +905,11 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_resizing-issue/js/smartcharts/nl-json-a996b6.smartcharts.js",
     "revision": "c64af1c917784e2aeadc3e961f31c21a"
   }, {
-    "url": "/br_resizing-issue/js/smartcharts/nl-json-cb17a9.smartcharts.js",
-    "revision": "765add3b812d589c44ca28117bca27d5"
-  }, {
     "url": "/br_resizing-issue/js/smartcharts/pl-json-42dc00.smartcharts.js",
     "revision": "f12c748551deed66f03093381dfe218b"
   }, {
-    "url": "/br_resizing-issue/js/smartcharts/pl-json-8bba66.smartcharts.js",
-    "revision": "4f39f75370090af55fb3d32af188ced5"
-  }, {
     "url": "/br_resizing-issue/js/smartcharts/pl-json-b1938e.smartcharts.js",
     "revision": "c5d1ea23b6d61f7ff011d86d29370a2f"
-  }, {
-    "url": "/br_resizing-issue/js/smartcharts/pt-json-4a91c8.smartcharts.js",
-    "revision": "17351281b1672076a5655a3227f9e824"
-  }, {
-    "url": "/br_resizing-issue/js/smartcharts/pt-json-5be80a.smartcharts.js",
-    "revision": "15f7ce853f8566b322e266895806b9f7"
   }, {
     "url": "/br_resizing-issue/js/smartcharts/pt-json-777018.smartcharts.js",
     "revision": "61dad82e06982d9b73fe387c51d40214"
@@ -953,17 +923,11 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_resizing-issue/js/smartcharts/ru-json-60758c.smartcharts.js",
     "revision": "e0193ef0f16f53f5add04316ed0f86cc"
   }, {
-    "url": "/br_resizing-issue/js/smartcharts/ru-json-c9548c.smartcharts.js",
-    "revision": "5679797b981bc422662bd107fd3d02cc"
-  }, {
     "url": "/br_resizing-issue/js/smartcharts/sprite-7e3422.smartcharts.svg",
     "revision": "5d2dae390f714710ba244edf8428fb96"
   }, {
     "url": "/br_resizing-issue/js/smartcharts/th-json-158cae.smartcharts.js",
     "revision": "f4193aa3fa1c325d08b39cd535511caa"
-  }, {
-    "url": "/br_resizing-issue/js/smartcharts/th-json-240958.smartcharts.js",
-    "revision": "fe68eac7058cc5b36dc516234d225644"
   }, {
     "url": "/br_resizing-issue/js/smartcharts/th-json-e33836.smartcharts.js",
     "revision": "158994396b4ee21bd9ea01f46ca5ae9a"
@@ -973,9 +937,6 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
   }, {
     "url": "/br_resizing-issue/js/smartcharts/vendors~resize-observer-polyfill-b3c6fb.smartcharts.js",
     "revision": "3db12ac4fdea6045ac83eed11fc63bf3"
-  }, {
-    "url": "/br_resizing-issue/js/smartcharts/vi-json-402724.smartcharts.js",
-    "revision": "ff0204d6d4c45e4118feb2f7165f3b7b"
   }, {
     "url": "/br_resizing-issue/js/smartcharts/vi-json-49b938.smartcharts.js",
     "revision": "c2442749540fbaa9c3215af572d040ef"
@@ -989,14 +950,8 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_resizing-issue/js/smartcharts/zh-json-841475.smartcharts.js",
     "revision": "815641d987f687524174eb4eeb9eb350"
   }, {
-    "url": "/br_resizing-issue/js/smartcharts/zh-json-c7ab6a.smartcharts.js",
-    "revision": "d6a2397fa198c692da6d0fa586f9c825"
-  }, {
     "url": "/br_resizing-issue/js/smartcharts/zh_cn-json-001ee3.smartcharts.js",
     "revision": "fa20876e3d11272e0a2ce6b335b5a4b4"
-  }, {
-    "url": "/br_resizing-issue/js/smartcharts/zh_cn-json-04507b.smartcharts.js",
-    "revision": "91c498a1467bd92cd6c6ab3c57c6b1e5"
   }, {
     "url": "/br_resizing-issue/js/smartcharts/zh_cn-json-6c628d.smartcharts.js",
     "revision": "f200706fe4399274401ac8c0daf6460c"
@@ -1006,9 +961,6 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
   }, {
     "url": "/br_resizing-issue/js/smartcharts/zh_tw-json-a0c0c4.smartcharts.js",
     "revision": "f43c947400826909f8ffbadc5159acd8"
-  }, {
-    "url": "/br_resizing-issue/js/smartcharts/zh_tw-json-c75f76.smartcharts.js",
-    "revision": "af97f9867e84731628e5663df15aae0d"
   }, {
     "url": "/br_resizing-issue/js/trader.Modules_Trading_Components_Form_TradeParams_Multiplier_info_jsx-Modules_Trading_Components_Fo-bd55fc.64df6ea6569c794e8af2.js",
     "revision": "f53c092590e7a3c25b8ab70b97cf52fb"
@@ -1047,43 +999,43 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "revision": "7701cabeb46401c1bc52a983a5676a81"
   }, {
     "url": "/br_resizing-issue/public/i18n/ach.json",
-    "revision": "1aa2cb176803b0cf84d278b8b55eb91e"
+    "revision": "f9ae468d01f527f23fba1b43ae0aa49b"
   }, {
     "url": "/br_resizing-issue/public/i18n/es.json",
-    "revision": "59f089d0a1fa5c50ef0f42f7320b5d42"
+    "revision": "cce8f7587542f442903dfe9469804428"
   }, {
     "url": "/br_resizing-issue/public/i18n/fr.json",
-    "revision": "d7a2e696f24aed49562b041169c63a62"
+    "revision": "a4446a2b68144c948198e770d15ae736"
   }, {
     "url": "/br_resizing-issue/public/i18n/id.json",
-    "revision": "260034c6fe69cfc3c1fbbc5b209f3735"
+    "revision": "55dd926d9a4aee14122ab2c84ec5fbc9"
   }, {
     "url": "/br_resizing-issue/public/i18n/it.json",
-    "revision": "5433a5ddb4c65740b703b9fbad93f20e"
+    "revision": "40652a001178c7c56262e28ef1de971f"
   }, {
     "url": "/br_resizing-issue/public/i18n/ko.json",
-    "revision": "d2a1d70879623df869244180bd2c442c"
+    "revision": "b58633cff07ca17453a823c0511ef735"
   }, {
     "url": "/br_resizing-issue/public/i18n/pl.json",
-    "revision": "b109b7a77bb85ca3a566ac9e97fd9d90"
+    "revision": "84e5f0965f09a326860b36f456149383"
   }, {
     "url": "/br_resizing-issue/public/i18n/pt.json",
-    "revision": "6b7d1778cd869c6207079eaf188a0f9d"
+    "revision": "ce06b8c63b1a343772c4001436a8258f"
   }, {
     "url": "/br_resizing-issue/public/i18n/ru.json",
-    "revision": "287ec6cff5d87cbde29dcee11de74a29"
+    "revision": "da3effaf79b67152b175b66d9f5fe01d"
   }, {
     "url": "/br_resizing-issue/public/i18n/th.json",
-    "revision": "30ecfaa4f1a80f971c4d2586f3497376"
+    "revision": "c38d49822a978f032d1bab0e3926c864"
   }, {
     "url": "/br_resizing-issue/public/i18n/vi.json",
-    "revision": "7ee8d2c1064604d03b99e138239a432c"
+    "revision": "ed4def0e42dd8d9bf1761efa13995ea6"
   }, {
     "url": "/br_resizing-issue/public/i18n/zh_cn.json",
-    "revision": "7553240fed0422c583766145e435c157"
+    "revision": "58d3e9b5c777bd3320957b84bfd4174b"
   }, {
     "url": "/br_resizing-issue/public/i18n/zh_tw.json",
-    "revision": "50b0381ff0add1f102fa3dcca0cd707f"
+    "revision": "ab1e4fc8e2cabf4fa7d36259b558bf11"
   }, {
     "url": "/br_resizing-issue/public/images/app/header/dbot-logo.svg",
     "revision": "74dd603772623201c277552d07db9dea"
@@ -1179,7 +1131,7 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "revision": "e0543288c8157aeb3bdd984219c150ee"
   }, {
     "url": "/br_resizing-issue/public/images/sprite/common.svg",
-    "revision": "4e1b6aaf01b15e730a66e82638eec34c"
+    "revision": "72fbfade2d5b81e3bc28c2a5ba1bf682"
   }, {
     "url": "/br_resizing-issue/public/images/sprite/currency.svg",
     "revision": "3955f98d0403f371acffa892627a39c6"
