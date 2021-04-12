@@ -689,7 +689,7 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_chart-with-optimized/js/core.main~A.482c092cd86b0ff5fe80.js",
     "revision": null
   }, {
-    "url": "/br_chart-with-optimized/js/core.main~App_C.7289a6d8cc8f7847f7ba.js",
+    "url": "/br_chart-with-optimized/js/core.main~App_C.829f9cb7360c0cf9011d.js",
     "revision": null
   }, {
     "url": "/br_chart-with-optimized/js/core.main~App_Components_E.358575ba22d896ba0f91.js",
@@ -746,7 +746,7 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_chart-with-optimized/js/core.main~components_src_components_l.2d208790acb870af0d01.js",
     "revision": null
   }, {
-    "url": "/br_chart-with-optimized/js/core.main~s.fd82f6849b4f45d648c2.js",
+    "url": "/br_chart-with-optimized/js/core.main~s.e11e904c0c4c8cac3e04.js",
     "revision": null
   }, {
     "url": "/br_chart-with-optimized/js/core.reality-check-modal.042f184a060be537e55c.js",
