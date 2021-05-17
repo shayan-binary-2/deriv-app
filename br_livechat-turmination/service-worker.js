@@ -746,7 +746,7 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_livechat-turmination/js/core.main~components_src_components_l.b6566315be9474a5f858.js",
     "revision": null
   }, {
-    "url": "/br_livechat-turmination/js/core.main~s.e39240aef271852b0622.js",
+    "url": "/br_livechat-turmination/js/core.main~s.e07fc3c5360cebe04519.js",
     "revision": null
   }, {
     "url": "/br_livechat-turmination/js/core.reality-check-modal.76722df3ad5c9f6088c5.js",
