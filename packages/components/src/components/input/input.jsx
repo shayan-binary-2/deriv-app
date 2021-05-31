@@ -13,13 +13,16 @@ const Input = React.forwardRef(
             className,
             classNameError,
             classNameWarn,
+            classNameHint,
             disabled,
             error,
+            field_className,
             has_character_counter,
             hint,
             is_relative_hint,
             initial_character_count,
             label,
+            label_className,
             leading_icon,
             max_characters,
             trailing_icon,
@@ -76,7 +79,7 @@ const Input = React.forwardRef(
                         <input
                             ref={ref}
                             {...props}
-                            className={classNames('dc-input__field', {
+                            className={classNames('dc-input__field', field_className, {
                                 'dc-input__field--placeholder-visible': !label && props.placeholder,
                             })}
                             onFocus={props.onFocus}
@@ -91,7 +94,7 @@ const Input = React.forwardRef(
                             className: classNames('dc-input__trailing-icon', trailing_icon.props.className),
                         })}
                     {label && (
-                        <label className='dc-input__label' htmlFor={props.id}>
+                        <label className={classNames('dc-input__label', label_className)} htmlFor={props.id}>
                             {label}
                         </label>
                     )}
@@ -101,7 +104,12 @@ const Input = React.forwardRef(
                             {warn && <Field className={classNameWarn} message={warn} type='warn' />}
                             {!error && hint && !is_relative_hint && (
                                 <div className='dc-input__hint'>
-                                    <Text as='p' color='less-prominent' size='xxs'>
+                                    <Text
+                                        as='p'
+                                        color='less-prominent'
+                                        size='xxs'
+                                        className={classNames(classNameHint)}
+                                    >
                                         {hint}
                                     </Text>
                                 </div>
@@ -143,6 +151,7 @@ Input.propTypes = {
     className: PropTypes.string,
     classNameError: PropTypes.string,
     classNameWarn: PropTypes.string,
+    classNameHint: PropTypes.string,
     disabled: PropTypes.bool,
     error: PropTypes.string,
     has_character_counter: PropTypes.bool,

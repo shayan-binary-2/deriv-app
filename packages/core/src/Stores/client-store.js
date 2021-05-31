@@ -12,6 +12,7 @@ import {
     State,
     toMoment,
     deriv_urls,
+    urlForLanguage,
 } from '@deriv/shared';
 import { getLanguage, localize } from '@deriv/translations';
 import { requestLogout, WS } from 'Services';
@@ -25,6 +26,7 @@ import { setDeviceDataCookie } from './Helpers/device';
 import { handleClientNotifications, clientNotifications } from './Helpers/client-notifications';
 import { buildCurrenciesList } from './Modules/Trading/Helpers/currency';
 
+const LANGUAGE_KEY = 'i18n_language';
 const storage_key = 'client.accounts';
 const store_name = 'client_store';
 const eu_shortcode_regex = new RegExp('^(maltainvest|malta|iom)$');
@@ -32,6 +34,7 @@ const eu_excluded_regex = new RegExp('^mt$');
 
 export default class ClientStore extends BaseStore {
     @observable loginid;
+    @observable preferred_language;
     @observable upgrade_info;
     @observable email;
     @observable accounts = {};
@@ -57,6 +60,7 @@ export default class ClientStore extends BaseStore {
     @observable is_logging_in = false;
     @observable has_logged_out = false;
     @observable is_landing_company_loaded = false;
+    @observable is_account_setting_loaded = false;
     // this will store the landing_company API response, including
     // financial_company: {}
     // gaming_company: {}
@@ -80,6 +84,7 @@ export default class ClientStore extends BaseStore {
         reset_password: '',
         payment_withdraw: '',
         payment_agent_withdraw: '',
+        trading_platform_password_reset: '',
     };
     @observable account_limits = {};
 
@@ -110,6 +115,7 @@ export default class ClientStore extends BaseStore {
                 this.currency,
                 this.residence,
                 this.account_settings,
+                this.preferred_language,
             ],
             () => {
                 this.setCookieAccount();
@@ -404,6 +410,16 @@ export default class ClientStore extends BaseStore {
     }
 
     @computed
+    get is_social_signup() {
+        return this.account_status?.status?.includes('social_signup');
+    }
+
+    @computed
+    get is_trading_password_required() {
+        return this.account_status?.status?.includes('trading_password_required');
+    }
+
+    @computed
     get is_financial_information_incomplete() {
         return this.account_status?.status?.some(status => status === 'financial_information_not_complete');
     }
@@ -425,6 +441,11 @@ export default class ClientStore extends BaseStore {
         const document_status = this.account_status?.authentication?.document?.status;
         const identity_status = this.account_status?.authentication?.identity?.status;
         return { document_status, identity_status };
+    }
+
+    @computed
+    get social_identity_provider() {
+        return this.account_status?.social_identity_provider;
     }
 
     @computed
@@ -673,9 +694,24 @@ export default class ClientStore extends BaseStore {
     }
 
     @action.bound
+    setPreferredLanguage = lang => {
+        this.preferred_language = lang;
+        LocalStore.setObject(LANGUAGE_KEY, lang);
+    };
+
+    @action.bound
     setCookieAccount() {
-        const domain = window.location.hostname.includes('deriv') ? deriv_urls.DERIV_HOST_NAME : 'binary.sx';
-        const { loginid, email, landing_company_shortcode, currency, residence, account_settings } = this;
+        const domain = /deriv\.(com|me)/.test(window.location.hostname) ? deriv_urls.DERIV_HOST_NAME : 'binary.sx';
+        // eslint-disable-next-line max-len
+        const {
+            loginid,
+            email,
+            landing_company_shortcode,
+            currency,
+            residence,
+            account_settings,
+            preferred_language,
+        } = this;
         const { first_name, last_name, name } = account_settings;
         if (loginid && email) {
             const client_information = {
@@ -687,6 +723,7 @@ export default class ClientStore extends BaseStore {
                 first_name,
                 last_name,
                 name,
+                preferred_language,
             };
             Cookies.set('client_information', client_information, { domain });
             this.has_cookie_account = true;
@@ -920,6 +957,11 @@ export default class ClientStore extends BaseStore {
         return this.website_status && !BinarySocket.getAvailability().is_down;
     }
 
+    isEuCountrySelected = selected_country => {
+        if (selected_country) return isEuCountry(selected_country);
+        return false;
+    };
+
     isAccountOfType = type => {
         const client_account_type = getClientAccountType(this.loginid);
 
@@ -1016,7 +1058,6 @@ export default class ClientStore extends BaseStore {
     async init(login_new_user) {
         this.setIsLoggingIn(true);
         const authorize_response = await this.setUserLogin(login_new_user);
-
         this.setDeviceData();
 
         // On case of invalid token, no need to continue with additional api calls.
@@ -1037,7 +1078,6 @@ export default class ClientStore extends BaseStore {
 
         this.setLoginId(LocalStore.get('active_loginid'));
         this.setAccounts(LocalStore.getObject(storage_key));
-
         this.setSwitched('');
         let client = this.accounts[this.loginid];
         // If there is an authorize_response, it means it was the first login
@@ -1059,6 +1099,10 @@ export default class ClientStore extends BaseStore {
             runInAction(() => {
                 this.is_populating_account_list = false;
             });
+            const language = authorize_response.authorize.preferred_language;
+            if (language !== 'EN' && language !== LocalStore.get(LANGUAGE_KEY)) {
+                window.location.replace(urlForLanguage(authorize_response.authorize.preferred_language));
+            }
         }
 
         /**
@@ -1096,7 +1140,7 @@ export default class ClientStore extends BaseStore {
                 })
             );
             const account_settings = (await WS.authorized.cache.getSettings()).get_settings;
-
+            this.setPreferredLanguage(account_settings.preferred_language);
             await this.fetchResidenceList();
 
             if (account_settings && !account_settings.residence) {
@@ -1442,6 +1486,7 @@ export default class ClientStore extends BaseStore {
     @action.bound
     setAccountSettings(settings) {
         this.account_settings = settings;
+        this.is_account_setting_loaded = true;
     }
 
     @action.bound
@@ -1707,34 +1752,39 @@ export default class ClientStore extends BaseStore {
     }
 
     @action.bound
-    onSignup({ password, residence }, cb) {
+    onSignup({ password, residence, email_consent }, cb) {
         if (!this.verification_code.signup || !password || !residence) return;
-
+        if (email_consent === undefined) return;
+        email_consent = email_consent ? 1 : 0;
         // Currently the code doesn't reach here and the console log is needed for debugging.
         // TODO: remove console log when AccountSignup component and validation are ready
-        WS.newAccountVirtual(this.verification_code.signup, password, residence, this.getSignupParams()).then(
-            async response => {
-                if (response.error) {
-                    cb(response.error.message);
-                } else {
-                    cb();
-                    // Initialize client store with new user login
-                    const { client_id, currency, oauth_token } = response.new_account_virtual;
-                    await this.switchToNewlyCreatedAccount(client_id, oauth_token, currency);
+        WS.newAccountVirtual(
+            this.verification_code.signup,
+            password,
+            residence,
+            email_consent,
+            this.getSignupParams()
+        ).then(async response => {
+            if (response.error) {
+                cb(response.error.message);
+            } else {
+                cb();
+                // Initialize client store with new user login
+                const { client_id, currency, oauth_token } = response.new_account_virtual;
+                await this.switchToNewlyCreatedAccount(client_id, oauth_token, currency);
 
-                    // GTM Signup event
-                    this.root_store.gtm.pushDataLayer({
-                        event: 'virtual_signup',
-                    });
+                // GTM Signup event
+                this.root_store.gtm.pushDataLayer({
+                    event: 'virtual_signup',
+                });
 
-                    this.root_store.ui.showAccountTypesModalForEuropean();
+                this.root_store.ui.showAccountTypesModalForEuropean();
 
-                    if (this.is_mt5_allowed) {
-                        this.root_store.ui.toggleWelcomeModal({ is_visible: true, should_persist: true });
-                    }
+                if (this.is_mt5_allowed) {
+                    this.root_store.ui.toggleWelcomeModal({ is_visible: true, should_persist: true });
                 }
             }
-        );
+        });
     }
 
     async switchToNewlyCreatedAccount(client_id, oauth_token, currency) {
