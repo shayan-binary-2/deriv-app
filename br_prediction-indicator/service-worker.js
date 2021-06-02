@@ -162,7 +162,7 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "revision": "7437b021a1d4f7ba8b3886e5106b0169"
   }, {
     "url": "/br_prediction-indicator/account/js/file-uploader-container.js",
-    "revision": "5acef3d33caa42924b3fcba0d0230d11"
+    "revision": "91df35d339601df0a4fdfc2bf738772d"
   }, {
     "url": "/br_prediction-indicator/account/js/financial-assessment.js",
     "revision": "f30cfb8de3ad9f6bb8040579c8f3c92d"
@@ -237,7 +237,7 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "revision": "2f5cb3eabcab4f24755b1938e99d0076"
   }, {
     "url": "/br_prediction-indicator/account/js/proof-of-address-container.js",
-    "revision": "2a290742457b6c0ad49523687428e28f"
+    "revision": "3404d5db2759b39659a398d23faafe9a"
   }, {
     "url": "/br_prediction-indicator/account/js/scrollbars-container.js",
     "revision": "dab49cc1921881b2d3bd7aad4878cb17"
@@ -261,7 +261,7 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "revision": "fe8527c6e9dc4dc3d5367a2a3f45f148"
   }, {
     "url": "/br_prediction-indicator/css/cashier.css",
-    "revision": "51beb35f01a2536037923292551de687"
+    "revision": "c8e817f6649691ae355071731e12cf09"
   }, {
     "url": "/br_prediction-indicator/css/core.account-signup-modal.44a3b15e259eb7bc21b9.css",
     "revision": null
@@ -285,37 +285,37 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "revision": "0e841874669932520785dac36296edd3"
   }, {
     "url": "/br_prediction-indicator/css/coremain~components_src_components_a.main.css",
-    "revision": "ee7df9687d344a693519ba1da3088e11"
+    "revision": "2f547bde43e962010d9a18cc28e73820"
   }, {
     "url": "/br_prediction-indicator/css/coremain~components_src_components_c.main.css",
     "revision": "9cdf92687a14e137024ae510dd91556a"
   }, {
     "url": "/br_prediction-indicator/css/coremain~components_src_components_l.main.css",
-    "revision": "197f022c5427a97e47b1e956d5e1ac91"
+    "revision": "b4639217d2e10bcc05ae5aef5168b341"
   }, {
     "url": "/br_prediction-indicator/css/coremain~s.main.css",
-    "revision": "2736b4a7ebbeb98375451a1bad70f26f"
+    "revision": "ca31cfae9949bf3293b2de2c92425e32"
   }, {
     "url": "/br_prediction-indicator/css/smartcharts.css",
-    "revision": "10cc7c9fbb84171358d64731762fdb43"
+    "revision": "d829b08f339c0699f2f1750b691c30cf"
   }, {
     "url": "/br_prediction-indicator/css/trader.main.css",
-    "revision": "926fe1139c934c60fa08a4a5148f6cc1"
+    "revision": "a1dbd12a776a774d833e181681da5a38"
   }, {
-    "url": "/br_prediction-indicator/css/trader.mt5.7b07f1643da320e7d2c5.css",
-    "revision": "198b0b88fdf9909fa36628dd10105096"
+    "url": "/br_prediction-indicator/css/trader.mt5.226a9a477a7cac8a28a6.css",
+    "revision": "096bf94107357014e5cae0dade0b3253"
   }, {
-    "url": "/br_prediction-indicator/css/trader.reports.5a0452e4492423c3009c.css",
-    "revision": "cba228dc73f9fbf5078a9b3e627dfd6e"
+    "url": "/br_prediction-indicator/css/trader.reports.05a3264e948425aaf123.css",
+    "revision": "8764ab9e60edda00ec490a9b4c9d9151"
   }, {
-    "url": "/br_prediction-indicator/css/trader.screen-small.57c129f150f67a632e5e.css",
-    "revision": "ffe839f5b8921b983b4ef2bc677cee08"
+    "url": "/br_prediction-indicator/css/trader.screen-small.53a50474b69921a4a113.css",
+    "revision": "16a25fc1ca6f990eea888177c7e4e044"
   }, {
     "url": "/br_prediction-indicator/favicon.ico",
     "revision": "0cb8c9c65c9adde7eec4f6f79e2f4076"
   }, {
     "url": "/br_prediction-indicator/js/asset-manifest.json",
-    "revision": "c113764cca13a1269ec20cb64a3a56d4"
+    "revision": "9f39f41d0cf3a53b4eb2698d9b604717"
   }, {
     "url": "/br_prediction-indicator/js/bot/bot-web-ui.main.css",
     "revision": "fe8527c6e9dc4dc3d5367a2a3f45f148"
@@ -669,7 +669,7 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "revision": "c70243f271cbeec1c06acbff9d525dd5"
   }, {
     "url": "/br_prediction-indicator/js/cashier-store.js",
-    "revision": "f072238fe3982de8323e21bb4c4638f2"
+    "revision": "cea1f1e73aa558ad915b136d021ba175"
   }, {
     "url": "/br_prediction-indicator/js/cashier.404.31e476a329abdf1fa7a4.js",
     "revision": "48c412ed9f78382bbb9573bb5be1415d"
@@ -677,109 +677,109 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_prediction-indicator/js/cashier.loadjs.2adf858974c0096d308f.js",
     "revision": "2de048860e647716d52fa4b24ce7a970"
   }, {
-    "url": "/br_prediction-indicator/js/core.account-info.b85c745497ad951ef29e.js",
+    "url": "/br_prediction-indicator/js/core.account-info.a2ac6dcd7bbbae3e54d5.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.account-signup-modal.6a282e7c384e0497adfd.js",
+    "url": "/br_prediction-indicator/js/core.account-signup-modal.6e3a983db759f4b2a01d.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.account-types-modal.d5c38f7e85a8da69276f.js",
+    "url": "/br_prediction-indicator/js/core.account-types-modal.0b522e93988a09b92f47.js",
     "revision": null
   }, {
     "url": "/br_prediction-indicator/js/core.complaints-policy.6758f3a885d782cd766c.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~A.daad2591daf2ab102821.js",
+    "url": "/br_prediction-indicator/js/core.main~A.83ee962694ce1f5aa2d0.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~App_C.01dafdae40cf4383870a.js",
+    "url": "/br_prediction-indicator/js/core.main~App_C.9d876173812830ec8e4a.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~App_Components_E.6b92ae846488a5de6b05.js",
+    "url": "/br_prediction-indicator/js/core.main~App_Components_E.24e41b9ab9f1e0d5f468.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~Se.4909bb47be093e14dec2.js",
+    "url": "/br_prediction-indicator/js/core.main~Se.0cf36699d38a9c928d79.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~Stores_b.7ceda06e3a3818ad64d4.js",
+    "url": "/br_prediction-indicator/js/core.main~Stores_b.2ee20f4a48ea94984e60.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~Stores_m.0ae7a1faec92091bec6b.js",
+    "url": "/br_prediction-indicator/js/core.main~Stores_m.c603780a291c490f0ffb.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~U.5ba8358483d93cea848f.js",
+    "url": "/br_prediction-indicator/js/core.main~U.a3056941a3cd0c10a4c7.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~ac.bffc78452661e0e4b713.js",
+    "url": "/br_prediction-indicator/js/core.main~ac.ce55015bf4df4bce26df.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~account_dist_js_address-details_js_5f06f4a4.e1fdf4d246c20248db6a.js",
+    "url": "/br_prediction-indicator/js/core.main~account_dist_js_address-details_js_5f06f4a4.8caf045eb7dd128fb4aa.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~account_dist_js_api-token_js_d99d1b68.3e293e82bd96356d9334.js",
+    "url": "/br_prediction-indicator/js/core.main~account_dist_js_api-token_js_d99d1b68.b276cecb9da0e7c9fd5b.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~account_dist_js_currency-selector_js_9c69d055.4edc1c073c2335881ad8.js",
+    "url": "/br_prediction-indicator/js/core.main~account_dist_js_currency-selector_js_9c69d055.664a8a2b30d865dbfb42.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~account_dist_js_financial-details_js_bfc31623.ede9f091841ed8e09d40.js",
+    "url": "/br_prediction-indicator/js/core.main~account_dist_js_financial-details_js_bfc31623.e38ac61b4a413cb20136.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~account_dist_js_personal-details_js_471575fc.ed0ede48eec3591196d5.js",
+    "url": "/br_prediction-indicator/js/core.main~account_dist_js_personal-details_js_471575fc.166aa55248cae4742eb4.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~account_dist_js_self-exclusion_js_26a0bdc6.a42bdf942223cc98e698.js",
+    "url": "/br_prediction-indicator/js/core.main~account_dist_js_self-exclusion_js_26a0bdc6.4084f96ccfb4a2257dcc.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~account_dist_js_terms-of-use_js_e84e3670.cb6d99bfd2c222033f51.js",
+    "url": "/br_prediction-indicator/js/core.main~account_dist_js_terms-of-use_js_e84e3670.d323ac76fb7beae56948.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~c.9b1d390d70eea52492ed.js",
+    "url": "/br_prediction-indicator/js/core.main~c.821efbf7863c813689d0.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~cashier_dist_js_cashier-store_js_40d4fcd6.487b40d5cea4db4f3f01.js",
+    "url": "/br_prediction-indicator/js/core.main~cashier_dist_js_cashier-store_js_40d4fcd6.8f4f75cbb8ad030ab908.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~components_src_components_a.42b093552f36d03551d3.js",
+    "url": "/br_prediction-indicator/js/core.main~components_src_components_a.13a7c3eda6c38bb8275c.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~components_src_components_c.80bcd023ffa19ea7d4ff.js",
+    "url": "/br_prediction-indicator/js/core.main~components_src_components_c.1be477fdc662a69d91a5.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~components_src_components_l.628571ad2027cceebf79.js",
+    "url": "/br_prediction-indicator/js/core.main~components_src_components_l.1e2cc9404a2008bf3cbb.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~s.6feb74facd7c89d2012b.js",
+    "url": "/br_prediction-indicator/js/core.main~s.c24c2499f98104c58458.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.reality-check-modal.f15d8e2e4984b58a1160.js",
+    "url": "/br_prediction-indicator/js/core.reality-check-modal.472817664c77e1ca4bea.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.reset-or-unlink-password-modal.f53e21cd0e3bd0de7c07.js",
+    "url": "/br_prediction-indicator/js/core.reset-or-unlink-password-modal.dc5411e3431265bcb519.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.reset-password-modal.c6184633c786d0318120.js",
+    "url": "/br_prediction-indicator/js/core.reset-password-modal.41816951727e6484376e.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.reset-trading-password-modal.599218484b4387f0213f.js",
+    "url": "/br_prediction-indicator/js/core.reset-trading-password-modal.2529c1bf794772bb1f78.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.set-residence-modal.401c7586b36939967efa.js",
+    "url": "/br_prediction-indicator/js/core.set-residence-modal.ba47fefda842f28063c2.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.settings-language.a24ddb6bb52ff601c62d.js",
+    "url": "/br_prediction-indicator/js/core.settings-language.ad446dca0a3034b05ee5.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.settings-theme.8aa0b7aea29458c35d49.js",
+    "url": "/br_prediction-indicator/js/core.settings-theme.6407ce8848b11991b106.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.trader~account_dist_js_f.d7b99e11edd5ded409c3.js",
+    "url": "/br_prediction-indicator/js/core.trader~account_dist_js_f.189d7865aab8a4fd0968.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.trader~account_dist_js_file-uploader-container_js_c4d4640d.9bf1155232c38cfb5f24.js",
+    "url": "/br_prediction-indicator/js/core.trader~account_dist_js_file-uploader-container_js_c4d4640d.2162f0dd3cb9cbc87c6d.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.vendors-node_modules_babel_runtime_helpers_classCallCheck__index_mjs-node_modules_babel_runti-ee9bb5.93dfd9eec76926a3107d.js",
+    "url": "/br_prediction-indicator/js/core.vendors-node_modules_babel_runtime_helpers_classCallCheck__index_mjs-node_modules_babel_runti-de8f93.9b80a183a80d072943b8.js",
     "revision": null
   }, {
     "url": "/br_prediction-indicator/js/core.vendors-node_modules_contentpass_zxcvbn_lib_frequency_lists_js.68db5a05bb78637cb85d.js",
@@ -797,25 +797,22 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_prediction-indicator/js/core.vendors-node_modules_emotion_is-prop-valid_dist_is-prop-valid_browser_esm_js-node_modules_emo-55b69f.f508096e4a6d5b778c45.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.vendors-node_modules_file-selector_dist_es5_index_js-node_modules_focus-outline-manager_focus-1382a0.479ceaee12c0c972e506.js",
+    "url": "/br_prediction-indicator/js/core.vendors-node_modules_file-selector_dist_es5_index_js-node_modules_focus-outline-manager_focus-01e913.0f499d2004e66ec9abad.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.vendors-node_modules_is-callable_index_js-node_modules_is-date-object_index_js-node_modules_i-8ed59a.09b0776c0464735460fd.js",
+    "url": "/br_prediction-indicator/js/core.vendors-node_modules_is-callable_index_js-node_modules_is-date-object_index_js-node_modules_i-b97f84.a1caf6dc36de44610379.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.vendors-node_modules_livechat_customer-sdk_dist_customer-sdk_esm_js.e9f321a151fac51c3a92.js",
+    "url": "/br_prediction-indicator/js/core.vendors-node_modules_mini-create-react-context_dist_esm_index_js-node_modules_mobx-react_dist-7803fa.de2eed3557e7ba14cb45.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.vendors-node_modules_lodash-es_clone_js-node_modules_lodash-es_cloneDeep_js-node_modules_loda-e4a036.56112e76ae87f600930b.js",
+    "url": "/br_prediction-indicator/js/core.vendors-node_modules_moment_moment_js.ce4c1eb5e5406ed785b9.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.vendors-node_modules_mobx-react_dist_mobxreact_esm_js.ed6d8b719341769ff5ee.js",
+    "url": "/br_prediction-indicator/js/core.vendors-node_modules_object-assign_index_js-node_modules_object-inspect_index_js-node_modules-47ff9e.31f4cf684424973dc665.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.vendors-node_modules_moment_moment_js-node_modules_ms_index_js.fcba35152d71fd70ce2d.js",
-    "revision": null
-  }, {
-    "url": "/br_prediction-indicator/js/core.vendors-node_modules_object-inspect_index_js-node_modules_object-keys_index_js-node_modules_o-efa22a.7d8ae9cf078e8be33be1.js",
+    "url": "/br_prediction-indicator/js/core.vendors-node_modules_promise-polyfill_src_index_js-node_modules_prop-types_index_js.8758afbae05178c25296.js",
     "revision": null
   }, {
     "url": "/br_prediction-indicator/js/core.vendors-node_modules_raf_index_js-node_modules_react-clientside-effect_lib_index_es_js-node_m-bb6d63.9d86b43c2517c8e5fde5.js",
@@ -827,22 +824,19 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_prediction-indicator/js/core.vendors-node_modules_react-transition-group_esm_CSSTransition_js-node_modules_react-transitio-85c8d7.2be5aa3225eec0554ba7.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.vendors-node_modules_react_index_js-node_modules_redux_es_redux_js-node_modules_requires-port-ae7029.1ce5415c935cb97859d7.js",
+    "url": "/br_prediction-indicator/js/core.vendors-node_modules_react_index_js.2c20c09470d4d2a36fa2.js",
     "revision": null
   }, {
     "url": "/br_prediction-indicator/js/core.vendors-node_modules_rooks_use-mutation-observer_lib_index_esm_js-node_modules_scheduler_inde-a1a9fe.2fc817252c0b6d8a57ed.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.vendors-node_modules_scroll-smooth_dist_index_js-node_modules_scrollparent_scrollparent_js-no-cc9932.bed67e18f9be329fbb87.js",
-    "revision": null
-  }, {
-    "url": "/br_prediction-indicator/js/core.vendors-node_modules_unfetch_dist_unfetch_es_js-node_modules_url-parse_index_js-node_modules_-075aeb.ed211ed4c7a902656540.js",
+    "url": "/br_prediction-indicator/js/core.vendors-node_modules_scroll-smooth_dist_index_js-node_modules_scrollparent_scrollparent_js-no-e650d6.2bddf106fa6bbf6c02d6.js",
     "revision": null
   }, {
     "url": "/br_prediction-indicator/js/core.vendors-node_modules_web-push-notifications_lib_index_js.bfeda2ededb138ea1edd.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.welcome-modal.462b066bfe0a74560079.js",
+    "url": "/br_prediction-indicator/js/core.welcome-modal.a8fbcc2e7995784a8251.js",
     "revision": null
   }, {
     "url": "/br_prediction-indicator/js/dashboard/assets/images/app-card-bg.svg",
@@ -872,17 +866,17 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_prediction-indicator/js/favicon.ico",
     "revision": "e0543288c8157aeb3bdd984219c150ee"
   }, {
-    "url": "/br_prediction-indicator/js/smartcharts/chartiq-776126.smartcharts.js",
-    "revision": "bd8b1e81d8cbf94c08e5bc47f3f3a225"
+    "url": "/br_prediction-indicator/js/smartcharts/chartiq-f54bdd.smartcharts.js",
+    "revision": "b6d46b8b7421bef1239a5aad9bd48e6b"
   }, {
-    "url": "/br_prediction-indicator/js/smartcharts/de-json-ec472b.smartcharts.js",
-    "revision": "fa42e5399cdc15d1271581f354e4151d"
+    "url": "/br_prediction-indicator/js/smartcharts/de-json-336481.smartcharts.js",
+    "revision": "34ee5245afa2a6725c82c163c11b3ebd"
   }, {
     "url": "/br_prediction-indicator/js/smartcharts/de-json-f7e5ae.smartcharts.js",
     "revision": "84afc8c6e774c8c5b53ca06b1de9f8b5"
   }, {
-    "url": "/br_prediction-indicator/js/smartcharts/es-json-52c923.smartcharts.js",
-    "revision": "d395d523076757819a0d6f3f5ae1ad49"
+    "url": "/br_prediction-indicator/js/smartcharts/es-json-3b8cf4.smartcharts.js",
+    "revision": "ef84a3a63e292c95381310fc9897e06a"
   }, {
     "url": "/br_prediction-indicator/js/smartcharts/es-json-633a64.smartcharts.js",
     "revision": "c9961f98c6150ab93c35e8640e785ce8"
@@ -890,65 +884,65 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_prediction-indicator/js/smartcharts/fr-json-069264.smartcharts.js",
     "revision": "b31458cec7c094388d6d52e72d146ed6"
   }, {
-    "url": "/br_prediction-indicator/js/smartcharts/fr-json-c881bb.smartcharts.js",
-    "revision": "7fd5a6cba8bfdab4b9bdc33a3b7f58c5"
+    "url": "/br_prediction-indicator/js/smartcharts/fr-json-0f950a.smartcharts.js",
+    "revision": "283c88d6f0fc1a81b7a60fa972dd1ed5"
   }, {
-    "url": "/br_prediction-indicator/js/smartcharts/html2canvas-4447b3.smartcharts.js",
-    "revision": "8a936b561971d3eefdff637671a5e715"
+    "url": "/br_prediction-indicator/js/smartcharts/html2canvas-af5c66.smartcharts.js",
+    "revision": "764eae9ec5ffb27e1050e1f8df1d9b32"
   }, {
     "url": "/br_prediction-indicator/js/smartcharts/html2canvas-f92cd2.smartcharts.js",
     "revision": "c19ca991e3e1a16cba94e3bbee45cb00"
   }, {
-    "url": "/br_prediction-indicator/js/smartcharts/id-json-a814c2.smartcharts.js",
-    "revision": "b6645d3f129141685a0f706368baf16e"
-  }, {
     "url": "/br_prediction-indicator/js/smartcharts/id-json-d17334.smartcharts.js",
     "revision": "ee9f1f1e8026bef0769b48202758a780"
   }, {
-    "url": "/br_prediction-indicator/js/smartcharts/it-json-01b804.smartcharts.js",
-    "revision": "dc1f2dc82842754e8259c3d867ad3015"
+    "url": "/br_prediction-indicator/js/smartcharts/id-json-ef01a0.smartcharts.js",
+    "revision": "51fca704019d8b4d995160e796f3a50c"
   }, {
     "url": "/br_prediction-indicator/js/smartcharts/it-json-8cd36e.smartcharts.js",
     "revision": "f5129caf5320a33dbafd79c17bfdb4a7"
   }, {
+    "url": "/br_prediction-indicator/js/smartcharts/it-json-aafb11.smartcharts.js",
+    "revision": "6c70d71bfd07a77d57b31d7abb5dc375"
+  }, {
+    "url": "/br_prediction-indicator/js/smartcharts/messages-json-2cbc44.smartcharts.js",
+    "revision": "b4d16e348be6bb296ce48f57fa87d95e"
+  }, {
     "url": "/br_prediction-indicator/js/smartcharts/messages-json-609e83.smartcharts.js",
     "revision": "da30ba797d1b0de44caa92d65ec3d955"
   }, {
-    "url": "/br_prediction-indicator/js/smartcharts/messages-json-d6f83a.smartcharts.js",
-    "revision": "3a8843d507d4486243d28dae110b92e0"
-  }, {
-    "url": "/br_prediction-indicator/js/smartcharts/nl-json-3603de.smartcharts.js",
-    "revision": "6d66281164cf32a8c3c82d539fc14210"
+    "url": "/br_prediction-indicator/js/smartcharts/nl-json-78fb9a.smartcharts.js",
+    "revision": "cc6c747e56563d107d8902c6f6dc2ce6"
   }, {
     "url": "/br_prediction-indicator/js/smartcharts/nl-json-a996b6.smartcharts.js",
     "revision": "c64af1c917784e2aeadc3e961f31c21a"
   }, {
-    "url": "/br_prediction-indicator/js/smartcharts/pl-json-42dc00.smartcharts.js",
-    "revision": "f12c748551deed66f03093381dfe218b"
+    "url": "/br_prediction-indicator/js/smartcharts/pl-json-2a04e7.smartcharts.js",
+    "revision": "56a7051ea2d9e723e4e1cbedf8028ce6"
   }, {
     "url": "/br_prediction-indicator/js/smartcharts/pl-json-b1938e.smartcharts.js",
     "revision": "c5d1ea23b6d61f7ff011d86d29370a2f"
   }, {
-    "url": "/br_prediction-indicator/js/smartcharts/pt-json-777018.smartcharts.js",
-    "revision": "61dad82e06982d9b73fe387c51d40214"
+    "url": "/br_prediction-indicator/js/smartcharts/pt-json-bc1528.smartcharts.js",
+    "revision": "f4842661b5eebb923dee6f4e2e6b1b77"
   }, {
     "url": "/br_prediction-indicator/js/smartcharts/pt-json-cc3ed0.smartcharts.js",
     "revision": "707c06609715ab75922ce6d4996b9728"
   }, {
-    "url": "/br_prediction-indicator/js/smartcharts/ru-json-36a436.smartcharts.js",
-    "revision": "af6aa8b1054f276080f4e6a3b2e5400d"
-  }, {
     "url": "/br_prediction-indicator/js/smartcharts/ru-json-60758c.smartcharts.js",
     "revision": "e0193ef0f16f53f5add04316ed0f86cc"
   }, {
-    "url": "/br_prediction-indicator/js/smartcharts/sprite-1b4202.smartcharts.svg",
-    "revision": "67f50e8cee654be86bbac4271933f437"
+    "url": "/br_prediction-indicator/js/smartcharts/ru-json-9ec013.smartcharts.js",
+    "revision": "9a42213142fa2329bbc3f84a3344327f"
   }, {
-    "url": "/br_prediction-indicator/js/smartcharts/sprite-7e3422.smartcharts.svg",
-    "revision": "5d2dae390f714710ba244edf8428fb96"
+    "url": "/br_prediction-indicator/js/smartcharts/sprite-cd6ec4.smartcharts.svg",
+    "revision": "649e2664652c590f85ad04440a880e9b"
   }, {
-    "url": "/br_prediction-indicator/js/smartcharts/th-json-158cae.smartcharts.js",
-    "revision": "f4193aa3fa1c325d08b39cd535511caa"
+    "url": "/br_prediction-indicator/js/smartcharts/sprite-f0d2e1.smartcharts.svg",
+    "revision": "bc6a059b44d58d5107aa1467ee5f43cd"
+  }, {
+    "url": "/br_prediction-indicator/js/smartcharts/th-json-2ce4cb.smartcharts.js",
+    "revision": "fb327f73ee0dc6e79a24630a75f41996"
   }, {
     "url": "/br_prediction-indicator/js/smartcharts/th-json-e33836.smartcharts.js",
     "revision": "158994396b4ee21bd9ea01f46ca5ae9a"
@@ -956,53 +950,53 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_prediction-indicator/js/smartcharts/vendors~resize-observer-polyfill-358f59.smartcharts.js",
     "revision": "7cc03f6cea9d826c6829915288d857c5"
   }, {
-    "url": "/br_prediction-indicator/js/smartcharts/vendors~resize-observer-polyfill-b3c6fb.smartcharts.js",
-    "revision": "3db12ac4fdea6045ac83eed11fc63bf3"
-  }, {
-    "url": "/br_prediction-indicator/js/smartcharts/vi-json-49b938.smartcharts.js",
-    "revision": "c2442749540fbaa9c3215af572d040ef"
+    "url": "/br_prediction-indicator/js/smartcharts/vendors~resize-observer-polyfill-4408d3.smartcharts.js",
+    "revision": "b1aced8dee2979a625dff860a0d5e444"
   }, {
     "url": "/br_prediction-indicator/js/smartcharts/vi-json-64e1fb.smartcharts.js",
     "revision": "2e17218c5a7aa03e58bc86f1aafc98c4"
   }, {
+    "url": "/br_prediction-indicator/js/smartcharts/vi-json-66e64c.smartcharts.js",
+    "revision": "3409ee6a0130bc007cffa22403d26847"
+  }, {
     "url": "/br_prediction-indicator/js/smartcharts/zh-json-5deb3d.smartcharts.js",
     "revision": "ff7840cc7fc49a9bf6ddc152eb4466a2"
   }, {
-    "url": "/br_prediction-indicator/js/smartcharts/zh-json-841475.smartcharts.js",
-    "revision": "815641d987f687524174eb4eeb9eb350"
+    "url": "/br_prediction-indicator/js/smartcharts/zh-json-5f8ab3.smartcharts.js",
+    "revision": "b63c4b042b45537631345c1b0ea86c1a"
   }, {
     "url": "/br_prediction-indicator/js/smartcharts/zh_cn-json-001ee3.smartcharts.js",
     "revision": "fa20876e3d11272e0a2ce6b335b5a4b4"
   }, {
-    "url": "/br_prediction-indicator/js/smartcharts/zh_cn-json-6c628d.smartcharts.js",
-    "revision": "f200706fe4399274401ac8c0daf6460c"
+    "url": "/br_prediction-indicator/js/smartcharts/zh_cn-json-d10b5a.smartcharts.js",
+    "revision": "1f516779dbcb2b74d9fdcc649fa07a5e"
   }, {
-    "url": "/br_prediction-indicator/js/smartcharts/zh_tw-json-0f23b4.smartcharts.js",
-    "revision": "8aa325c171bc108c08bd0c1b99805044"
+    "url": "/br_prediction-indicator/js/smartcharts/zh_tw-json-3f4be0.smartcharts.js",
+    "revision": "86698d5d56b09e3786f84b633bdb3fdb"
   }, {
     "url": "/br_prediction-indicator/js/smartcharts/zh_tw-json-a0c0c4.smartcharts.js",
     "revision": "f43c947400826909f8ffbadc5159acd8"
   }, {
-    "url": "/br_prediction-indicator/js/trader.Modules_Trading_Components_Form_TradeParams_Multiplier_info_jsx-Modules_Trading_Components_Fo-bd55fc.64df6ea6569c794e8af2.js",
-    "revision": "f53c092590e7a3c25b8ab70b97cf52fb"
+    "url": "/br_prediction-indicator/js/trader.Modules_Trading_Components_Form_TradeParams_Multiplier_expiration_jsx-Modules_Trading_Compone-90e657.f585fecb44f438efe3dd.js",
+    "revision": "aad3102b109edc226c465130c5dda689"
   }, {
-    "url": "/br_prediction-indicator/js/trader.contract.ec23af2484750330503d.js",
-    "revision": "4caac223ccd09bf735e550375e1ed929"
+    "url": "/br_prediction-indicator/js/trader.contract.246bbe709f79aae1d07d.js",
+    "revision": "d7c705b125641b3945b6303fb6db1871"
   }, {
     "url": "/br_prediction-indicator/js/trader.error-component.82cb227571aafb3ef745.js",
     "revision": "ff5de341c2df4cc31e731deb3a4d65d6"
   }, {
-    "url": "/br_prediction-indicator/js/trader.mt5.0068028e80c13e954c97.js",
-    "revision": "6b3763d4ccd71f44fc9774f0858877f4"
+    "url": "/br_prediction-indicator/js/trader.mt5.65185d50a4fe208f3f2d.js",
+    "revision": "99d754a91bfa033016df98df2e3b36c1"
   }, {
-    "url": "/br_prediction-indicator/js/trader.reports.2c34c1e6acffb4c955b7.js",
-    "revision": "32fc9d6f1730119a0cb90430187856af"
+    "url": "/br_prediction-indicator/js/trader.reports.fbf3d06ea2c75c3a053d.js",
+    "revision": "f0d10a73b06a67bcc0c9ab5013ee2842"
   }, {
-    "url": "/br_prediction-indicator/js/trader.screen-large.f444782076ca95d12234.js",
-    "revision": "184562488d1c65c3de5395ec8ef91257"
+    "url": "/br_prediction-indicator/js/trader.screen-large.76ab4cd0c6623ff44db1.js",
+    "revision": "1dd33a6c51574a1ff3c0950980d7e74f"
   }, {
-    "url": "/br_prediction-indicator/js/trader.screen-small.dff8be96ed3dde9d69b3.js",
-    "revision": "32083718b3b9ba386fdce4d6445b8605"
+    "url": "/br_prediction-indicator/js/trader.screen-small.1986a855fa19248be454.js",
+    "revision": "027af9ca215ef6ba5b581b6a2a9a9498"
   }, {
     "url": "/br_prediction-indicator/js/trader.settings-chart.c3b029283e524868acd4.js",
     "revision": "83fb910243484003c944f15c21ee8349"
@@ -1020,43 +1014,43 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "revision": "88be27337f511272ec3b7c3ddc27e258"
   }, {
     "url": "/br_prediction-indicator/public/i18n/ach.json",
-    "revision": "cdfe3d82dd52ce210dd45f6244a317c6"
+    "revision": "cb5e3b01ab6c4f233cfba1098ca6cc99"
   }, {
     "url": "/br_prediction-indicator/public/i18n/es.json",
-    "revision": "bf13f655be2a239c53cc1c6ef2b241b6"
+    "revision": "93fdeaa0537941fdfae0f992122b0963"
   }, {
     "url": "/br_prediction-indicator/public/i18n/fr.json",
-    "revision": "860704076a7f973a1bd02ff5ef5bf17d"
+    "revision": "8a0349b90f308c0651662ff6cc054658"
   }, {
     "url": "/br_prediction-indicator/public/i18n/id.json",
-    "revision": "fa82550f5b74a5d4646e235e8dcfcb6c"
+    "revision": "b7906659cd56d89abf17737edf0c8bd0"
   }, {
     "url": "/br_prediction-indicator/public/i18n/it.json",
-    "revision": "cb1c45e84a3f23af3316037f068ec321"
+    "revision": "f743660766dfad2e81a128dc9ef67436"
   }, {
     "url": "/br_prediction-indicator/public/i18n/ko.json",
-    "revision": "e91e24e78acb735aa165a19596543028"
+    "revision": "2c58eecfd88be973fb719235046856b0"
   }, {
     "url": "/br_prediction-indicator/public/i18n/pl.json",
-    "revision": "8178cc794f30add79e42cdc19b34ccba"
+    "revision": "ecda8ad9e834e69aa26bdb0c85344bcc"
   }, {
     "url": "/br_prediction-indicator/public/i18n/pt.json",
-    "revision": "c8a893a7f1a40edfe2d1aecfabfb1747"
+    "revision": "a2012c0895100c7a2ee561f8597ef69d"
   }, {
     "url": "/br_prediction-indicator/public/i18n/ru.json",
-    "revision": "ebc755b1d8db383c1e0eaca8bea49938"
+    "revision": "1240c7686c57eef38e6e4df30a3e67d8"
   }, {
     "url": "/br_prediction-indicator/public/i18n/th.json",
-    "revision": "b9f72f6266c67c211c5ac438c91ce8fc"
+    "revision": "0e54a9f97a012c2cd506c7c844e26bda"
   }, {
     "url": "/br_prediction-indicator/public/i18n/vi.json",
-    "revision": "6f8067ac72b45fadad7a3a9e4eda2440"
+    "revision": "d1e0850c2558e08a1d75c568b6124030"
   }, {
     "url": "/br_prediction-indicator/public/i18n/zh_cn.json",
-    "revision": "5c90206e191ad393b60ef42e0df8326c"
+    "revision": "cb008cfb17f3189876c6442f70dd4c0b"
   }, {
     "url": "/br_prediction-indicator/public/i18n/zh_tw.json",
-    "revision": "b08dbc762bb2c4cc917e82694d3699c4"
+    "revision": "fcc43646996bda2b5ce9b209c6c09a53"
   }, {
     "url": "/br_prediction-indicator/public/images/app/header/dbot-logo.svg",
     "revision": "74dd603772623201c277552d07db9dea"
@@ -1167,7 +1161,7 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "revision": "04d969ea5b62d0ad45915b5ace954021"
   }, {
     "url": "/br_prediction-indicator/public/images/sprite/underlying.svg",
-    "revision": "46264d8b921a1db0c1b97979b1265353"
+    "revision": "540610a4c095f2dbb43f18ef8547020c"
   }, {
     "url": "/br_prediction-indicator/robots.txt",
     "revision": "089ebc0dcc218ff0acfb984a7275dff7"

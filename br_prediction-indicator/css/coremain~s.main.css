@@ -1760,7 +1760,8 @@
   height: 100%; }
   .add-or-manage .dc-tabs__content {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    padding-bottom: 7rem; }
   .add-or-manage .dc-tabs__list--header-fit-content {
     margin: 0 auto; }
   .add-or-manage .account-wizard--disabled-message p:first-child {
@@ -1798,7 +1799,7 @@
     text-align: center; }
   @media (min-width: 1024px) {
     .add-or-manage .currency-selector__radio-group--with-margin {
-      margin-bottom: 6rem;
+      margin-bottom: 3rem;
       margin-left: auto;
       margin-right: auto;
       width: 768px; }
@@ -1815,7 +1816,7 @@
         min-width: unset;
         margin: 0 1.6rem; }
       .add-or-manage .currency-selector__radio-group--with-margin {
-        margin-bottom: 7rem; }
+        margin-bottom: 3rem; }
       .add-or-manage .change-currency .currency-list__items {
         margin-bottom: 12rem; }
       .add-or-manage .change-currency .dc-form-submit-button--relative {
@@ -1944,6 +1945,9 @@
       width: 100%;
       height: 100%;
       padding: 6rem 0 0; } }
+
+.dc-mobile-dialog {
+  height: 100%; }
 
 .dc-mobile-dialog--enter-done .dc-mobile-dialog__content {
   transform: unset; }
@@ -5045,8 +5049,11 @@ strong {
 
 /* @define reset-trading-password */
 .reset-trading-password__description--is-centered {
-  margin: 0 auto 2.4rem;
+  margin: 0 auto;
   max-width: 70%; }
+
+.reset-trading-password__confirm-button {
+  margin-top: 2.4rem; }
 
 .reset-trading-password__dialog .dc-dialog__dialog {
   max-height: -webkit-fit-content;
@@ -5056,9 +5063,9 @@ strong {
     margin-bottom: 0; }
 
 .reset-trading-password__error {
-  width: 38.4rem;
-  height: 28.4rem;
-  padding: 2rem 0;
+  max-width: 38.4rem;
+  min-height: 28.4rem;
+  padding-top: 2rem;
   text-align: center; }
 
 .reset-trading-password__lead {

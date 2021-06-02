@@ -601,7 +601,7 @@
     content: attr(data-count);
     width: 14px;
     height: 14px;
-    font-size: 1rem;
+    font-size: 0.9rem;
     border-radius: 50%;
     position: absolute;
     display: flex;
@@ -1602,7 +1602,8 @@
     border-radius: 4px;
     transition: transform 0.25s ease, opacity 0.25s linear;
     position: relative;
-    background: var(--general-main-1); }
+    background: var(--general-main-1);
+    border: 1px solid var(--border-disabled); }
   .positions-modal-card__grid {
     display: grid; }
     .positions-modal-card__grid-header {
@@ -2663,7 +2664,13 @@
     flex: none; }
   .btn-purchase--multiplier .btn-purchase__effect-detail--arrow {
     left: 40px; }
-  .btn-purchase--multiplier:not(.btn-purchase--swoosh) .btn-purchase__effect-detail {
+  .btn-purchase--multiplier.btn-purchase--swoosh .btn-purchase__effect-detail {
+    transform: scale3d(5, 1, 1); }
+    .btn-purchase--multiplier.btn-purchase--swoosh .btn-purchase__effect-detail--arrow {
+      transform: translate3d(160px, 0, 0) rotate(45deg); }
+  .btn-purchase--multiplier.btn-purchase--swoosh .btn-purchase__type-wrapper {
+    transform: translate3d(70px, 0, 0); }
+  .btn-purchase--multiplier .btn-purchase__effect-detail {
     width: 72px; }
   @media (min-width: 320px) and (max-width: 767px) {
     .btn-purchase--multiplier .btn-purchase__top {
@@ -3651,7 +3658,9 @@
           font-size: 0.9rem; } }
   .trade-container__multipliers-trade-info {
     display: flex;
-    justify-content: space-evenly; }
+    justify-content: space-around;
+    grid-gap: 2.8rem;
+    gap: 2.8rem; }
     .trade-container__multipliers-trade-info-tooltip-text {
       display: flex;
       flex-direction: column;

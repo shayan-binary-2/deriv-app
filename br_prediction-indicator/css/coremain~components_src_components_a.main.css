@@ -2649,7 +2649,10 @@
     opacity: 0;
     transform: translate3d(-20px, 0, 0); }
   .dc-contract-card-dialog__input .dc-input-wrapper__input {
-    border: 1px solid var(--border-normal); }
+    border: 1px solid var(--border-normal);
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none; }
   .dc-contract-card-dialog__button {
     margin-top: 0.8rem; }
     .dc-contract-card-dialog__button .dc-btn {
@@ -2670,7 +2673,7 @@
   .dc-contract-card-dialog__total-profit {
     height: 5.2rem;
     padding: 1.6rem;
-    background: var(--general-section-2);
+    background: var(--general-main-2);
     color: var(--text-general);
     display: flex;
     align-items: center;
@@ -3140,7 +3143,7 @@
   .dc-contract-card-items-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: 'stake current-stake' 'deal-cancel-fee  limit-order-info' 'buy-price  limit-order-info';
+    grid-template-areas: 'stake current-stake' 'deal-cancel-fee limit-order-info' 'buy-price limit-order-info';
     grid-gap: 0.8rem 0.4rem;
     flex: 1;
     margin-top: 0.5rem; }
@@ -3150,7 +3153,14 @@
       grid-template-areas: 'stake current-stake limit-order-info' 'deal-cancel-fee buy-price limit-order-info';
       grid-gap: 0.8rem 0.4rem;
       flex: 1;
-      padding: 0.4rem 0rem; }
+      padding: 0.4rem 0; }
+    .dc-contract-card-items-wrapper--has-progress-slider {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas: 'stake current-stake date-expiry' 'deal-cancel-fee buy-price date-expiry' 'limit-order-info limit-order-info date-expiry'; }
+      .dc-contract-card-items-wrapper--has-progress-slider .dc-contract-card__limit-order-info {
+        grid-template-columns: 1fr 1fr; }
+      .dc-contract-card-items-wrapper--has-progress-slider .dc-contract-card__stop-loss {
+        order: unset !important; }
   .dc-contract-card__profit-loss {
     font-size: 1.2em;
     text-align: center;
@@ -3191,6 +3201,9 @@
     line-height: 1.5; }
     .dc-contract-card-item__body--is-crypto {
       margin-left: -6px; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .dc-contract-card-item__body {
+        padding-left: 0.4rem; } }
   .dc-contract-card-item__body--loss {
     color: var(--text-loss-danger) !important; }
     .dc-contract-card-item__body--loss:before {
@@ -3286,6 +3299,10 @@
     grid-area: deal-cancel-fee; }
   .dc-contract-card__stake {
     grid-area: stake; }
+  .dc-contract-card__date-expiry {
+    grid-area: date-expiry; }
+    .dc-contract-card__date-expiry .dc-contract-card-item__body {
+      justify-content: flex-end; }
   .dc-contract-card__current-stake {
     grid-area: current-stake; }
   .dc-contract-card__sell-button-mobile {
