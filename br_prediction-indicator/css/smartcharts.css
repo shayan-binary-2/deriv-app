@@ -2594,11 +2594,19 @@
     line-height: 24px;
     display: block;
     margin-bottom: 24px; }
+.smartcharts-light .cq-indicator-prediction strong {
+      color: #333333; }
+.smartcharts-dark .cq-indicator-prediction strong {
+      color: #c2c2c2; }
 .cq-indicator-prediction p {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 20px; }
+.smartcharts-light .cq-indicator-prediction p {
+      color: #333333; }
+.smartcharts-dark .cq-indicator-prediction p {
+      color: #c2c2c2; }
 .cq-indicator-prediction__footer {
     width: 100%;
     display: flex;
