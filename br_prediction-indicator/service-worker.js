@@ -297,7 +297,7 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "revision": "165e9b26bc09eed7dfa03596499eb4ab"
   }, {
     "url": "/br_prediction-indicator/css/smartcharts.css",
-    "revision": "4340160efe89aa3ca230f9e3f18532d1"
+    "revision": "6626c439f458a4c78dd81c56efcaebbb"
   }, {
     "url": "/br_prediction-indicator/css/trader.cfd.c8ab9edabf2735fa0c99.css",
     "revision": "193bd60732fea9adc550e797675d8bfd"
@@ -315,7 +315,7 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "revision": "0cb8c9c65c9adde7eec4f6f79e2f4076"
   }, {
     "url": "/br_prediction-indicator/js/asset-manifest.json",
-    "revision": "0d78bd8a05586afd5ecd4ea040a88a84"
+    "revision": "76089ea6fd901908206cddce45f10831"
   }, {
     "url": "/br_prediction-indicator/js/bot/bot-web-ui.main.css",
     "revision": "fe8527c6e9dc4dc3d5367a2a3f45f148"
@@ -749,7 +749,7 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_prediction-indicator/js/core.main~components_src_components_l.647ed616a5a4a7930e44.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~s.92b9ead872cb6043b5e1.js",
+    "url": "/br_prediction-indicator/js/core.main~s.a47a36f1352b12dc924a.js",
     "revision": null
   }, {
     "url": "/br_prediction-indicator/js/core.reality-check-modal.5602915180a80e59f20d.js",
@@ -872,6 +872,9 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_prediction-indicator/js/smartcharts/de-json-336481.smartcharts.js",
     "revision": "34ee5245afa2a6725c82c163c11b3ebd"
   }, {
+    "url": "/br_prediction-indicator/js/smartcharts/de-json-8bdbc5.smartcharts.js",
+    "revision": "10a565dc76787090615495bf32ee2bf1"
+  }, {
     "url": "/br_prediction-indicator/js/smartcharts/de-json-f7e5ae.smartcharts.js",
     "revision": "84afc8c6e774c8c5b53ca06b1de9f8b5"
   }, {
@@ -881,11 +884,17 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_prediction-indicator/js/smartcharts/es-json-633a64.smartcharts.js",
     "revision": "c9961f98c6150ab93c35e8640e785ce8"
   }, {
+    "url": "/br_prediction-indicator/js/smartcharts/es-json-c20189.smartcharts.js",
+    "revision": "fb83e84e049d49cafcfa2c7462c87bc3"
+  }, {
     "url": "/br_prediction-indicator/js/smartcharts/fr-json-069264.smartcharts.js",
     "revision": "b31458cec7c094388d6d52e72d146ed6"
   }, {
     "url": "/br_prediction-indicator/js/smartcharts/fr-json-0f950a.smartcharts.js",
     "revision": "283c88d6f0fc1a81b7a60fa972dd1ed5"
+  }, {
+    "url": "/br_prediction-indicator/js/smartcharts/fr-json-841198.smartcharts.js",
+    "revision": "8c3f7edf409cefbcde602f4bba56d5be"
   }, {
     "url": "/br_prediction-indicator/js/smartcharts/html2canvas-af5c66.smartcharts.js",
     "revision": "764eae9ec5ffb27e1050e1f8df1d9b32"
@@ -893,11 +902,17 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_prediction-indicator/js/smartcharts/html2canvas-f92cd2.smartcharts.js",
     "revision": "c19ca991e3e1a16cba94e3bbee45cb00"
   }, {
+    "url": "/br_prediction-indicator/js/smartcharts/id-json-bc1817.smartcharts.js",
+    "revision": "4eced129230f49b09d7a1d64def98311"
+  }, {
     "url": "/br_prediction-indicator/js/smartcharts/id-json-d17334.smartcharts.js",
     "revision": "ee9f1f1e8026bef0769b48202758a780"
   }, {
     "url": "/br_prediction-indicator/js/smartcharts/id-json-ef01a0.smartcharts.js",
     "revision": "51fca704019d8b4d995160e796f3a50c"
+  }, {
+    "url": "/br_prediction-indicator/js/smartcharts/it-json-02ddec.smartcharts.js",
+    "revision": "cb1f29a050223504736d9ee5c6f6144a"
   }, {
     "url": "/br_prediction-indicator/js/smartcharts/it-json-8cd36e.smartcharts.js",
     "revision": "f5129caf5320a33dbafd79c17bfdb4a7"
@@ -911,20 +926,32 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_prediction-indicator/js/smartcharts/messages-json-609e83.smartcharts.js",
     "revision": "da30ba797d1b0de44caa92d65ec3d955"
   }, {
+    "url": "/br_prediction-indicator/js/smartcharts/messages-json-849abe.smartcharts.js",
+    "revision": "9fd8a551b62cbf5cceda082cc61c4e2a"
+  }, {
     "url": "/br_prediction-indicator/js/smartcharts/nl-json-78fb9a.smartcharts.js",
     "revision": "cc6c747e56563d107d8902c6f6dc2ce6"
   }, {
     "url": "/br_prediction-indicator/js/smartcharts/nl-json-a996b6.smartcharts.js",
     "revision": "c64af1c917784e2aeadc3e961f31c21a"
   }, {
+    "url": "/br_prediction-indicator/js/smartcharts/nl-json-ff20fb.smartcharts.js",
+    "revision": "8e63f4d3e6aaf8b052164ce95880a6eb"
+  }, {
     "url": "/br_prediction-indicator/js/smartcharts/pl-json-2a04e7.smartcharts.js",
     "revision": "56a7051ea2d9e723e4e1cbedf8028ce6"
+  }, {
+    "url": "/br_prediction-indicator/js/smartcharts/pl-json-4385e7.smartcharts.js",
+    "revision": "99d3f8a74722b3324b64282dec7e97d1"
   }, {
     "url": "/br_prediction-indicator/js/smartcharts/pl-json-b1938e.smartcharts.js",
     "revision": "c5d1ea23b6d61f7ff011d86d29370a2f"
   }, {
     "url": "/br_prediction-indicator/js/smartcharts/pt-json-bc1528.smartcharts.js",
     "revision": "f4842661b5eebb923dee6f4e2e6b1b77"
+  }, {
+    "url": "/br_prediction-indicator/js/smartcharts/pt-json-cb9810.smartcharts.js",
+    "revision": "064bdb8862cc87dbe56aa0ac6d1b3103"
   }, {
     "url": "/br_prediction-indicator/js/smartcharts/pt-json-cc3ed0.smartcharts.js",
     "revision": "707c06609715ab75922ce6d4996b9728"
@@ -935,11 +962,17 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_prediction-indicator/js/smartcharts/ru-json-9ec013.smartcharts.js",
     "revision": "9a42213142fa2329bbc3f84a3344327f"
   }, {
+    "url": "/br_prediction-indicator/js/smartcharts/ru-json-d7bb97.smartcharts.js",
+    "revision": "6187601e7ef00f9f5bddea9a81ffe745"
+  }, {
     "url": "/br_prediction-indicator/js/smartcharts/sprite-cd6ec4.smartcharts.svg",
     "revision": "649e2664652c590f85ad04440a880e9b"
   }, {
     "url": "/br_prediction-indicator/js/smartcharts/sprite-f0d2e1.smartcharts.svg",
     "revision": "bc6a059b44d58d5107aa1467ee5f43cd"
+  }, {
+    "url": "/br_prediction-indicator/js/smartcharts/th-json-24d870.smartcharts.js",
+    "revision": "092c291d627837c06b2746779a7c1d78"
   }, {
     "url": "/br_prediction-indicator/js/smartcharts/th-json-2ce4cb.smartcharts.js",
     "revision": "fb327f73ee0dc6e79a24630a75f41996"
@@ -959,6 +992,12 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_prediction-indicator/js/smartcharts/vi-json-66e64c.smartcharts.js",
     "revision": "3409ee6a0130bc007cffa22403d26847"
   }, {
+    "url": "/br_prediction-indicator/js/smartcharts/vi-json-a56598.smartcharts.js",
+    "revision": "e5b0454a4709c3802cf7e9f97b9610a2"
+  }, {
+    "url": "/br_prediction-indicator/js/smartcharts/zh-json-377596.smartcharts.js",
+    "revision": "a59377ceff0d45dc3f7f47d4e7f42269"
+  }, {
     "url": "/br_prediction-indicator/js/smartcharts/zh-json-5deb3d.smartcharts.js",
     "revision": "ff7840cc7fc49a9bf6ddc152eb4466a2"
   }, {
@@ -968,6 +1007,9 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_prediction-indicator/js/smartcharts/zh_cn-json-001ee3.smartcharts.js",
     "revision": "fa20876e3d11272e0a2ce6b335b5a4b4"
   }, {
+    "url": "/br_prediction-indicator/js/smartcharts/zh_cn-json-c38237.smartcharts.js",
+    "revision": "f343bd73cc96a89a266b972aed5bb175"
+  }, {
     "url": "/br_prediction-indicator/js/smartcharts/zh_cn-json-d10b5a.smartcharts.js",
     "revision": "1f516779dbcb2b74d9fdcc649fa07a5e"
   }, {
@@ -976,6 +1018,9 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
   }, {
     "url": "/br_prediction-indicator/js/smartcharts/zh_tw-json-a0c0c4.smartcharts.js",
     "revision": "f43c947400826909f8ffbadc5159acd8"
+  }, {
+    "url": "/br_prediction-indicator/js/smartcharts/zh_tw-json-cfd5f8.smartcharts.js",
+    "revision": "9a9e6e059731f5963ded766edd729888"
   }, {
     "url": "/br_prediction-indicator/js/trader.Modules_Trading_Components_Form_TradeParams_Multiplier_expiration_jsx-Modules_Trading_Compone-90e657.f585fecb44f438efe3dd.js",
     "revision": "aad3102b109edc226c465130c5dda689"

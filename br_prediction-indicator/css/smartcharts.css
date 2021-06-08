@@ -712,8 +712,6 @@
 .sc-studies__list__item--disabled-prediction .info {
     opacity: 0.3;
     pointer-events: none; }
-.sc-studies__list__item--disabled-prediction .detail {
-    opacity: 0; }
 .sc-studies__category__head {
   font-size: 14px;
   font-weight: normal;
@@ -748,15 +746,27 @@
 .sc-studies__info__content {
     margin: -20px -20px 0;
     padding: 0; }
-.sc-studies__info p {
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.43;
-    letter-spacing: normal;
-    margin: 0px; }
-.sc-studies__info .btn {
-    width: 100%; }
+.sc-studies__info__content p {
+      padding: 16px 24px;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 1.43;
+      letter-spacing: normal;
+      margin: 0px; }
+.sc-studies__info__footer {
+    width: 100%;
+    position: relative; }
+.sc-studies__info__footer .sc-btn {
+      width: 100%; }
+.sc-studies__info__footer .sc-btn:disabled {
+        opacity: 0.32;
+        pointer-events: none; }
+.sc-studies__info__footer .sc-tooltip__inner {
+      width: 280px;
+      height: auto;
+      white-space: break-spaces;
+      text-align: center; }
 .smartcharts-mobile .stx-panel-control {
   left: 5px; }
 .smartcharts-mobile .sc-studies .react-tabs__tab-panel {
