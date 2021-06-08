@@ -297,7 +297,7 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "revision": "165e9b26bc09eed7dfa03596499eb4ab"
   }, {
     "url": "/br_prediction-indicator/css/smartcharts.css",
-    "revision": "6626c439f458a4c78dd81c56efcaebbb"
+    "revision": "9f2b3a10ea42bb00b281ffd3bfd392b7"
   }, {
     "url": "/br_prediction-indicator/css/trader.cfd.c8ab9edabf2735fa0c99.css",
     "revision": "193bd60732fea9adc550e797675d8bfd"
@@ -749,7 +749,7 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_prediction-indicator/js/core.main~components_src_components_l.647ed616a5a4a7930e44.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~s.33bc0a27747644cf6e5d.js",
+    "url": "/br_prediction-indicator/js/core.main~s.028314ab470d2f900ac7.js",
     "revision": null
   }, {
     "url": "/br_prediction-indicator/js/core.reality-check-modal.5602915180a80e59f20d.js",
