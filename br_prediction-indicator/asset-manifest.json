@@ -1,11 +1,11 @@
 {
   "main~s.css": "/br_prediction-indicator/css/coremain~s.main.css",
-  "main~s.js": "/br_prediction-indicator/js/core.main~s.6ca1a7b5a8b66f5c7e10.js",
+  "main~s.js": "/br_prediction-indicator/js/core.main~s.33bc0a27747644cf6e5d.js",
   "main~s.svg": "/br_prediction-indicator/public/images/common/welcome-bg-red.svg",
   "trader~trader_dist_js_trader_js_37c88ea6.js": "/br_prediction-indicator/js/core.trader~trader_dist_js_trader_js_37c88ea6.f84439a3f05ba805a8f4.js",
   "account.js": "/br_prediction-indicator/js/core.account.adec794b3da4c1c35181.js",
   "cashier.js": "/br_prediction-indicator/js/core.cashier.e5c281c2c1bf3a0d1af5.js",
-  "bot.js": "/br_prediction-indicator/js/core.bot.0c3853e301768860f58c.js",
+  "bot.js": "/br_prediction-indicator/js/core.bot.afe25913d7ced97e7a13.js",
   "dashboard.js": "/br_prediction-indicator/js/core.dashboard.65c886a4c971a966e8d7.js",
   "complaints-policy.css": "/br_prediction-indicator/css/core.complaints-policy.e9b4dc985451205c2530.css",
   "complaints-policy.js": "/br_prediction-indicator/js/core.complaints-policy.6758f3a885d782cd766c.js",
