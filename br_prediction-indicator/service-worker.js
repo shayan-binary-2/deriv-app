@@ -749,7 +749,7 @@ define("./service-worker.js",['./workbox-c5a866fd'], function (workbox) { 'use s
     "url": "/br_prediction-indicator/js/core.main~components_src_components_l.647ed616a5a4a7930e44.js",
     "revision": null
   }, {
-    "url": "/br_prediction-indicator/js/core.main~s.b92c0a7a72f47cea7877.js",
+    "url": "/br_prediction-indicator/js/core.main~s.3a5cc5f45451e64204e1.js",
     "revision": null
   }, {
     "url": "/br_prediction-indicator/js/core.reality-check-modal.5602915180a80e59f20d.js",
